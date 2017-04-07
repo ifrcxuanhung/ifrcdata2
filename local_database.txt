@@ -1,0 +1,3362 @@
+	Table: idx_ref
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_name_sn	varchar(100)	NOT NULL
+		idx_curr	varchar(6)	NOT NULL
+		idx_base	double(20,6)	NOT NULL
+		idx_dtbase	varchar(10)	NOT NULL
+		idx_type	varchar(50)	NOT NULL
+		idx_mother	varchar(20)	NOT NULL	Default(NULL)
+		idx_bbs	varchar(50)	NOT NULL
+		calculs	smallint(6)	NOT NULL
+		publications	smallint(6)	NOT NULL
+		idx_start_date	varchar(10)
+		idx_end_date	varchar(10)
+		idx_frequency	varchar(3)	NOT NULL
+		calcul_types	varchar(3)
+		idx_capp	double(30,10)	NOT NULL
+		idx_qlf	varchar(254)	NOT NULL
+		idx_compo_rev	varchar(254)	NOT NULL
+		idx_shares_rev	varchar(254)	NOT NULL
+		idx_frev	varchar(254)	NOT NULL
+		idx_fbanding	varchar(254)	NOT NULL
+		idx_ftreproduct	varchar(254)	NOT NULL
+		idx_oproduct	varchar(254)	NOT NULL
+		idx_etfproduct	varchar(254)	NOT NULL
+		idx_c_mech	varchar(254)	NOT NULL
+		idx_histo	varchar(254)	NOT NULL
+		idx_launch	varchar(254)	NOT NULL
+		idx_web	varchar(254)	NOT NULL
+		idx_isin	varchar(254)	NOT NULL
+		idx_reuters	varchar(254)	NOT NULL
+		idx_bl	varchar(254)	NOT NULL
+		idx_yh	varchar(254)	NOT NULL
+		idx_ggl	varchar(254)	NOT NULL
+		idx_igs	varchar(254)
+		idx_es	varchar(254)
+		idx_sel	varchar(254)
+		idx_inconnect	varchar(254)
+		idx_capfrev	varchar(254)
+		idx_sg	varchar(10)
+		idx_last	double
+		idx_divisor_nxt	double
+		idx_ncompo	varchar(254)	NOT NULL
+		idx_wgt_type	varchar(254)	NOT NULL
+		idx_base_capi	int(254)	NOT NULL
+		start_time	varchar(100)
+		end_time	varchar(100)
+		frequency	double
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		mother	int(11)
+		ims_order	int(11)
+		idx_name_vn	varchar(100)
+		date	date
+	Table: idx_compo
+		stk_code	varchar(20)
+		stk_name	varchar(100)
+		stk_shares_idx	double
+		stk_float_idx	double
+		stk_capp_idx	double
+		idx_code	varchar(20)
+		date	date
+		start_date	date
+		end_date	date
+		stk_curr	varchar(8)
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_composition
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		date	date	NOT NULL
+		time	time	NOT NULL
+		idx_code	varchar(20)
+		idx_curr	varchar(8)
+		stk_code	varchar(50)
+		stk_name	varchar(255)	NOT NULL
+		stk_curr	varchar(10)	NOT NULL
+		stk_mult	double	NOT NULL
+		stk_shares_idx	double	NOT NULL
+		stk_float_idx	double	NOT NULL
+		stk_capp_idx	double	NOT NULL
+		stk_price	double
+		curr_conv	double
+		stk_curr_conv	double	NOT NULL
+		stk_mcap_idx	double	NOT NULL
+		stk_dprice_nr	double
+		stk_dcurr_conv	double
+		stk_dprice	double
+		stk_dcap_idx	double	NOT NULL	Default(0)
+		stk_dcap_nr	double
+		stk_wgt	double
+		stk_tr	double
+		stk_pr	double
+		stk_nr	double
+		nxt_date	date	NOT NULL
+		nxt_stk_code	varchar(50)
+		nxt_stk_curr	varchar(3)
+		nxt_stk_mult	double
+		nxt_shares_idx	double
+		nxt_float_idx	double
+		nxt_capp_idx	double
+		nxt_price	double
+		to_adjust	smallint(6)	Default(0)
+		nxt_adjca	int(11)
+		nxt_adjcmp	int(11)
+		nxt_adjust	double
+		new_shares	double	NOT NULL
+		nstk_curr_conv	double	NOT NULL	Default(0)
+		nstk_mcap_idx	double	NOT NULL	Default(0)
+		specs_id	int(10)	NOT NULL
+		adjcoeff	varchar(255)
+	Table: _temp
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	Default(0)
+	Table: admin
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		user	varchar(100)	NOT NULL
+		pass	varchar(50)
+		levels	smallint(6)
+		name	varchar(100)
+		dates	datetime
+		email	varchar(50)
+		phone	varchar(20)
+		images	varchar(255)
+		active	smallint(6)	Default(0)
+		lastlogin	datetime	NOT NULL
+	Table: administrators
+		id	int(10)	NOT NULL	PRIMARY
+		username	varchar(100)
+		password	varchar(50)
+	Table: cate_news
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_news	varchar(255)
+		mother_code	varchar(255)
+		active	smallint(6)
+		orders	smallint(6)
+		images	varchar(255)
+	Table: cate_news_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_news	varchar(255)
+		code_lang	varchar(255)
+		name	varchar(255)
+		subname	varchar(255)
+		description	text
+		keywords	varchar(255)
+	Table: cate_products
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_products	varchar(255)
+		mother_code	varchar(255)
+		active	smallint(6)
+		orders	smallint(6)
+		images	varchar(255)
+	Table: cate_products_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_products	varchar(255)
+		code_lang	varchar(255)
+		name	varchar(255)
+		description	text
+		keywords	varchar(255)
+	Table: categories
+		category_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		category	text
+		parent_num	int(11)
+	Table: china_categories
+		level1	varchar(40)	NOT NULL
+		level2	varchar(40)	NOT NULL
+		level3	varchar(40)	NOT NULL	PRIMARY
+		update	varchar(10)	NOT NULL
+	Table: china_shops
+		pro_id	int(10)	NOT NULL	PRIMARY
+		pro_owner_id	int(10)	NOT NULL
+		pro_username	varchar(100)
+		pro_password	varchar(100)
+		pro_random_password	varchar(100)
+		pro_email	varchar(100)
+		pro_date_join	varchar(30)
+		pro_date_valid	varchar(10)	NOT NULL
+		pro_date_expire	varchar(10)	NOT NULL
+		pro_id_level3	varchar(120)	NOT NULL
+		pro_name	varchar(60)	NOT NULL
+		pro_add_number	varchar(10)	NOT NULL
+		pro_add_street	varchar(30)	NOT NULL
+		pro_add_zipcode	varchar(12)	NOT NULL
+		pro_add_city	varchar(30)	NOT NULL
+		pro_add_country	varchar(30)	NOT NULL
+		pro_phone1	varchar(20)	NOT NULL
+		pro_phone2	varchar(20)
+		pro_fax	varchar(30)
+		pro_open_am	varchar(20)
+		pro_open_pm	varchar(20)
+		pro_date_close	varchar(30)
+		pro_last_login	varchar(50)
+		pro_yahoo_id	varchar(50)
+		pro_skype_id	varchar(50)
+		pro_gmail_id	varchar(50)
+		pro_website	varchar(40)	NOT NULL
+		pro_premium	int(10)
+		pro_icon	varchar(100)
+		pro_id_level1	int(5)
+		pro_id_level2	int(5)
+		loc_latitude	varchar(30)	NOT NULL
+		loc_longitude	varchar(30)	NOT NULL
+		pro_rating	int(1)	NOT NULL
+		pro_view	int(5)	NOT NULL
+	Table: city
+		id	int(10)	NOT NULL	PRIMARY	auto_increment
+		parent_id	int(10)	NOT NULL	Default(0)
+		active	tinyint(1)	NOT NULL	Default(0)
+		sort	int(10)	NOT NULL
+		name	varchar(255)	NOT NULL
+	Table: company_list
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code	varchar(10)
+		vn_name	varchar(1000)
+		en_name	varchar(1000)
+		market	varchar(5)
+		industry	varchar(100)
+		ipo	date
+		ipo_shares	double
+		ftrd_date	date
+		ftrd_cls	double
+		mindate	date
+		mindate_shli	double
+		mindate_shou	double
+		ftrd_shli	double
+		enddate	date
+	Table: company_list_copy
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code	varchar(10)
+		vn_name	varchar(1000)
+		en_name	varchar(1000)
+		market	varchar(5)
+		industry	varchar(100)
+		ipo	date
+		ipo_shares	double
+		ftrd_date	date
+		ftrd_cls	double
+		mindate	date
+		mindate_shli	double
+		mindate_shou	double
+		ftrd_shli	double
+		enddate	date
+	Table: composition
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		csv	varchar(255)
+		active	int(10)
+		header	text
+	Table: config
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		title_website	varchar(255)
+		logo_website	varchar(255)
+		logo_footer	varchar(255)
+		records_per_page	int(11)
+		currency	varchar(255)
+		contact_email	varchar(255)
+		contact_address	text
+		contact_phone	varchar(255)
+		contact_fax	varchar(255)
+		meta_des	text
+		meta_key	varchar(255)
+		facebook	varchar(255)
+		twitter	varchar(255)
+		linkedin	varchar(255)
+		google_map	text
+		background	varchar(255)	NOT NULL
+		num_image_photo	int(3)	NOT NULL
+		trial_day	int(3)	NOT NULL	Default(0)
+		hengio	varchar(255)
+		idx_google	varchar(255)
+		idx_yahoo	varchar(255)
+		idx_reuters	varchar(255)
+		idx_bloomberg	varchar(255)
+		protect	int(1)	NOT NULL
+	Table: domains
+		domain_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		domain	varchar(255)
+	Table: file_upload
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		description	text
+		file	varchar(255)
+		date_upload	varchar(255)
+	Table: groups
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		GROUP_CODE	varchar(255)
+		GROUP_NAME	varchar(255)
+	Table: idx_compo
+		CODE	varchar(48)
+		ISIN	varchar(60)
+		NAME	varchar(180)
+		CURR	varchar(60)
+		SHARES	varchar(60)
+		FLOATS	varchar(60)
+		CAPPING	varchar(60)
+		LAST	varchar(60)
+		DATE	varchar(60)
+		WEIGHT	double
+		PROVIDER	varchar(192)
+		ID	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_compo_copy
+		stk_code	varchar(20)
+		stk_name	varchar(100)
+		stk_shares_idx	double
+		stk_float_idx	double
+		stk_capp_idx	double
+		idx_code	varchar(20)
+		date	date
+		start_date	date
+		end_date	date
+		stk_curr	varchar(8)
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_compo_web
+		CODE	varchar(16)
+		Name	varchar(80)
+		ISIN	varchar(16)
+		Euronext_code	varchar(16)
+		Market	varchar(30)
+		Symbol	varchar(16)
+		ICB_Sector_Level4	varchar(10)
+		CURR	varchar(10)
+		Last	varchar(20)
+		Volume	varchar(20)
+		D_D_1	varchar(255)
+		DATE	varchar(10)
+		Turnover	varchar(20)
+		WEIGHT	varchar(20)
+		SHARES	varchar(20)
+		Capitalisation	varchar(20)
+		Trading_mode	varchar(20)
+		Day_First	varchar(20)
+		Day_High	varchar(20)
+		Day_High_Date_time_CET	varchar(20)
+		Day_Low	varchar(20)
+		Day_Low_Date_time_CET	varchar(20)
+		31_12_Change	varchar(20)
+		31_12_High	varchar(20)
+		31_12_High_Date	varchar(20)
+		31_12_Low	varchar(20)
+		31_12_Low_Date	varchar(20)
+		52_weeks_Change	varchar(20)
+		52_weeks_High	varchar(20)
+		52_weeks_High_Date	varchar(20)
+		52_weeks_Low	varchar(20)
+		52_weeks_Low_Date	varchar(20)
+		Halted_1	varchar(20)
+		Halted_Date_time_1	varchar(20)
+		Halted_2	varchar(20)
+		Halted_Date_time_2	varchar(20)
+	Table: idx_composition
+		CODE	varchar(255)
+		TYPE	varchar(255)
+		URL	text
+	Table: idx_composition_hmm
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		date	date	NOT NULL
+		time	time	NOT NULL
+		idx_code	varchar(20)
+		idx_curr	varchar(8)
+		stk_code	varchar(50)
+		stk_name	varchar(255)	NOT NULL
+		stk_curr	varchar(10)	NOT NULL
+		stk_mult	double	NOT NULL
+		stk_shares_idx	double	NOT NULL
+		stk_float_idx	double	NOT NULL
+		stk_capp_idx	double	NOT NULL
+		stk_price	double
+		curr_conv	double
+		stk_curr_conv	double	NOT NULL
+		stk_mcap_idx	double	NOT NULL
+		stk_dprice_nr	double
+		stk_dcurr_conv	double
+		stk_dprice	double
+		stk_dcap_idx	double	NOT NULL	Default(0)
+		stk_dcap_nr	double
+		stk_wgt	double
+		stk_tr	double
+		stk_pr	double
+		stk_nr	double
+		nxt_date	date	NOT NULL
+		nxt_stk_code	varchar(50)
+		nxt_stk_curr	varchar(3)
+		nxt_stk_mult	double
+		nxt_shares_idx	double
+		nxt_float_idx	double
+		nxt_capp_idx	double
+		nxt_price	double
+		to_adjust	smallint(6)	Default(0)
+		nxt_adjca	int(11)
+		nxt_adjcmp	int(11)
+		nxt_adjust	double
+		new_shares	double	NOT NULL
+		nstk_curr_conv	double	NOT NULL	Default(0)
+		nstk_mcap_idx	double	NOT NULL	Default(0)
+		specs_id	int(10)	NOT NULL
+		adjcoeff	varchar(255)
+	Table: idx_day
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		CODE	varchar(16)
+		NAME	varchar(80)
+		DATE	varchar(255)
+		CLOSE	varchar(20)
+		HIGH	double
+		LOW	double
+		PERFORM	varchar(20)
+		PROVIDER	varchar(64)
+	Table: idx_day_compact
+		CODE	varchar(20)
+		DATE	varchar(10)
+		CLOSE	double(20,6)
+		PROVIDER	varchar(4)
+		id	int(12)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_document
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		doc_id	int(11)
+		code_lang	varchar(255)
+		doc_title	varchar(255)
+		doc_intro	text
+	Table: idx_files
+		id	int(6)	NOT NULL	PRIMARY	auto_increment
+		tables	varchar(255)	NOT NULL
+		orders	int(3)	NOT NULL
+		views	int(1)	NOT NULL
+	Table: idx_group
+		GROUP_CODE	varchar(255)
+		CODE	varchar(255)
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_month
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_month_20130404
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_month_20130405
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_month_20130411
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_month_chart
+		DATE	varchar(30)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(60)
+		CODE	varchar(60)
+		PERFORM	varchar(60)
+		PROVIDER	varchar(60)
+		id	int(30)	NOT NULL
+	Table: idx_month_copy
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_month_test
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_option_prices
+		CODE	varchar(10)
+		EXPIRY	varchar(255)
+		TYPE	varchar(255)
+		STRIKE	varchar(255)
+		LAST	varchar(255)
+		SETTLEMENT	varchar(255)
+		BID	varchar(255)
+		ASK	varchar(255)
+	Table: idx_perf
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	varchar(12)
+		HIGH	varchar(12)
+		LOW	varchar(12)
+		CLOSE	varchar(12)
+		VOLUME	varchar(20)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_publication
+		CODE	varchar(16)
+		DATE	varchar(10)
+		NAME	varchar(80)
+		TYPE	varchar(30)
+		URL	varchar(255)
+		GROUP	varchar(255)
+	Table: idx_ref
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_name_sn	varchar(100)	NOT NULL
+		idx_curr	varchar(6)	NOT NULL
+		idx_base	double(20,6)	NOT NULL
+		idx_dtbase	varchar(10)	NOT NULL
+		idx_type	varchar(50)	NOT NULL
+		idx_mother	varchar(20)	NOT NULL	Default(NULL)
+		idx_bbs	varchar(50)	NOT NULL
+		calculs	smallint(6)	NOT NULL
+		publications	smallint(6)	NOT NULL
+		idx_start_date	varchar(10)
+		idx_end_date	varchar(10)
+		idx_frequency	varchar(3)	NOT NULL
+		calcul_types	varchar(3)
+		idx_capp	double(30,10)	NOT NULL
+		idx_qlf	varchar(254)	NOT NULL
+		idx_compo_rev	varchar(254)	NOT NULL
+		idx_shares_rev	varchar(254)	NOT NULL
+		idx_frev	varchar(254)	NOT NULL
+		idx_fbanding	varchar(254)	NOT NULL
+		idx_ftreproduct	varchar(254)	NOT NULL
+		idx_oproduct	varchar(254)	NOT NULL
+		idx_etfproduct	varchar(254)	NOT NULL
+		idx_c_mech	varchar(254)	NOT NULL
+		idx_histo	varchar(254)	NOT NULL
+		idx_launch	varchar(254)	NOT NULL
+		idx_web	varchar(254)	NOT NULL
+		idx_isin	varchar(254)	NOT NULL
+		idx_reuters	varchar(254)	NOT NULL
+		idx_bl	varchar(254)	NOT NULL
+		idx_yh	varchar(254)	NOT NULL
+		idx_ggl	varchar(254)	NOT NULL
+		idx_igs	varchar(254)
+		idx_es	varchar(254)
+		idx_sel	varchar(254)
+		idx_inconnect	varchar(254)
+		idx_capfrev	varchar(254)
+		idx_sg	varchar(10)
+		idx_last	double
+		idx_divisor_nxt	double
+		idx_ncompo	varchar(254)	NOT NULL
+		idx_wgt_type	varchar(254)	NOT NULL
+		idx_base_capi	int(254)	NOT NULL
+		start_time	varchar(100)
+		end_time	varchar(100)
+		frequency	double
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		mother	int(11)
+		ims_order	int(11)
+		idx_name_vn	varchar(100)
+		date	date
+	Table: idx_risefail
+		intercode	varchar(16)
+		date	varchar(10)
+		type	varchar(30)
+		company	varchar(80)
+		pc	varchar(20)
+	Table: idx_rules
+		CODE	varchar(16)
+		UPDATE	varchar(10)
+		FIELD01	varchar(255)	NOT NULL
+		FIELD02	varchar(255)	NOT NULL
+		FIELD03	varchar(255)	NOT NULL
+		FIELD04	varchar(255)	NOT NULL
+		FIELD05	varchar(255)	NOT NULL
+		FIELD06	varchar(255)	NOT NULL
+		FIELD07	varchar(255)	NOT NULL
+		FIELD08	varchar(255)	NOT NULL
+		FIELD09	varchar(255)	NOT NULL
+		FIELD10	varchar(255)	NOT NULL
+		FIELD11	varchar(255)	NOT NULL
+		FIELD12	varchar(255)	NOT NULL
+		FIELD13	varchar(255)	NOT NULL
+		FIELD14	varchar(255)	NOT NULL
+		FIELD15	varchar(255)	NOT NULL
+		FIELD16	varchar(255)	NOT NULL
+		FIELD17	varchar(255)	NOT NULL
+		FIELD18	varchar(255)	NOT NULL
+		FIELD19	varchar(255)	NOT NULL
+		FIELD20	varchar(255)	NOT NULL
+		FIELD21	varchar(255)	NOT NULL
+		FIELD22	varchar(255)	NOT NULL
+		FIELD23	varchar(255)	NOT NULL
+		FIELD24	varchar(255)	NOT NULL
+		FIELD25	varchar(255)	NOT NULL
+		FIELD26	varchar(255)	NOT NULL
+	Table: idx_rulesdef
+		FIELD	varchar(255)
+		DESCRIPTION	varchar(80)
+		SHORT	varchar(1)	NOT NULL
+		DESCRIPTIONfr	varchar(255)
+	Table: idx_sample
+		NAME	varchar(240)
+		SHORTNAME	varchar(150)
+		PROVIDER	varchar(90)
+		PLACE	varchar(90)
+		TYPE	varchar(90)
+		SUB_TYPE	varchar(120)
+		LEVEL3	varchar(90)
+		CODE	varchar(60)
+		ISIN	varchar(48)
+		MNEMO	varchar(48)
+		REUTERS	varchar(48)
+		BLOOMBERG	varchar(48)
+		NB	varchar(18)
+		CURR	varchar(9)
+		CALCUL	varchar(30)
+		FREQUENCY	varchar(30)
+		PRICE	varchar(6)
+		FLOAT	varchar(30)
+		SHARES	varchar(30)
+		CAPPING	varchar(30)
+		BASE_VALUE	varchar(36)
+		BASE_DATE	varchar(36)
+		BASE_CAPI	varchar(60)
+		YAHOO	varchar(48)
+		HISTORY	varchar(36)
+		GOOGLE	varchar(300)
+		CONTINENT	varchar(300)
+		ORD	int(20)
+		DOWNLOAD	varchar(60)
+		WEBSITE	varchar(360)
+		URL_IDX	varchar(360)
+		URL_CMP	varchar(360)
+		WEIGHTING	varchar(120)
+		MEP	int(20)
+		COMPO	varchar(300)
+		COMPO_PARENT	varchar(360)
+		CRITERIA	varchar(120)
+		REV_COMPO	varchar(24)
+		REV_FLOAT	varchar(24)
+		ARR_FLOAT	varchar(24)
+		FUTURES	varchar(24)
+		OPTIONS	varchar(24)
+		ETF	varchar(24)
+		INDEX_PARENT	varchar(765)
+		WIS	int(1)
+		LAST_UPDATE	varchar(30)
+		LAUNCH	varchar(36)
+		OBSDATE	date
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_sample_
+		NAME	varchar(80)
+		SHORTNAME	varchar(50)
+		PROVIDER	varchar(30)
+		PLACE	varchar(30)
+		TYPE	varchar(30)
+		SUB_TYPE	varchar(40)
+		LEVEL3	varchar(30)
+		CODE	varchar(20)
+		ISIN	varchar(16)
+		MNEMO	varchar(16)
+		REUTERS	varchar(16)
+		BLOOMBERG	varchar(16)
+		NB	varchar(6)
+		CURR	varchar(3)
+		CALCUL	varchar(10)
+		FREQUENCY	varchar(10)
+		PRICE	varchar(2)
+		FLOAT	varchar(10)
+		SHARES	varchar(10)
+		CAPPING	varchar(10)
+		BASE_VALUE	varchar(12)
+		BASE_DATE	varchar(12)
+		BASE_CAPI	varchar(20)
+		YAHOO	varchar(16)
+		HISTORY	varchar(12)
+		GOOGLE	varchar(100)
+		CONTINENT	varchar(100)
+		ORD	bigint(20)	Default(0)
+		DOWNLOAD	varchar(20)
+		WEBSITE	varchar(120)
+		URL_IDX	varchar(120)
+		URL_CMP	varchar(120)
+		WEIGHTING	varchar(40)
+		MEP	int(20)
+		COMPO	varchar(100)
+		COMPO_PARENT	varchar(120)
+		CRITERIA	varchar(40)
+		REV_COMPO	varchar(8)
+		REV_FLOAT	varchar(8)
+		ARR_FLOAT	varchar(8)
+		FUTURES	varchar(8)
+		OPTIONS	varchar(8)
+		ETF	varchar(8)
+		INDEX_PARENT	varchar(255)
+		WIS	int(1)
+		LAST_UPDATE	varchar(10)
+		LAUNCH	varchar(12)
+		OBSDATE	date
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_sample_hmm2
+		NAME	varchar(80)
+		SHORTNAME	varchar(50)
+		PROVIDER	varchar(30)
+		PLACE	varchar(30)
+		TYPE	varchar(30)
+		SUB_TYPE	varchar(40)
+		LEVEL3	varchar(30)
+		CODE	varchar(20)
+		ISIN	varchar(16)
+		MNEMO	varchar(16)
+		REUTERS	varchar(16)
+		BLOOMBERG	varchar(16)
+		NB	varchar(6)
+		CURR	varchar(3)
+		CALCUL	varchar(10)
+		FREQUENCY	varchar(10)
+		PRICE	varchar(2)
+		FLOAT	varchar(10)
+		SHARES	varchar(10)
+		CAPPING	varchar(10)
+		BASE_VALUE	varchar(12)
+		BASE_DATE	varchar(12)
+		BASE_CAPI	varchar(20)
+		YAHOO	varchar(16)
+		HISTORY	varchar(12)
+		GOOGLE	varchar(100)
+		CONTINENT	varchar(100)
+		ORD	bigint(20)	Default(0)
+		DOWNLOAD	varchar(20)
+		WEBSITE	varchar(120)
+		URL_IDX	varchar(120)
+		URL_CMP	varchar(120)
+		WEIGHTING	varchar(40)
+		MEP	int(20)
+		COMPO	varchar(100)
+		COMPO_PARENT	varchar(120)
+		CRITERIA	varchar(40)
+		REV_COMPO	varchar(8)
+		REV_FLOAT	varchar(8)
+		ARR_FLOAT	varchar(8)
+		FUTURES	varchar(8)
+		OPTIONS	varchar(8)
+		ETF	varchar(8)
+		INDEX_PARENT	varchar(255)
+		WIS	int(1)
+		LAST_UPDATE	varchar(10)
+		LAUNCH	varchar(10)
+		OBSDATE	date
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_specs
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_curr	varchar(20)	NOT NULL
+		idx_base	double(10,0)
+		idx_type	varchar(5)
+		idx_mother	varchar(20)
+		idx_divisor	double(50,12)
+		idx_mcap	double(50,2)	Default(0.00)
+		idx_last	double
+		date	date	NOT NULL
+		time	varchar(8)	NOT NULL
+		records	int(10)	NOT NULL
+		calculs	smallint(6)
+		publications	smallint(6)
+		idx_plast	double
+		idx_dcap	double
+		to_adjust	smallint(6)	Default(0)
+		idx_mcap_nxt	double
+		idx_divisor_nxt	double
+		idx_bbs	varchar(30)
+		idx_conv	double
+		idx_pclose	double
+		idx_group	int(11)
+		idx_var	varchar(30)
+		ip_last	double
+		ip_plast	double
+		idx_dvar	varchar(30)
+		nxt_date	date
+		idx_change	double
+		idx_dchange	double
+		next_divisor_adjust	double
+		final_divisor	double
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+	Table: idx_specs_20130906
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_curr	varchar(20)	NOT NULL
+		idx_base	double
+		idx_type	varchar(5)
+		idx_mother	varchar(20)
+		idx_divisor	double(20,2)
+		idx_mcap	double(20,2)	Default(0.00)
+		idx_last	double(20,6)
+		date	date	NOT NULL
+		time	varchar(8)	NOT NULL
+		records	int(10)	NOT NULL
+		calculs	smallint(6)
+		publications	smallint(6)
+		idx_plast	double(20,6)
+		idx_dcap	double(20,6)
+		to_adjust	smallint(6)	Default(0)
+		idx_mcap_nxt	double
+		idx_divisor_nxt	double
+		idx_bbs	varchar(255)
+		idx_conv	double
+		idx_pclose	double
+		idx_group	int(11)
+		idx_var	varchar(255)
+		ip_last	double
+		ip_plast	double
+		idx_dvar	varchar(255)
+		nxt_date	date
+		idx_change	double
+		idx_dchange	double
+		next_divisor_adjust	double
+		final_divisor	double
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+	Table: idx_stats
+		code	varchar(16)
+		date	varchar(10)
+		perform	varchar(20)
+		high	varchar(12)
+		low	varchar(12)
+		last	varchar(12)
+		last_eoy	varchar(12)
+	Table: idx_year
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	varchar(20)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(20)
+		VOLAT	varchar(20)
+		PROVIDER	varchar(64)	NOT NULL
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_year_copy
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	varchar(20)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(20)
+		VOLAT	varchar(20)
+		PROVIDER	varchar(64)	NOT NULL
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: ifrc_administrators
+		id	int(10)	NOT NULL	PRIMARY
+		username	varchar(255)
+		password	varchar(255)
+		id_groups	int(1)
+		img	varchar(255)
+	Table: ifrc_categories
+		id	int(10)	NOT NULL	PRIMARY
+		alias	varchar(255)
+		name	varchar(255)
+	Table: ifrc_customers
+		id	int(10)	NOT NULL	PRIMARY
+		fullname	varchar(255)
+		username	varchar(255)
+		password	varchar(255)
+		email	varchar(255)
+		date_thamgia	varchar(100)
+		city	varchar(100)
+		nation	varchar(100)
+		phone	varchar(100)
+		yahoo_chat	varchar(100)
+		active	int(10)
+		last_login	varchar(100)
+		diachi	varchar(255)
+		gmail_id	varchar(255)
+	Table: ifrc_img_more
+		id	int(10)	NOT NULL	PRIMARY
+		id_sanpham	int(10)
+		name	varchar(255)
+		dimension	varchar(255)
+		description	text
+		file	varchar(255)
+	Table: ifrc_nation
+		id	int(10)	NOT NULL	PRIMARY
+		alias	varchar(255)
+		name	varchar(255)
+	Table: ifrc_products
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		alias	varchar(255)
+		id_cate	int(3)
+		mota_tomtat	text
+		mota	text
+		active_hot	int(2)
+		file	varchar(255)
+		date_post	varchar(255)
+		status	int(10)
+		active	int(10)
+	Table: ifrc_report
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		TICKER	varchar(10)	NOT NULL
+		MARKET	varchar(4)	NOT NULL
+		YYYYMM	int(6)	NOT NULL
+		DATE	char(12)	NOT NULL
+		SVOLUME	int(10)	NOT NULL
+		STURNOVER	bigint(20)	NOT NULL
+		SVELO	double	NOT NULL
+		NB	int(2)	NOT NULL
+		NBT	int(2)	NOT NULL
+		SHARES_LIS	int(10)	NOT NULL
+		PR_CLS	int(10)	NOT NULL
+		SSNB	int(5)	NOT NULL
+		SSNBT	int(5)	NOT NULL
+		SSTURNOVER	bigint(20)	NOT NULL
+		SSVOLUME	bigint(20)	NOT NULL
+		SSVELO	double	NOT NULL
+	Table: keywords
+		keyword_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		keyword	varchar(30)	NOT NULL
+	Table: languages
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_lang	varchar(255)
+		name	varchar(255)
+		active	smallint(6)
+		orders	smallint(6)
+		images	varchar(255)
+		font_size	smallint(6)
+		cufont	varchar(255)
+	Table: link_keyword0
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword1
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword2
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword3
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword4
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword5
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword6
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword7
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword8
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword9
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyworda
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordb
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordc
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordd
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyworde
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordf
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: links
+		link_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		site_id	int(11)
+		url	varchar(255)	NOT NULL
+		title	varchar(200)
+		description	varchar(255)
+		fulltxt	mediumtext
+		indexdate	date
+		size	float
+		md5sum	varchar(32)
+		visible	int(11)	Default(0)
+		level	int(11)
+	Table: listing
+		ID	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		MARKET	varchar(10)	NOT NULL
+		NAME_EN	varchar(300)	NOT NULL
+		CODE	varchar(10)	NOT NULL
+		IPO	char(12)	NOT NULL
+		INDUSTRY	varchar(300)	NOT NULL
+	Table: management
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		csv	varchar(255)
+		active	int(10)
+		header	text
+	Table: manager_indexes
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		directory	varchar(255)
+		header	varchar(255)
+	Table: manager_indexes_month
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		directory	varchar(255)
+		header	varchar(255)
+	Table: manager_indexes_year
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		directory	varchar(255)
+		header	varchar(255)
+	Table: manager_searching
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		url	varchar(255)
+		content1	longtext
+		content1_unicode	longtext
+		content2	longtext
+		content2_unicode	longtext
+		content3	longtext
+		content3_unicode	longtext
+	Table: manufacturers
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_manufacturers	varchar(255)
+		name	varchar(255)
+		description	text
+		images	varchar(255)
+	Table: media
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		images	varchar(255)
+		orders	int(11)
+		active	smallint(6)
+		links	varchar(255)	Default(#)
+		cate_slide	varchar(255)
+		type	varchar(255)	NOT NULL	Default(image)
+	Table: media_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		slide_id	int(11)
+		code_lang	varchar(255)
+		name	varchar(255)
+		alt	varchar(255)
+		file	varchar(255)
+	Table: menu
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		links	varchar(255)
+		mother_id	int(11)	Default(0)
+		orders	int(11)
+		active	smallint(6)
+		images	varchar(255)
+	Table: menu_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		menu_id	int(11)
+		code_lang	varchar(255)
+		name	varchar(255)
+		intro	varchar(255)
+	Table: news
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_news	varchar(255)
+		id_news_relative	int(11)
+		active	smallint(6)
+		rating	smallint(6)
+		orders	int(11)	Default(0)
+		views	int(11)
+		files	varchar(255)
+		dates	datetime
+		poster	varchar(255)
+	Table: news_comment
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		morther_id	int(11)
+		id_news	int(11)
+		name	varchar(255)
+		email	varchar(255)
+		content	text
+		dates	datetime
+		orders	int(11)
+		active	smallint(6)
+	Table: news_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		id_news	int(11)
+		code_lang	varchar(254)
+		title	varchar(254)
+		intro	text
+		content	text
+		images	varchar(254)
+		meta_des	varchar(254)
+		meta_key	varchar(254)
+		url	varchar(254)
+		url_second	varchar(254)
+		url_third	varchar(254)
+	Table: news_relative
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		name	varchar(255)
+	Table: newsletters
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		email	varchar(255)
+		active	int(1)	NOT NULL	Default(1)
+	Table: obs_home
+		code	varchar(255)	NOT NULL
+		date	date	NOT NULL
+		yyyymm	varchar(6)	NOT NULL
+		yyyy	varchar(4)	NOT NULL
+		close	double	NOT NULL
+		varmonth	float	NOT NULL
+		varyear	float	NOT NULL
+		volat	float	NOT NULL
+		provider	varchar(64)	NOT NULL
+		id	int(15)	NOT NULL	PRIMARY	auto_increment
+	Table: obs_home_copy
+		id	int(15)	NOT NULL	PRIMARY	auto_increment
+		code	varchar(255)	NOT NULL
+		date	date	NOT NULL
+		yyyymm	varchar(6)	NOT NULL
+		yyyy	varchar(4)	NOT NULL
+		close	double	NOT NULL
+		varmonth	float	NOT NULL
+		varyear	float	NOT NULL
+		volat	float	NOT NULL
+		provider	varchar(64)	NOT NULL
+	Table: option_price_result
+		STRIKE	int(10)	NOT NULL	PRIMARY
+		CALL2	varchar(255)
+		PUT2	varchar(255)
+		DIFF2	varchar(255)
+		CALL3	varchar(255)
+		PUT3	varchar(255)
+		DIFF3	varchar(255)
+		CALL6	varchar(255)
+		PUT6	varchar(255)
+		DIFF6	varchar(255)
+	Table: pages
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		name	varchar(255)
+		layouts	varchar(255)
+		news	varchar(255)
+		sorts	varchar(255)
+		code	varchar(255)
+	Table: pages_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		pages_id	int(11)
+		code_lang	varchar(255)
+		headers	varchar(255)
+		intro	text
+		name_shortcut	varchar(255)
+		keywords	varchar(255)
+		description	text
+	Table: pending
+		site_id	int(11)
+		temp_id	varchar(32)
+		level	int(11)
+		count	int(11)
+		num	int(11)
+	Table: perf_data
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		yyyymm	int(6)
+		yyyy	int(4)
+		code	varchar(15)
+		name	varchar(255)
+		place	varchar(255)
+		date	varchar(10)
+		close	double
+		y1	double
+		y2	double
+		y3	double
+		y4	double
+		y5	double
+		m1	double
+		m2	double
+		m3	double
+		m4	double
+		m5	double
+		m6	double
+		m7	double
+		m8	double
+		m9	double
+		m10	double
+		m11	double
+		m12	double
+		m13	double
+		m14	double
+		m15	double
+		m16	double
+		m17	double
+		m18	double
+		m19	double
+		m20	double
+		m21	double
+		m22	double
+		m23	double
+		m24	double
+		m25	double
+		m26	double
+		m27	double
+		m28	double
+		m29	double
+		m30	double
+		m31	double
+		m32	double
+		m33	double
+		m34	double
+		m35	double
+		m36	double
+		m37	double
+		m38	double
+		m39	double
+		m40	double
+		m41	double
+		m42	double
+		m43	double
+		m44	double
+		m45	double
+		m46	double
+		m47	double
+		m48	double
+		m49	double
+		m50	double
+		m51	double
+		m52	double
+		m53	double
+		m54	double
+		m55	double
+		m56	double
+		m57	double
+		m58	double
+		m59	double
+		m60	double
+		m61	double
+		ytd	double
+		y2008	double
+		y2009	double
+		y2010	double
+		y2011	double
+		y2012	double
+	Table: perf_data_chart
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		yyyymm	int(6)
+		yyyy	int(4)
+		code	varchar(15)
+		name	varchar(255)
+		place	varchar(255)
+		date	varchar(10)
+		close	double
+		y1	double
+		y2	double
+		y3	double
+		y4	double
+		y5	double
+		m1	double
+		m2	double
+		m3	double
+		m4	double
+		m5	double
+		m6	double
+		m7	double
+		m8	double
+		m9	double
+		m10	double
+		m11	double
+		m12	double
+		m13	double
+		m14	double
+		m15	double
+		m16	double
+		m17	double
+		m18	double
+		m19	double
+		m20	double
+		m21	double
+		m22	double
+		m23	double
+		m24	double
+		m25	double
+		m26	double
+		m27	double
+		m28	double
+		m29	double
+		m30	double
+		m31	double
+		m32	double
+		m33	double
+		m34	double
+		m35	double
+		m36	double
+		m37	double
+		m38	double
+		m39	double
+		m40	double
+		m41	double
+		m42	double
+		m43	double
+		m44	double
+		m45	double
+		m46	double
+		m47	double
+		m48	double
+		m49	double
+		m50	double
+		m51	double
+		m52	double
+		m53	double
+		m54	double
+		m55	double
+		m56	double
+		m57	double
+		m58	double
+		m59	double
+		m60	double
+		m61	double
+		ytd	double
+		y2008	double
+		y2009	double
+		y2010	double
+		y2011	double
+	Table: perf_idx
+		id	bigint(20)	NOT NULL	PRIMARY	auto_increment
+		user_id	int(11)	NOT NULL
+		name	varchar(255)	NOT NULL
+		code	longtext	NOT NULL
+		publish	int(11)	NOT NULL	Default(0)
+	Table: perf_tmp
+		code	varchar(15)
+		yyyymm	int(6)
+		m1	double
+		ranking	bigint(21)
+		clset	int(11)
+	Table: query_log
+		query	varchar(255)
+		time	timestamp	NOT NULL	Default(CURRENT_TIMESTAMP)	on update CURRENT_TIMESTAMP
+		elapsed	float
+		results	int(11)
+	Table: result_price_performance
+		date_prices	varchar(255)
+		intercode	varchar(255)
+		close_last	varchar(255)
+		date_eoy	varchar(255)
+		close_eoy	varchar(255)
+		variation	varchar(255)
+		high	varchar(255)
+		low	varchar(255)
+	Table: searching
+		index_en.html	longtext	NOT NULL
+		products_en.html	longtext	NOT NULL
+		services_en.html	longtext	NOT NULL
+		solutions_en.html	longtext	NOT NULL
+		team_HuuMinhMAI.html	longtext	NOT NULL
+		team_ThiNgocHanHUYNH_en.html	longtext	NOT NULL
+		team_PhuocNguyenTRAN_en.html	longtext	NOT NULL
+		team_HoangNhiLE_en.html	longtext	NOT NULL
+		services_conseils_en.html	longtext	NOT NULL
+		services_indexing_en.html	longtext	NOT NULL
+		services-creation-entreprise_en.html	longtext	NOT NULL
+	Table: shop_category
+		id	int(15)	NOT NULL	PRIMARY	auto_increment
+		shop_id	int(15)	NOT NULL
+		category_code	varchar(255)	NOT NULL
+	Table: shop_info
+		id	int(10)	NOT NULL	PRIMARY	auto_increment
+		name	varchar(255)
+		logo	varchar(255)
+		address	varchar(255)
+		website	varchar(255)
+		active	int(1)	NOT NULL	Default(1)
+		created_on	timestamp	NOT NULL	Default(CURRENT_TIMESTAMP)
+		last_mod	datetime
+		owner_id	int(10)
+		map	varchar(255)
+		intro	text
+		description	text
+		zipcode	varchar(255)
+		city	varchar(255)
+		phone	varchar(255)
+		category_code	varchar(255)
+		distinction	varchar(255)
+		cv	tinyint(1)
+		pack	varchar(255)
+		fax	varchar(255)
+		subscription_start	varchar(255)
+		subscription_end	varchar(255)
+		subscription_status	varchar(255)
+		subscription_payment	varchar(255)
+		meta_keyword	text
+		meta_description	text
+		orders	int(10)	NOT NULL	Default(0)
+		email	varchar(255)
+		mobile	varchar(255)
+		activity	varchar(255)
+		opening	varchar(255)
+		closing	varchar(255)
+	Table: shop_media
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		title	varchar(255)
+		description	varchar(255)
+		alt	varchar(255)
+		orders	int(11)
+		created_on	timestamp	NOT NULL	Default(CURRENT_TIMESTAMP)
+		active	int(1)	NOT NULL	Default(1)
+		image	varchar(255)
+		shop_id	int(11)	NOT NULL
+		type	varchar(255)	NOT NULL	Default(image)
+		link	varchar(255)
+	Table: shop_owner
+		id	int(10)	NOT NULL	PRIMARY	auto_increment
+		email	varchar(255)	NOT NULL
+		password	varchar(255)	NOT NULL
+		active	int(1)	NOT NULL	Default(1)
+		firstname	varchar(255)	NOT NULL
+		lastname	varchar(255)	NOT NULL
+		phone	varchar(255)	NOT NULL
+		gender	int(1)	NOT NULL
+		birthday	varchar(255)	NOT NULL
+		created_on	datetime	NOT NULL
+		last_mod	datetime	NOT NULL
+		address	varchar(255)	NOT NULL
+		zipcode	varchar(255)	NOT NULL
+		city	varchar(255)	NOT NULL
+	Table: shop_pack
+		pid	int(15)	NOT NULL	PRIMARY	auto_increment
+		name_pack	varchar(255)
+		order	int(2)
+	Table: site_category
+		site_id	int(11)
+		category_id	int(11)
+	Table: sites
+		site_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		url	varchar(255)
+		title	varchar(255)
+		short_desc	text
+		indexdate	date
+		spider_depth	int(11)	Default(2)
+		required	text
+		disallowed	text
+		can_leave_domain	tinyint(1)
+	Table: slide
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		images	varchar(255)
+		orders	int(11)
+		active	smallint(6)
+		links	varchar(255)	Default(#)
+		cate_slide	varchar(255)
+	Table: slide_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		slide_id	int(11)
+		code_lang	varchar(255)
+		name	varchar(255)
+	Table: sys_format
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		TABLES	varchar(255)
+		FIELDS	varchar(255)
+		HEADERS	varchar(255)
+		WIDTHS	varchar(255)
+		ALIGNS	varchar(255)
+		FORMATS	varchar(255)
+		DECIMALS	smallint(6)
+		ORDERS	smallint(6)
+		EDITTYPE	varchar(255)
+		EDITOPTION	varchar(255)
+		DESCRIPTIONS	varchar(255)
+		SORTABLE	varchar(10)	NOT NULL	Default(true)
+	Table: temp
+		link	varchar(255)
+		level	int(11)
+		id	varchar(32)
+	Table: test_comp
+		ID	double	NOT NULL	Default(0)
+		CODE	varchar(16)
+		ISIN	varchar(20)
+		NAME	varchar(60)
+		CURR	varchar(20)
+		SHARES	varchar(20)
+		FLOATS	varchar(20)
+		CAPPING	varchar(20)
+		LAST	varchar(20)
+		DATE	varchar(20)
+		WEIGHT	varchar(20)
+		PROVIDER	varchar(64)
+	Table: tmp
+		date	varchar(10)
+		code	varchar(20)
+	Table: translates
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		words	text
+		code_lang	varchar(255)
+		translates	text
+	Table: users
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		user	varchar(255)	NOT NULL
+		pass	varchar(255)
+		levels	smallint(6)
+		name	varchar(255)
+		dates	datetime
+		email	varchar(255)
+		phone	varchar(255)
+		images	varchar(255)
+		active	smallint(6)	Default(0)
+		lastlogin	datetime	NOT NULL
+	Table: idx_ref
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_name_sn	varchar(100)	NOT NULL
+		idx_curr	varchar(6)	NOT NULL
+		idx_base	double(20,6)	NOT NULL
+		idx_dtbase	varchar(10)	NOT NULL
+		idx_type	varchar(50)	NOT NULL
+		idx_mother	varchar(20)	NOT NULL	Default(NULL)
+		idx_bbs	varchar(50)	NOT NULL
+		calculs	smallint(6)	NOT NULL
+		publications	smallint(6)	NOT NULL
+		idx_start_date	varchar(10)
+		idx_end_date	varchar(10)
+		idx_frequency	varchar(3)	NOT NULL
+		calcul_types	varchar(3)
+		idx_capp	double(30,10)	NOT NULL
+		idx_qlf	varchar(254)	NOT NULL
+		idx_compo_rev	varchar(254)	NOT NULL
+		idx_shares_rev	varchar(254)	NOT NULL
+		idx_frev	varchar(254)	NOT NULL
+		idx_fbanding	varchar(254)	NOT NULL
+		idx_ftreproduct	varchar(254)	NOT NULL
+		idx_oproduct	varchar(254)	NOT NULL
+		idx_etfproduct	varchar(254)	NOT NULL
+		idx_c_mech	varchar(254)	NOT NULL
+		idx_histo	varchar(254)	NOT NULL
+		idx_launch	varchar(254)	NOT NULL
+		idx_web	varchar(254)	NOT NULL
+		idx_isin	varchar(254)	NOT NULL
+		idx_reuters	varchar(254)	NOT NULL
+		idx_bl	varchar(254)	NOT NULL
+		idx_yh	varchar(254)	NOT NULL
+		idx_ggl	varchar(254)	NOT NULL
+		idx_igs	varchar(254)
+		idx_es	varchar(254)
+		idx_sel	varchar(254)
+		idx_inconnect	varchar(254)
+		idx_capfrev	varchar(254)
+		idx_sg	varchar(10)
+		idx_last	double
+		idx_divisor_nxt	double
+		idx_ncompo	varchar(254)	NOT NULL
+		idx_wgt_type	varchar(254)	NOT NULL
+		idx_base_capi	int(254)	NOT NULL
+		start_time	varchar(100)
+		end_time	varchar(100)
+		frequency	double
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		mother	int(11)
+		ims_order	int(11)
+		idx_name_vn	varchar(100)
+		date	date
+	Table: idx_compo
+		stk_code	varchar(20)
+		stk_name	varchar(100)
+		stk_shares_idx	double
+		stk_float_idx	double
+		stk_capp_idx	double
+		idx_code	varchar(20)
+		date	date
+		start_date	date
+		end_date	date
+		stk_curr	varchar(8)
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_composition
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		date	date	NOT NULL
+		time	time	NOT NULL
+		idx_code	varchar(20)
+		idx_curr	varchar(8)
+		stk_code	varchar(50)
+		stk_name	varchar(255)	NOT NULL
+		stk_curr	varchar(10)	NOT NULL
+		stk_mult	double	NOT NULL
+		stk_shares_idx	double	NOT NULL
+		stk_float_idx	double	NOT NULL
+		stk_capp_idx	double	NOT NULL
+		stk_price	double
+		curr_conv	double
+		stk_curr_conv	double	NOT NULL
+		stk_mcap_idx	double	NOT NULL
+		stk_dprice_nr	double
+		stk_dcurr_conv	double
+		stk_dprice	double
+		stk_dcap_idx	double	NOT NULL	Default(0)
+		stk_dcap_nr	double
+		stk_wgt	double
+		stk_tr	double
+		stk_pr	double
+		stk_nr	double
+		nxt_date	date	NOT NULL
+		nxt_stk_code	varchar(50)
+		nxt_stk_curr	varchar(3)
+		nxt_stk_mult	double
+		nxt_shares_idx	double
+		nxt_float_idx	double
+		nxt_capp_idx	double
+		nxt_price	double
+		to_adjust	smallint(6)	Default(0)
+		nxt_adjca	int(11)
+		nxt_adjcmp	int(11)
+		nxt_adjust	double
+		new_shares	double	NOT NULL
+		nstk_curr_conv	double	NOT NULL	Default(0)
+		nstk_mcap_idx	double	NOT NULL	Default(0)
+		specs_id	int(10)	NOT NULL
+		adjcoeff	varchar(255)
+	Table: _temp
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	Default(0)
+	Table: admin
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		user	varchar(100)	NOT NULL
+		pass	varchar(50)
+		levels	smallint(6)
+		name	varchar(100)
+		dates	datetime
+		email	varchar(50)
+		phone	varchar(20)
+		images	varchar(255)
+		active	smallint(6)	Default(0)
+		lastlogin	datetime	NOT NULL
+	Table: administrators
+		id	int(10)	NOT NULL	PRIMARY
+		username	varchar(100)
+		password	varchar(50)
+	Table: cate_news
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_news	varchar(255)
+		mother_code	varchar(255)
+		active	smallint(6)
+		orders	smallint(6)
+		images	varchar(255)
+	Table: cate_news_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_news	varchar(255)
+		code_lang	varchar(255)
+		name	varchar(255)
+		subname	varchar(255)
+		description	text
+		keywords	varchar(255)
+	Table: cate_products
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_products	varchar(255)
+		mother_code	varchar(255)
+		active	smallint(6)
+		orders	smallint(6)
+		images	varchar(255)
+	Table: cate_products_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_products	varchar(255)
+		code_lang	varchar(255)
+		name	varchar(255)
+		description	text
+		keywords	varchar(255)
+	Table: categories
+		category_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		category	text
+		parent_num	int(11)
+	Table: china_categories
+		level1	varchar(40)	NOT NULL
+		level2	varchar(40)	NOT NULL
+		level3	varchar(40)	NOT NULL	PRIMARY
+		update	varchar(10)	NOT NULL
+	Table: china_shops
+		pro_id	int(10)	NOT NULL	PRIMARY
+		pro_owner_id	int(10)	NOT NULL
+		pro_username	varchar(100)
+		pro_password	varchar(100)
+		pro_random_password	varchar(100)
+		pro_email	varchar(100)
+		pro_date_join	varchar(30)
+		pro_date_valid	varchar(10)	NOT NULL
+		pro_date_expire	varchar(10)	NOT NULL
+		pro_id_level3	varchar(120)	NOT NULL
+		pro_name	varchar(60)	NOT NULL
+		pro_add_number	varchar(10)	NOT NULL
+		pro_add_street	varchar(30)	NOT NULL
+		pro_add_zipcode	varchar(12)	NOT NULL
+		pro_add_city	varchar(30)	NOT NULL
+		pro_add_country	varchar(30)	NOT NULL
+		pro_phone1	varchar(20)	NOT NULL
+		pro_phone2	varchar(20)
+		pro_fax	varchar(30)
+		pro_open_am	varchar(20)
+		pro_open_pm	varchar(20)
+		pro_date_close	varchar(30)
+		pro_last_login	varchar(50)
+		pro_yahoo_id	varchar(50)
+		pro_skype_id	varchar(50)
+		pro_gmail_id	varchar(50)
+		pro_website	varchar(40)	NOT NULL
+		pro_premium	int(10)
+		pro_icon	varchar(100)
+		pro_id_level1	int(5)
+		pro_id_level2	int(5)
+		loc_latitude	varchar(30)	NOT NULL
+		loc_longitude	varchar(30)	NOT NULL
+		pro_rating	int(1)	NOT NULL
+		pro_view	int(5)	NOT NULL
+	Table: city
+		id	int(10)	NOT NULL	PRIMARY	auto_increment
+		parent_id	int(10)	NOT NULL	Default(0)
+		active	tinyint(1)	NOT NULL	Default(0)
+		sort	int(10)	NOT NULL
+		name	varchar(255)	NOT NULL
+	Table: company_list
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code	varchar(10)
+		vn_name	varchar(1000)
+		en_name	varchar(1000)
+		market	varchar(5)
+		industry	varchar(100)
+		ipo	date
+		ipo_shares	double
+		ftrd_date	date
+		ftrd_cls	double
+		mindate	date
+		mindate_shli	double
+		mindate_shou	double
+		ftrd_shli	double
+		enddate	date
+	Table: company_list_copy
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code	varchar(10)
+		vn_name	varchar(1000)
+		en_name	varchar(1000)
+		market	varchar(5)
+		industry	varchar(100)
+		ipo	date
+		ipo_shares	double
+		ftrd_date	date
+		ftrd_cls	double
+		mindate	date
+		mindate_shli	double
+		mindate_shou	double
+		ftrd_shli	double
+		enddate	date
+	Table: composition
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		csv	varchar(255)
+		active	int(10)
+		header	text
+	Table: config
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		title_website	varchar(255)
+		logo_website	varchar(255)
+		logo_footer	varchar(255)
+		records_per_page	int(11)
+		currency	varchar(255)
+		contact_email	varchar(255)
+		contact_address	text
+		contact_phone	varchar(255)
+		contact_fax	varchar(255)
+		meta_des	text
+		meta_key	varchar(255)
+		facebook	varchar(255)
+		twitter	varchar(255)
+		linkedin	varchar(255)
+		google_map	text
+		background	varchar(255)	NOT NULL
+		num_image_photo	int(3)	NOT NULL
+		trial_day	int(3)	NOT NULL	Default(0)
+		hengio	varchar(255)
+		idx_google	varchar(255)
+		idx_yahoo	varchar(255)
+		idx_reuters	varchar(255)
+		idx_bloomberg	varchar(255)
+		protect	int(1)	NOT NULL
+	Table: domains
+		domain_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		domain	varchar(255)
+	Table: file_upload
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		description	text
+		file	varchar(255)
+		date_upload	varchar(255)
+	Table: groups
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		GROUP_CODE	varchar(255)
+		GROUP_NAME	varchar(255)
+	Table: idx_compo
+		CODE	varchar(48)
+		ISIN	varchar(60)
+		NAME	varchar(180)
+		CURR	varchar(60)
+		SHARES	varchar(60)
+		FLOATS	varchar(60)
+		CAPPING	varchar(60)
+		LAST	varchar(60)
+		DATE	varchar(60)
+		WEIGHT	double
+		PROVIDER	varchar(192)
+		ID	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_compo_copy
+		stk_code	varchar(20)
+		stk_name	varchar(100)
+		stk_shares_idx	double
+		stk_float_idx	double
+		stk_capp_idx	double
+		idx_code	varchar(20)
+		date	date
+		start_date	date
+		end_date	date
+		stk_curr	varchar(8)
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_compo_web
+		CODE	varchar(16)
+		Name	varchar(80)
+		ISIN	varchar(16)
+		Euronext_code	varchar(16)
+		Market	varchar(30)
+		Symbol	varchar(16)
+		ICB_Sector_Level4	varchar(10)
+		CURR	varchar(10)
+		Last	varchar(20)
+		Volume	varchar(20)
+		D_D_1	varchar(255)
+		DATE	varchar(10)
+		Turnover	varchar(20)
+		WEIGHT	varchar(20)
+		SHARES	varchar(20)
+		Capitalisation	varchar(20)
+		Trading_mode	varchar(20)
+		Day_First	varchar(20)
+		Day_High	varchar(20)
+		Day_High_Date_time_CET	varchar(20)
+		Day_Low	varchar(20)
+		Day_Low_Date_time_CET	varchar(20)
+		31_12_Change	varchar(20)
+		31_12_High	varchar(20)
+		31_12_High_Date	varchar(20)
+		31_12_Low	varchar(20)
+		31_12_Low_Date	varchar(20)
+		52_weeks_Change	varchar(20)
+		52_weeks_High	varchar(20)
+		52_weeks_High_Date	varchar(20)
+		52_weeks_Low	varchar(20)
+		52_weeks_Low_Date	varchar(20)
+		Halted_1	varchar(20)
+		Halted_Date_time_1	varchar(20)
+		Halted_2	varchar(20)
+		Halted_Date_time_2	varchar(20)
+	Table: idx_composition
+		CODE	varchar(255)
+		TYPE	varchar(255)
+		URL	text
+	Table: idx_composition_hmm
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		date	date	NOT NULL
+		time	time	NOT NULL
+		idx_code	varchar(20)
+		idx_curr	varchar(8)
+		stk_code	varchar(50)
+		stk_name	varchar(255)	NOT NULL
+		stk_curr	varchar(10)	NOT NULL
+		stk_mult	double	NOT NULL
+		stk_shares_idx	double	NOT NULL
+		stk_float_idx	double	NOT NULL
+		stk_capp_idx	double	NOT NULL
+		stk_price	double
+		curr_conv	double
+		stk_curr_conv	double	NOT NULL
+		stk_mcap_idx	double	NOT NULL
+		stk_dprice_nr	double
+		stk_dcurr_conv	double
+		stk_dprice	double
+		stk_dcap_idx	double	NOT NULL	Default(0)
+		stk_dcap_nr	double
+		stk_wgt	double
+		stk_tr	double
+		stk_pr	double
+		stk_nr	double
+		nxt_date	date	NOT NULL
+		nxt_stk_code	varchar(50)
+		nxt_stk_curr	varchar(3)
+		nxt_stk_mult	double
+		nxt_shares_idx	double
+		nxt_float_idx	double
+		nxt_capp_idx	double
+		nxt_price	double
+		to_adjust	smallint(6)	Default(0)
+		nxt_adjca	int(11)
+		nxt_adjcmp	int(11)
+		nxt_adjust	double
+		new_shares	double	NOT NULL
+		nstk_curr_conv	double	NOT NULL	Default(0)
+		nstk_mcap_idx	double	NOT NULL	Default(0)
+		specs_id	int(10)	NOT NULL
+		adjcoeff	varchar(255)
+	Table: idx_day
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		CODE	varchar(16)
+		NAME	varchar(80)
+		DATE	varchar(255)
+		CLOSE	varchar(20)
+		HIGH	double
+		LOW	double
+		PERFORM	varchar(20)
+		PROVIDER	varchar(64)
+	Table: idx_day_compact
+		CODE	varchar(20)
+		DATE	varchar(10)
+		CLOSE	double(20,6)
+		PROVIDER	varchar(4)
+		id	int(12)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_document
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		doc_id	int(11)
+		code_lang	varchar(255)
+		doc_title	varchar(255)
+		doc_intro	text
+	Table: idx_files
+		id	int(6)	NOT NULL	PRIMARY	auto_increment
+		tables	varchar(255)	NOT NULL
+		orders	int(3)	NOT NULL
+		views	int(1)	NOT NULL
+	Table: idx_group
+		GROUP_CODE	varchar(255)
+		CODE	varchar(255)
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_month
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_month_20130404
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_month_20130405
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_month_20130411
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_month_chart
+		DATE	varchar(30)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	double
+		ADJCLOSE	varchar(60)
+		CODE	varchar(60)
+		PERFORM	varchar(60)
+		PROVIDER	varchar(60)
+		id	int(30)	NOT NULL
+	Table: idx_month_copy
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_month_test
+		DATE	varchar(10)
+		OPEN	double(20,0)
+		HIGH	double(20,0)
+		LOW	double(20,6)
+		CLOSE	double(20,6)
+		VOLUME	double(20,0)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(20)
+		PERFORM	varchar(20)
+		PROVIDER	varchar(20)
+		id	int(20)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_option_prices
+		CODE	varchar(10)
+		EXPIRY	varchar(255)
+		TYPE	varchar(255)
+		STRIKE	varchar(255)
+		LAST	varchar(255)
+		SETTLEMENT	varchar(255)
+		BID	varchar(255)
+		ASK	varchar(255)
+	Table: idx_perf
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+		DATE	varchar(10)
+		OPEN	varchar(12)
+		HIGH	varchar(12)
+		LOW	varchar(12)
+		CLOSE	varchar(12)
+		VOLUME	varchar(20)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(100)
+		PROVIDER	varchar(64)
+	Table: idx_publication
+		CODE	varchar(16)
+		DATE	varchar(10)
+		NAME	varchar(80)
+		TYPE	varchar(30)
+		URL	varchar(255)
+		GROUP	varchar(255)
+	Table: idx_ref
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_name_sn	varchar(100)	NOT NULL
+		idx_curr	varchar(6)	NOT NULL
+		idx_base	double(20,6)	NOT NULL
+		idx_dtbase	varchar(10)	NOT NULL
+		idx_type	varchar(50)	NOT NULL
+		idx_mother	varchar(20)	NOT NULL	Default(NULL)
+		idx_bbs	varchar(50)	NOT NULL
+		calculs	smallint(6)	NOT NULL
+		publications	smallint(6)	NOT NULL
+		idx_start_date	varchar(10)
+		idx_end_date	varchar(10)
+		idx_frequency	varchar(3)	NOT NULL
+		calcul_types	varchar(3)
+		idx_capp	double(30,10)	NOT NULL
+		idx_qlf	varchar(254)	NOT NULL
+		idx_compo_rev	varchar(254)	NOT NULL
+		idx_shares_rev	varchar(254)	NOT NULL
+		idx_frev	varchar(254)	NOT NULL
+		idx_fbanding	varchar(254)	NOT NULL
+		idx_ftreproduct	varchar(254)	NOT NULL
+		idx_oproduct	varchar(254)	NOT NULL
+		idx_etfproduct	varchar(254)	NOT NULL
+		idx_c_mech	varchar(254)	NOT NULL
+		idx_histo	varchar(254)	NOT NULL
+		idx_launch	varchar(254)	NOT NULL
+		idx_web	varchar(254)	NOT NULL
+		idx_isin	varchar(254)	NOT NULL
+		idx_reuters	varchar(254)	NOT NULL
+		idx_bl	varchar(254)	NOT NULL
+		idx_yh	varchar(254)	NOT NULL
+		idx_ggl	varchar(254)	NOT NULL
+		idx_igs	varchar(254)
+		idx_es	varchar(254)
+		idx_sel	varchar(254)
+		idx_inconnect	varchar(254)
+		idx_capfrev	varchar(254)
+		idx_sg	varchar(10)
+		idx_last	double
+		idx_divisor_nxt	double
+		idx_ncompo	varchar(254)	NOT NULL
+		idx_wgt_type	varchar(254)	NOT NULL
+		idx_base_capi	int(254)	NOT NULL
+		start_time	varchar(100)
+		end_time	varchar(100)
+		frequency	double
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		mother	int(11)
+		ims_order	int(11)
+		idx_name_vn	varchar(100)
+		date	date
+	Table: idx_risefail
+		intercode	varchar(16)
+		date	varchar(10)
+		type	varchar(30)
+		company	varchar(80)
+		pc	varchar(20)
+	Table: idx_rules
+		CODE	varchar(16)
+		UPDATE	varchar(10)
+		FIELD01	varchar(255)	NOT NULL
+		FIELD02	varchar(255)	NOT NULL
+		FIELD03	varchar(255)	NOT NULL
+		FIELD04	varchar(255)	NOT NULL
+		FIELD05	varchar(255)	NOT NULL
+		FIELD06	varchar(255)	NOT NULL
+		FIELD07	varchar(255)	NOT NULL
+		FIELD08	varchar(255)	NOT NULL
+		FIELD09	varchar(255)	NOT NULL
+		FIELD10	varchar(255)	NOT NULL
+		FIELD11	varchar(255)	NOT NULL
+		FIELD12	varchar(255)	NOT NULL
+		FIELD13	varchar(255)	NOT NULL
+		FIELD14	varchar(255)	NOT NULL
+		FIELD15	varchar(255)	NOT NULL
+		FIELD16	varchar(255)	NOT NULL
+		FIELD17	varchar(255)	NOT NULL
+		FIELD18	varchar(255)	NOT NULL
+		FIELD19	varchar(255)	NOT NULL
+		FIELD20	varchar(255)	NOT NULL
+		FIELD21	varchar(255)	NOT NULL
+		FIELD22	varchar(255)	NOT NULL
+		FIELD23	varchar(255)	NOT NULL
+		FIELD24	varchar(255)	NOT NULL
+		FIELD25	varchar(255)	NOT NULL
+		FIELD26	varchar(255)	NOT NULL
+	Table: idx_rulesdef
+		FIELD	varchar(255)
+		DESCRIPTION	varchar(80)
+		SHORT	varchar(1)	NOT NULL
+		DESCRIPTIONfr	varchar(255)
+	Table: idx_sample
+		NAME	varchar(240)
+		SHORTNAME	varchar(150)
+		PROVIDER	varchar(90)
+		PLACE	varchar(90)
+		TYPE	varchar(90)
+		SUB_TYPE	varchar(120)
+		LEVEL3	varchar(90)
+		CODE	varchar(60)
+		ISIN	varchar(48)
+		MNEMO	varchar(48)
+		REUTERS	varchar(48)
+		BLOOMBERG	varchar(48)
+		NB	varchar(18)
+		CURR	varchar(9)
+		CALCUL	varchar(30)
+		FREQUENCY	varchar(30)
+		PRICE	varchar(6)
+		FLOAT	varchar(30)
+		SHARES	varchar(30)
+		CAPPING	varchar(30)
+		BASE_VALUE	varchar(36)
+		BASE_DATE	varchar(36)
+		BASE_CAPI	varchar(60)
+		YAHOO	varchar(48)
+		HISTORY	varchar(36)
+		GOOGLE	varchar(300)
+		CONTINENT	varchar(300)
+		ORD	int(20)
+		DOWNLOAD	varchar(60)
+		WEBSITE	varchar(360)
+		URL_IDX	varchar(360)
+		URL_CMP	varchar(360)
+		WEIGHTING	varchar(120)
+		MEP	int(20)
+		COMPO	varchar(300)
+		COMPO_PARENT	varchar(360)
+		CRITERIA	varchar(120)
+		REV_COMPO	varchar(24)
+		REV_FLOAT	varchar(24)
+		ARR_FLOAT	varchar(24)
+		FUTURES	varchar(24)
+		OPTIONS	varchar(24)
+		ETF	varchar(24)
+		INDEX_PARENT	varchar(765)
+		WIS	int(1)
+		LAST_UPDATE	varchar(30)
+		LAUNCH	varchar(36)
+		OBSDATE	date
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_sample_
+		NAME	varchar(80)
+		SHORTNAME	varchar(50)
+		PROVIDER	varchar(30)
+		PLACE	varchar(30)
+		TYPE	varchar(30)
+		SUB_TYPE	varchar(40)
+		LEVEL3	varchar(30)
+		CODE	varchar(20)
+		ISIN	varchar(16)
+		MNEMO	varchar(16)
+		REUTERS	varchar(16)
+		BLOOMBERG	varchar(16)
+		NB	varchar(6)
+		CURR	varchar(3)
+		CALCUL	varchar(10)
+		FREQUENCY	varchar(10)
+		PRICE	varchar(2)
+		FLOAT	varchar(10)
+		SHARES	varchar(10)
+		CAPPING	varchar(10)
+		BASE_VALUE	varchar(12)
+		BASE_DATE	varchar(12)
+		BASE_CAPI	varchar(20)
+		YAHOO	varchar(16)
+		HISTORY	varchar(12)
+		GOOGLE	varchar(100)
+		CONTINENT	varchar(100)
+		ORD	bigint(20)	Default(0)
+		DOWNLOAD	varchar(20)
+		WEBSITE	varchar(120)
+		URL_IDX	varchar(120)
+		URL_CMP	varchar(120)
+		WEIGHTING	varchar(40)
+		MEP	int(20)
+		COMPO	varchar(100)
+		COMPO_PARENT	varchar(120)
+		CRITERIA	varchar(40)
+		REV_COMPO	varchar(8)
+		REV_FLOAT	varchar(8)
+		ARR_FLOAT	varchar(8)
+		FUTURES	varchar(8)
+		OPTIONS	varchar(8)
+		ETF	varchar(8)
+		INDEX_PARENT	varchar(255)
+		WIS	int(1)
+		LAST_UPDATE	varchar(10)
+		LAUNCH	varchar(12)
+		OBSDATE	date
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_sample_hmm2
+		NAME	varchar(80)
+		SHORTNAME	varchar(50)
+		PROVIDER	varchar(30)
+		PLACE	varchar(30)
+		TYPE	varchar(30)
+		SUB_TYPE	varchar(40)
+		LEVEL3	varchar(30)
+		CODE	varchar(20)
+		ISIN	varchar(16)
+		MNEMO	varchar(16)
+		REUTERS	varchar(16)
+		BLOOMBERG	varchar(16)
+		NB	varchar(6)
+		CURR	varchar(3)
+		CALCUL	varchar(10)
+		FREQUENCY	varchar(10)
+		PRICE	varchar(2)
+		FLOAT	varchar(10)
+		SHARES	varchar(10)
+		CAPPING	varchar(10)
+		BASE_VALUE	varchar(12)
+		BASE_DATE	varchar(12)
+		BASE_CAPI	varchar(20)
+		YAHOO	varchar(16)
+		HISTORY	varchar(12)
+		GOOGLE	varchar(100)
+		CONTINENT	varchar(100)
+		ORD	bigint(20)	Default(0)
+		DOWNLOAD	varchar(20)
+		WEBSITE	varchar(120)
+		URL_IDX	varchar(120)
+		URL_CMP	varchar(120)
+		WEIGHTING	varchar(40)
+		MEP	int(20)
+		COMPO	varchar(100)
+		COMPO_PARENT	varchar(120)
+		CRITERIA	varchar(40)
+		REV_COMPO	varchar(8)
+		REV_FLOAT	varchar(8)
+		ARR_FLOAT	varchar(8)
+		FUTURES	varchar(8)
+		OPTIONS	varchar(8)
+		ETF	varchar(8)
+		INDEX_PARENT	varchar(255)
+		WIS	int(1)
+		LAST_UPDATE	varchar(10)
+		LAUNCH	varchar(10)
+		OBSDATE	date
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_specs
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_curr	varchar(20)	NOT NULL
+		idx_base	double(10,0)
+		idx_type	varchar(5)
+		idx_mother	varchar(20)
+		idx_divisor	double(50,12)
+		idx_mcap	double(50,2)	Default(0.00)
+		idx_last	double
+		date	date	NOT NULL
+		time	varchar(8)	NOT NULL
+		records	int(10)	NOT NULL
+		calculs	smallint(6)
+		publications	smallint(6)
+		idx_plast	double
+		idx_dcap	double
+		to_adjust	smallint(6)	Default(0)
+		idx_mcap_nxt	double
+		idx_divisor_nxt	double
+		idx_bbs	varchar(30)
+		idx_conv	double
+		idx_pclose	double
+		idx_group	int(11)
+		idx_var	varchar(30)
+		ip_last	double
+		ip_plast	double
+		idx_dvar	varchar(30)
+		nxt_date	date
+		idx_change	double
+		idx_dchange	double
+		next_divisor_adjust	double
+		final_divisor	double
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+	Table: idx_specs_20130906
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_curr	varchar(20)	NOT NULL
+		idx_base	double
+		idx_type	varchar(5)
+		idx_mother	varchar(20)
+		idx_divisor	double(20,2)
+		idx_mcap	double(20,2)	Default(0.00)
+		idx_last	double(20,6)
+		date	date	NOT NULL
+		time	varchar(8)	NOT NULL
+		records	int(10)	NOT NULL
+		calculs	smallint(6)
+		publications	smallint(6)
+		idx_plast	double(20,6)
+		idx_dcap	double(20,6)
+		to_adjust	smallint(6)	Default(0)
+		idx_mcap_nxt	double
+		idx_divisor_nxt	double
+		idx_bbs	varchar(255)
+		idx_conv	double
+		idx_pclose	double
+		idx_group	int(11)
+		idx_var	varchar(255)
+		ip_last	double
+		ip_plast	double
+		idx_dvar	varchar(255)
+		nxt_date	date
+		idx_change	double
+		idx_dchange	double
+		next_divisor_adjust	double
+		final_divisor	double
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+	Table: idx_stats
+		code	varchar(16)
+		date	varchar(10)
+		perform	varchar(20)
+		high	varchar(12)
+		low	varchar(12)
+		last	varchar(12)
+		last_eoy	varchar(12)
+	Table: idx_year
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	varchar(20)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(20)
+		VOLAT	varchar(20)
+		PROVIDER	varchar(64)	NOT NULL
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_year_copy
+		DATE	varchar(10)
+		OPEN	double
+		HIGH	double
+		LOW	double
+		CLOSE	double
+		VOLUME	varchar(20)
+		ADJCLOSE	varchar(20)
+		CODE	varchar(16)
+		PERFORM	varchar(20)
+		VOLAT	varchar(20)
+		PROVIDER	varchar(64)	NOT NULL
+		id	int(30)	NOT NULL	PRIMARY	auto_increment
+	Table: ifrc_administrators
+		id	int(10)	NOT NULL	PRIMARY
+		username	varchar(255)
+		password	varchar(255)
+		id_groups	int(1)
+		img	varchar(255)
+	Table: ifrc_categories
+		id	int(10)	NOT NULL	PRIMARY
+		alias	varchar(255)
+		name	varchar(255)
+	Table: ifrc_customers
+		id	int(10)	NOT NULL	PRIMARY
+		fullname	varchar(255)
+		username	varchar(255)
+		password	varchar(255)
+		email	varchar(255)
+		date_thamgia	varchar(100)
+		city	varchar(100)
+		nation	varchar(100)
+		phone	varchar(100)
+		yahoo_chat	varchar(100)
+		active	int(10)
+		last_login	varchar(100)
+		diachi	varchar(255)
+		gmail_id	varchar(255)
+	Table: ifrc_img_more
+		id	int(10)	NOT NULL	PRIMARY
+		id_sanpham	int(10)
+		name	varchar(255)
+		dimension	varchar(255)
+		description	text
+		file	varchar(255)
+	Table: ifrc_nation
+		id	int(10)	NOT NULL	PRIMARY
+		alias	varchar(255)
+		name	varchar(255)
+	Table: ifrc_products
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		alias	varchar(255)
+		id_cate	int(3)
+		mota_tomtat	text
+		mota	text
+		active_hot	int(2)
+		file	varchar(255)
+		date_post	varchar(255)
+		status	int(10)
+		active	int(10)
+	Table: ifrc_report
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		TICKER	varchar(10)	NOT NULL
+		MARKET	varchar(4)	NOT NULL
+		YYYYMM	int(6)	NOT NULL
+		DATE	char(12)	NOT NULL
+		SVOLUME	int(10)	NOT NULL
+		STURNOVER	bigint(20)	NOT NULL
+		SVELO	double	NOT NULL
+		NB	int(2)	NOT NULL
+		NBT	int(2)	NOT NULL
+		SHARES_LIS	int(10)	NOT NULL
+		PR_CLS	int(10)	NOT NULL
+		SSNB	int(5)	NOT NULL
+		SSNBT	int(5)	NOT NULL
+		SSTURNOVER	bigint(20)	NOT NULL
+		SSVOLUME	bigint(20)	NOT NULL
+		SSVELO	double	NOT NULL
+	Table: keywords
+		keyword_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		keyword	varchar(30)	NOT NULL
+	Table: languages
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_lang	varchar(255)
+		name	varchar(255)
+		active	smallint(6)
+		orders	smallint(6)
+		images	varchar(255)
+		font_size	smallint(6)
+		cufont	varchar(255)
+	Table: link_keyword0
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword1
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword2
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword3
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword4
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword5
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword6
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword7
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword8
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyword9
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyworda
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordb
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordc
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordd
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keyworde
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: link_keywordf
+		link_id	int(11)	NOT NULL
+		keyword_id	int(11)	NOT NULL
+		weight	int(3)
+		domain	int(4)
+	Table: links
+		link_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		site_id	int(11)
+		url	varchar(255)	NOT NULL
+		title	varchar(200)
+		description	varchar(255)
+		fulltxt	mediumtext
+		indexdate	date
+		size	float
+		md5sum	varchar(32)
+		visible	int(11)	Default(0)
+		level	int(11)
+	Table: listing
+		ID	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		MARKET	varchar(10)	NOT NULL
+		NAME_EN	varchar(300)	NOT NULL
+		CODE	varchar(10)	NOT NULL
+		IPO	char(12)	NOT NULL
+		INDUSTRY	varchar(300)	NOT NULL
+	Table: management
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		csv	varchar(255)
+		active	int(10)
+		header	text
+	Table: manager_indexes
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		directory	varchar(255)
+		header	varchar(255)
+	Table: manager_indexes_month
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		directory	varchar(255)
+		header	varchar(255)
+	Table: manager_indexes_year
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		directory	varchar(255)
+		header	varchar(255)
+	Table: manager_searching
+		id	int(10)	NOT NULL	PRIMARY
+		name	varchar(255)
+		url	varchar(255)
+		content1	longtext
+		content1_unicode	longtext
+		content2	longtext
+		content2_unicode	longtext
+		content3	longtext
+		content3_unicode	longtext
+	Table: manufacturers
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_manufacturers	varchar(255)
+		name	varchar(255)
+		description	text
+		images	varchar(255)
+	Table: media
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		images	varchar(255)
+		orders	int(11)
+		active	smallint(6)
+		links	varchar(255)	Default(#)
+		cate_slide	varchar(255)
+		type	varchar(255)	NOT NULL	Default(image)
+	Table: media_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		slide_id	int(11)
+		code_lang	varchar(255)
+		name	varchar(255)
+		alt	varchar(255)
+		file	varchar(255)
+	Table: menu
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		links	varchar(255)
+		mother_id	int(11)	Default(0)
+		orders	int(11)
+		active	smallint(6)
+		images	varchar(255)
+	Table: menu_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		menu_id	int(11)
+		code_lang	varchar(255)
+		name	varchar(255)
+		intro	varchar(255)
+	Table: news
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		code_cate_news	varchar(255)
+		id_news_relative	int(11)
+		active	smallint(6)
+		rating	smallint(6)
+		orders	int(11)	Default(0)
+		views	int(11)
+		files	varchar(255)
+		dates	datetime
+		poster	varchar(255)
+	Table: news_comment
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		morther_id	int(11)
+		id_news	int(11)
+		name	varchar(255)
+		email	varchar(255)
+		content	text
+		dates	datetime
+		orders	int(11)
+		active	smallint(6)
+	Table: news_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		id_news	int(11)
+		code_lang	varchar(254)
+		title	varchar(254)
+		intro	text
+		content	text
+		images	varchar(254)
+		meta_des	varchar(254)
+		meta_key	varchar(254)
+		url	varchar(254)
+		url_second	varchar(254)
+		url_third	varchar(254)
+	Table: news_relative
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		name	varchar(255)
+	Table: newsletters
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		email	varchar(255)
+		active	int(1)	NOT NULL	Default(1)
+	Table: obs_home
+		code	varchar(255)	NOT NULL
+		date	date	NOT NULL
+		yyyymm	varchar(6)	NOT NULL
+		yyyy	varchar(4)	NOT NULL
+		close	double	NOT NULL
+		varmonth	float	NOT NULL
+		varyear	float	NOT NULL
+		volat	float	NOT NULL
+		provider	varchar(64)	NOT NULL
+		id	int(15)	NOT NULL	PRIMARY	auto_increment
+	Table: obs_home_copy
+		id	int(15)	NOT NULL	PRIMARY	auto_increment
+		code	varchar(255)	NOT NULL
+		date	date	NOT NULL
+		yyyymm	varchar(6)	NOT NULL
+		yyyy	varchar(4)	NOT NULL
+		close	double	NOT NULL
+		varmonth	float	NOT NULL
+		varyear	float	NOT NULL
+		volat	float	NOT NULL
+		provider	varchar(64)	NOT NULL
+	Table: option_price_result
+		STRIKE	int(10)	NOT NULL	PRIMARY
+		CALL2	varchar(255)
+		PUT2	varchar(255)
+		DIFF2	varchar(255)
+		CALL3	varchar(255)
+		PUT3	varchar(255)
+		DIFF3	varchar(255)
+		CALL6	varchar(255)
+		PUT6	varchar(255)
+		DIFF6	varchar(255)
+	Table: pages
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		name	varchar(255)
+		layouts	varchar(255)
+		news	varchar(255)
+		sorts	varchar(255)
+		code	varchar(255)
+	Table: pages_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		pages_id	int(11)
+		code_lang	varchar(255)
+		headers	varchar(255)
+		intro	text
+		name_shortcut	varchar(255)
+		keywords	varchar(255)
+		description	text
+	Table: pending
+		site_id	int(11)
+		temp_id	varchar(32)
+		level	int(11)
+		count	int(11)
+		num	int(11)
+	Table: perf_data
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		yyyymm	int(6)
+		yyyy	int(4)
+		code	varchar(15)
+		name	varchar(255)
+		place	varchar(255)
+		date	varchar(10)
+		close	double
+		y1	double
+		y2	double
+		y3	double
+		y4	double
+		y5	double
+		m1	double
+		m2	double
+		m3	double
+		m4	double
+		m5	double
+		m6	double
+		m7	double
+		m8	double
+		m9	double
+		m10	double
+		m11	double
+		m12	double
+		m13	double
+		m14	double
+		m15	double
+		m16	double
+		m17	double
+		m18	double
+		m19	double
+		m20	double
+		m21	double
+		m22	double
+		m23	double
+		m24	double
+		m25	double
+		m26	double
+		m27	double
+		m28	double
+		m29	double
+		m30	double
+		m31	double
+		m32	double
+		m33	double
+		m34	double
+		m35	double
+		m36	double
+		m37	double
+		m38	double
+		m39	double
+		m40	double
+		m41	double
+		m42	double
+		m43	double
+		m44	double
+		m45	double
+		m46	double
+		m47	double
+		m48	double
+		m49	double
+		m50	double
+		m51	double
+		m52	double
+		m53	double
+		m54	double
+		m55	double
+		m56	double
+		m57	double
+		m58	double
+		m59	double
+		m60	double
+		m61	double
+		ytd	double
+		y2008	double
+		y2009	double
+		y2010	double
+		y2011	double
+		y2012	double
+	Table: perf_data_chart
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		yyyymm	int(6)
+		yyyy	int(4)
+		code	varchar(15)
+		name	varchar(255)
+		place	varchar(255)
+		date	varchar(10)
+		close	double
+		y1	double
+		y2	double
+		y3	double
+		y4	double
+		y5	double
+		m1	double
+		m2	double
+		m3	double
+		m4	double
+		m5	double
+		m6	double
+		m7	double
+		m8	double
+		m9	double
+		m10	double
+		m11	double
+		m12	double
+		m13	double
+		m14	double
+		m15	double
+		m16	double
+		m17	double
+		m18	double
+		m19	double
+		m20	double
+		m21	double
+		m22	double
+		m23	double
+		m24	double
+		m25	double
+		m26	double
+		m27	double
+		m28	double
+		m29	double
+		m30	double
+		m31	double
+		m32	double
+		m33	double
+		m34	double
+		m35	double
+		m36	double
+		m37	double
+		m38	double
+		m39	double
+		m40	double
+		m41	double
+		m42	double
+		m43	double
+		m44	double
+		m45	double
+		m46	double
+		m47	double
+		m48	double
+		m49	double
+		m50	double
+		m51	double
+		m52	double
+		m53	double
+		m54	double
+		m55	double
+		m56	double
+		m57	double
+		m58	double
+		m59	double
+		m60	double
+		m61	double
+		ytd	double
+		y2008	double
+		y2009	double
+		y2010	double
+		y2011	double
+	Table: perf_idx
+		id	bigint(20)	NOT NULL	PRIMARY	auto_increment
+		user_id	int(11)	NOT NULL
+		name	varchar(255)	NOT NULL
+		code	longtext	NOT NULL
+		publish	int(11)	NOT NULL	Default(0)
+	Table: perf_tmp
+		code	varchar(15)
+		yyyymm	int(6)
+		m1	double
+		ranking	bigint(21)
+		clset	int(11)
+	Table: query_log
+		query	varchar(255)
+		time	timestamp	NOT NULL	Default(CURRENT_TIMESTAMP)	on update CURRENT_TIMESTAMP
+		elapsed	float
+		results	int(11)
+	Table: result_price_performance
+		date_prices	varchar(255)
+		intercode	varchar(255)
+		close_last	varchar(255)
+		date_eoy	varchar(255)
+		close_eoy	varchar(255)
+		variation	varchar(255)
+		high	varchar(255)
+		low	varchar(255)
+	Table: searching
+		index_en.html	longtext	NOT NULL
+		products_en.html	longtext	NOT NULL
+		services_en.html	longtext	NOT NULL
+		solutions_en.html	longtext	NOT NULL
+		team_HuuMinhMAI.html	longtext	NOT NULL
+		team_ThiNgocHanHUYNH_en.html	longtext	NOT NULL
+		team_PhuocNguyenTRAN_en.html	longtext	NOT NULL
+		team_HoangNhiLE_en.html	longtext	NOT NULL
+		services_conseils_en.html	longtext	NOT NULL
+		services_indexing_en.html	longtext	NOT NULL
+		services-creation-entreprise_en.html	longtext	NOT NULL
+	Table: shop_category
+		id	int(15)	NOT NULL	PRIMARY	auto_increment
+		shop_id	int(15)	NOT NULL
+		category_code	varchar(255)	NOT NULL
+	Table: shop_info
+		id	int(10)	NOT NULL	PRIMARY	auto_increment
+		name	varchar(255)
+		logo	varchar(255)
+		address	varchar(255)
+		website	varchar(255)
+		active	int(1)	NOT NULL	Default(1)
+		created_on	timestamp	NOT NULL	Default(CURRENT_TIMESTAMP)
+		last_mod	datetime
+		owner_id	int(10)
+		map	varchar(255)
+		intro	text
+		description	text
+		zipcode	varchar(255)
+		city	varchar(255)
+		phone	varchar(255)
+		category_code	varchar(255)
+		distinction	varchar(255)
+		cv	tinyint(1)
+		pack	varchar(255)
+		fax	varchar(255)
+		subscription_start	varchar(255)
+		subscription_end	varchar(255)
+		subscription_status	varchar(255)
+		subscription_payment	varchar(255)
+		meta_keyword	text
+		meta_description	text
+		orders	int(10)	NOT NULL	Default(0)
+		email	varchar(255)
+		mobile	varchar(255)
+		activity	varchar(255)
+		opening	varchar(255)
+		closing	varchar(255)
+	Table: shop_media
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		title	varchar(255)
+		description	varchar(255)
+		alt	varchar(255)
+		orders	int(11)
+		created_on	timestamp	NOT NULL	Default(CURRENT_TIMESTAMP)
+		active	int(1)	NOT NULL	Default(1)
+		image	varchar(255)
+		shop_id	int(11)	NOT NULL
+		type	varchar(255)	NOT NULL	Default(image)
+		link	varchar(255)
+	Table: shop_owner
+		id	int(10)	NOT NULL	PRIMARY	auto_increment
+		email	varchar(255)	NOT NULL
+		password	varchar(255)	NOT NULL
+		active	int(1)	NOT NULL	Default(1)
+		firstname	varchar(255)	NOT NULL
+		lastname	varchar(255)	NOT NULL
+		phone	varchar(255)	NOT NULL
+		gender	int(1)	NOT NULL
+		birthday	varchar(255)	NOT NULL
+		created_on	datetime	NOT NULL
+		last_mod	datetime	NOT NULL
+		address	varchar(255)	NOT NULL
+		zipcode	varchar(255)	NOT NULL
+		city	varchar(255)	NOT NULL
+	Table: shop_pack
+		pid	int(15)	NOT NULL	PRIMARY	auto_increment
+		name_pack	varchar(255)
+		order	int(2)
+	Table: site_category
+		site_id	int(11)
+		category_id	int(11)
+	Table: sites
+		site_id	int(11)	NOT NULL	PRIMARY	auto_increment
+		url	varchar(255)
+		title	varchar(255)
+		short_desc	text
+		indexdate	date
+		spider_depth	int(11)	Default(2)
+		required	text
+		disallowed	text
+		can_leave_domain	tinyint(1)
+	Table: slide
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		images	varchar(255)
+		orders	int(11)
+		active	smallint(6)
+		links	varchar(255)	Default(#)
+		cate_slide	varchar(255)
+	Table: slide_detail
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		slide_id	int(11)
+		code_lang	varchar(255)
+		name	varchar(255)
+	Table: sys_format
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		TABLES	varchar(255)
+		FIELDS	varchar(255)
+		HEADERS	varchar(255)
+		WIDTHS	varchar(255)
+		ALIGNS	varchar(255)
+		FORMATS	varchar(255)
+		DECIMALS	smallint(6)
+		ORDERS	smallint(6)
+		EDITTYPE	varchar(255)
+		EDITOPTION	varchar(255)
+		DESCRIPTIONS	varchar(255)
+		SORTABLE	varchar(10)	NOT NULL	Default(true)
+	Table: temp
+		link	varchar(255)
+		level	int(11)
+		id	varchar(32)
+	Table: test_comp
+		ID	double	NOT NULL	Default(0)
+		CODE	varchar(16)
+		ISIN	varchar(20)
+		NAME	varchar(60)
+		CURR	varchar(20)
+		SHARES	varchar(20)
+		FLOATS	varchar(20)
+		CAPPING	varchar(20)
+		LAST	varchar(20)
+		DATE	varchar(20)
+		WEIGHT	varchar(20)
+		PROVIDER	varchar(64)
+	Table: tmp
+		date	varchar(10)
+		code	varchar(20)
+	Table: translates
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		words	text
+		code_lang	varchar(255)
+		translates	text
+	Table: users
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		user	varchar(255)	NOT NULL
+		pass	varchar(255)
+		levels	smallint(6)
+		name	varchar(255)
+		dates	datetime
+		email	varchar(255)
+		phone	varchar(255)
+		images	varchar(255)
+		active	smallint(6)	Default(0)
+		lastlogin	datetime	NOT NULL
+	Table: idx_ref
+		idx_code	varchar(20)	NOT NULL
+		idx_name	varchar(100)	NOT NULL
+		idx_name_sn	varchar(100)	NOT NULL
+		idx_curr	varchar(6)	NOT NULL
+		idx_base	double(20,6)	NOT NULL
+		idx_dtbase	varchar(10)	NOT NULL
+		idx_type	varchar(50)	NOT NULL
+		idx_mother	varchar(20)	NOT NULL	Default(NULL)
+		idx_bbs	varchar(50)	NOT NULL
+		calculs	smallint(6)	NOT NULL
+		publications	smallint(6)	NOT NULL
+		idx_start_date	varchar(10)
+		idx_end_date	varchar(10)
+		idx_frequency	varchar(3)	NOT NULL
+		calcul_types	varchar(3)
+		idx_capp	double(30,10)	NOT NULL
+		idx_qlf	varchar(254)	NOT NULL
+		idx_compo_rev	varchar(254)	NOT NULL
+		idx_shares_rev	varchar(254)	NOT NULL
+		idx_frev	varchar(254)	NOT NULL
+		idx_fbanding	varchar(254)	NOT NULL
+		idx_ftreproduct	varchar(254)	NOT NULL
+		idx_oproduct	varchar(254)	NOT NULL
+		idx_etfproduct	varchar(254)	NOT NULL
+		idx_c_mech	varchar(254)	NOT NULL
+		idx_histo	varchar(254)	NOT NULL
+		idx_launch	varchar(254)	NOT NULL
+		idx_web	varchar(254)	NOT NULL
+		idx_isin	varchar(254)	NOT NULL
+		idx_reuters	varchar(254)	NOT NULL
+		idx_bl	varchar(254)	NOT NULL
+		idx_yh	varchar(254)	NOT NULL
+		idx_ggl	varchar(254)	NOT NULL
+		idx_igs	varchar(254)
+		idx_es	varchar(254)
+		idx_sel	varchar(254)
+		idx_inconnect	varchar(254)
+		idx_capfrev	varchar(254)
+		idx_sg	varchar(10)
+		idx_last	double
+		idx_divisor_nxt	double
+		idx_ncompo	varchar(254)	NOT NULL
+		idx_wgt_type	varchar(254)	NOT NULL
+		idx_base_capi	int(254)	NOT NULL
+		start_time	varchar(100)
+		end_time	varchar(100)
+		frequency	double
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+		mother	int(11)
+		ims_order	int(11)
+		idx_name_vn	varchar(100)
+		date	date
+	Table: idx_compo
+		stk_code	varchar(20)
+		stk_name	varchar(100)
+		stk_shares_idx	double
+		stk_float_idx	double
+		stk_capp_idx	double
+		idx_code	varchar(20)
+		date	date
+		start_date	date
+		end_date	date
+		stk_curr	varchar(8)
+		id	int(11)	NOT NULL	PRIMARY	auto_increment
+	Table: idx_composition
+		id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+		date	date	NOT NULL
+		time	time	NOT NULL
+		idx_code	varchar(20)
+		idx_curr	varchar(8)
+		stk_code	varchar(50)
+		stk_name	varchar(255)	NOT NULL
+		stk_curr	varchar(10)	NOT NULL
+		stk_mult	double	NOT NULL
+		stk_shares_idx	double	NOT NULL
+		stk_float_idx	double	NOT NULL
+		stk_capp_idx	double	NOT NULL
+		stk_price	double
+		curr_conv	double
+		stk_curr_conv	double	NOT NULL
+		stk_mcap_idx	double	NOT NULL
+		stk_dprice_nr	double
+		stk_dcurr_conv	double
+		stk_dprice	double
+		stk_dcap_idx	double	NOT NULL	Default(0)
+		stk_dcap_nr	double
+		stk_wgt	double
+		stk_tr	double
+		stk_pr	double
+		stk_nr	double
+		nxt_date	date	NOT NULL
+		nxt_stk_code	varchar(50)
+		nxt_stk_curr	varchar(3)
+		nxt_stk_mult	double
+		nxt_shares_idx	double
+		nxt_float_idx	double
+		nxt_capp_idx	double
+		nxt_price	double
+		to_adjust	smallint(6)	Default(0)
+		nxt_adjca	int(11)
+		nxt_adjcmp	int(11)
+		nxt_adjust	double
+		new_shares	double	NOT NULL
+		nstk_curr_conv	double	NOT NULL	Default(0)
+		nstk_mcap_idx	double	NOT NULL	Default(0)
+		specs_id	int(10)	NOT NULL
+		adjcoeff	varchar(255)
+		Array
+		Array
+		Array
+		Array
+		Array
+		Array
+		Array
+		Array
+		Array
+ims	idx_ref	idx_code	varchar(20)	NOT NULL
+ims	idx_ref	idx_name	varchar(100)	NOT NULL
+ims	idx_ref	idx_name_sn	varchar(100)	NOT NULL
+ims	idx_ref	idx_curr	varchar(6)	NOT NULL
+ims	idx_ref	idx_base	double(20,6)	NOT NULL
+ims	idx_ref	idx_dtbase	varchar(10)	NOT NULL
+ims	idx_ref	idx_type	varchar(50)	NOT NULL
+ims	idx_ref	idx_mother	varchar(20)	NOT NULL	Default(NULL)
+ims	idx_ref	idx_bbs	varchar(50)	NOT NULL
+ims	idx_ref	calculs	smallint(6)	NOT NULL
+ims	idx_ref	publications	smallint(6)	NOT NULL
+ims	idx_ref	idx_start_date	varchar(10)
+ims	idx_ref	idx_end_date	varchar(10)
+ims	idx_ref	idx_frequency	varchar(3)	NOT NULL
+ims	idx_ref	calcul_types	varchar(3)
+ims	idx_ref	idx_capp	double(30,10)	NOT NULL
+ims	idx_ref	idx_qlf	varchar(254)	NOT NULL
+ims	idx_ref	idx_compo_rev	varchar(254)	NOT NULL
+ims	idx_ref	idx_shares_rev	varchar(254)	NOT NULL
+ims	idx_ref	idx_frev	varchar(254)	NOT NULL
+ims	idx_ref	idx_fbanding	varchar(254)	NOT NULL
+ims	idx_ref	idx_ftreproduct	varchar(254)	NOT NULL
+ims	idx_ref	idx_oproduct	varchar(254)	NOT NULL
+ims	idx_ref	idx_etfproduct	varchar(254)	NOT NULL
+ims	idx_ref	idx_c_mech	varchar(254)	NOT NULL
+ims	idx_ref	idx_histo	varchar(254)	NOT NULL
+ims	idx_ref	idx_launch	varchar(254)	NOT NULL
+ims	idx_ref	idx_web	varchar(254)	NOT NULL
+ims	idx_ref	idx_isin	varchar(254)	NOT NULL
+ims	idx_ref	idx_reuters	varchar(254)	NOT NULL
+ims	idx_ref	idx_bl	varchar(254)	NOT NULL
+ims	idx_ref	idx_yh	varchar(254)	NOT NULL
+ims	idx_ref	idx_ggl	varchar(254)	NOT NULL
+ims	idx_ref	idx_igs	varchar(254)
+ims	idx_ref	idx_es	varchar(254)
+ims	idx_ref	idx_sel	varchar(254)
+ims	idx_ref	idx_inconnect	varchar(254)
+ims	idx_ref	idx_capfrev	varchar(254)
+ims	idx_ref	idx_sg	varchar(10)
+ims	idx_ref	idx_last	double
+ims	idx_ref	idx_divisor_nxt	double
+ims	idx_ref	idx_ncompo	varchar(254)	NOT NULL
+ims	idx_ref	idx_wgt_type	varchar(254)	NOT NULL
+ims	idx_ref	idx_base_capi	int(254)	NOT NULL
+ims	idx_ref	start_time	varchar(100)
+ims	idx_ref	end_time	varchar(100)
+ims	idx_ref	frequency	double
+ims	idx_ref	id	int(11)	NOT NULL	PRIMARY	auto_increment
+ims	idx_ref	mother	int(11)
+ims	idx_ref	ims_order	int(11)
+ims	idx_ref	idx_name_vn	varchar(100)
+ims	idx_ref	date	dateims	idx_compo	stk_code	varchar(20)
+ims	idx_compo	stk_name	varchar(100)
+ims	idx_compo	stk_shares_idx	double
+ims	idx_compo	stk_float_idx	double
+ims	idx_compo	stk_capp_idx	double
+ims	idx_compo	idx_code	varchar(20)
+ims	idx_compo	date	date
+ims	idx_compo	start_date	date
+ims	idx_compo	end_date	date
+ims	idx_compo	stk_curr	varchar(8)
+ims	idx_compo	id	int(11)	NOT NULL	PRIMARY	auto_incrementims	idx_composition	id	int(10) unsigned	NOT NULL	PRIMARY	auto_increment
+ims	idx_composition	date	date	NOT NULL
+ims	idx_composition	time	time	NOT NULL
+ims	idx_composition	idx_code	varchar(20)
+ims	idx_composition	idx_curr	varchar(8)
+ims	idx_composition	stk_code	varchar(50)
+ims	idx_composition	stk_name	varchar(255)	NOT NULL
+ims	idx_composition	stk_curr	varchar(10)	NOT NULL
+ims	idx_composition	stk_mult	double	NOT NULL
+ims	idx_composition	stk_shares_idx	double	NOT NULL
+ims	idx_composition	stk_float_idx	double	NOT NULL
+ims	idx_composition	stk_capp_idx	double	NOT NULL
+ims	idx_composition	stk_price	double
+ims	idx_composition	curr_conv	double
+ims	idx_composition	stk_curr_conv	double	NOT NULL
+ims	idx_composition	stk_mcap_idx	double	NOT NULL
+ims	idx_composition	stk_dprice_nr	double
+ims	idx_composition	stk_dcurr_conv	double
+ims	idx_composition	stk_dprice	double
+ims	idx_composition	stk_dcap_idx	double	NOT NULL	Default(0)
+ims	idx_composition	stk_dcap_nr	double
+ims	idx_composition	stk_wgt	double
+ims	idx_composition	stk_tr	double
+ims	idx_composition	stk_pr	double
+ims	idx_composition	stk_nr	double
+ims	idx_composition	nxt_date	date	NOT NULL
+ims	idx_composition	nxt_stk_code	varchar(50)
+ims	idx_composition	nxt_stk_curr	varchar(3)
+ims	idx_composition	nxt_stk_mult	double
+ims	idx_composition	nxt_shares_idx	double
+ims	idx_composition	nxt_float_idx	double
+ims	idx_composition	nxt_capp_idx	double
+ims	idx_composition	nxt_price	double
+ims	idx_composition	to_adjust	smallint(6)	Default(0)
+ims	idx_composition	nxt_adjca	int(11)
+ims	idx_composition	nxt_adjcmp	int(11)
+ims	idx_composition	nxt_adjust	double
+ims	idx_composition	new_shares	double	NOT NULL
+ims	idx_composition	nstk_curr_conv	double	NOT NULL	Default(0)
+ims	idx_composition	nstk_mcap_idx	double	NOT NULL	Default(0)
+ims	idx_composition	specs_id	int(10)	NOT NULL
+ims	idx_composition	adjcoeff	varchar(255)

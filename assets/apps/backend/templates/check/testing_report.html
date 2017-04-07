@@ -1,0 +1,49 @@
+<div style="max-height: 400px; overflow: scroll">
+    <table class="table sortable" cellspacing="0" width="100%">
+
+        <thead>
+            <tr>
+                <th scope="col" sType="numeric" bSortable="true">FOLDER NUMBER
+                    <span class="column-sort">
+                        <a href="#" title="Sort up" class="sort-up"></a>
+                        <a href="#" title="Sort down" class="sort-down"></a>
+                    </span>
+                </th>
+                <th scope="col" sType="numeric" bSortable="false">FIELD</th>
+                <th scope="col" sType="numeric" bSortable="false">MAX</th>
+                <th scope="col" sType="numeric" bSortable="false">EPSILON</th>
+                <th scope="col" sType="numeric" bSortable="false">IDX_CODE</th>
+                <th scope="col" sType="numeric" bSortable="true">STATUS
+                    OK: 0
+                    Else: 1
+                    <span class="column-sort">
+                        <a href="#" title="Sort up" class="sort-up"></a>
+                        <a href="#" title="Sort down" class="sort-down"></a>
+                    </span>
+                </th>
+                <th scope="col" sType="numeric" bSortable="false">WARNING</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%
+            _.each(report, function(value,folder){
+            if(_.isObject(value)){
+            _.each(value, function(field,key){
+            %>
+            <tr>
+                <td><%=folder%></td>
+                <td><%=key%></td>
+                <td><%=field.max%></td>
+                <td><%=field.epsilon%></td>
+                <td><%=field.idx_code%></td>
+                <td><%=field.status%></td>
+                <td><%=value.warning%></td>
+            </tr>
+            <%
+            });
+            }
+            });
+            %>
+        </tbody>
+    </table>
+</div>

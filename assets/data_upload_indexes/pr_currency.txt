@@ -1,0 +1,254 @@
+COUNTRY_ISO3	COUNTRY_ISO2	COUNTRY_NAME	CUR_CODE	CUR_NAME
+ABW	AW	Aruba	AWG	Aruban Guilder
+AFG	AF	Afghanistan	AFN	Afgahani
+AGO	AO	Angola	AOA	Kwanza
+AIA	AI	Anguilla	XCD	East Caribbean Dollar
+ALA	AX	Åland Islands	EUR	Euro
+ALB	AL	Albania	ALL	Lek
+AND	AD	Andorra	EUR	Euro
+ARE	AE	United Arab Emirates	AED	UAE Dirham
+ARG	AR	Argentina	ARS	Argentine Peso
+ARM	AM	Armenia	AMD	Armenian Dram
+ASM	AS	American Samoa	USD	US Dollar
+ATA	AQ	Antarctica		No universal currency
+ATF	TF	French Southern and Antarctic Territories	EUR	Euro
+ATG	AG	Antigua and Barbuda	XCD	East Caribbean Dollar
+AUS	AU	Australia	AUD	Australian Dollar
+AUT	AT	Austria	EUR	Euro
+AZE	AZ	Azerbaijan	AZN	Azerbaijanian Manat
+BDI	BI	Burundi	BIF	Burundi Franc
+BEL	BE	Belgium	EUR	Euro
+BEN	BJ	Benin	XOF	CFA Franc BCEAO 
+BFA	BF	Burkina Faso	XOF	CFA Franc BCEAO 
+BGD	BD	Bangladesh	BDT	Taka
+BGR	BG	Bulgaria	BGN	Bulgarian Lev
+BHR	BH	Bahrain	BHD	Bahraini Dinar
+BHS	BS	Bahamas	BSD	Bahamian Dollar
+BIH	BA	Bosnia and Herzegovina	BAM	Convertible Mark
+BLR	BY	Belarus	BYR	Belarussian Ruble
+BLZ	BZ	Belize	BZD	Belize Dollar
+BMU	BM	Bermuda	BMD	Bermudian Dollar
+BOL	BO	Bolivia	BOB	Boliviano
+BOL	BO	Bolivia	BOV	Mvdol 
+BRA	BR	Brazil	BRL	Brazilian Real
+BRB	BB	Barbados	BBD	Barbados Dollar
+BRN	BN	Brunei Darussalam	BND	Brunei Dollar
+BTN	BT	Bhutan	BTN	Ngultrum 
+BTN	BT	Bhutan	INR	Indian Rupee
+BVT	BV	Bouvet Island	NOK	Norwegian Krone
+BWA	BW	Botswana	BWP	Pula
+CAF	CF	Central African Republic	XAF	CFA Franc BEAC 
+CAN	CA	Canada	CAD	Canadian Dollar
+CCK	CC	Cocos (Keeling) Islands	AUD	Australian Dollar
+CHE	CH	Switzerland	CHE	WIR Euro 
+CHE	CH	Switzerland	CHF	Swiss Franc
+CHE	CH	Switzerland	CHW	WIR Franc  
+CHL	CL	Chile	CLF	Unidades de fomento 
+CHL	CL	Chile	CLP	Chilean Peso
+CHN	CN	China	CNY	Yuan Renminbi
+CIV	CI	Côte d'Ivoire	XOF	CFA Franc BCEAO 
+CMR	CM	Cameroon	XAF	CFA Franc BEAC 
+COD	CD	Democratic Republic of the Congo	CDF	Congolese Franc 
+COG	CG	Congo	XAF	CFA Franc BEAC 
+COK	CK	Cook Islands	NZD	New Zealand Dollar
+COL	CO	Colombia	COP	Colombian Peso
+COL	CO	Colombia	COU	Unidad de Valor Real 
+COM	KM	Comoros	KMF	Comoro Franc
+CPV	CV	Cape Verde	CVE	Cape Verde Escudo
+CRI	CR	Costa Rica	CRC	Costa Rican Colon
+CUB	CU	Cuba	CUC	Peso Convertible  
+CUB	CU	Cuba	CUP	Cuban Peso
+CXR	CX	Christmas Island	AUD	Australian Dollar
+CYM	KY	Cayman Islands	KYD	Cayman Islands Dollar
+CYP	CY	Cyprus	EUR	Euro
+CZE	CZ	Czech Republic	CZK	Czech Koruna
+DEU	DE	Germany	EUR	Euro
+DJI	DJ	Djibouti	DJF	Djibouti Franc
+DMA	DM	Dominica	XCD	East Caribbean Dollar
+DNK	DK	Denmark	DKK	Danish Krone
+DOM	DO	Dominican Republic	DOP	Dominican Peso
+DZA	DZ	Algeria	DZD	Algerian Dinar
+ECU	EC	Ecuador	USD	US Dollar
+EGY	EG	Egypt	EGP	Egyptian Pound
+ERI	ER	Eritrea	ERN	Nakfa
+ESH	EH	Western Sahara	MAD	Moroccan Dirham
+ESP	ES	Spain	EUR	Euro
+EST	EE	Estonia	EUR	Euro
+ETH	ET	Ethiopia	ETB	Ethiopian Birr
+FIN	FI	Finland	EUR	Euro
+FJI	FJ	Fiji	FJD	Fiji Dollar
+FLK	FK	Falkland Islands (Malvinas)	FKP	Falkland Islands Pound
+FRA	FR	France	EUR	Euro
+FRO	FO	Faroe Islands	DKK	Danish Krone
+FSM	FM	Micronesia (Federated States of)	USD	US Dollar
+GAB	GA	Gabon	XAF	CFA Franc BEAC 
+GBR	GB	United Kingdom	GBP	Pound Sterling
+GEO	GE	Georgia	GEL	Lari
+GGY	GG	Guernsey	GBP	Pound Sterling
+GHA	GH	Ghana	GHS	Cedi
+GIB	GI	Gibraltar	GIP	Gibraltar Pound
+GIN	GN	Guinea	GNF	Guinea Franc
+GLP	GP	Guadeloupe	EUR	Euro
+GMB	GM	Gambia	GMD	Dalasi
+GNB	GW	Guinea-Bissau	XOF	CFA Franc BCEAO 
+GNQ	GQ	Equatorial Guinea	XAF	CFA Franc BEAC 
+GRC	GR	Greece	EUR	Euro
+GRD	GD	Grenada	XCD	East Caribbean Dollar
+GRL	GL	Greenland	DKK	Danish Krone
+GTM	GT	Guatemala	GTQ	Quetzal
+GUF	GF	French Guiana	EUR	Euro
+GUM	GU	Guam	USD	US Dollar
+GUY	GY	Guyana	GYD	Guyana Dollar
+HKG	HK	Hong Kong	HKD	Hong Kong Dollar
+HMD	HM	Heard Island and McDonald Islands	AUD	Australian Dollar
+HND	HN	Honduras	HNL	Lempira
+HRV	HR	Croatia	HRK	Croatian Kuna
+HTI	HT	Haiti	HTG	Gourde
+HTI	HT	Haiti	USD	US Dollar
+HUN	HU	Hungary	HUF	Forint
+IDN	ID	Indonesia	IDR	Rupiah
+IMN	IM	Isle of Man	GBP	Pound Sterling
+IND	IN	India	INR	Indian Rupee
+IOT	IO	British Indian Ocean Territory	USD	US Dollar
+IRL	IE	Ireland	EUR	Euro
+IRN	IR	Iran  (Islamic Republic of)	IRR	Iranian Rial
+IRQ	IQ	Iraq	IQD	Iraqi Dinar
+ISL	IS	Iceland	ISK	Iceland Krona
+ISR	IL	Israel	ILS	New Israeli Sheqel
+ITA	IT	Italy	EUR	Euro
+JAM	JM	Jamaica	JMD	Jamaican Dollar
+JEY	JE	Jersey	GBP	Pound Sterling
+JOR	JO	Jordan	JOD	Jordanian Dinar
+JPN	JP	Japan	JPY	Yen
+KAZ	KZ	Kazakhstan	KZT	Tenge
+KEN	KE	Kenya	KES	Kenyan Shilling
+KGZ	KG	Kyrgyzstan	KGS	Som
+KHM	KH	Cambodia	KHR	Riel
+KIR	KI	Kiribati	AUD	Australian Dollar
+KNA	KN	Saint Kitts and Nevis	XCD	East Caribbean Dollar
+KOR	KR	Republic of Korea	KRW	Won
+KWT	KW	Kuwait	KWD	Kuwaiti Dinar
+LAO	LA	Lao People's Democratic Republic	LAK	Kip
+LBN	LB	Lebanon	LBP	Lebanese Pound
+LBR	LR	Liberia	LRD	Liberian Dollar
+LBY	LY	Libyan Arab Jamahiriya	LYD	Libyan Dinar
+LCA	LC	Saint Lucia	XCD	East Caribbean Dollar
+LIE	LI	Liechtenstein	CHF	Swiss Franc
+LKA	LK	Sri Lanka	LKR	Sri Lanka Rupee
+LSO	LS	Lesotho	LSL	Loti
+LSO	LS	Lesotho	ZAR	Rand
+LTU	LT	Lithuania	LTL	Lithuanian Litas
+LUX	LU	Luxembourg	EUR	Euro
+LVA	LV	Latvia	LVL	Latvian Lats
+MAC	MO	Macau	MOP	Pataca
+MAR	MA	Morocco	MAD	Moroccan Dirham
+MCO	MC	Monaco	EUR	Euro
+MDA	MD	Moldova, Republic of	MDL	Moldovan Leu
+MDG	MG	Madagascar	MGA	Malagasy Ariary
+MDV	MV	Maldives	MVR	Rufiyaa
+MEX	MX	Mexico	MXN	Mexican Peso
+MHL	MH	Marshall Islands	USD	US Dollar
+MKD	MK	The former Yugoslav Republic of Macedonia	MKD	Denar
+MLI	ML	Mali	XOF	CFA Franc BCEAO 
+MLT	MT	Malta	EUR	Euro 
+MMR	MM	Myanmar	MMK	Kyat
+MNE	ME	Montenegro	EUR	Euro
+MNG	MN	Mongolia	MNT	Tugrik
+MNP	MP	Northern Mariana Islands	USD	US Dollar
+MOZ	MZ	Mozambique	MZN	Metical
+MRT	MR	Mauritania	MRO	Ouguiya
+MSR	MS	Montserrat	XCD	East Caribbean Dollar
+MTQ	MQ	Martinique	EUR	Euro
+MUS	MU	Mauritius	MUR	Mauritius Rupee
+MWI	MW	Malawi	MWK	Kwacha
+MYS	MY	Malaysia	MYR	Malaysian Ringgit
+MYT	YT	Mayotte	EUR	Euro
+NAM	NA	Namibia	NAD	Namibia Dollar
+NCL	NC	New Caledonia	XPF	CFP Franc
+NER	NE	Niger	XOF	CFA Franc BCEAO 
+NFK	NF	Norfolk Island	AUD	Australian Dollar
+NGA	NG	Nigeria	NGN	Naira
+NIC	NI	Nicaragua	NIO	Cordoba Oro
+NIU	NU	Niue	NZD	New Zealand Dollar
+NLD	NL	Netherlands	EUR	Euro
+NOR	NO	Norway	NOK	Norwegian Krone
+NPL	NP	Nepal	NPR	Nepalese Rupee
+NRU	NR	Nauru	AUD	Australian Dollar
+NZL	NZ	New Zealand	NZD	New Zealand Dollar
+OMN	OM	Oman	OMR	Rial Omani
+PAK	PK	Pakistan	PKR	Pakistan Rupee
+PAN	PA	Panama	PAB	Balboa
+PAN	PA	Panama	USD	US Dollar
+PCN	PN	Pitcairn	NZD	New Zealand Dollar
+PER	PE	Peru	PEN	Nuevo Sol
+PHL	PH	Philippines	PHP	Philippine Peso
+PLW	PW	Palau	USD	US Dollar
+PNG	PG	Papua New Guinea	PGK	Kina
+POL	PL	Poland	PLN	Zloty
+PRI	PR	Puerto Rico	USD	US Dollar
+PRK	KP	Dem People's Rep of Korea	KPW	North Korean Won
+PRT	PT	Portugal	EUR	Euro
+PRY	PY	Paraguay	PYG	Guarani
+PSE	PS	Palestinian Territory		No universal currency
+PYF	PF	French Polynesia	XPF	CFP Franc
+QAT	QA	Qatar	QAR	Qatari Rial
+REU	RE	Reunion	EUR	Euro
+ROU	RO	Romania	RON	Leu  
+RUS	RU	Russian Federation	RUB	Russian Ruble
+RWA	RW	Rwanda	RWF	Rwanda Franc
+SAU	SA	Saudi Arabia	SAR	Saudi Riyal
+SDN	SD	Sudan	SDG	Sudanese Pound 
+SEN	SN	Senegal	XOF	CFA Franc BCEAO 
+SGP	SG	Singapore	SGD	Singapore Dollar
+SGS	GS	South Georgia and the South Sandwich Islands		No universal currency
+SHN	SH	Saint Helena	SHP	Saint Helena Pound
+SJM	SJ	Svalbard and Jan Mayen Islands	NOK	Norwegian Krone
+SLB	SB	Solomon Islands	SBD	Solomon Islands Dollar
+SLE	SL	Sierra Leone	SLL	Leone
+SLV	SV	El Salvador	SVC	El Salvador Colon
+SMR	SM	San Marino	EUR	Euro
+SOM	SO	Somalia	SOS	Somali Shilling
+SPM	PM	Saint Pierre et Miquelon	EUR	Euro
+SRB	RS	Serbia	RSD	Serbian Dinar
+STP	ST	Sao Tome and Principe	STD	Dobra
+SUR	SR	Suriname	SRD	Surinam Dollar
+SVK	SK	Slovakia	EUR	Euro 
+SVN	SI	Slovenia	EUR	Euro
+SWE	SE	Sweden	SEK	Swedish Krona
+SWZ	SZ	Swaziland	SZL	Lilangeni
+SYC	SC	Seychelles	SCR	Seychelles Rupee
+SYR	SY	Syrian Arab Republic	SYP	Syrian Pound
+TCA	TC	Turks and Caicos islands	USD	US Dollar
+TCD	TD	Chad	XAF	CFA Franc BEAC 
+TGO	TG	Togo	XOF	CFA Franc BCEAO 
+THA	TH	Thailand	THB	Baht
+TJK	TJ	Tajikistan	TJS	Somoni      
+TKL	TK	Tokelau	NZD	New Zealand Dollar
+TKM	TM	Turkmenistan	TMT	New Manat
+TLS	TL	Timor-Leste	USD	US Dollar
+TON	TO	Tonga	TOP	Pa’anga
+TTO	TT	Trinidad and Tobago	TTD	Trinidad and Tobago Dollar
+TUN	TN	Tunisia	TND	Tunisian Dinar
+TUR	TR	Turkey	TRY	Turkish Lira  
+TUV	TV	Tuvalu	AUD	Australian Dollar
+TWN	TW	Taiwan	TWD	New Taiwan Dollar
+TZA	TZ	United Republic of Tanzania	TZS	Tanzanian Shilling
+UGA	UG	Uganda	UGX	Uganda Shilling
+UKR	UA	Ukraine	UAH	Hryvnia
+UMI	UM	United States Minor Outlying Islands	USD	US Dollar
+URY	UY	Uruguay	UYU	Peso Uruguayo
+USA	US	United States of America	USD	US Dollar
+UZB	UZ	Uzbekistan	UZS	Uzbekistan Sum
+VAT	VA	Holy See	EUR	Euro
+VCT	VC	Saint Vincent and the Grenadines	XCD	East Caribbean Dollar
+VEN	VE	Venezuela	VEF	Bolivar Fuerte 
+VGB	VG	British Virgin Islands	USD	US Dollar
+VIR	VI	United States Virgin Islands	USD	US Dollar
+VNM	VN	Viet Nam	VND	Dong
+VUT	VU	Vanuatu	VUV	Vatu
+WLF	WF	Wallis and Futuna	XPF	CFP Franc
+WSM	WS	Samoa	WST	Tala
+YEM	YE	Yemen	YER	Yemeni Rial
+ZAF	ZA	South Africa	ZAR	Rand
+ZMB	ZM	Zambia	ZMK	Zambian Kwacha
+ZWE	ZW	Zimbabwe	ZWL	Zimbabwe Dollar   

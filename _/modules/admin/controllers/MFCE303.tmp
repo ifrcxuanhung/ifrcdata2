@@ -1,0 +1,440 @@
+<?php
+
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+
+/* * ******************************************************************************************************************* *
+ * 	 Author: Minh Đẹp Trai			 																					 *
+ * * ******************************************************************************************************************* */
+
+class Steps extends Admin {
+    public function __construct() {
+        parent::__construct();
+    }
+	public function update_indexes(){
+		$this->template->write_view('content', 'steps/update_indexes', $this->data);
+        $this->template->write('title', 'Update VNDB Step 1');
+        $this->template->render();
+	}
+	public function update_calendar(){
+		$this->template->write_view('content', 'steps/update_calendar', $this->data);
+        $this->template->write('title', 'Update VNDB Step 2');
+        $this->template->render();
+	}
+	public function update_prices(){
+		$this->template->write_view('content', 'steps/update_prices', $this->data);
+        $this->template->write('title', 'Update VNDB Step 3');
+        $this->template->render();
+	}
+	public function update_shares_allinone(){
+		$this->template->write_view('content', 'steps/update_shares_allinone', $this->data);
+        $this->template->write('title', 'Update VNDB Step 4 - All In One');
+        $this->template->render();
+	}
+	public function update_shares_import(){
+		$this->template->write_view('content', 'steps/update_shares_import', $this->data);
+        $this->template->write('title', 'Update VNDB Step 4 - Import');
+        $this->template->render();
+	}
+	public function update_shares_update(){
+		$this->template->write_view('content', 'steps/update_shares_update', $this->data);
+        $this->template->write('title', 'Update VNDB Step 4 - Update');
+        $this->template->render();
+	}
+	public function update_shares_clean(){
+		$this->template->write_view('content', 'steps/update_shares_clean', $this->data);
+        $this->template->write('title', 'Update VNDB Step 4 - Clean');
+        $this->template->render();
+	}
+	public function update_test(){
+		$this->template->write_view('content', 'steps/update_test', $this->data);
+        $this->template->write('title', 'Update VNDB Step 5');
+        $this->template->render();
+	}
+	public function process_indexes(){
+		if($this->input->is_ajax_request()){
+			$from = microtime(true);
+			$query_b1 = mysql_query("TRUNCATE TABLE vndb_metafile");
+			$sub_dir = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\INDEXES\\CAF\\';
+			$sub_dir_old = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\INDEXES\\CAF\\OLD\\';
+			//$sub_dir = 'D:\DOWNLOADS\VNDB\METASTOCK\INDEXES\\CAF\\';
+			$files_zip = glob($sub_dir. '*.zip');
+			foreach($files_zip as $base_zip){
+				$zip = new ZipArchive;
+				if ($zip->open($base_zip) === TRUE) {
+					for( $i = 0; $i < $zip->numFiles; $i++ ){ 
+						$stat = $zip->statIndex( $i ); 
+						$zip->renameName(basename( $stat['name'] ),'CAF_INDEX.csv');
+					}
+					$zip->close();
+					$zip->open($base_zip);
+					$zip->extractTo($sub_dir);
+					$zip->close();
+				}
+			}
+			$files_csv = glob($sub_dir . '*.csv');
+			foreach($files_csv as $base_csv)
+				{
+					$base_url_csv = str_replace("\\","\\\\",$base_csv);
+					$query_b2_csv = mysql_query("LOAD DATA INFILE '".$base_url_csv."' INTO TABLE vndb_metafile FIELDS TERMINATED BY ',' IGNORE 1 LINES");
+				}
+			$query_b2_1_a = mysql_query("UPDATE vndb_metafile SET vndb_metafile.ticker='^VNINDEX' where vndb_metafile.ticker='VNINDEX'");
+			
+			$query_b2_1_b = mysql_query("UPDATE vndb_metafile SET vndb_metafile.ticker='^HASTC' where vndb_metafile.ticker='HNX-INDEX'");
+			
+			$query_b2_1_c = mysql_query("UPDATE vndb_metafile SET vndb_metafile.date = date_format(str_to_date(vndb_metafile.dtyyyymmdd,'%Y%m%d'),'%Y-%m-%d')");
+			
+			$query_b3 = mysql_query("TRUNCATE vndb_indexes");
+			$query_b4 = mysql_query("INSERT INTO vndb_indexes(date,dtyyyymmdd)( SELECT date,dtyyyymmdd FROM vndb_metafile GROUP BY dtyyyymmdd ORDER BY dtyyyymmdd DESC)");
+			$query_b5 = mysql_query("UPDATE vndb_indexes, vndb_metafile SET vndb_indexes.vni = vndb_metafile.`close` WHERE vndb_metafile.dtyyyymmdd = vndb_indexes.dtyyyymmdd AND vndb_metafile.`ticker` = '^VNINDEX'");
+			$query_b6 = mysql_query("UPDATE vndb_indexes, vndb_metafile SET vndb_indexes.hnx = vndb_metafile.`close` WHERE vndb_metafile.dtyyyymmdd = vndb_indexes.dtyyyymmdd AND vndb_metafile.`ticker` = '^HASTC'");
+			$query_b7 = mysql_query("UPDATE vndb_indexes, vndb_metafile SET vndb_indexes.upc = vndb_metafile.`close` WHERE vndb_metafile.dtyyyymmdd = vndb_indexes.dtyyyymmdd AND vndb_metafile.`ticker` = '^UPCOM'");
+			$query_b9 = mysql_query("INSERT INTO vndb_indexes (date, dtyyyymmdd, vni, hnx, upc) (SELECT date, dtyyyymmdd, vni, hnx, upc FROM vndb_indexes_history GROUP BY dtyyyymmdd)");
+			$query_b10 = mysql_query("SELECT * FROM vndb_indexes_history");
+			$num_b10 = mysql_num_rows($query_b10);
+			if($num_b10 != 0){
+				$query_b11 = mysql_query("INSERT INTO vndb_indexes_history (date, dtyyyymmdd, vni, hnx, upc) (Select a.date, a.dtyyyymmdd, a.vni, a.hnx, a.upc from vndb_indexes AS a left join vndb_indexes_history AS b on a.date = b.date where b.date is null GROUP BY a.date);");
+			}else{
+				$query_b11 = mysql_query("INSERT INTO vndb_indexes_history (date, dtyyyymmdd, vni, hnx, upc) (Select a.date, a.dtyyyymmdd, a.vni, a.hnx, a.upc from vndb_indexes AS a GROUP BY a.date);");
+			}
+			$total = microtime(true) - $from;
+			$result[0]['time'] = round($total,2);
+			$result[0]['task'] = 'Update Indexes';
+			echo json_encode($result);
+		}
+	}
+	public function process_calendar(){
+		if($this->input->is_ajax_request()){
+			$from = microtime(true);
+			//$query_b1 = mysql_query("TRUNCATE TABLE vndb_calendar");
+			$query_b1 = mysql_query("select * from vndb_calendar");
+			$num_b1 = mysql_num_rows($query_b1);
+			if($num_b1 != 0){
+				$query_b2 = mysql_query("INSERT INTO vndb_calendar (date, dtyyyymmdd, vni, hnx, upc)(Select a.date, a.dtyyyymmdd, a.vni, a.hnx, a.upc from vndb_indexes_history AS a left join vndb_calendar AS b on a.date = b.date where b.date is null GROUP BY a.date);");
+			}else{
+				$query_b2 = mysql_query("INSERT INTO vndb_calendar (date, dtyyyymmdd, vni, hnx, upc)(Select a.date, a.dtyyyymmdd, a.vni, a.hnx, a.upc from vndb_indexes_history AS a GROUP BY a.date);");
+			}
+			$query_b3 = mysql_query("TRUNCATE TABLE vndb_stats_day");
+			$query_b4 = mysql_query("insert into vndb_stats_day (date, market, nbcomp, nbcomptr, svlm, strn, vlm, trn) (SELECT date, market, COUNT(date) AS nbcomp, SUM(IF(pcls<>0,1,0)) AS nbcomptr, SUM(vlm) AS svlm, SUM(trn) AS strn, SUM(IF(LENGTH(ticker)<4,vlm,0)) AS vlm, SUM(IF(LENGTH(ticker)<4,trn,0)) AS trn FROM vndb_meta_prices GROUP BY vndb_meta_prices.date, vndb_meta_prices.market ORDER BY date DESC,market)");
+			$total = microtime(true) - $from;
+			$result[0]['time'] = round($total,2);
+			$result[0]['task'] = 'Update Calendar';
+			echo json_encode($result);
+		}
+	}
+	public function process_prices(){
+		if($this->input->is_ajax_request()){
+			$from = microtime(true);
+			set_time_limit(0);
+			$query = mysql_query("SELECT * FROM setting where `key` = 'meta_files_reset'");
+			$result = mysql_fetch_row($query);
+			if($result[3] != '0'){
+				$query_b1 = mysql_query("TRUNCATE TABLE vndb_meta_prices");
+				$sub_dir_exc = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\PRICES\\EXC\\';
+				$files_exc = glob($sub_dir_exc . '*.txt');
+				foreach($files_exc as $base_exc){
+					$base_url_exc = str_replace("\\","\\\\",$base_exc);
+					$query_b2_exc = mysql_query("LOAD DATA INFILE '".$base_url_exc."' INTO TABLE vndb_meta_prices FIELDS TERMINATED BY '\t' IGNORE 1 LINES;");
+				}
+				$sub_dir_miss = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\PRICES\\MISSING\\';
+				$files_miss = glob($sub_dir_miss . '*.txt');
+				foreach($files_miss as $base_miss){
+					$base_url_miss = str_replace("\\","\\\\",$base_miss);
+					$query_b2_miss = mysql_query("LOAD DATA INFILE '".$base_url_miss."' INTO TABLE vndb_meta_prices FIELDS TERMINATED BY '\t' IGNORE 1 LINES;");
+				}
+			}else{
+				$query_b1 = mysql_query("SELECT * FROM vndb_calendar_missing_file");
+				$sub_dir_exc = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\PRICES\\EXC\\';
+				$sub_dir_miss = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\PRICES\\MISSING\\';
+				while($result_b1 = mysql_fetch_assoc($query_b1)){
+					$file_exc = $sub_dir_exc.$result_b1['file_name'];
+					$files_exc = glob($sub_dir_exc . '*.txt');
+					if(in_array($file_exc, $files_exc)){
+						$base_url_exc = str_replace("\\","\\\\",$file_exc);
+						$query_b2_a = mysql_query("LOAD DATA INFILE '".$base_url_exc."' INTO TABLE vndb_meta_prices FIELDS TERMINATED BY '\t' IGNORE 1 LINES;");
+					}
+					$file_miss = $sub_dir_miss.$result_b3['file_name'];	
+					$files_miss = glob($sub_dir_miss . '*.txt');
+					if(in_array($file_miss, $files_miss)){
+						$base_url_miss = str_replace("\\","\\\\",$file_miss);
+						$query_b2_b = mysql_query("LOAD DATA INFILE '".$base_url_miss."' INTO TABLE vndb_meta_prices FIELDS TERMINATED BY '\t' IGNORE 1 LINES;");	
+					}
+				}
+			}
+			$query_b3_a = mysql_query("TRUNCATE TABLE vndb_stats_day");
+			$query_b3_b = mysql_query("insert into vndb_stats_day (date, market, nbcomp, nbcomptr, svlm, strn, vlm, trn) (SELECT date, market, COUNT(date) AS nbcomp, SUM(IF(pcls<>0,1,0)) AS nbcomptr, SUM(vlm) AS svlm, SUM(trn) AS strn, SUM(IF(LENGTH(ticker)<4,vlm,0)) AS vlm, SUM(IF(LENGTH(ticker)<4,trn,0)) AS trn FROM vndb_meta_prices GROUP BY vndb_meta_prices.date, vndb_meta_prices.market ORDER BY date DESC,market)");
+			$query_b4 = mysql_query("update vndb_calendar,vndb_stats_day set vndb_calendar.prhnx = vndb_stats_day.nbcomp
+		where vndb_calendar.date = vndb_stats_day.date AND vndb_stats_day.market= 'HNX'");
+			$query_b5 = mysql_query("update vndb_calendar,vndb_stats_day set vndb_calendar.prhsx = vndb_stats_day.nbcomp
+	where vndb_calendar.date = vndb_stats_day.date AND vndb_stats_day.market= 'HSX'");
+			$query_b6 = mysql_query("update vndb_calendar,vndb_stats_day set vndb_calendar.prupc = vndb_stats_day.nbcomp
+	where vndb_calendar.date = vndb_stats_day.date AND vndb_stats_day.market= 'UPC';");
+			$query_b7 = mysql_query("DROP TABLE IF EXISTS vndb_calendar_missing");
+			$query_b8 = mysql_query("CREATE TABLE IF NOT EXISTS vndb_calendar_missing (SELECT date, vni, hnx, upc, prhsx, prhnx, prupc FROM vndb_calendar where (vni>0 AND ISNULL(prhsx)) OR (hnx>0 AND ISNULL(prhnx)) OR (upc>0 AND ISNULL(prupc)))");
+			$query_b9 = mysql_query("SELECT * FROM vndb_calendar_missing");
+			$query_b10 = mysql_query("TRUNCATE vndb_calendar_missing_file");
+			$num_b9 = mysql_num_rows($query_b9);
+			if($num_b9 != 0){
+				while($result_b9 = mysql_fetch_assoc($query_b9)){
+					$data_b9[] = $result_b9; 
+				}
+				foreach($data_b9 as $i_b9){
+					if($i_b9['vni'] != "" && $i_b9['prhsx'] == ""){
+						$date = $i_b9['date'];
+						$y = substr( $date, 0, 4 );
+						$m = substr( $date, 5, 2 );
+						$d = substr( $date, 8, 2 );
+						$cld_m_f = "EXC_HSX_".$y.$m.$d.".txt";
+						$query_b11 = mysql_query("INSERT INTO vndb_calendar_missing_file (`file_name`) VALUES ('".$cld_m_f."')");
+					}
+					if($i_b9['hnx'] != "" && $i_b9['prhnx'] == ""){
+						$date = $i_b9['date'];
+						$y = substr( $date, 0, 4 );
+						$m = substr( $date, 5, 2 );
+						$d = substr( $date, 8, 2 );
+						$cld_m_f = "EXC_HNX_".$y.$m.$d.".txt";
+						$query_b11 = mysql_query("INSERT INTO vndb_calendar_missing_file (`file_name`) VALUES ('".$cld_m_f."')");
+					}
+					if($i_b9['upc'] != "" && $i_b9['prupc'] == ""){
+						$date = $i_b9['date'];
+						$y = substr( $date, 0, 4 );
+						$m = substr( $date, 5, 2 );
+						$d = substr( $date, 8, 2 );
+						$cld_m_f = "EXC_UPC_".$y.$m.$d.".txt";
+						$query_b11 = mysql_query("INSERT INTO vndb_calendar_missing_file (`file_name`) VALUES ('".$cld_m_f."')");
+					}
+				}
+			}
+			$query_b11 = mysql_query("update vndb_meta_prices set vndb_meta_prices.last = 0;");
+        	$query_b12 = mysql_query("update vndb_meta_prices set vndb_meta_prices.last = vndb_meta_prices.pcls where vndb_meta_prices.ticker=ticker and market= market;");
+			$query_b13 = mysql_query("update vndb_meta_prices set vndb_meta_prices.last = vndb_meta_prices.pref where last=0 and ticker=ticker and market= market and yyyymmdd=yyyymmdd;");
+			$date_now = date('Y-m-d',time());
+			$arr['database'] = array('vndb_indexes','vndb_indexes_history','vndb_calendar','vndb_calendar_missing','vndb_meta_prices','vndb_metafile','vndb_stats_day');
+			$arr['market_1'] = array('First','HNX','VNI','UPC');
+			$arr['market_2'] = array('First','HNX','HSX','UPC');
+			$arr['market_3'] = array('First','^HASTC','^VNINDEX');
+			$query_report = mysql_query("SELECT * FROM vndb_reports where date = '".$date_now."'");
+			$num_report = mysql_num_rows($query_report);
+			if($num_report != 0){
+				$query_delete = mysql_query("DELETE FROM vndb_reports where date = '".$date_now."'");
+			}
+			foreach($arr['database'] as $db){
+				if($db == 'vndb_meta_prices' || $db == 'vndb_stats_day'){
+					foreach($arr['market_2'] as $mk2){
+						if($mk2 == 'First'){
+							$query_last = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db."' as task ,min(date) Min_date, max(date) Max_date, 'ALL' as market, count(*) from $db;");
+							if($db == 'vndb_meta_prices'){
+								$query_last_2 = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db.".last=0' as task ,min(date) Min_date, max(date) Max_date,'ALL' as market, count(*) from $db where last=0;");
+							}
+						}else{
+							$query_last = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db."' as task ,min(date) Min_date, max(date) Max_date,market, count(*) from $db where market='".$mk2."';");
+							if($db == 'vndb_meta_prices'){
+								$query_last_2 = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db.".last=0' as task ,min(date) Min_date, max(date) Max_date,'".$mk2."' as market, count(*) from $db where market='".$mk2."' and last=0;");
+							}
+						}
+					}
+				}elseif($db == 'vndb_metafile'){
+					foreach($arr['market_3'] as $mk3){
+						if($mk3 == 'First'){
+							$query_last = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db."' as task ,min(date) Min_date, max(date) Max_date, 'ALL' as market, count(*) from $db;");
+						}else{
+							$query_last = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db."' as task ,min(date) Min_date, max(date) Max_date,'".$mk3."' as market, count(*) from $db where ticker = '".$mk3."';");
+						}
+					}
+				}else{
+					foreach($arr['market_1'] as $mk1){
+						if($mk1 == 'First'){
+							$query_last = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db."' as task ,min(date) Min_date, max(date) Max_date, 'ALL' as market, count(*) from $db;");
+						}else{
+							$query_last = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, '".$db."' as task ,min(date) Min_date, max(date) Max_date,'".$mk1."' as market, count(*) from $db where $mk1;");
+						}
+					}
+				}
+			}
+			
+			$total = microtime(true) - $from;
+			$response[0]['time'] = round($total,2);
+			$response[0]['task'] = 'Update Price';
+			echo json_encode($response);
+		}
+	}
+	public function process_shares_allinone(){
+		if($this->input->is_ajax_request()){
+			$from = microtime(true);
+			set_time_limit(0);
+			$query_b1_a = mysql_query("TRUNCATE TABLE vndb_shares_dwl");
+			$query_b1_b = mysql_query("TRUNCATE TABLE vndb_reference_dwl");
+			$dir_hnx = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\REFERENCE\HNX\\';
+			$files_hnx = glob($dir_hnx . '*.txt');
+			foreach($files_hnx as $base_hnx){
+				$file_name_hnx = basename($base_hnx,".txt");
+				$base_url_hnx = str_replace("\\","\\\\",$base_hnx);
+				$query_b2_hnx = mysql_query("LOAD DATA INFILE '".$base_url_hnx."' INTO TABLE vndb_reference_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (source,ticker,name,market,date,yyyymmdd,ipo,ipo_shli,ipo_shou,ftrd,ftrd_cls,shli,shou,shfn,capi,capi_fora,capi_forn,capi_stat);");
+			}
+			$dir_fpt = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\SHARES\\FPT\\';
+			$files_fpt = glob($dir_fpt . '*.txt');
+			foreach($files_fpt as $base_fpt){
+				$file_name_fpt = basename($base_fpt,".txt");
+				$base_url_fpt = str_replace("\\","\\\\",$base_fpt);
+				$query_b2_fpt = mysql_query("LOAD DATA INFILE '".$base_url_fpt."' INTO TABLE vndb_shares_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (sources,ticker,market,date,yyyymmdd,shli,shou,shfn);");
+			}
+			$dir_vst = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\PRICES\\VST\\';
+			$files_vst = glob($dir_vst . '*.txt');
+			foreach($files_vst as $base_vst){
+				$file_name_vst = basename($base_vst,".txt");
+				$base_url_vst = str_replace("\\","\\\\",$base_vst);
+				$query_b2_vst = mysql_query("LOAD DATA INFILE '".$base_url_vst."' INTO TABLE vndb_shares_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (sources,ticker,market,date,yyyymmdd,shli,shou,shfn);");
+			}
+			$dir_vst2 = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\SHARES\\VST\\';
+			$files_vst2 = glob($dir_vst2 . '*.txt');
+			foreach($files_vst2 as $base_vst2){
+				$file_name_vst2 = basename($base_vst2,".txt");
+				$base_url_vst2 = str_replace("\\","\\\\",$base_vst2);
+				$query_b2_vst2 = mysql_query("LOAD DATA INFILE '".$base_url_vst2."' INTO TABLE vndb_shares_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (sources,ticker,market,date,yyyymmdd,shli,shou,shfn);");
+			}
+			$query_b3_a = mysql_query("update vndb_meta_prices as a, vndb_shares_dwl as b set a.shli = b.shli, a.shou = b.shou, a.shfn = b.shfn where a.ticker = b.ticker and a.yyyymmdd = b.yyyymmdd and b.sources = 'FPT';");
+			$query_b3_b = mysql_query("update vndb_meta_prices as a, vndb_shares_dwl as b set a.shli = b.shli, a.shfn = b.shfn where a.ticker = b.ticker and a.yyyymmdd = b.yyyymmdd and b.sources = 'VSTX';");
+			$total = microtime(true) - $from;
+			$response[0]['time'] = round($total,2);
+			$response[0]['task'] = 'Update Stats All In One';
+			echo json_encode($response);
+		}
+	}
+	public function process_shares_import(){
+		if($this->input->is_ajax_request()){
+			$from = microtime(true);
+			set_time_limit(0);
+			$query_b1_a = mysql_query("TRUNCATE TABLE vndb_shares_dwl");
+			$query_b1_b = mysql_query("TRUNCATE TABLE vndb_reference_dwl");
+			$dir_fpt = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\SHARES\\FPT\\';
+			$files_fpt = glob($dir_fpt . '*.txt');
+			foreach($files_fpt as $base_fpt){
+				$file_name_fpt = basename($base_fpt,".txt");
+				$base_url_fpt = str_replace("\\","\\\\",$base_fpt);
+				$query_b2_fpt = mysql_query("LOAD DATA INFILE '".$base_url_fpt."' INTO TABLE vndb_shares_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (sources,ticker,market,date,yyyymmdd,shli,shou,shfn);");
+			}
+			$dir_vst = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\PRICES\\VST\\';
+			$files_vst = glob($dir_vst . '*.txt');
+			foreach($files_vst as $base_vst){
+				$file_name_vst = basename($base_vst,".txt");
+				$base_url_vst = str_replace("\\","\\\\",$base_vst);
+				$query_b2_vst = mysql_query("LOAD DATA INFILE '".$base_url_vst."' INTO TABLE vndb_shares_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (sources,ticker,market,date,yyyymmdd,shli,shou,shfn);");
+			}
+			$dir_vst2 = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\SHARES\\VST\\';
+			$files_vst2 = glob($dir_vst2 . '*.txt');
+			foreach($files_vst2 as $base_vst2){
+				$file_name_vst2 = basename($base_vst2,".txt");
+				$base_url_vst2 = str_replace("\\","\\\\",$base_vst2);
+				$query_b2_vst2 = mysql_query("LOAD DATA INFILE '".$base_url_vst2."' INTO TABLE vndb_shares_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (sources,ticker,market,date,yyyymmdd,shli,shou,shfn);");
+			}
+			$dir_hnx = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\REFERENCE\HNX\\';
+			$files_hnx = glob($dir_hnx . '*.txt');
+			foreach($files_hnx as $base_hnx){
+				$file_name_hnx = basename($base_hnx,".txt");
+				$base_url_hnx = str_replace("\\","\\\\",$base_hnx);
+				$query_b2_hnx = mysql_query("LOAD DATA INFILE '".$base_url_hnx."' INTO TABLE vndb_reference_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (source,ticker,name,market,date,yyyymmdd,ipo,ipo_shli,ipo_shou,ftrd,ftrd_cls,shli,shou,shfn,capi,capi_fora,capi_forn,capi_stat);");
+			}
+			$dir_hsx = '\\\LOCAL\IFRCVN\VNDB\METASTOCK\REFERENCE\HSX\\';
+			$files_hsx = glob($dir_hsx . '*.txt');
+			foreach($files_hsx as $base_hsx){
+				$file_name_hsx = basename($base_hsx,".txt");
+				$base_url_hsx = str_replace("\\","\\\\",$base_hsx);
+				$query_b2_hsx = mysql_query("LOAD DATA INFILE '".$base_url_hsx."' INTO TABLE vndb_reference_dwl FIELDS TERMINATED BY '\t' IGNORE 1 LINES (source,ticker,name,market,date,yyyymmdd,ipo,ipo_shli,ipo_shou,ftrd,ftrd_cls,shli,shou,shfn,capi,capi_fora,capi_forn,capi_stat);");
+			}
+			$total = microtime(true) - $from;
+			$response[0]['time'] = round($total,2);
+			$response[0]['task'] = 'Update Stats Import';
+			echo json_encode($response);
+		}
+	}
+	public function process_shares_update(){
+		if($this->input->is_ajax_request()){
+			$from = microtime(true);
+			set_time_limit(0);
+			$query_b1 = mysql_query("update vndb_meta_prices as a, vndb_shares_dwl as b set a.shli = b.shli, a.shou = b.shou, a.shfn = b.shfn where a.ticker = b.ticker and a.yyyymmdd = b.yyyymmdd and b.sources = 'FPT';");
+			$query_b2 = mysql_query("update vndb_meta_prices as a, vndb_shares_dwl as b set a.shli = b.shli, a.shfn = b.shfn where a.ticker = b.ticker and a.yyyymmdd = b.yyyymmdd and b.sources = 'VSTX';");
+			$query_b3 = mysql_query("update vndb_meta_prices as a, vndb_shares_dwl as b set a.shli = b.shli, a.shfn = b.shfn where a.ticker = b.ticker and a.yyyymmdd = b.yyyymmdd and b.sources = 'VSTH';");
+			$query_b4 = mysql_query("update vndb_meta_prices as a, vndb_reference_dwl as b set a.shli = b.shli, a.shou = b.shou, a.shfn = b.shfn where a.ticker = b.ticker and a.yyyymmdd = b.yyyymmdd;");
+			$query_b5 = mysql_query("update vndb_meta_prices as a, vndb_company as b set a.shli = b.ipo_shares where a.ticker = b.code and a.date = b.ipo;");
+			$date_now = date('Y-m-d',time());
+			$query_report = mysql_query("SELECT * FROM vndb_reports where date = '".$date_now."'");
+			$num_report = mysql_num_rows($query_report);
+			$arr['market'] = array('FIRST','HNX','HSX','UPC');
+			if($num_report != 0){
+				$query_delete = mysql_query("DELETE FROM vndb_reports where date = '".$date_now."' and task = 'vndb_meta_prices.shli=0'");
+			}
+			foreach($arr['market'] as $mk){
+				if($mk == 'FIRST'){
+					$query_report_1 = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, 'vndb_meta_prices.shli=0' as task ,min(date) Min_date, max(date) Max_date,'ALL' as market, count(*) from vndb_meta_prices where shli=0;");
+				}else{
+					$query_report_1 = mysql_query("insert into vndb_reports (date,task,start_date,end_date,market,number)select now() as date, 'vndb_meta_prices.shli=0' as task ,min(date) Min_date, max(date) Max_date,'".$mk."' as market, count(*) from vndb_meta_prices where market='".$mk."' and shli=0;");
+				}
+			}
+			$total = microtime(true) - $from;
+			$response[0]['time'] = round($total,2);
+			$response[0]['task'] = 'Update Stats';
+			echo json_encode($response);
+		}
+	}
+	public function process_shares_clean(){
+		if($this->input->is_ajax_request()){
+			$from = microtime(true);
+			set_time_limit(0);
+			/*$query_b1 = mysql_query("select count(DISTINCT ticker) from vndb_meta_prices;");
+			$num = mysql_fetch_row($query_b1);
+			$max = $num[0]-1;
+			$start = 0;
+			while($start <= $max) {
+				$query_b2 = mysql_query("select ticker,market,date,shli,shou from vndb_meta_prices where ticker = (select DISTINCT ticker from vndb_meta_prices limit $start,1)  ORDER BY date asc;");
+				$data = array();
+				while($result_b2 = mysql_fetch_row($query_b2)){
+					$arr[] = $result_b2;
+				}
+				$arr_plus = array(
+					"3" => "shli",
+					"4" => "shou",
+				);
+				$max = count($arr);
+				for($i = 0; $i < $max-1; $i++){
+					foreach($arr_plus as $key => $value){
+						if($arr[$i][$key] != 0){
+							for($j = $i+1; $j < $max; $j++){
+								if($arr[$j][$key] != 0){
+									if($arr[$j][$key] == $arr[$i][$key]){
+										for($k = $i+1; $k < $j; $k++){
+											if(isset($k)){
+												$query_update = mysql_query("update vndb_meta_prices set ".$value." = '".$arr[$i][$key]."' where ticker = '".$arr[$k][0]."' and market = '".$arr[$k][1]."' and date = '".$arr[$k][2]."' ;");
+											}
+										}
+									}
+									$i = $j-1;
+									break;
+								}
+							}
+						}
+					}
+				}
+				mysql_free_result($result_b2);
+				$start ++;
+			}
+			*/
+			$file = file_get_contents('\\\\LOCAL\\IFRCDATA\\result.txt', FILE_USE_INCLUDE_PATH);
+			pre($file);
+			//$result = array();
+			//while($data = mysql_fetch_assoc($query)){
+			//	$result[] = $data; 
+			//}
+			//pre($result);
+			 //array_unique( array $array )
+			$total = microtime(true) - $from;
+			$response[0]['time'] = round($total,2);
+			$response[0]['task'] = 'Clean Stats';
+			echo json_encode($response);
+		}
+	}
+	public function process_check_setting(){
+		$query = mysql_query("SELECT * FROM setting where `key` = 'meta_files_reset'");
+		$result = mysql_fetch_array($query);
+		echo json_encode($result);
+	}
+}

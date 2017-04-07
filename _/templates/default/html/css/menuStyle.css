@@ -1,0 +1,161 @@
+*{margin:0; padding:0}
+ol, ul
+{
+    list-style: none;
+}
+
+
+#gkMainMenu
+{
+    background-image: url('../images/menu_item.png');
+    border-bottom-color: #dc2a0b;
+    border-top: 1px solid #F93D1C;
+}
+#gkMainMenu > div
+{
+    border-bottom-color: #ff583b;
+}
+/* menu.css */
+#gkMainMenu > div > ul > li:hover, #gkMainMenu > div > ul > li.active
+{
+    background-image: url('../images/menu_item.png');
+}
+#gkMainMenu > div > ul > li > a
+{
+    background-image: url('../images/menu_separator.png');
+}
+#gkMainMenu > div > ul div.childcontent li.active > a, #gkMainMenu > div > ul div.childcontent li.active > span, #gkMainMenu > div > ul div.childcontent li:hover > a, #gkMainMenu > div > ul div.childcontent li:hover > span, #gkMainMenu > div > ul div.childcontent li > a:hover, #gkMainMenu > div > ul div.childcontent li > span:hover
+{
+    color: #cb260a !important;
+}
+#gkSubmenu ul li li > a:hover, #gkSubmenu ul li li > a:hover > span
+{
+    color: #cb260a !important;
+}
+
+.gkmenu .module .nspArt h4.nspHeader, .gkmenu .module .nspArt h4.nspHeader a, .gkmenu .group-content .nspArt h4.nspHeader, .gkmenu .group-content .nspArt h4.nspHeader a
+{
+    font-size: 12px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+	z-index:999;
+}
+.nspArt h4.nspHeader
+{
+    line-height: 16px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.gkmenu .module .nspArt .nspText, .gkmenu .group-content .nspArt .nspText
+{
+    color: #DDDDDD !important;
+}
+#gkPage .box.small > div > h3.header, #gkPage .box_text.small > div > h3.header, #gkPage .box_menu.small > div > h3.header, #gkBottomWrap .box > div > h3.header, #gkPage .box.advert h3.advert
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gkMainMenu > div > ul > li > a, #gkPage .box > div > h3.header, #gkPage .box_menu > div > h3.header, #gkPage .box_text > div > h3.header, ul.gkTabs li, h1, h2, h3, h4, h5, #gkMainMenu > div > ul div.childcontent .group-title, .button, button, button.button, input[type=submit], input[type=button], .pagenav-next a, .pagenav-prev a, table th, legend, .tip-title, div.pagination ul li a, div.pagination ul li span, div.k2Pagination ul li a, div.k2Pagination ul li span, div.header .nspLinks ul li h4, .gks_tooltip_datas h3
+{
+    font-family: BebasNeue, Arial, sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+#gkMainMenu
+{
+    height: 41px;
+    overflow: hidden;
+    border-bottom: 3px solid #F5B212;
+}
+#gkMainMenu > div
+{
+    border-bottom: 1px solid #ff583b;
+    height: 39px;
+}
+
+
+
+div.gk-menu > ul.level0 > li
+{
+    float: left;
+    width: auto;
+}
+
+div.gk-menu > ul.level0 > li > a
+{
+    display: block;
+}
+div.gk-menu > ul.level0 > li > a > span.menu-title
+{
+    display: block;
+}
+div.gk-menu > ul.level0 > li > a > span.menu-desc
+{
+    display: block;
+}
+
+div.gk-menu > ul.level0 > li > .childcontent, div.gk-menu > ul.level0 > li > .childcontent .childcontent
+{
+    position: absolute;
+    left: -999em;
+    z-index: 999;
+}
+
+div.gk-menu > ul.level0 > li > .childcontent .gkcol
+{
+    float: left;
+}
+
+div.gk-menu > ul.level0 > li:hover > .childcontent, div.gk-menu > ul.level0 > li:hover > .childcontent li:hover > .childcontent
+{
+    left: inherit;
+}
+
+div.gk-menu > ul.level0 > li:hover > .childcontent .childcontent
+{
+    margin-left: 160px;
+    margin-top: -25px;
+}
+/* submenu width - left padding of item */
+
+/*---------------------- fix ------------------------*/
+.normalSubmenu{
+	
+	padding:0px!important;
+}
+.normalSubmenu ul li{
+	height: 34px;
+	background:url(../images/menu_item.png) repeat-x center bottom;
+	line-height: 34px!important;
+	border-bottom:1px solid #ff583b;
+	width:150px;
+}
+.normalSubmenu ul li:hover{
+	background:#dc2a0b;
+}
+.normalSubmenu ul li a{
+	background: none!important;
+	padding-left: 0px!important;
+	text-shadow: none!important;
+}
+.normalSubmenu ul li a span{
+	color: white!important;
+	font-size: 14px!important;
+	text-transform: none!important;
+}
+.normalSubmenu .level1 li .childcontent{
+	margin-left:165px!important;
+}
+#gkMainMenu > div > ul > li > a{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 39px!important;
+	font-size:14px;
+	text-transform:uppercase;
+}
+#gkMainMenu > div > ul > li > a span{
+	display: inline-block;
+	vertical-align: middle;
+}

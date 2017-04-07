@@ -1,0 +1,9 @@
+STK_CODE	STK_NAME	STK_DIVNET	STK_DIVGROSS	EXDATE
+DPM	PVN Fertilizer and Chemicals Corp	1000	1200	2012/09/13
+PVD	PVN Drilling & Well Services Joint Stock 	1500	2200	2012/09/13
+PVS	PVN Technical Services Corp	1000	1200	2012/09/12
+PVF	PVN Finance Joint Stock Corp	400	500	2012/09/13
+PET	PVN General Services	1200	1500	2012/09/13
+PVC	Drilling Mud Corp	1000	1000	2012/09/17
+PGS	PVN Southern Gas	1200	1200	2012/09/13
+DPM	PVN Fertilizer and Chemicals Corp	1500	2000	2012/09/17

@@ -1,0 +1,1 @@
+id	idx_code	idx_name	idx_curr	idx_base	idx_type	idx_mother	idx_divisor	idx_mcap	idx_last	dates	times	records	calculs	publications	idx_plast	idx_dcap	to_adjust	idx_mcap_nxt	idx_divisor_nxt	idx_bbs	idx_conv	idx_group	idx_var	idx_pclose	ip_last	ip_plast	idx_dvar	nxt_date

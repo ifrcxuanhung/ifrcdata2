@@ -1,0 +1,84 @@
+TYPE	MODEL	COLUMN	LEFT	RIGHT
+CASH DIVIDEND	NORMAL	date_ex	Ngày giao dịch không hưởng quyền:	<br/>
+CASH DIVIDEND	NORMAL	date_rec	Ngày đăng ký cuối cùng:	<br/>
+CASH DIVIDEND	NORMAL	period	Tạm ứng cổ tức|Thanh toán cổ tức|Trả cổ tức bằng tiền|đợt	/|.|năm
+CASH DIVIDEND	NORMAL	year	Tạm ứng cổ tức bằng tiền đợt 5 năm|Trả cổ tức bằng tiền đợt cuối năm|Trả cổ tức bằng tiền  đợt cuối năm|Trả cổ tức bằng tiền  còn lại năm|Tạm ứng cổ tức bằng tiền năm|Trả cổ tức bằng tiền  năm|Trả cổ tức bằng tiền năm|Tạm ứng cổ tức|Thanh toán cổ tức|Trả cổ tức bằng tiền|1 năm|2 năm|3 năm|4 năm|đầu năm năm|năm năm	:|<br/>|&amp;nbsp;|và|bằng
+CASH DIVIDEND	NORMAL	ratio	Cổ phiếu phổ thông:|Tỷ lệ thực hiện:|thông:	%
+CASH DIVIDEND	NORMAL	divtr	cổ phiếu - nhận cổ tức|Cổ phiếu - nhận|(tương đương|cổ phiếu - nhận|cổ phiếu được nhận|cổ phiếu nhận được|cổ phiếu nhận -|cổ phiếu nhận|giá (|cp được nhận|cổ phần được nhận|cổ phiếu - nhận|cổ phần bằng|cổ phiếu (|cổ phiếu(|% (|%(|được nhận|được	đồng|đồng|đ/cp|đ/ cổ phiếu|đ/cổ phiếu|đ|đồng/cổ phiếu
+CASH DIVIDEND	NORMAL	date_pay	Thời gian thực hiện: ngày|Thời gian thực hiện: Ngày|Thời gian thực hiện:	<br/>|;|.|và
+CASH DIVIDEND	SPAN	date_ex	Ngàygiao dịch không hưởng quyền|Ngày giaodịch không hưởng quyền|Ngày giao dịchkhông hưởng quyền|Ngày giao dịch không hưởng quyền	(|<br/>|<?xml:|</p>
+CASH DIVIDEND	SPAN	date_rec	Ngày đăng ký cuối cùng|Ngàyđăng ký cuối cùng|Ngày đăngký cuối cùng	</li>|<br/>|</p>|<o:p>
+CASH DIVIDEND	SPAN	period	Tạm ứng cổ tức bằng tiền mặt đợt|Tạm ứng cổ tức đợt|Trả cổ tức đợt	<span|năm
+CASH DIVIDEND	SPAN	year	trả cổ tức bằngtiền năm|Tạm ứng cổ tức bằng tiền mặt|năm	</span>|<span|bằng|:|<o:p>|của
+CASH DIVIDEND	SPAN	ratio	Tỷlệ trả cổ tức|Tỷ lệ trả cổ tức|Tỷlệ thực hiện|Tỷ lệthực hiện|Tỷ lệ thựchiện|Tỷ lệ thực hiện|cổ phiếu (|hiêÌ£n:	%|đồng
+CASH DIVIDEND	SPAN	divtr	được nhận|Tỷ lệ chitrả:|giá (|giá (	đồng
+CASH DIVIDEND	SPAN	date_pay	Ngày thanh toán|Thời gianthực hiện thanh toán|Thời gianthanh toán: từ ngày|Thời gian thực hiện|Thờigian thực hiện|Thời gianthực hiện|Thời gian thựchiện|Thời gianthanh toán	<br/>|.|(|<o:p>|</li>
+CASH DIVIDEND	P	date_ex	Ngày giao dịch không hưởng quyền:	</p>
+CASH DIVIDEND	P	date_rec	Ngày đăng ký cuối cùng:	</p>
+CASH DIVIDEND	P	period	Trả cổ tức bằng tiền đợt	năm
+CASH DIVIDEND	P	year	đợt 1 năm|đợt 2 năm|năm	</p>|:
+CASH DIVIDEND	P	ratio	Tỷ lệ thực hiện:	%|</p>
+CASH DIVIDEND	P	divtr	nhận|(	đồng
+CASH DIVIDEND	P	date_pay	Thời gian thực hiện:	</p>
+CASH DIVIDEND	PDF	date_ex	không hưởng quyền:|không hưởng quyền :|không hưởng quyền  :|kh{ng hưởng quyền:|kh{ng hưởng quyền :	-
+CASH DIVIDEND	PDF	date_rec	cuối cùng:|cuối cùng :|cuối cùng    :|cuối cùng          :|cuối cùng                      :	-|1)|1.
+CASH DIVIDEND	PDF	period	tạm ứng cổ tức bằng tiền mặt đợt	năm
+CASH DIVIDEND	PDF	year	tạm ứng cổ tức năm|Tạm ứng cổ tức năm	và|bằng
+CASH DIVIDEND	PDF	ratio	Tỷ lệ thực hiện:|Tỷ lệ thực hiện   :|Tỷ lệ thanh	(|%|- Thời|.
+CASH DIVIDEND	PDF	divtr	giá (|01 cổ phiếu được nhận	đồng
+CASH DIVIDEND	PDF	date_pay	Thời gian thực hiện:|Thời gian thanh toán :|Thời gian thanh	-|Địa
+CASH DIVIDEND	TXT	date_ex	Ngày giao dịch không hưởng quyền :	(
+CASH DIVIDEND	TXT	date_rec	Ngày đăng ký Cuối cùng hưởng quyền nhận cổ tức: ngày|ngày đăng ký cuổi cũng chốt danh sách cổ động nhận cổ tức là :|Ngày đăng l‹ý cuối cùng hưởng quyền nhận tạm ửng cổ tức: ngày|Ngày đăng ký cuối cùng hưởng quyền nhận cổ tức: ngày|Ngày đăng ký cuổi Cùng:|Ngày đăng ký cuối cùng	~|.|-|Ngày|Hỉnh
+CASH DIVIDEND	TXT	period	Đọt|đợt|đọt|dợt	năm|:|/|cổ|]|là
+CASH DIVIDEND	TXT	year	năm	:|"|.|(|dươc|bẵng|bằng|băng|của|cho
+CASH DIVIDEND	TXT	ratio	Tỷ lệ cổ tửc bắng tiền mặt: bằng|Tỷ lệ cổ tức tạm ửng băng tiền mặt: băng|Tỷ lệ cổ tức bằng tiền mặt: bằng|Thanh toán cổ tức năm 2010 là :|thay dôi ngày chi trà cô tức|Q Thông tin đã thông bio:|Tỷ lệ cồ tức chi trá|Tỉ lệ chỉ trả:|Tỷ lệ thực hiện:|Tỳ lệ thực hiện:|Tỷ lệ thưc hiện :|tỷ lệ thực hiện|đợt l là	%|°
+CASH DIVIDEND	TXT	divtr	giá (|% (|được nhận|nhận được	đổng|dồng|đông|đồng
+CASH DIVIDEND	TXT	date_pay	Ĩh́ůi gian thanh toán Oõ tức d¡_thỏn8 béo:|Thời gian thực hiện dự kiến ngày|Ngày bắt đầu chi trả cổ tức:|Ngày bắt đầu chỉ trả cô tức:|Ngày thanh toán cổ tức:|Thời gian thực hiện: Ngày|Thời gian thực hiện chỉ trà: Từ ngày|Ngày thanh toán (dự kiến):|thanh toán vào ngày|Ngày thanh toán cổ tức :|Ngày trá cổ tức:|Ngày thanh toán :|, ngày	Ðịa|ÐIỀU|ĐỀU|Ði`êu|.|Nội|Ợ|-|Ðiều
+STOCK DIVIDEND	NORMAL	date_ex	Ngày giao dịch không hưởng quyền:	<br/>
+STOCK DIVIDEND	NORMAL	date_rec	Ngày đăng ký cuối cùng:	<br/>
+STOCK DIVIDEND	NORMAL	period	Tạm ứng cổ tức|Thanh toán cổ tức|Trả cổ tức bằng tiền|đợt	/| |.
+STOCK DIVIDEND	NORMAL	year	Trả cổ tức năm	bằng|</span>|.|:
+STOCK DIVIDEND	NORMAL	ratio	Tỷ lệ phân bổ quyền: Đối với cổ phiếu phổ thông:|Tỷ lệ thực hiện:|Tỷ lệ phân bổ quyền:	%|(|<br/>|;|.
+STOCK DIVIDEND	NORMAL	divtr	cổ phần được nhận	đồng|<br/>
+STOCK DIVIDEND	NORMAL	date_pay	Thời gian thực hiện: Dự kiến ngày|Thời gian thực hiện: dự kiến ngày|Thời gian thực hiện: Ngày|Thời gian thực hiện:	<br/>
+STOCK DIVIDEND	NORMAL	date_eff		
+STOCK DIVIDEND	NORMAL	date_trd		
+STOCK DIVIDEND	NORMAL	shares_add	Số lượng cổ phiếu dự tính phát hành:	CP|<br/>
+STOCK DIVIDEND	SPAN	date_ex	Ngàygiao dịch không hưởng quyền|Ngày giao dịch không hưởng quyền|Ngày giaodịch không hưởng quyền:	</li>|</p>|<o:p>|(|<?xml
+STOCK DIVIDEND	SPAN	date_rec	Ngàyđăng ký cuối cùng|Ngày đăng ký cuối cùng|Ngày đăngký cuối cùng:|Ngày đăngký cuối cùng	</li>|</p>|<o:p>
+STOCK DIVIDEND	SPAN	period	đợt	/| |.	
+STOCK DIVIDEND	SPAN	year	năm	</span>|.|<o:p>|<SPAN|bằng|,|</b>|<B>|</B>|tại|<span|(|gửi|và|của|-|;|đã|</U>
+STOCK DIVIDEND	SPAN	ratio	Tỷ lệ thực hiện:|Tỷ lệ thựchiện:	%|(|.
+STOCK DIVIDEND	SPAN	divtr	cổ phần (	đồng|)
+STOCK DIVIDEND	SPAN	date_pay	Thờigian thực hiện:	.|</li>
+STOCK DIVIDEND	SPAN	date_eff	Ngày niêm yết có hiệu lực:|Ngàyniêm yết có hiệu lực:	<o:p>|<LI>|.
+STOCK DIVIDEND	SPAN	date_trd	Ngày chính thức giao dịch:|Ngàychính thức giao dịch:	.|<o:p>|</LI>
+STOCK DIVIDEND	SPAN	shares_add	Số lượng phát hành:|Tổng khối lượng phát hành:|Số lượng chứng khoán phát hành:|Số cổ phiếu dự kiến phát hành:|Số lượng<SPAN style="mso-tab-count: 3">|Số lượng chứng khoán niêm yết bổ sung:|Số lượng:|Sốlượng:	</B>|cổ phiếu|cổphiếu|cp
+STOCK DIVIDEND	P	date_ex	Ngày giao dịch không hưởng quyền:	<br/>
+STOCK DIVIDEND	P	date_rec	Ngày đăng ký cuối cùng:	<br/>
+STOCK DIVIDEND	P	period	Trả cổ tức bằng tiền đợt	/| |.|năm
+STOCK DIVIDEND	P	year	năm	</span>|.|:|;
+STOCK DIVIDEND	P	ratio	Tỷ lệ thực hiện:|Tỷ lệ phân bổ quyền:	%|(cổ|<br/>
+STOCK DIVIDEND	P	divtr	nhận|(	đồng
+STOCK DIVIDEND	P	date_pay		
+STOCK DIVIDEND	P	date_eff		
+STOCK DIVIDEND	P	date_trd		
+STOCK DIVIDEND	P	shares_add		
+STOCK DIVIDEND	PDF	date_ex	không hưởng quyền:|không hưởng quyền :|không hưởng quyền  :|kh{ng hưởng quyền:|kh{ng hưởng quyền :	-
+STOCK DIVIDEND	PDF	date_rec	cuối cùng:|cuối cùng :|cuối cùng    :|cuối cùng          :|cuối cùng                      :	-|1)|1.
+STOCK DIVIDEND	PDF	period	tạm ứng cổ tức bằng tiền mặt đợt	năm
+STOCK DIVIDEND	PDF	year	tạm ứng cổ tức năm|Tạm ứng cổ tức năm	và|bằng
+STOCK DIVIDEND	PDF	ratio	Tỷ lệ thực hiện:|Tỷ lệ thực hiện   :|Tỷ lệ thanh	(|%|- Thời|.
+STOCK DIVIDEND	PDF	divtr	giá (|01 cổ phiếu được nhận	đồng
+STOCK DIVIDEND	PDF	date_pay	Thời gian thực hiện:|Thời gian thanh toán :|Thời gian thanh	-|Địa
+STOCK DIVIDEND	PDF	shares_add	Số lượng cổ phiếu dự kiến phát hành:|Số lượng chứng khoin phit hành:|Số lượng chứng khoán phát hành:|Số lượng cổ phiếu phát hành thêm:	cổ phiếu|(
+STOCK DIVIDEND	TXT	date_ex	Ngày giao dich không hứong quyên :|Ngáy gim dich không hưởng quyền:|Ngày giao địch không hưởng quyền :|Ngày giao dich không hứong quyên:|Ngày giao dịch không hưỏng quyền	-|(
+STOCK DIVIDEND	TXT	date_rec	Ngày đăng ky Cưòi cùng :|Ngày đang kỷ cuổi cùng:|Ngày dảng kỷ cuốicùng :|Ngay đang kỳ cuôi cùng:|Ngày đăng kỷ cuối cùng|Ngày đăng ký cuối cùng :	I|-|Lý
+STOCK DIVIDEND	TXT	period	Tạm ứng cỗ tức đợt|đợt	năm|UỈIII
+STOCK DIVIDEND	TXT	year	UỈIII|năm	.|hăng|bằng
+STOCK DIVIDEND	TXT	ratio	Ty Ịè thưc hịèn Z|Tỷ lệ thực hiện:|Tỷ lệ trà cồ túc:|Ty Ịê phat hanh:	%|(|- Thời
+STOCK DIVIDEND	TXT	divtr	% (|được nhận	đôntl|đồng
+STOCK DIVIDEND	TXT	date_pay	Thời gian thực hiện: ngày|Thời gian thực hiện: dự kiển ngày|gian thực biện:	I|Q|Đia|(
+STOCK DIVIDEND	TXT	shares_add	Số lượng :|Số luọng :	cổ phiếu
+STOCK DIVIDEND	TXT	date_eff	Ngày niêm yết có hiệu lực	-
+STOCK DIVIDEND	TXT	date_trd	Ngày chính thức giao dịch	Nơi|.

@@ -1,0 +1,7 @@
+SEC_CODE	SEC_NAME	SEC_NAME_VN
+PVNBM	PV Basic Materials	PV VẬT LIỆU CƠ BẢN
+PVNCS	PV Consumer Services	PV DỊCH VỤ TIÊU DÙNG
+PVNFI	PV Financials	PV DỊCH VỤ TÀI CHÍNH
+PVNIN	PV Industrials	PV CÔNG NGHIỆP
+PVNOG	PV Oil & Gas	PV DẦU KHÍ
+PVNUT	PV Utilities	PV TIỆN ÍCH

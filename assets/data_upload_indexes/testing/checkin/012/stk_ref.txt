@@ -1,0 +1,31 @@
+﻿STK_CODE	STK_NAME	STK_NAME_SN	STK_NAME_SN_VN	STK_MARKET	STK_SECTOR	STK_CURR	STK_MULT	SAMPLE	IPO	TICKER	SOURCE
+DPM	PVN Fertilizer and Chemicals Corp	PVN Fertilizer and Chemicals	Tổng công ty Phân bón và Hóa chất Dầu khí	PVNHM	PVNBM	VND	1	1	2007/11/05	DPM	WEBSITE
+PVC	Drilling Mud Corp	Drilling Mud Corp	Tổng CTCP Dung dịch khoan và Hóa phẩm Dầu khí	PVNHN	PVNBM	VND	1	1	2007/11/15	PVC	WEBSITE
+PET	PVN General Services Joint Stock Corp	PVN General Services	Tổng CTCP Dịch vụ Tổng hợp Dầu khí	PVNHM	PVNCS	VND	1	1	2007/09/12	PET	WEBSITE
+PTL	Petro Capital and Infrastructure Investment Joint 	Petro Capital and Infrastructure Investment	CTCP Đầu tư Hạ tầng và Đô thị Dầu khí 	PVNHM	PVNFI	VND	1	1	2010/09/22	PTL	WEBSITE
+PVF	PVN Finance Joint Stock Corp	PVN Finance	Tổng CTCP Tài chính Dầu khí	PVNHM	PVNFI	VND	1	1	2008/11/03	PVF	WEBSITE
+PFL	Petro Dong Do Joint Stock Company	Petro Dong Do Joint Stock Company	CTCP Bất động sản Tài chính Dầu khí VN	PVNHN	PVNFI	VND	1	1	2010/11/17	PFL	WEBSITE
+PPE	PetroVietnam Power Engineering Consulting JSC	PetroVietnam Power Engineering Consulting JSC	CTCP Tư vấn Điện lực Dầu khí Việt Nam	PVNHN	PVNFI	VND	1	1	2011/09/21	PPE	WEBSITE
+PSI	PVN Securities Incorporated	PVN Securities Incorporated	CTCP Chứng Khoán Dầu khí	PVNHN	PVNFI	VND	1	1	2010/07/21	PSI	WEBSITE
+PVI	PVN Insurance	PVN Insurance	 Tổng CTCP Bảo hiểm Dầu khí	PVNHN	PVNFI	VND	1	1	2007/08/10	PVI	WEBSITE
+PVR	PVN Premier Recreation	PVN Premier Recreation	CTCP Kinh doanh Dịch vụ cao cấp Dầu khí VN	PVNHN	PVNFI	VND	1	1	2010/06/21	PVR	WEBSITE
+PVT	PVN Transportation Corp	PVN Transportation	Tổng CTCP vận tải Dầu khí	PVNHM	PVNIN	VND	1	1	2007/12/10	PVT	WEBSITE
+PXI	Petroleum Industrial and Civil Construction Joint 	Petroleum Industrial and Civil Construction	CTCP Xây dựng công nghiệp & dân dụng dầu khí	PVNHM	PVNIN	VND	1	1	2010/06/21	PXI	WEBSITE
+PXM	Mientrung Petroleum Construction Joint Stock Compa	Mientrung Petroleum Construction	CTCP Xây lắp Dầu khí Miền Trung	PVNHM	PVNIN	VND	1	1	2010/06/21	PXM	WEBSITE
+PXS	Petroleum Equipment Assembly and Metal Structure J	Petroleum Equipment Assembly and Metal Structure	CTCP Kết cấu Kim loại và Lắp máy Dầu khí	PVNHM	PVNIN	VND	1	1	2010/06/02	PXS	WEBSITE
+PXT	Petroleum Pipeline and Tank Construction Joint Sto	Petroleum Pipeline and Tank Construction	CTCP Xây lắp Đường ống Bể chứa Dầu khí	PVNHM	PVNIN	VND	1	1	2010/06/01	PXT	WEBSITE
+PCT	Cuu Long Petro Gas Service Transportation JSC	Cuu Long Petro Gas Service Transportation	CTCP Vận tải Dầu khí Cửu Long	PVNHN	PVNIN	VND	1	1	2010/08/05	PCT	WEBSITE
+PPS	Petro Vietnam Power Services Joint Stock Company	Petro Vietnam Power Services Joint Stock Company	CTCP Dịch vụ Kỹ thuật Điện lực Dầu khí VN	PVNHN	PVNIN	VND	1	1	2011/01/07	PPS	WEBSITE
+PVE	PVN Investment Consultancy and Engineerin	PVN Investment Consultancy and Engineering	Tổng công ty Tư vấn và Thiết kế Dầu khí	PVNHN	PVNIN	VND	1	1	2008/01/02	PVE	WEBSITE
+PVX	PVN Construction	PVN Construction	Tổng CTCP Xây lắp Dầu khí VN	PVNHN	PVNIN	VND	1	1	2009/08/19	PVX	WEBSITE
+PSP	Dinh Vu Petroleum Service Port Joint Stock Co	Dinh Vu Petroleum Service Port	CTCP Cảng dịch vụ dầu khí Đình Vũ	PVNUC	PVNIN	VND	1	1	2009/11/10	PSP	WEBSITE
+PTT	Indochina Petroleum Transportation Joint Stock Com	Indochina Petroleum Transportation	CTCP Vận tải Dầu khí Đông Dương	PVNUC	PVNIN	VND	1	1	2010/04/29	PTT	WEBSITE
+PGD	PVN Low Pressure Gas Distribution Joint S	PVN Low Pressure Gas Distribution	CTCP Phân phối khí thấp áp Dầu khí VN	PVNHM	PVNOG	VND	1	1	2009/11/26	PGD	WEBSITE
+PVD	PVN Drilling & Well Services Joint Stock 	PVN Drilling & Well Services	Tổng CTCP khoan và dịch vụ khoan Dầu khí	PVNHM	PVNOG	VND	1	1	2006/12/05	PVD	WEBSITE
+PCG	PetroVietnam Gas City Investment and Development JSC	PetroVietnam Gas City Investment and Development JSC	CTCP Đầu tư và phát triển Gas Đô thị	PVNHN	PVNOG	VND	1	1	2010/12/29	PCG	WEBSITE
+PSG	Saigon Petroleum Constrution And Investment JSC	Saigon Petroleum Constrution And Investment JSC	CTCP Đầu tư và Xây lắp Dầu khí Sài Gòn	PVNHN	PVNOG	VND	1	1	2011/03/15	PSG	WEBSITE
+PVS	PVN Technical Services Corp	PVN Technical Services	Tổng CTCP Dịch vụ Kỹ thuật Dầu khí	PVNHN	PVNOG	VND	1	1	2007/09/20	PVS	WEBSITE
+POV	Vung Ang Petroleum Joint Stock Co	Vung Ang Petroleum	CTCP Xăng dầu Dầu khí Vũng Áng	PVNUC	PVNOG	VND	1	1	2010/09/23	POV	WEBSITE
+PVG	PVN Southern Gas Joint Stock Co	PVN Southern Gas	CTCP Kinh doanh Khí hóa lỏng Miền Nam	PVNHN	PVNUT	VND	1	1	2007/11/15	PGS	WEBSITE
+PVG	PVN Northern Gas Joint Stock Co	PVN Northern Gas	CTCP Kinh doanh khí hóa lỏng Miền Bắc	PVNHN	PVNUT	VND	1	1	2009/01/07	PVG	WEBSITE
+

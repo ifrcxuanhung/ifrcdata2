@@ -1,0 +1,236 @@
+CODE_COUNTRY	NAME	CODE_CONTINENT	NAME_CONTINENT	REGION	CODE_REGION	LNG
+AF	Afghanistan	AS	Asia	South Asia	SAS	EN
+AL	Albania	EU	Europe	South East Europe	SEE	EN
+DZ	Algeria	AF	Africa	Northern Africa	NAF	EN
+AS	American Samoa	OC	Oceania	Pacific	PAC	EN
+AD	Andorra	EU	Europe	South West Europe	SWE	EN
+AO	Angola	AF	Africa	Southern Africa	SAF	EN
+AI	Anguilla	AM	Americas	West Indies	WIN	EN
+AG	Antigua and Barbuda	AM	Americas	West Indies	WIN	EN
+AR	Argentina	AM	Americas	South America	SAM	EN
+AM	Armenia	AS	Asia	South West Asia	SWA	EN
+AW	Aruba	AM	Americas	West Indies	WIN	EN
+AU	Australia	OC	Oceania	Pacific	PAC	EN
+AT	Austria	EU	Europe	Central Europe	CEU	EN
+AZ	Azerbaijan	AS	Asia	South West Asia	SWA	EN
+BS	Bahamas, The	AM	Americas	West Indies	WIN	EN
+BH	Bahrain	AS	Asia	South West Asia	SWA	EN
+BD	Bangladesh	AS	Asia	South Asia	SAS	EN
+BB	Barbados	AM	Americas	West Indies	WIN	EN
+BY	Belarus	EU	Europe	Eastern Europe	EEU	EN
+BE	Belgium	EU	Europe	Western Europe	WEU	EN
+BZ	Belize	AM	Americas	Central America	CAM	EN
+BJ	Benin	AF	Africa	Western Africa	WAF	EN
+BM	Bermuda	AM	Americas	West Indies	WIN	EN
+BT	Bhutan	AS	Asia	South Asia	SAS	EN
+BO	Bolivia	AM	Americas	South America	SAM	EN
+BA	Bosnia and Herzegovina	EU	Europe	South East Europe	SEE	EN
+BW	Botswana	AF	Africa	Southern Africa	SAF	EN
+BR	Brazil	AM	Americas	South America	SAM	EN
+VG	British Virgin Islands	AM	Americas	West Indies	WIN	EN
+BN	Brunei	AS	Asia	South East Asia	SEA	EN
+BG	Bulgaria	EU	Europe	South East Europe	SEE	EN
+BF	Burkina Faso	AF	Africa	Western Africa	WAF	EN
+BI	Burundi	AF	Africa	Central Africa	CAF	EN
+KH	Cambodia	AS	Asia	South East Asia	SEA	EN
+CM	Cameroon	AF	Africa	Western Africa	WAF	EN
+CA	Canada	AM	Americas	North America	NAM	EN
+CV	Cape Verde	AF	Africa	Western Africa	WAF	EN
+KY	Cayman Islands	AM	Americas	West Indies	WIN	EN
+CF	Central African Republic	AF	Africa	Central Africa	CAF	EN
+TD	Chad	AF	Africa	Central Africa	CAF	EN
+CL	Chile	AM	Americas	South America	SAM	EN
+CN	China	AS	Asia	East Asia	EAS	EN
+CX	Christmas Island	AS	Asia	South East Asia	SEA	EN
+CC	Cocos (Keeling) Islands	AS	Asia	South East Asia	SEA	EN
+CO	Colombia	AM	Americas	South America	SAM	EN
+KM	Comoros	AF	Africa	Indian Ocean	IOC	EN
+CG	Congo, Republic of the	AF	Africa	Central Africa	CAF	EN
+CK	Cook Islands	OC	Oceania	Pacific	PAC	EN
+CR	Costa Rica	AM	Americas	Central America	CAM	EN
+CI	Cote d'Ivoire	AF	Africa	Western Africa	WAF	EN
+HR	Croatia	EU	Europe	South East Europe	SEE	EN
+CU	Cuba	AM	Americas	West Indies	WIN	EN
+CY	Cyprus	AS	Asia	South West Asia	SWA	EN
+CZ	Czech Republic	EU	Europe	Central Europe	CEU	EN
+DK	Denmark	EU	Europe	Northern Europe	NEU	EN
+DJ	Djibouti	AF	Africa	Eastern Africa	EAF	EN
+DM	Dominica	AM	Americas	West Indies	WIN	EN
+DO	Dominican Republic	AM	Americas	West Indies	WIN	EN
+EC	Ecuador	AM	Americas	South America	SAM	EN
+EG	Egypt	AF	Africa	Northern Africa	NAF	EN
+SV	El Salvador	AM	Americas	Central America	CAM	EN
+GQ	Equatorial Guinea	AF	Africa	Western Africa	WAF	EN
+ER	Eritrea	AF	Africa	Eastern Africa	EAF	EN
+EE	Estonia	EU	Europe	Eastern Europe	EEU	EN
+ET	Ethiopia	AF	Africa	Eastern Africa	EAF	EN
+FK	Falkland Islands (Islas Malvinas)	AM	Americas	South America	SAM	EN
+FO	Faroe Islands	EU	Europe	Northern Europe	NEU	EN
+FJ	Fiji	OC	Oceania	Pacific	PAC	EN
+FI	Finland	EU	Europe	Northern Europe	NEU	EN
+FR	France	EU	Europe	Western Europe	WEU	EN
+GF	French Guiana	AM	Americas	South America	SAM	EN
+PF	French Polynesia	OC	Oceania	Pacific	PAC	EN
+GA	Gabon	AF	Africa	Western Africa	WAF	EN
+GM	Gambia, The	AF	Africa	Western Africa	WAF	EN
+GE	Georgia	AS	Asia	South West Asia	SWA	EN
+DE	Germany	EU	Europe	Western Europe	WEU	EN
+GH	Ghana	AF	Africa	Western Africa	WAF	EN
+GI	Gibraltar	EU	Europe	South West Europe	SWE	EN
+GR	Greece	EU	Europe	South East Europe	SEE	EN
+GL	Greenland	AM	Americas	North America	NAM	EN
+GD	Grenada	AM	Americas	West Indies	WIN	EN
+GP	Guadeloupe	AM	Americas	West Indies	WIN	EN
+GU	Guam	OC	Oceania	Pacific	PAC	EN
+GT	Guatemala	AM	Americas	Central America	CAM	EN
+--	Guernsey	EU	Europe	Western Europe	WEU	EN
+GN	Guinea	AF	Africa	Western Africa	WAF	EN
+GW	Guinea-Bissau	AF	Africa	Western Africa	WAF	EN
+GY	Guyana	AM	Americas	South America	SAM	EN
+HT	Haiti	AM	Americas	West Indies	WIN	EN
+VA	Holy See (Vatican City)	EU	Europe	Southern Europe	SEU	EN
+HN	Honduras	AM	Americas	Central America	CAM	EN
+HU	Hungary	EU	Europe	Central Europe	CEU	EN
+IS	Iceland	EU	Europe	Northern Europe	NEU	EN
+IN	India	AS	Asia	South Asia	SAS	EN
+ID	Indonesia	AS	Asia	South East Asia	SEA	EN
+IR	Iran	AS	Asia	South West Asia	SWA	EN
+IQ	Iraq	AS	Asia	South West Asia	SWA	EN
+IE	Ireland	EU	Europe	Western Europe	WEU	EN
+IL	Israel	AS	Asia	South West Asia	SWA	EN
+IT	Italy	EU	Europe	Southern Europe	SEU	EN
+JM	Jamaica	AM	Americas	West Indies	WIN	EN
+--	Jan Mayen	EU	Europe	Northern Europe	NEU	EN
+JP	Japan	AS	Asia	East Asia	EAS	EN
+--	Jersey	EU	Europe	Western Europe	WEU	EN
+JO	Jordan	AS	Asia	South West Asia	SWA	EN
+KZ	Kazakhstan	AS	Asia	Central Asia	CAS	EN
+KE	Kenya	AF	Africa	Eastern Africa	EAF	EN
+KI	Kiribati	OC	Oceania	Pacific	PAC	EN
+KP	Korea, North	AS	Asia	East Asia	EAS	EN
+KR	Korea, South	AS	Asia	East Asia	EAS	EN
+KW	Kuwait	AS	Asia	South West Asia	SWA	EN
+KG	Kyrgyzstan	AS	Asia	Central Asia	CAS	EN
+LA	Laos	AS	Asia	South East Asia	SEA	EN
+LV	Latvia	EU	Europe	Eastern Europe	EEU	EN
+LB	Lebanon	AS	Asia	South West Asia	SWA	EN
+LS	Lesotho	AF	Africa	Southern Africa	SAF	EN
+LR	Liberia	AF	Africa	Western Africa	WAF	EN
+LY	Libya	AF	Africa	Northern Africa	NAF	EN
+LI	Liechtenstein	EU	Europe	Central Europe	CEU	EN
+LT	Lithuania	EU	Europe	Eastern Europe	EEU	EN
+LU	Luxembourg	EU	Europe	Western Europe	WEU	EN
+MK	Macedonia	EU	Europe	South East Europe	SEE	EN
+MG	Madagascar	AF	Africa	Indian Ocean	IOC	EN
+MW	Malawi	AF	Africa	Southern Africa	SAF	EN
+MY	Malaysia	AS	Asia	South East Asia	SEA	EN
+MV	Maldives	AS	Asia	South Asia	SAS	EN
+ML	Mali	AF	Africa	Western Africa	WAF	EN
+MT	Malta	EU	Europe	Southern Europe	SEU	EN
+--	Man, Isle of	EU	Europe	Western Europe	WEU	EN
+MH	Marshall Islands	OC	Oceania	Pacific	PAC	EN
+MQ	Martinique	AM	Americas	West Indies	WIN	EN
+MR	Mauritania	AF	Africa	Western Africa	WAF	EN
+MU	Mauritius	AF	Africa	Indian Ocean	IOC	EN
+YT	Mayotte	AF	Africa	Indian Ocean	IOC	EN
+MX	Mexico	AM	Americas	Central America	CAM	EN
+FM	Micronesia, Federated States of	OC	Oceania	Pacific	PAC	EN
+MD	Moldova	EU	Europe	Eastern Europe	EEU	EN
+MC	Monaco	EU	Europe	Western Europe	WEU	EN
+MN	Mongolia	AS	Asia	Northern Asia	NAS	EN
+MS	Montserrat	AM	Americas	West Indies	WIN	EN
+MA	Morocco	AF	Africa	Northern Africa	NAF	EN
+MZ	Mozambique	AF	Africa	Southern Africa	SAF	EN
+MM	Myanmar (Burma)	AS	Asia	South East Asia	SEA	EN
+NA	Namibia	AF	Africa	Southern Africa	SAF	EN
+NR	Nauru	OC	Oceania	Pacific	PAC	EN
+NP	Nepal	AS	Asia	South Asia	SAS	EN
+NL	Netherlands	EU	Europe	Western Europe	WEU	EN
+AN	Netherlands Antilles	AM	Americas	West Indies	WIN	EN
+NC	New Caledonia	OC	Oceania	Pacific	PAC	EN
+NZ	New Zealand	OC	Oceania	Pacific	PAC	EN
+NI	Nicaragua	AM	Americas	Central America	CAM	EN
+NE	Niger	AF	Africa	Western Africa	WAF	EN
+NG	Nigeria	AF	Africa	Western Africa	WAF	EN
+NU	Niue	OC	Oceania	Pacific	PAC	EN
+NF	Norfolk Island	OC	Oceania	Pacific	PAC	EN
+MP	Northern Mariana Islands	OC	Oceania	Pacific	PAC	EN
+NO	Norway	EU	Europe	Northern Europe	NEU	EN
+OM	Oman	AS	Asia	South West Asia	SWA	EN
+PK	Pakistan	AS	Asia	South Asia	SAS	EN
+PW	Palau	OC	Oceania	Pacific	PAC	EN
+--	Palestine	AS	Asia	South West Asia	SWA	EN
+PA	Panama	AM	Americas	Central America	CAM	EN
+PG	Papua New Guinea	OC	Oceania	Pacific	PAC	EN
+PY	Paraguay	AM	Americas	South America	SAM	EN
+PE	Peru	AM	Americas	South America	SAM	EN
+PH	Philippines	AS	Asia	South East Asia	SEA	EN
+PN	Pitcairn Islands	OC	Oceania	Pacific	PAC	EN
+PL	Poland	EU	Europe	Eastern Europe	EEU	EN
+PT	Portugal	EU	Europe	South West Europe	SWE	EN
+PR	Puerto Rico	AM	Americas	West Indies	WIN	EN
+QA	Qatar	AS	Asia	South West Asia	SWA	EN
+RE	Reunion	AF	Africa	Indian Ocean	IOC	EN
+RO	Romania	EU	Europe	South East Europe	SEE	EN
+RU	Russia	AS	Asia	Northern Asia	NAS	EN
+RW	Rwanda	AF	Africa	Central Africa	CAF	EN
+KN	Saint Kitts and Nevis	AM	Americas	West Indies	WIN	EN
+LC	Saint Lucia	AM	Americas	West Indies	WIN	EN
+PM	Saint Pierre and Miquelon	AM	Americas	North America	NAM	EN
+VC	Saint Vincent and the Grenadines	AM	Americas	West Indies	WIN	EN
+SM	San Marino	EU	Europe	Southern Europe	SEU	EN
+ST	Sao Tome and Principe	AF	Africa	Western Africa	WAF	EN
+SA	Saudi Arabia	AS	Asia	South West Asia	SWA	EN
+SN	Senegal	AF	Africa	Western Africa	WAF	EN
+--	Serbia and Montenegro	EU	Europe	South East Europe	SEE	EN
+SC	Seychelles	AF	Africa	Indian Ocean	IOC	EN
+SL	Sierra Leone	AF	Africa	Western Africa	WAF	EN
+SG	Singapore	AS	Asia	South East Asia	SEA	EN
+SK	Slovakia	EU	Europe	Central Europe	CEU	EN
+SI	Slovenia	EU	Europe	South East Europe	SEE	EN
+SB	Solomon Islands	OC	Oceania	Pacific	PAC	EN
+SO	Somalia	AF	Africa	Eastern Africa	EAF	EN
+ZA	South Africa	AF	Africa	Southern Africa	SAF	EN
+ES	Spain	EU	Europe	South West Europe	SWE	EN
+LK	Sri Lanka	AS	Asia	South Asia	SAS	EN
+SD	Sudan	AF	Africa	Northern Africa	NAF	EN
+SR	Suriname	AM	Americas	South America	SAM	EN
+SJ	Svalbard	EU	Europe	Northern Europe	NEU	EN
+SZ	Swaziland	AF	Africa	Southern Africa	SAF	EN
+SE	Sweden	EU	Europe	Northern Europe	NEU	EN
+CH	Switzerland	EU	Europe	Central Europe	CEU	EN
+SY	Syria	AS	Asia	South West Asia	SWA	EN
+TW	Taiwan	AS	Asia	East Asia	EAS	EN
+TJ	Tajikistan	AS	Asia	Central Asia	CAS	EN
+TZ	Tanzania	AF	Africa	Eastern Africa	EAF	EN
+TH	Thailand	AS	Asia	South East Asia	SEA	EN
+TG	Togo	AF	Africa	Western Africa	WAF	EN
+TK	Tokelau	OC	Oceania	Pacific	PAC	EN
+TO	Tonga	OC	Oceania	Pacific	PAC	EN
+TT	Trinidad and Tobago	AM	Americas	West Indies	WIN	EN
+TN	Tunisia	AF	Africa	Northern Africa	NAF	EN
+TR	Turkey	AS	Asia	South West Asia	SWA	EN
+TM	Turkmenistan	AS	Asia	Central Asia	CAS	EN
+TC	Turks and Caicos Islands	AM	Americas	West Indies	WIN	EN
+TV	Tuvalu	OC	Oceania	Pacific	PAC	EN
+UG	Uganda	AF	Africa	Eastern Africa	EAF	EN
+UA	Ukraine	EU	Europe	Eastern Europe	EEU	EN
+AE	United Arab Emirates	AS	Asia	South West Asia	SWA	EN
+GB	United Kingdom	EU	Europe	Western Europe	WEU	EN
+US	UNITED STATES	AM	Americas	North America	NAM	EN
+UY	Uruguay	AM	Americas	South America	SAM	EN
+UZ	Uzbekistan	AS	Asia	Central Asia	CAS	EN
+VU	Vanuatu	OC	Oceania	Pacific	PAC	EN
+VE	Venezuela	AM	Americas	South America	SAM	EN
+VN	Vietnam	AS	Asia	South East Asia	SEA	EN
+VI	Virgin Islands	AM	Americas	West Indies	WIN	EN
+WF	Wallis and Futuna	OC	Oceania	Pacific	PAC	EN
+EH	Western Sahara	AF	Africa	Northern Africa	NAF	EN
+WS	Western Samoa	OC	Oceania	Pacific	PAC	EN
+YE	Yemen	AS	Asia	South West Asia	SWA	EN
+ZR	Zaire (Dem Rep of Congo)	AF	Africa	Central Africa	CAF	EN
+ZM	Zambia	AF	Africa	Southern Africa	SAF	EN
+ZW	Zimbabwe	AF	Africa	Southern Africa	SAF	EN
+HK	Hong Kong	AS	Asia	East Asia	EAS	EN
+SC	Scotland	EU	Europe	Western Europe	WEU	EN
+--	Isle Of Man	EU	Europe	Western Europe	WEU	EN

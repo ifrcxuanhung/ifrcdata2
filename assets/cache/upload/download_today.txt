@@ -1,0 +1,98 @@
+CODE_DWN	COLUMN	DATAFIELD	LEFT	RIGHT	TYPE	FORMAT	DELIMITOR	MULT	OCCURRENCE
+VCB01	1	ticker	>	<	C				1
+VCB01	3	pcei	>	<	N			1000	1
+VCB01	4	pflr	>	<	N			1000	1
+VCB01	5	pref	>	<	N			1000	1
+VCB01	6	popn	>	<	N			1000	1
+VCB01	7	phgh	>	<	N			1000	1
+VCB01	8	plow	>	<	N			1000	1
+VCB01	9	pavg	>	<	N			1000	1
+VCB01	10	pcls	>	<	N			1000	1
+VCB02	1	ticker	>	<	C				1
+VCB02	3	pcei	>	<	N			1000	1
+VCB02	4	pflr	>	<	N			1000	1
+VCB02	5	pref	>	<	N			1000	1
+VCB02	6	popn	>	<	N			1000	1
+VCB02	7	phgh	>	<	N			1000	1
+VCB02	8	plow	>	<	N			1000	1
+VCB02	9	pavg	>	<	N			1000	1
+VCB02	10	pcls	>	<	N			1000	1
+VCB03	1	ticker	>	<	C				1
+VCB03	3	pcei	>	<	N			1000	1
+VCB03	4	pflr	>	<	N			1000	1
+VCB03	5	pref	>	<	N			1000	1
+VCB03	6	popn	>	<	N			1000	1
+VCB03	7	phgh	>	<	N			1000	1
+VCB03	8	plow	>	<	N			1000	1
+VCB03	9	pavg	>	<	N			1000	1
+VCB03	10	pcls	>	<	N			1000	1
+FPTS01	2	ticker	>	<	C				1
+FPTS01	4	pcei	>	<	N			1000	1
+FPTS01	5	pflr	>	<	N			1000	1
+FPTS01	3	pref	>	<	N			1000	1
+FPTS01	6	popn	>	<	N			1000	1
+FPTS01	8	phgh	>	<	N			1000	1
+FPTS01	9	plow	>	<	N			1000	1
+FPTS01	10	pavg	>	<	N			1000	1
+FPTS01	7	pcls	>	<	N			1000	1
+CPH09	2	ticker	>	<	C				3
+CPH09	3	pcei	>	<	N			1000	2
+CPH09	4	pflr	>	<	N			1000	2
+CPH09	5	pref	>	<	N			1000	1
+CPH09	6	pcls	>	<	N			1000	2
+CPH09	10	vlm	>	<	N			1000	1
+CPH09	14	popn	>	<	N			1000	2
+CPH09	15	phgh	>	<	N			1000	2
+CPH09	16	plow	>	<	N			1000	2
+CPH10	2	ticker	>	<	C				3
+CPH10	3	pcei	>	<	N			1000	2
+CPH10	4	pflr	>	<	N			1000	2
+CPH10	5	pref	>	<	N			1000	1
+CPH10	6	pcls	>	<	N			1000	2
+CPH10	10	vlm	>	<	N			1000	1
+CPH10	14	popn	>	<	N			1000	2
+CPH10	15	phgh	>	<	N			1000	2
+CPH10	16	plow	>	<	N			1000	2
+FPTS02	2	ticker	>	<	C				1
+FPTS02	4	pcei	>	<	N			1000	1
+FPTS02	3	pref	>	<	N			1000	1
+FPTS02	5	pflr	>	<	N			1000	1
+FPTS02	7	pcls	>	<	N			1000	1
+FPTS02	6	popn	>	<	N			1000	1
+FPTS02	8	phgh	>	<	N			1000	1
+FPTS02	9	plow	>	<	N			1000	1
+FPTS02	10	pavg	>	<	N			1000	1
+FPTS02	13	pvlm	>	<	N				1
+FPTS02	16	ptrn	>	<	N				1
+FPTS03	2	ticker	>	<	C				1
+FPTS03	4	pcei	>	<	N			1000	1
+FPTS03	3	pref	>	<	N			1000	1
+FPTS03	5	pflr	>	<	N			1000	1
+FPTS03	7	pcls	>	<	N			1000	1
+FPTS03	6	popn	>	<	N			1000	1
+FPTS03	8	phgh	>	<	N			1000	1
+FPTS03	9	plow	>	<	N			1000	1
+FPTS03	10	pavg	>	<	N			1000	1
+FPTS03	13	pvlm	>	<	N			1000	1
+FPTS02	16	ptrn	>	<	N			1000	1
+EXC09	1	ticker	>	<	C				2
+EXC09	2	pref	>	<	N			1000	2
+EXC09	3	popn	>	<	N			1000	2
+EXC09	4	pcls	>	<	N			1000	2
+EXC09	7	plow	>	<	N			1000	2
+EXC09	8	phgh	>	<	N			1000	2
+EXC09	9	pavg	>	<	N			1000	2
+EXC09	10	vlm	>	<	N			1	2
+EXC09	11	trn	>	<	N			1000	2
+EXC10	2	ticker	>	<	C				2
+EXC10	3	pref	>	<	N			1000	1
+EXC10	4	pcei	>	<	N			1000	1
+EXC10	5	pflr	>	<	N			1000	1
+EXC10	6	popn	>	<	N			1000	1
+EXC10	7	pcls	>	<	N			1000	1
+EXC10	11	phgh	>	<	N			1000	1
+EXC10	12	plow	>	<	N			1000	1
+EXC10	14	vlm	>	<	N				1
+EXC10	15	trn	>	<	N				1
+VST06	2	ticker	>	<	C				2
+VST06	3	shli	>	<	N				1

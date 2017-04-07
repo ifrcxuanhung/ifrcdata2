@@ -1,0 +1,7 @@
+code	name_vn	name_en
+BEPS	EPS cơ bản	Basic Earning Per Share
+BBVPS	BVPS cơ bản	Basic BVPS
+BPER	P/E cơ bản	Basic PER
+ROS	ROS	ROS
+ROEA	ROEA	ROEA
+ROAA	ROAA	ROAA

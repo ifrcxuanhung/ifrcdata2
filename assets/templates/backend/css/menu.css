@@ -1,0 +1,241 @@
+/*
+#------------------------------------------------------------------------
+# The World News II - July 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+#gkMainMenu > div > ul > li { height: 39px; border-right: 1px solid #666; }
+#gkMainMenu > div > ul > li:hover,
+#gkMainMenu > div > ul > li.active { background: transparent url('../images/menu_item.png') repeat-x center bottom; }
+#gkMainMenu > div > ul > li:hover > a { color: #fff; }
+#gkMainMenu > div > ul > li > a { padding: 0 17px 0 19px; display: block; height: 39px; font-size: 16px; line-height:40px; text-shadow: -1px -1px 0 #222; color: #fff; font-weight: bold; } 
+/*#gkMainMenu > div > ul > li.active > a > span { background: transparent url('../images/menu_active.png') no-repeat center top; }*/
+
+#gkMainMenu > div > ul div.childcontent { padding-top: 0px; background: transparent; }
+#gkMainMenu > div > ul div.childcontent-inner-wrap { border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; background: #333 url('../images/submenu_bg.jpg') repeat-x 0 0; box-shadow: 0 2px 2px #1b1b1b; -moz-box-shadow: 0 2px 2px #1b1b1b; -webkit-box-shadow: 0 2px 2px #1b1b1b; border-bottom: 1px solid #4d4d4d; padding: 16px 0 20px 0; }
+#gkMainMenu > div > ul div.childcontent-inner { overflow: hidden; }
+#gkMainMenu > div > ul div.childcontent div.childcontent { margin-top: -25px; padding-top: 2px !important}
+#gkMainMenu > div > ul div.childcontent-inner-wrap div.childcontent-inner-wrap { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+
+div.gk-menu > ul.level0 > li > .childcontent .gkcol { padding-bottom: 0px}
+#gkMainMenu > div > ul div.childcontent a,
+#gkMainMenu > div > ul div.childcontent span { font-size: 10px; color: #ddd; }
+#gkMainMenu > div > ul div.childcontent li { padding: 0 24px; min-height: 24px; line-height: 24px; }
+#gkMainMenu > div > ul div.childcontent li.group { padding: 0; height: auto; }
+#gkMainMenu > div > ul div.childcontent li > a,
+#gkMainMenu > div > ul div.childcontent li > span { display:block; min-height: 24px; color:#fff; text-shadow: 0 1px 0 #000; padding-left: 16px; background: transparent url('../images/separator_dark.png') no-repeat left 10px; text-transform:uppercase; font-weight: bold; }
+#gkMainMenu > div > ul div.childcontent span{
+    font-weight: normal;
+    font-family: arial;
+}
+
+#gkMainMenu > div > ul div.childcontent li.active > a,
+#gkMainMenu > div > ul div.childcontent li.active > span,
+#gkMainMenu > div > ul div.childcontent li:hover > a,
+#gkMainMenu > div > ul div.childcontent li:hover > span,
+#gkMainMenu > div > ul div.childcontent li > a:hover,
+#gkMainMenu > div > ul div.childcontent li > span:hover { color: #cb260a!important; }
+
+#gkMainMenu > div > ul div.childcontent li.active > a > span,
+#gkMainMenu > div > ul div.childcontent li.active > span > span,
+#gkMainMenu > div > ul div.childcontent li:hover > a > span,
+#gkMainMenu > div > ul div.childcontent li:hover > span > span,
+#gkMainMenu > div > ul div.childcontent li > a:hover > span,
+#gkMainMenu > div > ul div.childcontent li > span:hover > span { color: #fff!important; }
+
+#gkMainMenu > div > ul div.childcontent .group-title { padding: 8px 0; margin: 0 24px 10px 24px; border-bottom: 2px solid #5a5a5a; }
+#gkMainMenu > div > ul div.childcontent .group-title .menu-title { font-size: 18px; line-height: 18px; text-shadow: 0 1px 0 #000; display: block; color: #fff; }
+#gkMainMenu > div > ul div.childcontent .group-title .menu-desc { font-size: 12px; line-height: 12px;  text-shadow: 0 1px 0 #000; display: block; color: #fff; } 
+#gkMainMenu .module p {font-size: 12px; line-height:  18px; color: #fafafa; text-shadow: 0 1px 0 #000; }
+
+/* split menu */
+
+#gkSubmenu { height: 31px; background: #3b3b3b url('../images/dropline_bg.jpg') repeat-x left bottom; border-radius: 0 0 3px 3px; -webkit-border-radius: 0 0 3px 3px; -moz-border-radius: 0 0 3px 3px; }
+#gkSubmenu > div > ul { float: left; font-size: 10px; color: #fff; text-shadow: 0 1px 0 #000; text-transform: uppercase; font-weight: bold; line-height: 30px!important; }
+#gkSubmenu > div > ul li { float: left; padding: 0 10px 0 14px; background: transparent url('../images/separator_dark.png') no-repeat left center; }
+#gkSubmenu > div > ul li a { line-height:30px!important; color: #fff; display: block; }
+#gkSubmenu > div > ul li a:hover { color: #fff; text-decoration: underline; }
+#gkSubmenu > div > ul li:first-child { padding-left: 17px; background:none; }
+
+/* Sub Nav (lv2) */
+#gkSubmenu ul li li { display:block; min-height: 24px; color:#fff; text-shadow: 0 1px 0 #000; padding-left: 16px; background: transparent url('../images/separator_dark.png') no-repeat left 10px; text-transform:uppercase; font-weight: bold; clear: both!important; float: none!important; }
+#gkSubmenu ul li li:first-child { background: transparent url('../images/separator_dark.png') no-repeat left 10px!important;  }
+#gkSubmenu ul li li > a { font-size: 10px; color: #fff!important; }
+#gkSubmenu ul li li > a:hover,
+#gkSubmenu ul li li > a:hover > span { color: #cb260a!important; }
+#gkSubmenu ul li ul ul,
+#gkSubmenu ul li ul ul ul { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+#gkSubmenu ul>li.hover>ul { display:block; height:auto; left:auto; position:absolute; }
+#gkSubmenu ul ul { border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; background: #333 url('../images/submenu_bg.jpg') repeat-x 0 0; box-shadow: 0 2px 2px #1b1b1b; -moz-box-shadow: 0 2px 2px #1b1b1b; -webkit-box-shadow: 0 2px 2px #1b1b1b; border-bottom: 1px solid #4d4d4d; padding: 12px 20px 10px 20px; }
+#gkSubmenu > div > ul > ul  { margin-left: -20px!important; }
+#gkSubmenu ul ul ul { display:none!important; left:-999px!important; }
+#gkSubmenu ul ul li:hover>ul { margin-left:200px!important; margin-top:-40px!important; left:0!important; display:block!important; }
+#gkSubmenu ul li:hover ul,
+#gkSubmenu ul li:hover ul ul,
+#gkSubmenu ul li:hover ul ul ul { left: auto; }
+*{margin:0; padding:0}
+ol, ul
+{
+    list-style: none;
+}
+
+.haschild a{background: url('../images/arrow.png') no-repeat center bottom}
+
+/*.haschild a:hover{background: url('../images/menu_active.png') no-repeat center bottom}*/
+
+/*.active a{background: url('../images/menu_active.png') no-repeat center bottom}*/
+
+#gkMainMenu
+{
+    background-image: url('../images/menu_item.png');
+    border-bottom-color: #ddd;
+    border-top: 1px solid #888;
+}
+
+#gkMainMenu > div
+{
+    border-bottom-color: #ff583b;
+}
+/* menu.css */
+#gkMainMenu > div > ul > li:hover, #gkMainMenu > div > ul > li.active
+{
+    background-image: url('../images/menu_item.png');
+}
+#gkMainMenu > div > ul div.childcontent li.active > a, #gkMainMenu > div > ul div.childcontent li.active > span, #gkMainMenu > div > ul div.childcontent li:hover > a, #gkMainMenu > div > ul div.childcontent li:hover > span, #gkMainMenu > div > ul div.childcontent li > a:hover, #gkMainMenu > div > ul div.childcontent li > span:hover
+{
+    color: #cb260a !important;
+}
+#gkSubmenu ul li li > a:hover, #gkSubmenu ul li li > a:hover > span
+{
+    color: #cb260a !important;
+}
+
+.gkmenu .module .nspArt h4.nspHeader, .gkmenu .module .nspArt h4.nspHeader a, .gkmenu .group-content .nspArt h4.nspHeader, .gkmenu .group-content .nspArt h4.nspHeader a
+{
+    font-size: 12px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nspArt h4.nspHeader
+{
+    line-height: 16px;
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+.gkmenu .module .nspArt .nspText, .gkmenu .group-content .nspArt .nspText
+{
+    color: #DDDDDD !important;
+}
+#gkPage .box.small > div > h3.header, #gkPage .box_text.small > div > h3.header, #gkPage .box_menu.small > div > h3.header, #gkBottomWrap .box > div > h3.header, #gkPage .box.advert h3.advert
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gkMainMenu > div > ul > li > a, #gkPage .box > div > h3.header, #gkPage .box_menu > div > h3.header, #gkPage .box_text > div > h3.header, ul.gkTabs li, h1, h2, h3, h4, h5, #gkMainMenu > div > ul div.childcontent .group-title, .button, button, button.button, input[type=submit], input[type=button], .pagenav-next a, .pagenav-prev a, table th, legend, .tip-title, div.pagination ul li a, div.pagination ul li span, div.k2Pagination ul li a, div.k2Pagination ul li span, div.header .nspLinks ul li h4, .gks_tooltip_datas h3
+{
+    font-family: BebasNeue, Arial, sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+#gkMainMenu
+{
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 3px solid #444;
+}
+#gkMainMenu > div
+{
+    border-bottom: 1px solid #666;
+    height: 39px;
+}
+
+
+
+div.gk-menu > ul.level0 > li
+{
+    float: left;
+    width: auto;
+}
+
+div.gk-menu > ul.level0 > li > a
+{
+    display: block;
+}
+div.gk-menu > ul.level0 > li > a > span.menu-title
+{
+    display: block;
+}
+div.gk-menu > ul.level0 > li > a > span.menu-desc
+{
+    display: block;
+}
+
+div.gk-menu > ul.level0 > li > .childcontent, div.gk-menu > ul.level0 > li > .childcontent .childcontent
+{
+    position: absolute;
+    left: -999em;
+    z-index: 999;
+}
+
+div.gk-menu > ul.level0 > li > .childcontent .gkcol
+{
+    float: left;
+}
+
+div.gk-menu > ul.level0 > li:hover > .childcontent, div.gk-menu > ul.level0 > li:hover > .childcontent li:hover > .childcontent
+{
+    left: inherit;
+}
+
+div.gk-menu > ul.level0 > li:hover > .childcontent .childcontent
+{
+    margin-left: 160px;
+    margin-top: -25px;
+}
+/* submenu width - left padding of item */
+
+/*---------------------- fix ------------------------*/
+.normalSubmenu{
+    background: #333333!important;
+    padding:0px!important;
+}
+.normalSubmenu ul li{
+    height: 34px;
+    line-height: 34px!important;
+    border-bottom:1px solid #666;
+    width:150px;
+}
+.normalSubmenu ul li:hover{
+    background: url('../images/menu_item.png') center bottom;
+}
+.normalSubmenu ul li a{
+    background: none!important;
+    padding-left: 0px!important;
+    text-shadow: none!important;
+}
+.normalSubmenu ul li a span{
+    color: white!important;
+    font-size: 14px!important;
+    text-transform: none!important;
+}
+.normalSubmenu .level1 li .childcontent{
+    margin-left:165px!important;
+}
+#gkMainMenu > div > ul > li > a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 39px!important;
+}
+#gkMainMenu > div > ul > li > a span{
+    display: inline-block;
+    vertical-align: middle;
+}
+ul.gkmenu{
+    margin-bottom:0px !important;
+}

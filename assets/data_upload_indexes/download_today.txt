@@ -1,0 +1,32 @@
+CODE_DWN	COLUMN	DATAFIELD	LEFT	RIGHT	TYPE	FORMAT	DELIMITOR	MULT	OCCURRENCE
+FPTS01	2	ticker	>	<	C				1
+FPTS01	4	pcei	>	<	N			1000	1
+FPTS01	5	pflr	>	<	N			1000	1
+FPTS01	3	pref	>	<	N			1000	1
+FPTS01	6	popn	>	<	N			1000	1
+FPTS01	8	phgh	>	<	N			1000	1
+FPTS01	9	plow	>	<	N			1000	1
+FPTS01	10	pavg	>	<	N			1000	1
+FPTS01	7	pcls	>	<	N			1000	1
+FPTS02	2	ticker	>	<	C				1
+FPTS02	4	pcei	>	<	N			1000	1
+FPTS02	3	pref	>	<	N			1000	1
+FPTS02	5	pflr	>	<	N			1000	1
+FPTS02	7	pcls	>	<	N			1000	1
+FPTS02	6	popn	>	<	N			1000	1
+FPTS02	8	phgh	>	<	N			1000	1
+FPTS02	9	plow	>	<	N			1000	1
+FPTS02	10	pavg	>	<	N			1000	1
+FPTS02	13	pvlm	>	<	N				1
+FPTS02	16	ptrn	>	<	N				1
+FPTS03	2	ticker	>	<	C				1
+FPTS03	4	pcei	>	<	N			1000	1
+FPTS03	3	pref	>	<	N			1000	1
+FPTS03	5	pflr	>	<	N			1000	1
+FPTS03	7	pcls	>	<	N			1000	1
+FPTS03	6	popn	>	<	N			1000	1
+FPTS03	8	phgh	>	<	N			1000	1
+FPTS03	9	plow	>	<	N			1000	1
+FPTS03	10	pavg	>	<	N			1000	1
+FPTS03	13	pvlm	>	<	N			1000	1
+FPTS02	16	ptrn	>	<	N			1000	1

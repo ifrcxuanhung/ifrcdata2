@@ -1,0 +1,534 @@
+CODE_DWL	COLUMN	DATAFIELD	LEFT	RIGHT	TYPE	FORMAT	DELIMITOR	MULT	OCCURRENCE	METAORDER	COMMENT
+CPHPRHSXHW	2	ticker	>	<	C				3		
+CPHPRHSXHW	3	pcei	>	<	N			1000	2		
+CPHPRHSXHW	4	pflr	>	<	N			1000	2		
+CPHPRHSXHW	5	pref	>	<	N			1000	1		
+CPHPRHSXHW	6	pcls	>	<	N			1000	2		
+CPHPRHSXHW	10	vlm	>	<	N			1	1		
+CPHPRHSXHW	14	popn	>	<	N			1000	2		
+CPHPRHSXHW	15	phgh	>	<	N			1000	2		
+CPHPRHSXHW	16	plow	>	<	N			1000	2		
+CPHPRHNXHW	2	ticker	>	<	C				3		
+CPHPRHNXHW	3	pcei	>	<	N			1000	2		
+CPHPRHNXHW	4	pflr	>	<	N			1000	2		
+CPHPRHNXHW	5	pref	>	<	N			1000	1		
+CPHPRHNXHW	6	pcls	>	<	N			1000	2		
+CPHPRHNXHW	10	vlm	>	<	N			1	1		
+CPHPRHNXHW	14	popn	>	<	N			1000	2		
+CPHPRHNXHW	15	phgh	>	<	N			1000	2		
+CPHPRHNXHW	16	plow	>	<	N			1000	2		
+EXCPRHSXHH	1	ticker	>	<	C				2		
+EXCPRHSXHH	2	pref	>	<	N			1000	2		
+EXCPRHSXHH	3	popn	>	<	N			1000	2		
+EXCPRHSXHH	4	pcls	>	<	N			1000	2		
+EXCPRHSXHH	7	plow	>	<	N			1000	2		
+EXCPRHSXHH	8	phgh	>	<	N			1000	2		
+EXCPRHSXHH	9	pavg	>	<	N			1000	2		
+EXCPRHSXHH	10	vlm	>	<	N			1	2		
+EXCPRHSXHH	11	trn	>	<	N			1000	2		
+EXCPRHNXHH	2	ticker	>	<	C				2		
+EXCPRHNXHH	3	pref	>	<	N			1000	1		
+EXCPRHNXHH	4	pcei	>	<	N			1000	1		
+EXCPRHNXHH	5	pflr	>	<	N			1000	1		
+EXCPRHNXHH	6	popn	>	<	N			1000	1		
+EXCPRHNXHH	7	pcls	>	<	N			1000	1		
+EXCPRHNXHH	11	phgh	>	<	N			1000	1		
+EXCPRHNXHH	12	plow	>	<	N			1000	1		
+EXCPRHNXHH	14	vlm	>	<	N			1	1		
+EXCPRHNXHH	15	trn	>	<	N			1	1		
+EXCPRHSXTW	1	ticker	>	<	C				2		
+EXCPRHSXTW	2	pref	>	<	N			1000	2		
+EXCPRHSXTW	3	popn	>	<	N			1000	2		
+EXCPRHSXTW	4	pcls	>	<	N			1000	2		
+EXCPRHSXTW	7	plow	>	<	N			1000	2		
+EXCPRHSXTW	8	phgh	>	<	N			1000	2		
+EXCPRHSXTW	9	pavg	>	<	N			1000	2		
+EXCPRHSXTW	10	vlm	>	<	N			1	2		
+EXCPRHSXTW	11	trn	>	<	N			1000	2		
+FPTPRHNXHW	2	ticker	>	<	C				1		
+FPTPRHNXHW	3	pref	>	<	N			1000	1		
+FPTPRHNXHW	4	pcei	>	<	N			1000	1		
+FPTPRHNXHW	5	pflr	>	<	N			1000	1		
+FPTPRHNXHW	6	popn	>	<	N			1000	1		
+FPTPRHNXHW	7	pcls	>	<	N			1000	1		
+FPTPRHNXHW	8	phgh	>	<	N			1000	1		
+FPTPRHNXHW	9	plow	>	<	N			1000	1		
+FPTPRHNXHW	10	pavg	>	<	N			1000	1		
+FPTPRHNXHW	13	vlm	>	<	N			1	1		
+FPTPRHNXHW	16	trn	>	<	N			1000000	1		
+FPTPRUPCHW	2	ticker	>	<	C				1		
+FPTPRUPCHW	3	pref	>	<	N			1000	1		
+FPTPRUPCHW	4	pcei	>	<	N			1000	1		
+FPTPRUPCHW	5	pflr	>	<	N			1000	1		
+FPTPRUPCHW	6	popn	>	<	N			1000	1		
+FPTPRUPCHW	7	pcls	>	<	N			1000	1		
+FPTPRUPCHW	8	phgh	>	<	N			1000	1		
+FPTPRUPCHW	9	plow	>	<	N			1000	1		
+FPTPRUPCHW	10	pavg	>	<	N			1000	1		
+FPTPRUPCHW	13	vlm	>	<	N			1	1		
+FPTPRUPCHW	16	trn	>	<	N			1000000	1		
+FPTPRHSXHW	2	ticker	>	<	C				1		
+FPTPRHSXHW	3	pref	>	<	N			1000	1		
+FPTPRHSXHW	4	pcei	>	<	N			1000	1		
+FPTPRHSXHW	5	pflr	>	<	N			1000	1		
+FPTPRHSXHW	6	popn	>	<	N			1000	1		
+FPTPRHSXHW	7	pcls	>	<	N			1000	1		
+FPTPRHSXHW	8	phgh	>	<	N			1000	1		
+FPTPRHSXHW	9	plow	>	<	N			1000	1		
+FPTPRHSXHW	10	pavg	>	<	N			1000	1		
+FPTPRHSXHW	13	vlm	>	<	N			1	1		
+FPTPRHSXHW	16	trn	>	<	N			1000000	1		
+FPTPRHSXTW	2	ticker	>	<	C				1		
+FPTPRHSXTW	3	pref	>	<	N			1000	1		
+FPTPRHSXTW	4	pcei	>	<	N			1000	1		
+FPTPRHSXTW	5	pflr	>	<	N			1000	1		
+FPTPRHSXTW	6	popn	>	<	N			1000	1		
+FPTPRHSXTW	7	pcls	>	<	N			1000	1		
+FPTPRHSXTW	8	phgh	>	<	N			1000	1		
+FPTPRHSXTW	9	plow	>	<	N			1000	1		
+FPTPRHSXTW	10	pavg	>	<	N			1000	1		
+FPTPRHSXTW	13	vlm	>	<	N			1	1		
+FPTPRHSXTW	16	trn	>	<	N			1000000	1		
+FPTPRHNXTW	2	ticker	>	<	C				1		
+FPTPRHNXTW	3	pref	>	<	N			1000	1		
+FPTPRHNXTW	4	pcei	>	<	N			1000	1		
+FPTPRHNXTW	5	pflr	>	<	N			1000	1		
+FPTPRHNXTW	6	popn	>	<	N			1000	1		
+FPTPRHNXTW	7	pcls	>	<	N			1000	1		
+FPTPRHNXTW	8	phgh	>	<	N			1000	1		
+FPTPRHNXTW	9	plow	>	<	N			1000	1		
+FPTPRHNXTW	10	pavg	>	<	N			1000	1		
+FPTPRHNXTW	13	vlm	>	<	N			1	1		
+FPTPRHNXTW	16	trn	>	<	N			1000000	1		
+FPTPRUPCTW	2	ticker	>	<	C				1		
+FPTPRUPCTW	3	pref	>	<	N			1000	1		
+FPTPRUPCTW	4	pcei	>	<	N			1000	1		
+FPTPRUPCTW	5	pflr	>	<	N			1000	1		
+FPTPRUPCTW	6	popn	>	<	N			1000	1		
+FPTPRUPCTW	7	pcls	>	<	N			1000	1		
+FPTPRUPCTW	8	phgh	>	<	N			1000	1		
+FPTPRUPCTW	9	plow	>	<	N			1000	1		
+FPTPRUPCTW	10	pavg	>	<	N			1000	1		
+FPTPRUPCTW	13	vlm	>	<	N			1	1		
+FPTPRUPCTW	16	trn	>	<	N			1000000	1		
+VCBPRHSXHW	1	ticker	>	<	C				1		
+VCBPRHSXHW	3	pcei	>	<	N			1000	1		
+VCBPRHSXHW	4	pflr	>	<	N			1000	1		
+VCBPRHSXHW	5	pref	>	<	N			1000	1		
+VCBPRHSXHW	6	popn	>	<	N			1000	1		
+VCBPRHSXHW	7	phgh	>	<	N			1000	1		
+VCBPRHSXHW	8	plow	>	<	N			1000	1		
+VCBPRHSXHW	9	pcls	>	<	N			1000	1		
+VCBPRHSXHW	10	pavg	>	<	N			1000	1		
+VCBPRHNXHW	1	ticker	>	<	C				1		
+VCBPRHNXHW	3	pcei	>	<	N			1000	1		
+VCBPRHNXHW	4	pflr	>	<	N			1000	1		
+VCBPRHNXHW	5	pref	>	<	N			1000	1		
+VCBPRHNXHW	6	popn	>	<	N			1000	1		
+VCBPRHNXHW	7	phgh	>	<	N			1000	1		
+VCBPRHNXHW	8	plow	>	<	N			1000	1		
+VCBPRHNXHW	9	pavg	>	<	N			1000	1		
+VCBPRHNXHW	10	pcls	>	<	N			1000	1		
+VCBPRUPCHW	1	ticker	>	<	C				1		
+VCBPRUPCHW	3	pcei	>	<	N			1000	1		
+VCBPRUPCHW	4	pflr	>	<	N			1000	1		
+VCBPRUPCHW	5	pref	>	<	N			1000	1		
+VCBPRUPCHW	6	popn	>	<	N			1000	1		
+VCBPRUPCHW	7	phgh	>	<	N			1000	1		
+VCBPRUPCHW	8	plow	>	<	N			1000	1		
+VCBPRUPCHW	9	pcls	>	<	N			1000	1		
+VCBPRUPCHW	10	pavg	>	<	N			1000	1		
+VCBPRHNXTW	1	ticker	>	<	C				1		
+VCBPRHNXTW	3	pcei	>	<	N			1000	1		
+VCBPRHNXTW	4	pflr	>	<	N			1000	1		
+VCBPRHNXTW	5	pref	>	<	N			1000	1		
+VCBPRHNXTW	6	popn	>	<	N			1000	1		
+VCBPRHNXTW	7	phgh	>	<	N			1000	1		
+VCBPRHNXTW	8	plow	>	<	N			1000	1		
+VCBPRHNXTW	9	pcls	>	<	N			1000	1		
+VCBPRHNXTW	10	pavg	>	<	N			1000	1		
+VCBPRHSXTW	1	ticker	>	<	C				1		
+VCBPRHSXTW	3	pcei	>	<	N			1000	1		
+VCBPRHSXTW	4	pflr	>	<	N			1000	1		
+VCBPRHSXTW	5	pref	>	<	N			1000	1		
+VCBPRHSXTW	6	popn	>	<	N			1000	1		
+VCBPRHSXTW	7	phgh	>	<	N			1000	1		
+VCBPRHSXTW	8	plow	>	<	N			1000	1		
+VCBPRHSXTW	9	pcls	>	<	N			1000	1		
+VCBPRHSXTW	10	pavg	>	<	N			1000	1		
+VCBPRUPCTW	1	ticker	>	<	C				1		
+VCBPRUPCTW	3	pcei	>	<	N			1000	1		
+VCBPRUPCTW	4	pflr	>	<	N			1000	1		
+VCBPRUPCTW	5	pref	>	<	N			1000	1		
+VCBPRUPCTW	6	popn	>	<	N			1000	1		
+VCBPRUPCTW	7	phgh	>	<	N			1000	1		
+VCBPRUPCTW	8	plow	>	<	N			1000	1		
+VCBPRUPCTW	9	pcls	>	<	N			1000	1		
+VCBPRUPCTW	10	pavg	>	<	N			1000	1		
+VST06	2	ticker	>	<	C				2		
+VST06	3	shli	>	<	N			1	1		
+VST06	4	pref	>	<	N			1	1		
+VST06	5	popn	>	<	N			1	1		
+VST06	6	pcls	>	<	N			1	1		
+VST06	10	phgh	>	<	N			1	1		
+VST06	11	plow	>	<	N			1	1		
+VST06	12	pavg	>	<	N			1	1		
+VST06	13	vlm	>	<	N			1	1		
+VST06	14	trn	>	<	N			1000000	1		
+VST07	2	ticker	>	<	C				2		
+VST07	3	shli	>	<	N			1	1		
+VST07	4	pref	>	<	N			1	1		
+VST07	9	pcls	>	<	N			1	1		
+VST07	16	vlm	>	<	N			1	1		
+VST07	17	trn	>	<	N			1000000	1		
+CAFPRHSXHW	1	ticker	>	<	C				2		
+CAFPRHSXHW	2	pcls	>	<	N			1000	1		
+CAFPRHSXHW	6	pref	>	<	N			1000	1		
+CAFPRHSXHW	7	popn	>	<	N			1000	1		
+CAFPRHSXHW	8	phgh	>	<	N			1000	1		
+CAFPRHSXHW	9	plow	>	<	N			1000	1		
+CAFPRHSXHW	10	vlm	>	<	N			1	1		
+CAFPRHSXHW	11	trn	>	<	N			1	1		
+CAFPRHNXHW	1	ticker	>	<	C				2		
+CAFPRHNXHW	2	pcls	>	<	N			1000	1		
+CAFPRHNXHW	3	pavg	>	<	N			1000	1		
+CAFPRHNXHW	6	pref	>	<	N			1000	1		
+CAFPRHNXHW	7	popn	>	<	N			1000	1		
+CAFPRHNXHW	8	phgh	>	<	N			1000	1		
+CAFPRHNXHW	9	plow	>	<	N			1000	1		
+CAFPRHNXHW	10	vlm	>	<	N			1	1		
+CAFPRHNXHW	11	trn	>	<	N			1	1		
+CAFPRUPCHW	1	ticker	>	<	C				2		
+CAFPRUPCHW	2	pcls	>	<	N			1000	1		
+CAFPRUPCHW	3	pavg	>	<	N			1000	1		
+CAFPRUPCHW	6	pref	>	<	N			1000	1		
+CAFPRUPCHW	7	popn	>	<	N			1000	1		
+CAFPRUPCHW	8	phgh	>	<	N			1000	1		
+CAFPRUPCHW	9	plow	>	<	N			1000	1		
+CAFPRUPCHW	10	vlm	>	<	N			1	1		
+CAFPRUPCHW	11	trn	>	<	N			1	1		
+CPHREALLTW	2	ticker	<strong>	</strong>	C				1		
+CPHREALLTW	5	ftrd	>	<	D				1		
+CPHREALLTW	6	ipo_shli	>	<	N			1	1		
+CPHREALLTW	8	shou	>	<	N			1	1		
+CPHREALLTW	10	shli	>	<	N			1	1		
+EXCPRHSXHHO	1	ticker	>	<	C				2		
+EXCPRHSXHHO	2	pref	>	<	N			1000	2		
+EXCPRHSXHHO	3	popn	>	<	N			1000	2		
+EXCPRHSXHHO	4	pcls	>	<	N			1000	2		
+EXCPRHSXHHO	7	plow	>	<	N			1000	2		
+EXCPRHSXHHO	8	phgh	>	<	N			1000	2		
+EXCPRHSXHHO	9	pavg	>	<	N			1000	2		
+EXCPRHSXHHO	10	vlm	>	<	N			1	2		
+EXCPRHSXHHO	11	trn	>	<	N			1000	2		
+VSTREALLTW	2	ipo	>	<	D				4		
+VSTREALLTW	3	ftrd_cls	>	<	N			1	4		
+VSTREALLTW	4	ipo_shli	>	<	N			1	4		
+VSTREALLTW	5	shli	>	<	N			1	4		
+VSTREALLTW	6	shou	>	<	N			1	4		
+VSTSTATHM	1	date	>	<	D				1		
+VSTSTATHM	2	shli	>	<	N			1	1		
+VSTSTATHM	3	shou	>	<	N			1	1		
+VSTSTATHM	5	trn	>	<	N			1000000	1		Rounded
+VSTSTATHM	7	phgh	>	<	N			1	1		
+VSTSTATHM	8	plow	>	<	N			1	1		
+VSTSTATHM	9	pavg	>	<	N			1	1		
+VSTSTATHM	10	adj_pcls	>	<	N			1	1		
+VSTSTATHM	14	vlm	>	<	N			1	1		
+EXCPRUPCHH	2	ticker	>	<	C				2		
+EXCPRUPCHH	3	pref	>	<	N			1000	1		
+EXCPRUPCHH	4	pcei	>	<	N			1000	1		
+EXCPRUPCHH	5	pflr	>	<	N			1000	1		
+EXCPRUPCHH	6	popn	>	<	N			1000	1		
+EXCPRUPCHH	7	pcls	>	<	N			1000	1		
+EXCPRUPCHH	8	phgh	>	<	N			1	1		
+EXCPRUPCHH	9	plow	>	<	N			1	1		
+EXCPRUPCHH	10	pavg	>	<	N			1	1		
+EXCPRUPCHH	14	vlm	>	<	N			1	1		
+EXCPRUPCHH	15	trn	>	<	N			1	1		
+CPHDIVCASTW	2	ticker	>	<	C				3		
+CPHDIVCASTW	3	pay_method	>	<	C				1		
+CPHDIVCASTW	4	date_ex	>	<	D				1		
+CPHDIVCASTW	5	date_pay	>	<	D				1		
+CPHDIVCASTW	7	dividend	<strong>	 đồng/cổ	N			1	1		
+CPHDIVCASTW	7	price_exd	ngày GDKHQ:</strong>		N			1	2		
+VSTPRHNXHH	2	ticker	>	<	C				2		
+VSTPRHNXHH	3	shli	>	<	N			1	1		
+VSTPRHNXHH	4	pref	>	<	N			1	1		
+VSTPRHNXHH	5	popn	>	<	N			1	1		
+VSTPRHNXHH	6	pcls	>	<	N			1	1		
+VSTPRHNXHH	10	phgh	>	<	N			1	1		
+VSTPRHNXHH	11	plow	>	<	N			1	1		
+VSTPRHNXHH	12	pavg	>	<	N			1	1		
+VSTPRHNXHH	13	vlm	>	<	N			1	1		
+VSTPRHNXHH	14	trn	>	<	N			1	1		
+VSTPRHSXHH	2	ticker	>	<	C				2		
+VSTPRHSXHH	3	shli	>	<	N			1	1		
+VSTPRHSXHH	4	pref	>	<	N			1	1		
+VSTPRHSXHH	9	pcls	>	<	N			1	1		
+VSTPRHSXHH	16	vlm	>	<	N			1	1		
+VSTPRHSXHH	17	trn	>	<	N			1000000	1		
+STBALLTW	1	name	>	<	C				1		
+STBALLTW	2	own_pos	>	<	C				1		
+STBALLTW	3	own_shares	>	<	N			1	1		
+STBALLTW	4	own_perc	>	<	C				1		
+STBALLTW	5	dateupd	>	<	D				1		
+CAFPRHSXTW	1	ticker	>	<	C				2		
+CAFPRHSXTW	2	pcls	>	<	N			1000	1		
+CAFPRHSXTW	6	pref	>	<	N			1000	1		
+CAFPRHSXTW	7	popn	>	<	N			1000	1		
+CAFPRHSXTW	8	phgh	>	<	N			1000	1		
+CAFPRHSXTW	9	plow	>	<	N			1000	1		
+CAFPRHSXTW	10	vlm	>	<	N			1	1		
+CAFPRHSXTW	11	trn	>	<	N			1	1		
+CAFPRHNXTW	1	ticker	>	<	C				2		
+CAFPRHNXTW	2	pcls	>	<	N			1000	1		
+CAFPRHNXTW	3	pavg	>	<	N			1000	1		
+CAFPRHNXTW	6	pref	>	<	N			1000	1		
+CAFPRHNXTW	7	popn	>	<	N			1000	1		
+CAFPRHNXTW	8	phgh	>	<	N			1000	1		
+CAFPRHNXTW	9	plow	>	<	N			1000	1		
+CAFPRHNXTW	10	vlm	>	<	N			1	1		
+CAFPRHNXTW	11	trn	>	<	N			1	1		
+CAFPRUPCTW	1	ticker	>	<	C				2		
+CAFPRUPCTW	2	pcls	>	<	N			1000	1		
+CAFPRUPCTW	3	pavg	>	<	N			1000	1		
+CAFPRUPCTW	6	pref	>	<	N			1000	1		
+CAFPRUPCTW	7	popn	>	<	N			1000	1		
+CAFPRUPCTW	8	phgh	>	<	N			1000	1		
+CAFPRUPCTW	9	plow	>	<	N			1000	1		
+CAFPRUPCTW	10	vlm	>	<	N			1	1		
+CAFPRUPCTW	11	trn	>	<	N			1	1		
+CPHALLTW	2	name	>	<	C				1		
+CPHALLTW	3	own_shares	>	<	N			1	1		
+CPHALLTW	4	own_perc	>	<	C				1		
+CPHALLTW	5	dateupd	>	<	D				1		
+CAFALLTW	1	ticker	>	<	C				3		
+CAFALLTW	2	name	>	<	C				2		
+CAFALLTW	6	own_shbeg	>	<	N			1	1		
+CAFALLTW	7	own_dbuy	>	<	N			1	1		
+CAFALLTW	8	own_dsell	>	<	N			1	1		
+CAFALLTW	9	own_dstart	>	<	C				1		
+CAFALLTW	10	own_dend	>	<	C				1		
+CAFALLTW	11	own_ebuy	>	<	N			1	1		
+CAFALLTW	12	own_esell	>	<	N			1	1		
+CAFALLTW	13	dateeff	>	<	D				1		
+CAFALLTW	14	own_shend	>	<	N			1	1		
+CAFALLTW	15	own_dwgt	>	<	C				1		
+FPTDIVHW	1	ticker	>	<	C				1		
+FPTDIVHW	2	dividend	, 	đồng	N			1	1		
+FPTDIVHW	2	pay_year	năm	bằng	C				1		
+FPTDIVHW	2	pay_period	đợt 	bằng	C				1		
+FPTDIVHW	3	date_rec	>	<	D				1		
+FPTDIVHW	4	date_ex	>	<	D				1		
+FPTDIVHW	6	date_pay	>	<	D				1		
+CAFOWNERTW	1	name	>		C				1		
+CAFOWNERTW	2	own_shares	>	<	N			1	1		
+CAFOWNERTW	3	own_perc	>	<	C				1		
+CAFOWNERTW	4	dateupd	>	<	D				1		
+CAFSHRTW	1	shli	niêm yết :	cp	N			1	1		
+CAFSHRTW		shou	lưu hành :	cp	N			1	1		
+EXCPRHNXTW	1	ticker	>	<\/a>	C				1		
+EXCPRHNXTW	1	pref	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	2		
+EXCPRHNXTW	1	pcei	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	3		
+EXCPRHNXTW	1	pflr	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	4		
+EXCPRHNXTW	1	popn	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	5		
+EXCPRHNXTW	1	pcls	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	6		
+EXCPRHNXTW	1	phgh	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	7		
+EXCPRHNXTW	1	plow	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	8		
+EXCPRHNXTW	1	pbase	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	9		
+EXCPRHNXTW	1	vlm	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1	12		
+EXCPRHNXTW	1	trn	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	13		
+EXCPRUPCTW	1	ticker	>	<\/a>	C				1		
+EXCPRUPCTW	1	pref	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	2		
+EXCPRUPCTW	1	pcei	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	3		
+EXCPRUPCTW	1	pflr	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	4		
+EXCPRUPCTW	1	popn	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	5		
+EXCPRUPCTW	1	pcls	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	6		
+EXCPRUPCTW	1	phgh	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	7		
+EXCPRUPCTW	1	plow	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	8		
+EXCPRUPCTW	1	pavg	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	9		
+EXCPRUPCTW	1	vlm	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1	12		
+EXCPRUPCTW	1	trn	CHR(34),CHR(34)	CHR(34),CHR(34)	N			1000	13		
+EXCREFHNXTW	1	ticker	>	<\/a>	C				1		
+EXCREFHNXTW	2	name	>	<\/a>	C				1		
+EXCREFHNXTW	3	ftrd		CHR(34)	D			1	1		
+EXCREFHNXTW	4	shli		CHR(34)	N			1	1		
+EXCREFHNXTW	6	capi		CHR(34)	N			1	1		
+EXCREFUPCTW	1	ticker	>	<\/a>	C				1		
+EXCREFUPCTW	2	name	>	<\/a>	C				1		
+EXCREFUPCTW	3	ftrd		CHR(34)	D			1	1		
+EXCREFUPCTW	4	shli		CHR(34)	N			1	1		
+EXCREFUPCTW	6	capi		CHR(34)	N			1	1		
+EXCSHOUHNX	1	shou	>	<	N			1	1		
+EXCSHOUHNX	2	shli	>	<	N			1	1		
+EXCSHOUUPC	1	shou	>	<	N			1	1		
+EXCSHOUUPC	2	shli	>	<	N			1	1		
+EXCREFHSXTW	1	ticker	>	<	C				4		
+EXCREFHSXTW	2	name	>	<	C				2		
+EXCREFHSXTW	4	shli	>	<	N			1	2		
+EXCREFHSXTW	5	shou	>	<	N			1	2		
+STPDIVALLTW	1	date	>	<	D				1		
+STPDIVALLTW	2	date_ex	>	<	D				1		
+STPDIVALLTW	3	date_rec	>	<	D				1		
+STPDIVALLTW	4	date_pay	>	<	D				1		
+STPDIVALLTW	5	pay_method	>	<	C				1		
+STPDIVALLTW	6	pay_year	>	<	C				1		
+STPDIVALLTW	7	pay_period	>	<	C				1		
+STPDIVALLTW	8	dividend	>	<	N			1	1		
+STPDIVALLTW	9	yield	>	<	C				1		
+STPCPTALLTW	1	date	>	<	D				1		
+STPCPTALLTW	2	ex_date	>	<	D				1		
+STPCPTALLTW	3	is_date	>	<	D				1		
+STPCPTALLTW	4	lis_date	>	<	D				1		
+STPCPTALLTW	5	is_type	>	<	C				1		
+STPCPTALLTW	6	rate	>	<	N			1	1		
+STPCPTALLTW	7	volume	>	<	N			1	1		
+VSTDIVALLTW	1	ticker	Name":"	CHR(34),	C				1		
+VSTDIVALLTW	1	pay_period	tức đợt 	 bằng	C				1		
+VSTDIVALLTW	1	dividend	tiền, 	đồng/CP	N			1	1		
+VSTDIVALLTW	1	date_rec	ký cuối cùng: 	\u003c	D				1		
+VSTDIVALLTW	1	date_ex	dịch không hưởng quyền: 	\u003c	D				1		
+VSTDIVPATW	1	ticker	Name":"	CHR(34),	C				1		
+VSTDIVPATW	1	pay_period	tức đợt 	 bằng	C				1		
+VSTDIVPATW	1	dividend	tiền, 	đồng/CP	N			1	1		
+VSTDIVPATW	1	date_rec	ký cuối cùng: 	\u003c	D				1		
+VSTDIVPATW	1	date_ex	dịch không hưởng quyền: 	\u003c	D				1		
+STBDIVALLTW	1	date_ex	>	<	D				2		
+STBDIVALLTW	2	date_rec	>	<	D				2		
+STBDIVALLTW	3	date_pay	>	<	D				2		
+STBDIVALLTW	4	ticker	>	<	C				4		
+STBDIVALLTW	5	dividend	tỷ lệ 	đ/CP	N			1	1		
+STBDIVALLTW	5	pay_year	tức năm 	bằng tiền	C				1		
+STBDIVALLTW	5	pay_period	cổ tức lần 	 bằng tiền	C				1		
+DIV_VST	1	ticker	Name":"	CHR(34),	C				1		
+DIV_VST	1	pay_period	tức đợt 	 bằng	C				1		
+DIV_VST	1	dividend	tiền, 	đồng/CP	N			1	1		
+DIV_VST	1	date_rec	ký cuối cùng: 	\u003c	D				1		
+DIV_VST	1	date_ex	dịch không hưởng quyền: 	\u003c	D				1		
+STPOWNERTW	1	name	>	<	C				1		
+STPOWNERTW	2	own_shares	>	<	N			1	1		
+STPOWNERTW	3	own_perc	>	<	C				1		
+STPOWNERTW	4	dateupd	>	<	C				1		
+EXCSTAMHNX	1	yyyymm	>	<	C				1		
+EXCSTAMHNX	2	svlm_exc	>	<	N			1	1		
+EXCSTAMHNX	3	strn_exc	>	<	N			1000	1		
+EXCSTAMHNX	2	svlmkl_exc	>	<	N			1	1		
+EXCSTAMHNX	3	strnkl_exc	>	<	N			1000	1		
+EXCSTAMHNX	6	svlmtt_exc	>	<	N			1	1		
+EXCSTAMHNX	7	strntt_exc	>	<	N			1000	1		
+EXCSTAMUPC	1	yyyymm	>	<	C				1		
+EXCSTAMUPC	2	svlm_exc	>	<	N			1	1		
+EXCSTAMUPC	3	strn_exc	>	<	N			1000	1		
+EXCSTAMUPC	2	svlmkl_exc	>	<	N			1	1		
+EXCSTAMUPC	3	strnkl_exc	>	<	N			1000	1		
+EXCSTAMUPC	6	svlmtt_exc	>	<	N			1	1		
+EXCSTAMUPC	7	strntt_exc	>	<	N			1000	1		
+EXCSTAMHSX1	1	yyyymm	>	<	C			0	2	0	
+EXCSTAMHSX1	2	svlm_exc	>	<	N			1	2	0	
+EXCSTAMHSX1	3	strn_exc	>	<	N			1000000000	2	0	
+EXCSTAMHSX3	1	yyyymm	>	<	C			0	2	0	
+EXCSTAMHSX3	2	svlmkl_exc	>	<	N			1	2	0	
+EXCSTAMHSX3	3	strnkl_exc	>	<	N			1000000000	2	0	
+EXCSTAMHSX3	4	svlmtt_exc	>	<	N			1	2	0	
+EXCSTAMHSX3	5	strntt_exc	>	<	N			1000000000	2	0	
+EXCSTAYHNX	1	yyyy	>	<	C				1		
+EXCSTAYHNX	2	svlm_exc	>	<	N			1	1		
+EXCSTAYHNX	3	strn_exc	>	<	N			1000	1		
+EXCSTAYHNX	2	svlmkl_exc	>	<	N			1	1		
+EXCSTAYHNX	3	strnkl_exc	>	<	N			1000	1		
+EXCSTAYHNX	6	svlmtt_exc	>	<	N			1	1		
+EXCSTAYHNX	7	strntt_exc	>	<	N			1000	1		
+EXCSTAYUPC	1	yyyy	>	<	C				1		
+EXCSTAYUPC	2	svlm_exc	>	<	N			1	1		
+EXCSTAYUPC	3	strn_exc	>	<	N			1000	1		
+EXCSTAYUPC	2	svlmkl_exc	>	<	N			1	1		
+EXCSTAYUPC	3	strnkl_exc	>	<	N			1000	1		
+EXCSTAYUPC	6	svlmtt_exc	>	<	N			1	1		
+EXCSTAYUPC	7	strntt_exc	>	<	N			1000	1		
+CAFSTADHNX	1	yyyymmdd	>	<	D				1		
+CAFSTADHNX	5	svlm_exc	>	<	N			1	1		
+CAFSTADHNX	6	strn_exc	>	<	N			1	1		
+CAFSTADHSX	1	yyyymmdd	>	<	D				1		
+CAFSTADHSX	5	svlmkl_exc	>	<	N			1	1		
+CAFSTADHSX	6	strnkl_exc	>	<	N			1	1		
+CAFSTADUPC	1	yyyymmdd	>	<	D				1		
+CAFSTADUPC	5	svlm_exc	>	<	N			1	1		
+CAFSTADUPC	6	strn_exc	>	<	N			1	1		
+CPHDIVCASTW1	2	ticker	>	<	C				3		
+CPHDIVCASTW1	3	pay_method	>	<	C				1		
+CPHDIVCASTW1	4	date_ex	>	<	D				1		
+CPHDIVCASTW1	5	date_pay	>	<	D				1		
+CPHDIVCASTW1	7	dividend	<strong>	 đồng/cổ	N			1	1		
+CPHDIVCASTW1	7	price_exd	GDKHQ:</strong>	<	N			1	1		
+FPTDIVHW1	1	ticker	>	<	C				1		
+FPTDIVHW1	2	dividend	, 	đồng	N			1	1		
+FPTDIVHW1	3	date_rec	>	<	D				1		
+FPTDIVHW1	4	date_ex	>	<	D				1		
+FPTDIVHW1	6	date_pay	>	<	D				1		
+FPTDIVHW1	2	pay_year	n&#259;m		C				1		
+FPTDIVHW1	2	pay_period	&#273;&#7907;t		C				1		
+STBDIVALLTW1	1	date_ex	>	<	D				2		
+STBDIVALLTW1	2	date_rec	>	<	D				2		
+STBDIVALLTW1	3	date_pay	>	<	D				2		
+STBDIVALLTW1	4	ticker	>	<	C				4		
+STBDIVALLTW1	5	dividend	tỷ lệ 	đ/CP	N			1	1		
+STBDIVALLTW1	5	pay_year	tức năm 	bằng tiền	C				1		
+STBDIVALLTW1	5	pay_period	cổ tức lần 	 bằng tiền	C				1		
+VSTDIVPATW1	1	ticker	Name":"	CHR(34),	C				1		
+VSTDIVPATW1	1	pay_period	tức đợt 	 bằng	C				1		
+VSTDIVPATW1	1	dividend	tiền, 	đồng/CP	N			1	1		
+VSTDIVPATW1	1	date_rec	ký cuối cùng: 	\u003c	D				1		
+VSTDIVPATW1	1	date_ex	dịch không hưởng quyền: 	\u003c	D				1		
+STBEVE2ALLTW	1	date_ex	>	<	D				2		
+STBEVE2ALLTW	2	date_rec	>	<	D				2		
+STBEVE2ALLTW	3	date_eff	>	<	D				2		
+STBEVE2ALLTW	4	ticker	>	<	C				4		
+STBEVE2ALLTW	5	ratio	tỷ lệ 	<	C				1		
+STBEVE3ALLTW	1	date_ex	>	<	D				2		
+STBEVE3ALLTW	2	date_rec	>	<	D				2		
+STBEVE3ALLTW	3	date_eff	>	<	D				2		
+STBEVE3ALLTW	4	ticker	>	<	C				4		
+STBEVE3ALLTW	5	ratio	tỷ lệ 	,	C				1		
+STBEVE3ALLTW	5	pref	giá 	đ	N			1	1		
+VSTEVE2ALLTW	1	ticker	Name":"	CHR(34),	C				1		
+VSTEVE2ALLTW	1	market	Exchange:"	CHR(34),	C				1		
+VSTEVE2ALLTW	1	date_rec	ký cuối cùng: 	\u003c	D				1		
+VSTEVE2ALLTW	1	date_ex	dịch không hưởng quyền: 	\u003c	D				1		
+VSTEVE2ALLTW	1	ratio	tỷ lệ 	CHR(34),	C				1		
+VSTEVE2ALLTW	1	date_eff	Thời gian thực hiện:	\u003cbr	D				1		
+VSTEVE21TW	1	ticker	Name":"	CHR(34),	C				1		
+VSTEVE21TW	1	market	Exchange:"	CHR(34),	C				1		
+VSTEVE21TW	1	date_rec	ký cuối cùng: 	\u003c	D				1		
+VSTEVE21TW	1	date_ex	dịch không hưởng quyền: 	\u003c	D				1		
+VSTEVE21TW	1	ratio	tỷ lệ 	CHR(34),	C				1		
+VSTEVE21TW	1	date_eff	Thời gian thực hiện:	\u003cbr	D				1		
+VSTEVE3ALLTW	1	ticker	Name":"	CHR(34),	C				1		
+VSTEVE3ALLTW	1	market	Exchange:"	CHR(34),	C				1		
+VSTEVE3ALLTW	1	date_rec	ký cuối cùng: 	\u003c	D				1		
+VSTEVE3ALLTW	1	date_ex	dịch không hưởng quyền: 	\u003c	D				1		
+VSTEVE3ALLTW	1	ratio	tỷ lệ 	,	C				1		
+VSTEVE3ALLTW	1	date_eff	Thời gian thực hiện:	\u003cbr	D				1		
+CPH_EVENTS2	2	ticker	>	<	C				3		
+CPH_EVENTS2	3	evtname	>	<	C				1		
+CPH_EVENTS2	4	date_ex	>	<	D				1		
+CPH_EVENTS2	5	date_eff	>	<	D				1		
+CPH_EVENTS2	6	ratio	>	<	C				1		
+CPH_EVENTS2	6	oldns	>	/	N			1	1		
+CPH_EVENTS2	6	newns	/	>	N			1	1		
+CPH_EVENTS2	7	pref	GDKHQ:</strong>	<	N			1	1		
+CPH_EVENTS2	7	sharesbef	Trước khi phát hành:</strong>	<	N			1	1		
+CPH_EVENTS2	7	sharesadd	Phát hành thêm:</strong>	<	N			1	1		
+CPH_EVENTS2	7	sharesaft	Sau khi phát hành:</strong> 	<	N			1	1		
+CPH_EVENTS3	2	ticker	>	<	C				3		
+CPH_EVENTS3	3	evtname	>	<	C				1		
+CPH_EVENTS3	4	date_ex	>	<	D				1		
+CPH_EVENTS3	5	date_eff	>	<	D				1		
+CPH_EVENTS3	6	ratio	>	<	C				1		
+CPH_EVENTS3	6	eprice	/span>(giá: 	)	N			1	1		
+CPH_EVENTS3	6	oldns	>	/	N			1	1		
+CPH_EVENTS3	6	newns	/	>	N			1	1		
+CPH_EVENTS3	7	pref	GDKHQ:</strong>	<	N			1	1		
+CPH_EVENTS3	7	sharesbef	Trước khi phát hành:</strong>	<	N			1	1		
+CPH_EVENTS3	7	sharesadd	Phát hành thêm:</strong>	<	N			1	1		
+CPH_EVENTS3	7	sharesaft	Sau khi phát hành:</strong> 	<	N			1	1		

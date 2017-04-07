@@ -1,0 +1,22 @@
+<table class="table" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th scope="col">Tables</th>
+            <th scope="col">STATISTIC</th>
+            <th scope="col">STATEMENT</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%
+        _.each(data, function(value,key){
+        %>
+        <tr>
+            <td><%=value.table%></td>
+            <td><%=value.statistic%></td>
+            <td><%=value.statement%></td>
+        </tr>
+        <%
+        });
+        %>
+    </tbody>
+</table>

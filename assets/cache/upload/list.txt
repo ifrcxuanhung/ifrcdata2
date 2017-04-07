@@ -1,0 +1,7 @@
+nr	code
+1	PVR
+2	PVT
+3	PVC
+4	PGS
+5	PSI
+6	DPM

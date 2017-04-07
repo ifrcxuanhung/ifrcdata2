@@ -1,0 +1,7 @@
+TYPE	RULE
+SHARES CHANGES	cổ phiếu thay đổi
+BONUS	thưởng cổ phiếu
+RIGHT ISSUES	quyền mua cổ phiếu
+STOCK DIVIDENDS	cổ tức bằng cổ phiếu
+CASH DIVIDENDS	cổ tức bằng tiền
+OTHERS	khác

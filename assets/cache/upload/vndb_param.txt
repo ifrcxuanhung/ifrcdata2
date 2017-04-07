@@ -1,0 +1,81 @@
+CODE_DWL	PARAM	PARAMVAL	PARAMFILE
+CAFALLTW	__EVENTARGUMENT	<<page>>	
+CAFALLTW	__EVENTTARGET	ctl00%24ContentPlaceHolder1%24ctl03%24pager1	
+CAFALLTW	ctl00%24ContentPlaceHolder1%24ctl03%24txtKeyword	<<ticker>>	
+CAFALLTW	ctl00%24ContentPlaceHolder1%24scriptmanager	ctl00%24ContentPlaceHolder1%24ctl03%24panelAjax%7Cctl00%24ContentPlaceHolder1%24ctl03%24pager1	
+EXCPRHNXTW	url	http://www.hnx.vn/web/guest/ket-qua?p_p_id=gdct_WAR_HnxIndexportlet	
+EXCPRHNXTW	p_p_lifecycle	2	
+EXCPRHNXTW	tungay	<<date_dd/mm/yyyy>>	
+EXCPRHNXTW	denngay	<<date_dd/mm/yyyy>>	
+EXCPRHNXTW	iDisplayLength	100	
+EXCPRHNXTW	iDisplayStart	<<startrow>>	
+EXCPRHNXTW	loaiindex	HNX_INDEX	
+EXCPRHNXTW	nganh		
+EXCPRHNXTW	sSortDir_0	asc	
+EXCPRHNXTW	iColumns	23	
+EXCPRUPCTW	url	http://www.hnx.vn/web/guest/128?p_p_id=gdct_WAR_HnxIndexportlet	
+EXCPRUPCTW	p_p_lifecycle	2	
+EXCPRUPCTW	tungay	<<date_dd/mm/yyyy>>	
+EXCPRUPCTW	denngay	<<date_dd/mm/yyyy>>	
+EXCPRUPCTW	iDisplayLength	100	
+EXCPRUPCTW	iDisplayStart	<<startrow>>	
+EXCPRUPCTW	loaiindex	UPCOM_INDEX	
+EXCPRUPCTW	nganh		
+EXCPRUPCTW	sSortDir_0	asc	
+EXCPRUPCTW	iColumns	23	
+EXCREFHNXTW	url	http://hnx.vn/en/web/guest/dang-niem-yet	
+EXCREFHNXTW	iColumns	10	
+EXCREFHNXTW	iDisplayLength	100	
+EXCREFHNXTW	iDisplayStart	<<startrow>>	
+EXCREFHNXTW	iSortCol_0	1	
+EXCREFHNXTW	iSortingCols	1	
+EXCREFHNXTW	loaick		
+EXCREFHNXTW	mDataProp_0	0	
+EXCREFHNXTW	mDataProp_1	1	
+EXCREFHNXTW	mDataProp_2	2	
+EXCREFHNXTW	nam	2013	
+EXCREFHNXTW	nganh		
+EXCREFHNXTW	p_p_cacheability	cacheLevelPage	
+EXCREFHNXTW	p_p_col_id	column-1	
+EXCREFHNXTW	p_p_id	hsnydkgdjson_WAR_HnxIndexportlet	
+EXCREFHNXTW	p_p_lifecycle	2	
+EXCREFHNXTW	quymony		
+EXCREFHNXTW	sColumns		
+EXCREFHNXTW	sEcho	5	
+EXCREFUPCTW	url	http://www.hnx.vn/en/web/guest/143	
+EXCREFUPCTW	iColumns	10	
+EXCREFUPCTW	iDisplayLength	100	
+EXCREFUPCTW	iDisplayStart	<<startrow>>	
+EXCREFUPCTW	iSortCol_0	1	
+EXCREFUPCTW	iSortingCols	1	
+EXCREFUPCTW	loaick		
+EXCREFUPCTW	mDataProp_0	0	
+EXCREFUPCTW	mDataProp_1	1	
+EXCREFUPCTW	mDataProp_2	2	
+EXCREFUPCTW	nam	2013	
+EXCREFUPCTW	nganh		
+EXCREFUPCTW	p_p_cacheability	cacheLevelPage	
+EXCREFUPCTW	p_p_col_id	column-1	
+EXCREFUPCTW	p_p_id	hsnydkgdjson_WAR_HnxIndexportlet	
+EXCREFUPCTW	p_p_lifecycle	2	
+EXCREFUPCTW	quymony		
+EXCREFUPCTW	sColumns		
+EXCREFUPCTW	sEcho	5	
+EXCSHOUHNX	p_p_id	hstongquan_WAR_HnxIndexportlet	
+EXCSHOUHNX	p_p_lifecycle	1	
+EXCSHOUHNX	p_p_state	exclusive	
+EXCSHOUHNX	p_p_mode	view	
+EXCSHOUHNX	p_p_col_id	column-9	
+EXCSHOUHNX	p_p_col_count	1	
+EXCSHOUHNX	_hstongquan_WAR_HnxIndexportlet_anchor	optionSelected	
+EXCSHOUHNX	maCk	<<ticker>>	
+EXCSHOUHNX	as_fid	pKSdYBxfRa7doLPZtmnE	
+EXCSHOUUPC	_hstongquan_WAR_HnxIndexportlet_anchor	optionSelected	
+EXCSHOUUPC	as_fid	yVSyPq1zLOXkrffRw/dv	
+EXCSHOUUPC	maCk	<<ticker>>	
+EXCSHOUUPC	p_p_col_count	1	
+EXCSHOUUPC	p_p_col_id	column-9	
+EXCSHOUUPC	p_p_id	hstongquan_WAR_HnxIndexportlet	
+EXCSHOUUPC	p_p_lifecycle	1	
+EXCSHOUUPC	p_p_mode	view	
+EXCSHOUUPC	p_p_state	exclusive	

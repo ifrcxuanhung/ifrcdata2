@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu_main {
+	width:980px;
+	margin-top:26px;
+	float:left;
+	z-index:9999;}
+	
+#header * {
+	z-index:9999999 !important;
+}

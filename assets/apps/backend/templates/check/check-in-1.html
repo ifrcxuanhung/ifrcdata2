@@ -1,0 +1,28 @@
+<table class="table" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th scope="col">Calculation Date</th>
+            <th scope="col">idx_compo</th>
+            <th scope="col">idx_specs</th>
+            <th scope="col">cur_rates</th>
+            <th scope="col">stk_feed</th>
+            <th scope="col">stk_prices</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%
+        for(var i=0;i < data.lengthnum;i++){
+        %>
+        <tr>
+            <td><%=data['calculation-date']%></td>
+            <td><%=typeof data['idx_compo'][i] != 'undefined'?data['idx_compo'][i].dates:''%></td>
+            <td><%=typeof data['idx_specs'][i] != 'undefined'?data['idx_specs'][i].dates:''%></td>
+            <td><%=typeof data['cur_rates'][i] != 'undefined'?data['cur_rates'][i].dates:''%></td>
+            <td><%=typeof data['stk_feed'][i] != 'undefined'?data['stk_feed'][i].dates:''%></td>
+            <td><%=typeof data['stk_prices'][i] != 'undefined'?data['stk_prices'][i].dates:''%></td>
+        </tr>
+        <%
+        }
+        %>
+    </tbody>
+</table>

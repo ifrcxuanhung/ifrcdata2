@@ -1,0 +1,9 @@
+IDX_CAT	IDX_CAT_NAME	IDX_BBS	IDX_BBS_NAME
+EQUI	Equity	BLCH	Blue Chips
+EQUI	Equity	BEMA	Benchmark
+EQUI	Equity	SECT	Sectors
+EQUI	Equity	SIZE	Size
+EQUI	Equity	STAG	Strategy
+EQUI	Equity	STYL	Style
+EQUI	Equity	THEM	Theme
+COMM	Commodities		

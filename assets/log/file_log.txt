@@ -1,0 +1,165 @@
+07-09-2012 05:57:44 | Insert mother & Composition | 127.0.0.1 | 
+07-09-2012 06:26:40 | Insert mother & Composition | 127.0.0.1 | 
+07-09-2012 06:31:41 | Insert mother & Composition | 127.0.0.1 | 
+07-09-2012 06:37:41 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 04:36:27 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 04:36:46 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 04:51:43 | Next day | 127.0.0.1 |  
+10-09-2012 04:51:44 | Next day | 127.0.0.1 |  
+10-09-2012 04:51:44 | Next day | 127.0.0.1 |  
+10-09-2012 04:52:11 | Next day | 127.0.0.1 |  
+10-09-2012 04:52:11 | Calculation composition | 127.0.0.1 
+10-09-2012 04:53:17 | Next day | 127.0.0.1 |  
+10-09-2012 04:53:18 | Next day | 127.0.0.1 |  
+10-09-2012 04:53:35 | Next day | 127.0.0.1 |  
+10-09-2012 04:53:36 | Next day | 127.0.0.1 |  
+10-09-2012 04:53:36 | Next day | 127.0.0.1 |  
+10-09-2012 04:53:46 | Next day | 127.0.0.1 |  
+10-09-2012 04:53:46 | Calculation composition | 127.0.0.1 
+10-09-2012 04:53:47 | Next day | 127.0.0.1 |  
+10-09-2012 04:53:47 | Calculation composition | 127.0.0.1 
+10-09-2012 04:54:02 | Next day | 127.0.0.1 |  
+10-09-2012 04:54:02 | Calculation composition | 127.0.0.1 
+10-09-2012 04:54:30 | Next day | 127.0.0.1 |  
+10-09-2012 04:54:30 | Calculation composition | 127.0.0.1 
+10-09-2012 04:54:31 | Next day | 127.0.0.1 |  
+10-09-2012 04:54:31 | Calculation composition | 127.0.0.1 
+10-09-2012 04:54:31 | Next day | 127.0.0.1 |  
+10-09-2012 04:54:31 | Calculation composition | 127.0.0.1 
+10-09-2012 04:54:31 | Next day | 127.0.0.1 |  
+10-09-2012 04:54:31 | Calculation composition | 127.0.0.1 
+10-09-2012 05:00:18 | Next day | 127.0.0.1 |  
+10-09-2012 05:00:18 | Calculation composition | 127.0.0.1 
+10-09-2012 05:00:19 | Next day | 127.0.0.1 |  
+10-09-2012 05:00:19 | Calculation composition | 127.0.0.1 
+10-09-2012 05:00:52 | Next day | 127.0.0.1 |  
+10-09-2012 05:00:52 | Calculation composition | 127.0.0.1 
+10-09-2012 05:00:53 | Next day | 127.0.0.1 |  
+10-09-2012 05:00:53 | Calculation composition | 127.0.0.1 
+10-09-2012 05:00:54 | Next day | 127.0.0.1 |  
+10-09-2012 05:00:54 | Calculation composition | 127.0.0.1 
+10-09-2012 05:01:40 | Next day | 127.0.0.1 |  
+10-09-2012 05:01:40 | Calculation composition | 127.0.0.1 
+10-09-2012 05:01:41 | Next day | 127.0.0.1 |  
+10-09-2012 05:01:41 | Calculation composition | 127.0.0.1 
+10-09-2012 05:01:41 | Next day | 127.0.0.1 |  
+10-09-2012 05:01:41 | Calculation composition | 127.0.0.1 
+10-09-2012 05:01:42 | Next day | 127.0.0.1 |  
+10-09-2012 05:01:42 | Calculation composition | 127.0.0.1 
+10-09-2012 05:01:42 | Next day | 127.0.0.1 |  
+10-09-2012 05:01:42 | Calculation composition | 127.0.0.1 
+10-09-2012 05:02:33 | Next day | 127.0.0.1 |  
+10-09-2012 05:02:33 | Calculation composition | 127.0.0.1 
+10-09-2012 05:02:34 | Next day | 127.0.0.1 |  
+10-09-2012 05:02:34 | Calculation composition | 127.0.0.1 
+10-09-2012 05:08:56 | Next day | 127.0.0.1 |  
+10-09-2012 05:08:57 | Calculation composition | 127.0.0.1 
+10-09-2012 05:08:58 | Next day | 127.0.0.1 |  
+10-09-2012 05:08:58 | Calculation composition | 127.0.0.1 
+10-09-2012 05:08:58 | Next day | 127.0.0.1 |  
+10-09-2012 05:08:58 | Calculation composition | 127.0.0.1 
+10-09-2012 05:08:58 | Next day | 127.0.0.1 |  
+10-09-2012 05:08:58 | Next day | 127.0.0.1 |  
+10-09-2012 05:08:58 | Calculation composition | 127.0.0.1 
+10-09-2012 05:08:58 | Calculation composition | 127.0.0.1 
+10-09-2012 05:08:59 | Next day | 127.0.0.1 |  
+10-09-2012 05:08:59 | Calculation composition | 127.0.0.1 
+10-09-2012 05:09:19 | Next day | 127.0.0.1 |  
+10-09-2012 05:09:19 | Calculation composition | 127.0.0.1 
+10-09-2012 05:09:19 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 05:09:20 | Next day | 127.0.0.1 |  
+10-09-2012 05:09:20 | Calculation composition | 127.0.0.1 
+10-09-2012 05:09:20 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 05:09:21 | Next day | 127.0.0.1 |  
+10-09-2012 05:09:21 | Calculation composition | 127.0.0.1 
+10-09-2012 05:09:21 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 05:09:39 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:09:50 | Next day | 127.0.0.1 |  
+10-09-2012 05:09:50 | Calculation composition | 127.0.0.1 
+10-09-2012 05:09:50 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 05:10:35 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:10:40 | Next day | 127.0.0.1 |  
+10-09-2012 05:10:40 | Calculation composition | 127.0.0.1 
+10-09-2012 05:10:40 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 05:20:58 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:21:00 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:21:10 | Next day | 127.0.0.1 |  
+10-09-2012 05:21:10 | Calculation composition | 127.0.0.1 
+10-09-2012 05:21:10 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 05:41:39 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:43:01 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:43:03 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:44:16 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:44:18 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:44:41 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:45:13 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:52:47 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 05:59:28 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 06:01:58 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 06:20:41 | Next day | 127.0.0.1 |  
+10-09-2012 06:20:41 | Calculation composition | 127.0.0.1 
+10-09-2012 06:20:42 | Next day | 127.0.0.1 |  
+10-09-2012 06:20:42 | Calculation composition | 127.0.0.1 
+10-09-2012 06:20:43 | Next day | 127.0.0.1 |  
+10-09-2012 06:20:43 | Calculation composition | 127.0.0.1 
+10-09-2012 06:21:04 | Next day | 127.0.0.1 |  
+10-09-2012 06:21:04 | Calculation composition | 127.0.0.1 
+10-09-2012 06:21:05 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:21:06 | Next day | 127.0.0.1 |  
+10-09-2012 06:21:06 | Calculation composition | 127.0.0.1 
+10-09-2012 06:21:06 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:21:07 | Next day | 127.0.0.1 |  
+10-09-2012 06:21:07 | Calculation composition | 127.0.0.1 
+10-09-2012 06:21:07 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:21:19 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 06:21:20 | Next day | 127.0.0.1 |  
+10-09-2012 06:21:20 | Calculation composition | 127.0.0.1 
+10-09-2012 06:21:20 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:22:01 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 06:22:10 | Next day | 127.0.0.1 |  
+10-09-2012 06:22:10 | Calculation composition | 127.0.0.1 
+10-09-2012 06:22:10 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:23:18 | Insert mother & Composition | 127.0.0.1 | 
+10-09-2012 06:23:20 | Next day | 127.0.0.1 |  
+10-09-2012 06:23:20 | Calculation composition | 127.0.0.1 
+10-09-2012 06:23:20 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:23:47 | Next day | 127.0.0.1 |  
+10-09-2012 06:23:47 | Calculation composition | 127.0.0.1 
+10-09-2012 06:23:47 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:23:50 | Next day | 127.0.0.1 |  
+10-09-2012 06:23:50 | Calculation composition | 127.0.0.1 
+10-09-2012 06:23:50 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:23:52 | Next day | 127.0.0.1 |  
+10-09-2012 06:23:52 | Calculation composition | 127.0.0.1 
+10-09-2012 06:23:52 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:24:18 | Next day | 127.0.0.1 |  
+10-09-2012 06:24:18 | Calculation composition | 127.0.0.1 
+10-09-2012 06:24:18 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:24:20 | Next day | 127.0.0.1 |  
+10-09-2012 06:24:20 | Calculation composition | 127.0.0.1 
+10-09-2012 06:24:20 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:24:26 | Next day | 127.0.0.1 |  
+10-09-2012 06:24:26 | Calculation composition | 127.0.0.1 
+10-09-2012 06:24:26 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:24:46 | Next day | 127.0.0.1 |  
+10-09-2012 06:24:46 | Calculation composition | 127.0.0.1 
+10-09-2012 06:24:46 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:24:50 | Next day | 127.0.0.1 |  
+10-09-2012 06:24:50 | Calculation composition | 127.0.0.1 
+10-09-2012 06:24:50 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:26:16 | Next day | 127.0.0.1 |  
+10-09-2012 06:26:16 | Calculation composition | 127.0.0.1 
+10-09-2012 06:26:16 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:26:17 | Next day | 127.0.0.1 |  
+10-09-2012 06:26:17 | Calculation composition | 127.0.0.1 
+10-09-2012 06:26:17 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:26:17 | Next day | 127.0.0.1 |  
+10-09-2012 06:26:17 | Calculation composition | 127.0.0.1 
+10-09-2012 06:26:17 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 06:26:27 | Next day | 127.0.0.1 |  
+10-09-2012 06:26:27 | Calculation composition | 127.0.0.1 
+10-09-2012 06:26:28 | Insert idx_intraday, compo_intraday | 127.0.0.1 |  
+10-09-2012 11:34:11 | Insert mother & Composition | 192.168.1.113 | 
+10-09-2012 11:34:24 | Insert mother & Composition | 192.168.1.113 | 
+11-09-2012 11:25:38 | Insert mother & Composition | fe80::1464:b935:46c5:dd43 | 
+11-09-2012 12:59:19 | Insert mother & Composition | 192.168.1.114 | 

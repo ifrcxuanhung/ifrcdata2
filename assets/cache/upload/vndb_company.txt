@@ -1,0 +1,953 @@
+CODE	VN_NAME	EN_NAME	MARKET	INDUSTRY	IPO	IPO_SHARES	FTRD_DATE	FTRD_CLS	MINDATE	MINDATE_SHLI	MINDATE_SHOU	FTRD_SHLI	ENDDATE
+AAA	CTCP Nhựa và môi trường xanh An Phát	An Phat Plastic And Green Environment Jsc	HNX	Basic Materials	2010/07/15	9900000	2010/07/15	48700	2010/07/15	9900000		9900000	2099/12/31
+AAM	CTCP Thủy sản Mekong	Mekong Fisheries Jsc	HSX	Consumer Goods	2009/07/13	8100000	2009/09/24	45600	2009/09/24	8100000		8100000	2099/12/31
+ABI	Bảo Hiểm Ngân Hàng Nông Nghiệp	Agriculture Bank Insurance JCC	UPC	Financials	2009/07/16	38000000	2009/07/16	24000	2009/07/16	38000000		38000000	2099/12/31
+ABT	CTCP Xuất nhập khẩu Thủy sản Bến Tre	Bentre Aquaproduct Import And Export Jsc	HSX	Consumer Goods	2006/06/12	3300000	2006/12/25	90000	2006/12/25	3300000		3300000	2099/12/31
+ACB	Ngân hàng Thương mại CP Á Châu	Asia Commercial Bank	HNX	Banks	2006/11/21	110004656	2006/11/21	130200	2006/11/21	110004656		110004656	2099/12/31
+ACC	CTCP bê tông Becamex	Becamex Asphalt & Concrete Jsc	HSX	Industrials	2011/06/17	10000000	2011/06/30	25000	2009/12/22	6000000		10000000	2099/12/31
+ACC	CTCP bê tông Becamex	Becamex Asphalt & Concrete Jsc	UPC	Industrials	2009/12/22	6000000	2009/12/22	30000				6000000	2011/06/23
+ACE	Bê tông An Giang	An Giang Centrifugal Concrete Jsc	UPC	Industrials	2009/11/10	2300000	2009/11/10	25000	2009/11/10	2300000		2300000	2099/12/31
+ACL	CTCP Xuất Nhập Khẩu Thủy Sản Cửu Long An Giang	Cuu Long Fish Jsc	HSX	Consumer Goods	2007/08/23	9000000	2007/09/05	81000	2007/09/05	9000000		9000000	2099/12/31
+ADC	CTCP Mĩ Thuật và Truyền Thông	Art And Design Communication Jsc	HNX	Consumer Services	2010/12/24	1000000	2010/12/24	11300	2010/12/24	1000000		1000000	2099/12/31
+ADP	Sơn Á Đông	A Dong Paint Jsc	UPC	Industrials	2010/02/02	5000000	2010/02/02		2010/02/02	5000000		5000000	2099/12/31
+AGC	CTCP Cà phê An Giang	An Giang Coffee Jsc	HNX	Consumer Goods	2009/01/05	8300000	2009/01/05	17100	2009/01/05	8300000		8300000	2099/12/31
+AGD	CTCP Gò Đàng	Godaco Seafood Jsc	HSX	Consumer Goods	2009/12/28	8000000	2010/01/07	30000	2010/01/07	8000000		8000000	2013/08/27
+AGF	CTCP Xuất nhập khẩu Thủy sản An Giang	Angiang Fisheries Import & Export Jsc	HSX	Consumer Goods	2002/04/26	4179130	2002/05/02	30000	2002/05/02	4179130		4179130	2099/12/31
+AGM	CTCP Xuất Nhập Khẩu An Giang	An Giang Import Export Company	HSX	Consumer Goods	2012/09/14	18200000	2012/12/14	20200				18200000	2099/12/31
+AGR	CTCP Chứng khoán NH Nông nghiệp và Phát triển Nông thôn Việt Nam	Agribank Securities Jscporation	HSX	Financials	2009/12/02	120000000	2009/12/10	25600	2009/12/10	120000000		120000000	2099/12/31
+ALP	CTCP Đầu tư Alphanam	Alphanam Jsc	HSX	Industrials	2007/12/07	30000000	2007/12/18	63500	2007/12/18	30000000		30000000	2099/12/31
+ALT	CTCP Văn hoá Tân Bình	Alta Company	HNX	Consumer Services	2007/07/27	1334700	2007/07/27	24900	2007/07/27	1334700		1334700	2099/12/31
+ALT	CTCP Văn hoá Tân Bình	Alta Company	HSX	Consumer Services	2006/11/22	1331430	2006/11/22	32000				1331430	2009/07/10
+ALV	CTCP Khoáng sản Vinas A Lưới	Vinas A Luoi Mineral Jsc	HNX	Basic Materials	2010/09/17	1500000	2010/09/17	32500	2010/09/17	1500000		1500000	2099/12/31
+AMC	CTCP Khoáng Sản Á Châu	Asia Mineral Jsc	HNX	Basic Materials	2012/02/15	2739743	2012/02/15	15600	2012/02/15	2739743		2739743	2099/12/31
+AME	CTCP Alphanam cơ điện	Alphanam Mechanical Electric Jsc	HNX	Industrials	2010/06/02	12000000	2010/06/02	24100	2010/06/02	12000000		12000000	2099/12/31
+AMV	CTCP Sản xuất kinh doanh dược và Thiết bị y tế Việt Mỹ	American Vietnamese Biotech Incorporation	HNX	Health Care	2009/12/23	2100000	2009/12/30	17000	2009/12/30	2100000		2100000	2099/12/31
+ANV	CTCP Nam Việt	Nam Viet Corporation	HSX	Consumer Goods	2007/11/28	66000000	2007/12/07	98000	2007/12/07	66000000		66000000	2099/12/31
+APC	CTCP chiếu xạ An Phú	An Phu Irradiation Jsc	HSX	Health Care	2010/01/22	8640000	2010/02/05	39000	2010/02/05	8640000		8640000	2099/12/31
+APG	CTCP Chứng khoán An Phát	Anphat Securities Jsc	HNX	Financials	2010/04/05	13500000	2010/04/05	15700	2010/04/05	13500000		13500000	2099/12/31
+API	CTCP Đầu tư Châu Á - Thái Bình Dương	Asia - Pacific Investment Jsc	HNX	Financials	2010/09/13	26400000	2010/09/13	15200	2009/10/26	26400000		26400000	2099/12/31
+API	CTCP Đầu tư Châu Á - Thái Bình Dương	Asia - Pacific Investment Jsc	UPC	Financials	2009/10/26	26400000	2009/10/26	9000				26400000	2010/09/01
+APP	CTCP Phát triển Phụ gia và Sản phẩm Dầu mỏ	Additives And Petroleum Products Jsc	HNX	Basic Materials	2010/10/05	2722500	2010/10/05	32000	2010/10/05	2722500		2722500	2099/12/31
+APS	CTCP Chứng khoán Châu Á Thái Bình Dương	Asia - Pacific Securities Jsc	HNX	Financials	2010/04/19	26000000	2010/04/19	14800	2009/06/24	26000000		26000000	2099/12/31
+APS	CTCP Chứng khoán Châu Á Thái Bình Dương	Asia - Pacific Securities Jsc	UPC	Financials	2009/06/24	26000000	2009/06/24	13100				26000000	2010/04/08
+ARM	CTCP Xuất nhập khẩu Hàng không (AIRIMEX)	General Aviation Import Export Jsc	HNX	Industrials	2010/10/26	2592740	2010/10/26	21500	2010/10/26	2592740		2592740	2099/12/31
+ASA	Cổ phiếu CTCP Liên doanh SANA WMT	SANA WMT Joint Venture Jsc	HNX	Consumer Goods	2012/03/12	3000000	2012/03/12	11100	2012/03/12	3000000		3000000	2099/12/31
+ASM	CTCP đầu tư và xây dựng Sao Mai tỉnh An Giang	Sao Mai Construction Corporation	HSX	Consumer Goods	2009/12/24	9912600	2010/01/18	45600	2010/01/18	9912600		9912600	2099/12/31
+ASP	CTCP Tập đoàn Dầu khí An Pha	An Pha Petroleum Group Jsc	HSX	Utilities	2008/02/01	12600000	2008/02/15	43500	2008/02/15	12600000		12600000	2099/12/31
+ATA	CTCP NTACO	Ntaco Co.	HSX	Consumer Goods	2009/08/26	10000000	2009/09/08	24000	2009/09/08	10000000		10000000	2099/12/31
+AVF	CTCP Việt An	Anvifish Jsc 	HSX	Consumer Goods	2010/11/09	22500000	2010/11/23	26000	2010/11/23	22500000		22500000	2099/12/31
+AVS	CTCP Chứng khoán Âu Việt	Au Viet Securities Corporation	HNX	Financials	2010/04/22	36000000	2010/04/22	15500	2010/04/22	36000000		36000000	2013/06/05
+B82	CTCP 482	482 Jsc	HNX	Industrials	2008/03/17	1500000	2008/03/17	45000	2008/03/17	1500000		1500000	2099/12/31
+BAS	CTCP Basa	BaSa Jsc	HSX	Consumer Goods	2008/11/11	9600000	2008/11/11	14400	2008/11/11	9600000		9600000	2099/12/31
+BBC	CTCP Bibica	Bibica Corporation	HSX	Consumer Goods	2001/12/17	5600000	2001/12/19	27000	2001/12/19	5600000		5600000	2099/12/31
+BBS	CTCP Bao bì Xi măng Bút Sơn	Butson Cement Packing Jsc	HNX	Industrials	2005/12/28	4000000	2005/12/28	12000	2005/12/28	4000000		4000000	2099/12/31
+BBT	Công ty Cổ phần Bông Bạch Tuyết	Bach Tuyet Cotton Corporation	HSX	Consumer Goods			2004/03/15						2009/08/07
+BCC	CTCP Xi măng Bỉm Sơn	Bimson Cement Jsc	HNX	Industrials	2006/11/24	90000000	2006/11/24	18700	2006/11/27	90000000		90000000	2099/12/31
+BCE	CTCP Xây dựng và Giao thông Bình Dương	Binh Duong Construction And Civil Engineering Jsc	HSX	Industrials	2010/06/15	20000000	2010/06/28	24000	2010/06/28	20000000		20000000	2099/12/31
+BCI	CTCP Đầu tư Xây dựng Bình Chánh	Binh Chanh Construction Investment Shareholding Company.	HSX	Financials	2008/12/25	54200000	2009/03/16	24000	2009/03/16	54200000		54200000	2099/12/31
+BDB	CTCP Sách và Thiết bị Bình Định	Binh Đinh Book And Equipment Jsc	HNX	Consumer Services	2010/01/29	1126474	2010/01/29	11000	2010/01/29	1126474		1126474	2099/12/31
+BED	CTCP Sách và Thiết bị trường học Đà Nẵng	Danang Books And School Equipment Jsc	HNX	Consumer Services	2009/10/21	3000000	2009/10/21	30000	2009/10/21	3000000		3000000	2099/12/31
+BGM	CTCP Khai thác và chế biến Khoáng sản Bắc Giang	Bac Giang Exploitable Mineral Jsc 	HSX	Basic Materials	2011/06/06	16800000	2011/06/20	24000	2011/06/20	16800000		16800000	2099/12/31
+BHC	CTCP Bê tông Biên Hòa	Bien Hoa Concrete Jsc	HNX	Industrials	2009/05/15	4500000	2009/05/15	19500	2009/05/15	4500000		4500000	2099/12/31
+BHP	Công Ty Cổ Phần Bia Hà Nội - Hải Phòng	Ha Noi - Hai Phong Beer Joint Stock Company	UPC	Consumer Goods	2013/01/21	9179290	2013/01/21	17500				9179290	2099/12/31
+BHS	CTCP Đường Biên Hòa	Bien Hoa Sugar Jsc	HSX	Consumer Goods	2006/11/21	16200000	2006/12/20	60000	2006/12/20	16200000		16200000	2099/12/31
+BHT	CTCP Đầu tư Xây dựng Bạch Đằng TMC	Bach Dang Tmc Construction Investment Jsc	HNX	Industrials	2010/12/21	2565000	2011/01/11	18000	2011/01/11	2565000		2565000	2099/12/31
+BHV	CTCP Viglacera Bá Hiến	Viglacera Bahien Jsc	HNX	Industrials	2006/11/22	900000	2006/11/22	15000	2006/11/22	900000		900000	2099/12/31
+BIC	Tổng CTCP Bảo hiểm Ngân hàng Đầu tư và Phát triển Việt Nam	Bank For Invesment And Development Of Vietnam Insurance JCC	HSX	Financials	2011/06/20	66000000	2011/09/06	9200	2011/09/06	66000000		66000000	2099/12/31
+BKC	CTCP Khoáng sản Bắc Kạn	Bac Kan Mineral JCC	HNX	Basic Materials	2009/08/18	3748300	2009/08/18	48200	2009/08/18	3748300		3748300	2099/12/31
+BLF	CTCP Thủy sản Bạc Liêu	Bac Lieu Fisheries Jsc	HNX	Consumer Goods	2008/06/02	5000000	2008/06/02	10800	2008/06/02	5000000		5000000	2099/12/31
+BMC	CTCP Khoáng sản Bình Định	Binh Dinh Minerals Company	HSX	Basic Materials	2006/12/12	1311400	2006/12/28	50000	2006/12/28	1311400		1311400	2099/12/31
+BMI	Tổng CTCP Bảo Minh	Baominh Insurance Corporation	HSX	Financials	2008/04/21	75500000	2008/04/21	38400	2008/04/21	43400000		75500000	2099/12/31
+BMI	Tổng CTCP Bảo Minh	Baominh Insurance Corporation	HNX	Financials		43400000	2006/11/28	74100				43400000	2008/04/04
+BMJ	Khoáng sản Becamex	Becamex Mineral Jsc	UPC	Basic Materials	2009/12/22	6000000	2009/12/22	30000	2009/12/22	6000000		6000000	2099/12/31
+BMP	CTCP Nhựa Bình Minh	Binh Minh Plastics Jsc	HSX	Industrials	2006/06/12	10718000	2006/07/11	67000	2006/07/11	10718000		10718000	2099/12/31
+BPC	CTCP Bao bì Bỉm Sơn	Bimson Packing Company	HNX	Industrials	2002/03/08	3800000	2002/04/11	25000	2002/04/11	3800000		3800000	2099/12/31
+BPC	CTCP Bao bì Bỉm Sơn	Bimson Packing Company	HSX	Industrials		3800000	2009/06/08	14200				3800000	2009/05/28
+BRC	CTCP Cao su Bến Thành	Ben Thanh Rubber Jsc	HSX	Basic Materials	2011/10/27	8249998	2011/12/13	12800	2011/12/13	8249998		8249998	2099/12/31
+BSC	CTCP Dịch vụ Bến Thành	Ben Thanh Service Jsc	HNX	Consumer Services	2010/12/21	3000000	2011/01/05	11000	2011/01/05	3000000		3000000	2099/12/31
+BSI	CTCP Chứng khoán Ngân hàng Đầu tư và Phát triển Việt Nam	Bank For Invesment & Development Of Vietnam Securities Company	HSX	Financials	2011/07/18	86500000	2011/07/19	10900	2011/07/19	86500000		86500000	2099/12/31
+BST	CTCP Sách thiết bị Bình Thuận	Binh Thuan Book And Equipment Jsc	HNX	Consumer Services	2008/12/18	1100000	2008/12/18	14000	2008/12/18	1100000		1100000	2099/12/31
+BT6	CTCP Beton 6	Beton 6 Corporation	HSX	Industrials	2002/04/12	5882690	2002/04/18	23500	2002/04/18	5882690		5882690	2099/12/31
+BTC	Cơ khí XD Bình Triệu	Binh Trieu Construction & Engineering Jsc	UPC	Industrials	2002/01/21	1351286	2009/07/28	32000	2002/01/21	1351286		1351286	2099/12/31
+BTC	Cơ khí XD Bình Triệu	Binh Trieu Construction & Engineering Jsc	HSX	Industrials		1351286	2002/01/21	21900				1351286	2009/06/26
+BTG	Bao bì Tiền Giang	Tien Giang Packaging Jsc	UPC	Industrials	2010/03/24	1190000	2010/03/24		2010/03/24	1190000		1190000	2099/12/31
+BTH	CTCP Chế tạo Biến thế và Vật liệu Điện Hà Nội	Ha Noi Transformer Manufacturing And Electric Material Jsc	HNX	Industrials	2008/01/04	3000000	2008/01/04	34000	2008/01/04	3000000		3000000	2099/12/31
+BTP	CTCP Nhiệt điện Bà Rịa	Ba Ria Thermal Power Jsc	HSX	Utilities	2009/11/17	60485600	2009/11/25	16600	2009/11/25	60485600		60485600	2099/12/31
+BTS	CTCP Xi măng Bút Sơn	Butson Cement Jsc	HNX	Industrials	2006/12/05	90000000	2006/12/05	23900	2006/12/05	90000000		90000000	2099/12/31
+BTT	CTCP Thương Mại – Dịch vụ Bến Thành	Ben Thanh Trading & Service Jsc	HSX	Consumer Services	2010/03/04	8800000	2010/04/14	38400	2010/04/14	8800000		8800000	2099/12/31
+BTW	Cấp nước Bến Thành	Ben Thanh Water Supply Jsc	UPC	Utilities	2010/03/04	9360000	2010/03/04		2010/03/04	9360000		9360000	2099/12/31
+BVG	CTCP Thép Bắc Việt	Bacviet Steel Jsc	HNX	Basic Materials	2010/08/09	9750948	2010/08/09	20200	2010/08/09	9750948		9750948	2099/12/31
+BVH	Tập đoàn Bảo Việt	Bao Viet Holdings	HSX	Financials	2009/06/16	573026605	2009/06/25	46200	2009/06/25	573026605		573026605	2099/12/31
+BVN	Vận tải thủy TKV	Vietnam Cotton Jsc	UPC	Consumer Goods	2011/10/11	5000000	2011/10/11		2011/10/11	5000000		5000000	2099/12/31
+BVS	CTCP Chứng khoán Bảo Việt	Bao Viet Securities Company	HNX	Financials	2006/12/18	15000000	2006/12/18	299500	2006/12/18	15000000		15000000	2099/12/31
+BWA	Cấp thoát nước & XD Bảo Lộc	Bao Loc Supply Sewerage And Construction Jsc	UPC	Utilities	2010/06/14	2700000	2010/06/14		2010/06/14	2700000		2700000	2099/12/31
+BXD	QL Bến xe Đà Nẵng	Da Nang Transport & Admintration Parking Place.	UPC	Industrials	2010/09/09	1136500	2010/09/09		2010/09/09	1136500		1136500	2013/12/05
+BXH	CTCP Bao bì Xi măng Hải Phòng	Haiphong Cement Packing Jsc	HNX	Industrials	2009/11/25	3000000	2009/11/25	20000	2009/11/25	3000000		3000000	2099/12/31
+C21	CTCP Thế kỷ 21	Century 21 Jsc 	HSX	Financials	2011/05/18	19336371	2011/05/18	28000	2011/07/15	19336371		19336371	2099/12/31
+C32	Đầu tư Xây dựng 3-2	Construction Investment Corporation 3-2	UPC	Industrials	2010/10/13	11200000	2010/10/13	12000	2010/10/13	11200000		11200000	2012/11/23
+C32	CTCP Đầu tư Xây dựng 3-2	Construction Investment Corporation 3-2	HSX	Industrials	2012/09/06	11200000	2012/11/30	14400	2010/10/13	11200000		11200000	2099/12/31
+C47	CTCP xây dựng 47	Construction Jsc 47	HSX	Industrials	2011/03/21	8000000	2011/03/30	14900	2011/03/30	8000000		8000000	2099/12/31
+C92	CTCP Xây dựng và Đầu tư 492	Construction And Investment Jsc No492	HNX	Industrials	2007/11/19	1200000	2007/11/19	85000	2007/11/19	1200000		1200000	2099/12/31
+CAD	CTCP Chế biến và Xuất nhập khẩu Thủy sản Cadovimex	Cadovimex Seafood Import-Export And Processing Jsc	HSX	Consumer Goods	2009/01/05	8000000	2009/01/05	1400	2009/01/05	8000000		8000000	2012/06/01
+CAD	CTCP Chế Biến & XNK Thủy Sản Cadovimex	Cadovimex Seafood Import-Export & Processing JSC	UPC	Consumer Goods	2012/06/07	20799927	2012/11/01	1400	2009/01/05	8000000		20799927	2099/12/31
+CAN	CTCP Đồ hộp Hạ Long	Halong Canned Food Jsc	HNX	Consumer Goods	2001/10/18	5000000	2009/06/12	14600	2001/10/22	5000000		5000000	2099/12/31
+CAN	CTCP Đồ hộp Hạ Long	Halong Canned Food Jsc	HSX	Consumer Goods		3499880	2001/10/22	27100				3499880	2009/06/01
+CAP	CTCP Lâm Nông sản Thực phẩm Yên Bái	Yen Bai Agro-Forestry Products And Foodstuff Corporation	HNX	Basic Materials	2008/01/09	1100000	2008/01/09	42200	2008/01/09	1100000		1100000	2099/12/31
+CCI	CTCP đầu tư phát triển công nghiệp thương mại Củ Chi	Cuchi Commercial And Industrial Developing Invesment Jsc	HSX	Financials	2010/04/07	9000000	2010/04/15	36000	2010/04/15	9000000		9000000	2099/12/31
+CCL	CTCP Đầu Tư và Phát Triển Đô thị Dầu Khí Cửu Long	Cuu Long Petro Urban Development &  Investment Corporation	HSX	Financials	2011/01/21	25000000	2011/03/03	27500	2011/03/03	25000000		25000000	2099/12/31
+CCM	CTCP Khoáng sản và Xi măng Cần thơ	Can Tho Minerals And Cement Jsc	HNX	Industrials	2008/09/18	2750000	2008/09/18	25000	2008/09/18	2750000		2750000	2099/12/31
+CDC	CTCP Chương Dương	Chuong Duong Corporation 	HSX	Industrials	2007/11/01	3600000	2010/09/13	28500	2007/11/01	3600000		3600000	2099/12/31
+CDC	CTCP Chương Dương	Chuong Duong Corporation 	HNX	Industrials		3600000	2007/11/01	294000				3600000	2010/08/30
+CFC	Cafico Việt Nam	Cafico Viet Nam Jsc	UPC	Consumer Goods	2009/06/24	1629120	2009/06/24	28500	2009/06/24	1629120		1629120	2099/12/31
+CHP	Thủy điện Miền Trung	Central Hydropower Jsc	UPC	Utilities	2010/04/20	68884571	2010/04/20	55000	2010/04/21	0		68884571	2099/12/31
+CI5	CTCP Đầu tư Xây dựng số 5	No.5 Construction Investment Jsc	UPC	Industrials	2011/07/01	1250000	2011/07/01	10000	2011/07/01	1250000		1250000	2099/12/31
+CIC	CTCP Đầu tư và Xây dựng COTEC	Cotec Investment And Construction Jsc	HNX	Industrials	2006/12/29	888800	2006/12/29	51000	2006/12/29	888800		888800	2013/09/23
+CID	CTCP Xây dựng và Phát triển Cơ sở Hạ tầng	Construction And Infrastructure Development Jsc	HNX	Industrials	2005/07/14	541000	2005/07/14	16300	2005/07/14	541000		541000	2099/12/31
+CIG	CTCP COMA18	Coma 18 Jsc	HSX	Industrials	2011/07/01	12000000	2011/07/01	10800	2011/07/19	12000000		12000000	2099/12/31
+CII	CTCP Đầu tư Hạ tầng Kỹ thuật TP.HCM	Hochiminh City Infrastructure Investment Jsc	HSX	Industrials	2006/02/24	30000000	2006/05/18	50000	2006/05/18	30000000		30000000	2099/12/31
+CJC	CTCP Cơ điện Miền Trung	Central Area Electrical Mechanical Jsc	HNX	Industrials	2006/12/14	2000000	2006/12/14	31800	2006/12/14	2000000		2000000	2099/12/31
+CKV	CTCP COKYVINA	Post And Telecommunication Trading Jsc	HNX	Technology	2010/03/11	4050000	2010/03/11	20000	2010/03/11	4050000		4050000	2099/12/31
+CLC	CTCP Cát Lợi	Cat Loi Jsc	HSX	Consumer Goods	2006/10/18	8400000	2006/11/16	60000	2006/11/16	8400000		8400000	2099/12/31
+CLG	CTCP Đầu tư và Phát triển Nhà đất Cotec	Cotec Investment And Land-House Development Jsc 	HSX	Financials	2010/07/30	10000000	2010/08/09	41800	2010/08/09	10000000		10000000	2099/12/31
+CLP	CTCP Thủy Sản Cửu Long	CuuLong Seaproducts Company	HSX	Consumer Goods	2012/09/13	8000000	2012/11/15	14400	2012/11/15	8000000		8000000	2099/12/31
+CLS	Chứng khoán Chợ Lớn	Cho Lon Securities Jsc	UPC	Financials	2009/06/24	9000000	2009/06/24	15800	2009/06/24	9000000		9000000	2013/07/18
+CLW	CTCP cấp nước Chợ Lớn	Cho Lon Water Supply Jsc 	HSX	Utilities	2010/10/20	13000000	2011/01/11	10000	2011/01/11	13000000		13000000	2099/12/31
+CMC	CTCP Đầu tư CMC	Cmc Investment Jsc	HNX	Consumer Goods	2006/12/11	1520000	2006/12/11	11000	2006/12/11	1520000		1520000	2099/12/31
+CMG	CTCP tập đoàn công nghệ CMC	Cmc Corporation	HSX	Technology	2010/01/13	63536267	2010/01/22	35000	2010/01/22	63536267		63536267	2099/12/31
+CMI	CTCP Cavico Khoáng sản và Công nghiệp	Cavico Industry And Minerals Jsc	HNX	Basic Materials	2010/06/23	4702500	2010/06/23	48000	2010/06/23	4702500		4702500	2099/12/31
+CMS	CTCP Cavico Xây dựng nhân lực và Dịch vụ	Cavico Construction Manpower And Services Jsc	HNX	Industrials	2010/11/29	2500000	2010/11/29	23000	2010/11/29	2500000		2500000	2099/12/31
+CMT	CTCP Công nghệ mạng và truyền thông	Information And Networking Technology Jsc	HSX	Technology	2010/01/25	8000000	2010/03/11	50000	2010/03/11	8000000		8000000	2099/12/31
+CMV	CTCP Thương nghiệp Cà Mau	Camau Trading Jsc.	HSX	Consumer Services	2010/06/09	8049986	2010/06/21	36000	2010/06/21	8049986		8049986	2099/12/31
+CMX	CTCP chế biến thủy sản và xuất nhập khẩu Cà Mau	Ca Mau Frozen Seafood Processing Import Export Corporation	HSX	Consumer Goods	2010/11/02	11496797	2010/11/09	15000	2010/11/09	11496797		11496797	2099/12/31
+CNG	CTCP CNG Việt Nam	CNG Viet Nam Jsc	HSX	Utilities	2011/11/14	20312038	2011/11/23	28700	2011/11/23	20312038		20312038	2099/12/31
+CNT	CTCP Xây dựng và Kinh doanh Vật tư	Construction And Materials Trading Jsc	HSX	Industrials	2008/07/09	8000000	2008/07/28	36000	2008/07/28	8000000		8000000	2099/12/31
+COM	CTCP Vật tư Xăng Dầu	Materials - Petroleum Jsc	HSX	Consumer Services	2006/05/12	3400000	2006/08/07	39000	2006/08/07	3400000		3400000	2099/12/31
+CPC	CTCP Thuốc sát trùng Cần thơ	Can Tho Pesticides Jsc	HNX	Basic Materials	2010/01/18	4108800	2010/01/18	24500	2010/01/18	4108800		4108800	2099/12/31
+CSC	CTCP Đầu tư và Xây dựng Thành Nam	Thanh Nam Construction And Investment Jsc	HNX	Financials	2009/11/04	2500000	2009/11/04	46600	2009/11/04	2500000		2500000	2099/12/31
+CSG	CTCP Cáp Sài gòn	Sai Gon Cable Corporation	HSX	Technology	2008/05/06	29742020	2009/07/10	15900	2008/05/06	29742020		29742020	2012/10/03
+CSG	CTCP Cáp Sài gòn	Sai Gon Cable Corporation	HNX	Technology		30000000	2008/05/06	14100				30000000	2009/06/30
+CSM	CTCP Công nghiệp Cao su Miền Nam	The Southern Rubber Industry Jsc	HSX	Consumer Goods	2009/08/04	25000000	2009/08/11	50000	2009/08/11	25000000		25000000	2099/12/31
+CT3	Xây dựng công trình 3	Project 3 Construction & Investment Jsc	UPC	Industrials	2009/11/20	2181209	2009/11/20		2009/11/20	2181209		2181209	2099/12/31
+CT6	CTCP Công trình 6	Construction Jsc No6	HNX	Industrials	2010/05/04	4437401	2010/05/04	31500	2010/05/04	4437401		4437401	2099/12/31
+CTA	CTCP Vinavico	Vinavico Jsc	HNX	Industrials	2010/10/01	8000000	2010/10/01	24900	2010/10/01	8000000		8000000	2099/12/31
+CTB	CTCP Chế tạo Bơm Hải Dương	Hai Duong Pump Manufacturing Jsc	HNX	Industrials	2006/10/10	1714330	2006/10/10	31100	2006/10/10	1714330		1714330	2099/12/31
+CTC	CTCP Văn hoá Du lịch Gia Lai	Gia Lai Culture - Tourism Jsc	HNX	Consumer Services	2008/07/08	2376200	2008/07/18	21500	2008/07/18	2376200		2376200	2099/12/31
+CTD	CTCP Xây dựng Cotec	Cotec Construction Jsc	HSX	Industrials	2009/12/09	18450000	2010/01/20	114000	2010/01/20	18450000		18450000	2099/12/31
+CTG	Ngân hàng Thương mại Cổ phần Công Thương Việt Nam	Viet Nam Jsc Commercial Bank For Industry And Trade	HSX	Banks	2009/07/09	121211780	2009/07/16	40100	2009/07/16	121211780		121211780	2099/12/31
+CTI	CTCP Đầu tư Phát triển Cường Thuận IDICO	Cuongthuan Investment Corporation	HSX	Industrials	2010/02/10	15000000	2010/03/19	26400	2010/03/19	15000000		15000000	2099/12/31
+CTM	CTCP Đầu tư Xây dựng và Khai thác Mỏ Vinavico	Vinavico Investment Construction And Mining Jsc	HNX	Basic Materials	2009/08/07	2677800	2009/08/07	15000	2009/08/07	2677800		2677800	2099/12/31
+CTN	CTCP Xây dựng Công trình Ngầm	Underground Works Construction Jsc	HNX	Industrials	2006/12/20	3000000	2006/12/20	50600	2006/12/20	3000000		3000000	2099/12/31
+CTS	CTCP Chứng khoán Ngân hàng Công thương Việt Nam	Vietinbank Securities	HNX	Financials	2009/07/31	78993400	2009/07/31	31600	2009/07/31	78993400		78993400	2099/12/31
+CTT	Công ty cổ phần Chế tạo máy - TKV	JSC Manufacturing - TKV	UPC	Industrials			2011/01/27						
+CTV	CTCP Đầu tư - Sản xuất và Thương mại Việt Nam	Viet Nam Investment - Production And Trading Jsc	HNX	Consumer Services	2011/09/09	2000000	2011/09/09	9000	2011/09/09	2000000		2000000	2099/12/31
+CTX	Tổng CTCP Đầu tư xây dựng và Thương mại Việt Nam	Vietnam Investment Construction And Trading JCC	HNX	Industrials	2012/03/30	25453800	2012/05/24	13600	2012/05/24	25453800		25453800	2099/12/31
+CVN	CTCP Vinam	Vinam Jsc	HNX	Industrials	2010/08/06	1000000	2010/08/06	34500	2010/08/06	1000000		1000000	2099/12/31
+CVT	CTCP CMC	Cmc Jsc	HNX	Industrials	2009/11/05	4000000	2009/11/05	25000	2009/11/05	4000000		4000000	2099/12/31
+CX8	CTCP Đầu tư và Xây lắp Constrexim Số 8	Constrexim No 8 Investment And Construction Jsc	HNX	Industrials	2010/05/19	1858960	2010/05/19	23000	2010/05/19	1858960		1858960	2099/12/31
+CYC	CTCP Gạch men Chang Yih	Chang Yih Ceramic Jsc	HSX	Industrials	2006/06/21	1990530	2006/07/31	20000	2006/07/31	1990530		1990530	2099/12/31
+CZC	CTCP Than Miền Trung	Vinacomin - Central Zone Coal Jsc	UPC	Basic Materials	2011/04/05	2667900	2011/04/05		2011/04/05	2667900		2667900	2099/12/31
+D11	CTCP Địa ốc 11	Real Estate 11 Jsc	HNX	Financials	2011/01/06	2600000	2011/02/25	67000	2011/02/25	2600000		2600000	2099/12/31
+D26	Công ty Cổ phần Quản lý và Xây dựng Đường bộ 26	Road Management  & Construction Jsc 26	UPC	Industrials	2011/01/10	1000000	2011/01/10		2011/01/10	1000000		1000000	2099/12/31
+D2D	CTCP Phát triển Đô thị Công Nghiệp Số 2	Industrial Urban Development Jsc No.2	HSX	Financials	2009/06/24	10700000	2009/08/14	48000	2009/08/14	10700000		10700000	2099/12/31
+DAC	CTCP Viglacera Đông Anh	Viglacera Dong Anh Jsc	HNX	Industrials	2006/09/20	750000	2006/09/20	17000	2006/09/20	750000		750000	2099/12/31
+DAD	CTCP Đầu tư và Phát triển Giáo dục Đà Nẵng	Da Nang Education Development And Investment Jsc	HNX	Consumer Services	2009/08/19	5000000	2009/08/19	15200	2009/08/19	5000000		5000000	2099/12/31
+DAE	CTCP Sách Giáo dục tại Tp.Đà Nẵng	Educational Book Jsc In Da Nang City	HNX	Consumer Services	2006/12/28	500000	2006/12/28	31400	2006/12/28	500000		500000	2099/12/31
+DAG	CTCP Tập Đoàn Nhựa Đông Á	Dong A Plastic Group Joint – Stock Company	HSX	Basic Materials	2010/03/01	10000000	2010/04/08	21600	2010/04/08	10000000		10000000	2099/12/31
+DAP	Bao bì Đông Á	Dong A Jsc	UPC	Industrials	2010/05/04	1200000	2010/05/04		2010/05/04	1200000		1200000	2099/12/31
+DBC	CTCP Tập đoàn Dabaco Việt Nam	Dabaco Vietnam Corporation	HNX	Consumer Goods	2008/03/18	7000000	2008/03/18	26100	2008/03/18	7000000		7000000	2099/12/31
+DBF	Lương thực Đông Bắc	North East Food Jsc	UPC	Consumer Goods	2010/06/21	3679200	2010/06/21	28000	2010/06/21	3679200		3679200	2099/12/31
+DBM	Công ty Cổ phần Dược - Vật tư Y tế Đăk Lăk	Dak Lak Pharmaceutical & Midecal Equipment Jsc	UPC	Health Care	2009/12/17	1294392	2009/12/17	33000	2009/12/17	1294392		1294392	2099/12/31
+DBT	CTCP Dược phẩm Bến Tre	Ben Tre Pharmaceutical Jsc	HNX	Health Care	2009/10/30	3000000	2009/10/30	42000	2009/10/30	3000000		3000000	2099/12/31
+DC2	CTCP Đầu tư Phát triển - Xây dựng (DIC) số 2	Development Investment Construction Number 2 Jsc	HNX	Industrials	2010/07/02	1100000	2010/07/02	45000	2010/07/02	1100000		1100000	2099/12/31
+DC4	CTCP DIC số 4	Dic No.4 Jsc	HNX	Industrials	2008/11/03	2000000	2008/11/03	17400	2008/11/03	2000000		2000000	2099/12/31
+DCC	CTCP Xây dựng Công nghiệp DESCON	Industry Construction Corporation	HSX	Industrials	2007/11/27	10300000	2007/12/12	69000	2007/12/12	10300000		10300000	2011/12/15
+DCL	CTCP Dược phẩm Cửu Long	Cuu Long Pharmaceutical JCC	HSX	Health Care	2008/09/03	8100000	2008/09/17	62000	2008/09/17	8100000		8100000	2099/12/31
+DCS	CTCP Tập đoàn Đại Châu	Dai Chau Jsc	HNX	Consumer Goods	2007/12/17	2000000	2007/12/17	40000	2007/12/17	2000000		2000000	2099/12/31
+DCT	CTCP Tấm lợp Vật liệu Xây dựng Đồng Nai	Dong Nai Roofsheet And Construction Material Jsc	HSX	Industrials	2006/09/21	12097346	2006/10/10	32000	2006/10/10	12097346		12097346	2099/12/31
+DDM	CTCP Hàng hải Đông Đô	Dong Do Marine Jsc	HSX	Industrials	2008/07/08	8920000	2008/07/22	16800	2008/07/22	8920000		8920000	2013/04/10
+DDN	Dược - TB Y tế Đà Nẵng	Danang Pharmaceutical Medical Equipment Jsc	UPC	Health Care	2009/06/24	2800000	2009/06/24	37000	2009/06/24	2800000		2800000	2099/12/31
+DGT	Công trình GT Đồng Nai	Dong Nai Transportation Works Shareholding Company	UPC	Industrials	2010/03/09	2481000	2010/03/09		2010/03/09	2481000		2481000	2099/12/31
+DHA	CTCP Hóa An	Hoa An Jsc	HSX	Industrials	2004/04/12	3849962	2004/04/14	38500	2004/04/14	3849962		3849962	2099/12/31
+DHC	CTCP Đông hải Bến Tre	Dong Hai Jsc Of Bentre	HSX	Basic Materials	2009/06/18	8000000	2009/07/23	17400	2009/07/23	8000000		8000000	2099/12/31
+DHG	CTCP Dược Hậu Giang	Hau Giang Pharmaceutical Jsc	HSX	Health Care	2006/12/01	8000000	2006/12/21	320000	2006/12/21	8000000		8000000	2099/12/31
+DHI	CTCP In Diên Hồng	Dien Hong Printing Jsc	HNX	Consumer Services	2006/12/04	1000000	2006/12/04	19600	2006/12/04	1000000		1000000	2013/10/24
+DHL	CTCP Cơ khí Vận tải Thương mại Đại Hưng	Dai Hung Mechanic Transport Trading Jsc	HNX	Industrials	2012/05/30	5500000	2012/06/06	10400	2012/06/06	5500000		5500000	2013/09/26
+DHM	CTCP Thương Mại và Khai thác Khoáng sản Dương Hiếu	Duong Hieu Trading and Mining Jsc	HSX	Basic Materials	2012/07/11	16000000	2012/07/24	20000	2012/07/24	16000000		16000000	2099/12/31
+DHP	Công ty Cổ phần Điện Cơ Hải Phòng	Hai Phong Electric Corporation	HNX	Industrials	2013/03/21	9492200	2013/03/21	12000					2099/12/31
+DHT	CTCP Dược phẩm Hà Tây	Ha Tay Pharmaceutical Jsc	HNX	Health Care	2008/12/03	4122602	2008/12/03	25000	2008/12/03	4122602		4122602	2099/12/31
+DIC	CTCP Đầu tư và Thương mại DIC	Dic Investment And Trading Jsc	HSX	Industrials	2006/11/22	3200000	2006/12/28	38000	2006/12/28	3200000		3200000	2099/12/31
+DID	CTCP Dic Đồng Tiến	Dic- Dong Tien Jsc	HNX	Industrials	2009/12/10	2434200	2009/12/10	22000	2009/12/10	2434200		2434200	2099/12/31
+DIG	Tổng CTCP Đầu tư Phát triển Xây dựng	Development Investment Construction JCC	HSX	Financials	2009/08/12	60000000	2009/08/19	66000	2009/08/19	60000000		60000000	2099/12/31
+DIH	CTCP Đầu tư Phát triển Xây dựng - Hội An	Development Investment Construction Hoi An Jsc	HNX	Industrials	2011/02/22	2984942	2011/04/27	17000	2011/04/27	2984942		2984942	2099/12/31
+DL1	CTCP Đầu tư phát triển dịch vụ công trình công cộng Đức Long Gia Lai	Duc Long Gia Lai Investment And Development Of Public Project Service Jsc	HNX	Industrials	2010/03/10	1500000	2010/03/10	25200	2010/03/10	1500000		1500000	2099/12/31
+DLC	CTCP Du Lịch Cần Thơ	Can Tho Tourist Jsc	UPC	Consumer Services	2011/05/11	4780080	2011/05/11	19000	2011/05/11	4780080		4780080	2099/12/31
+DLD	Công ty Cổ phần Du lịch Đắc Lắk	Dak Lak Tourist Jsc	UPC	Consumer Services	2011/04/08	9307415	2011/04/08		2011/04/08	9307415		9307415	2099/12/31
+DLG	CTCP tập đoàn Đức Long Gia Lai	Duc Long Gia Lai Group Jsc	HSX	Basic Materials	2010/06/14	29100000	2010/06/22	30000	2010/06/22	29100000		29100000	2099/12/31
+DLR	CTCP Địa ốc Đà Lạt	Dalat Real Estate Jsc	HNX	Financials	2010/05/20	4500000	2010/05/20	32300	2010/05/20	4500000		4500000	2099/12/31
+DLV	Du lịch Việt Nam Vitours	Viet Namtourism - Vitours Jsc	UPC	Consumer Services	2010/11/02	2910000	2010/02/11		2010/11/02	2910000		2910000	2099/12/31
+DMC	CTCP Xuất nhập khẩu y tế DOMESCO	Domesco Medical Import Export JCC	HSX	Health Care	2006/04/12	10700000	2006/12/25	130000	2006/12/25	10700000		10700000	2099/12/31
+DNC	CTCP Điện nước lắp máy Hải Phòng	Haiphong Electricity Water Machine Assembly Jsc	HNX	Utilities	2009/12/23	1605095	2009/12/23	19800	2009/12/23	1605095		1605095	2099/12/31
+DNF	Lương thực Đà Nẵng	Da Nang Food Jsc	UPC	Consumer Goods	2010/09/06	5000000	2010/09/06		2010/09/06	5000000		5000000	2099/12/31
+DNL	Công ty cổ phần Logistic Cảng Đà Nẵng	Dang Nang Logistics Jsc	UPC	Industrials	2011/08/18	3000000	2011/08/18		2011/08/18	3000000		3000000	2099/12/31
+DNM	Tổng CTCP Y tế DANAMECO	Danameco Medical JCC	HNX	Health Care	2011/02/16	2411510	2011/02/16	26000	2011/02/16	2411510		2411510	2099/12/31
+DNP	CTCP Nhựa Đồng Nai	Dongnai Plastic Construction Jsc	HNX	Industrials	2006/12/20	2000000	2006/12/20	18600	2006/12/20	2000000		2000000	2099/12/31
+DNS	Thép Đà Nẵng	Da Nang Steel Jsc	UPC	Basic Materials	2010/04/05	5953747	2010/04/05	16400	2010/04/05	5953747		5953747	2099/12/31
+DNT	Du lịch Đồng Nai	Dong Nai Tourist Jsc	UPC	Consumer Services	2009/08/14	5032700	2009/08/14	13000	2009/08/14	5032700		5032700	2099/12/31
+DNY	CTCP Thép DANA - Ý	Dana-Y Steel Jsc	HNX	Basic Materials	2010/05/11	15000000	2010/05/11	55000	2010/05/11	15000000		15000000	2099/12/31
+DPC	CTCP Nhựa Đà Nẵng	Da Nang Plastic Jsc	HNX	Industrials	2001/11/23	1587280	2001/11/28	17600	2001/11/28	1587280		1587280	2099/12/31
+DPM	Tổng Công ty Phân bón và Hóa chất Dầu khí - CTCP	PetroVietnam Fertilizer and Chemicals Corp	HSX	Basic Materials	2007/10/29	380000000	2007/11/05	95000	2007/11/05	380000000		380000000	2099/12/31
+DPP	Dược Đồng Nai	Dong Nai Pharmaceutical Jsc	UPC	Health Care	2010/05/19	1985447	2010/05/19		2010/05/19	1985447		1985447	2099/12/31
+DPR	CTCP Cao su Đồng Phú	Dong Phu Rubber Jsc	HSX	Basic Materials	2007/11/22	40000000	2007/11/30	99000	2007/11/30	40000000		40000000	2099/12/31
+DQC	CTCP Bóng đèn Điện Quang	Dien Quang Jsc	HSX	Consumer Goods	2008/02/14	15434000	2008/02/21	232000	2008/02/21	15434000		15434000	2099/12/31
+DRC	CTCP Cao su Đà Nẵng	Danang Rubber Jsc	HSX	Consumer Goods	2006/11/28	9247500	2006/12/29	95000	2006/12/29	9247500		9247500	2099/12/31
+DRH	CTCP Đầu tư Căn Nhà Mơ Ước	Dream House Investment Corporation	HSX	Financials	2010/07/13	14990000	2010/07/26	18700	2010/07/26	14990000		14990000	2099/12/31
+DRL	CTCP Thủy Điện - Điện lực 3	Hydro Power Jsc - Power No.3	HSX	Utilities	2012/03/30	9500000	2012/04/11	20000	2012/04/11	9500000		9500000	2099/12/31
+DSN	CTCP công viên nước Đầm Sen	Dam Sen Water Park Corporation	HSX	Consumer Services	2010/09/17	8450000	2010/10/26	24000	2010/10/26	8450000		8450000	2099/12/31
+DST	CTCP Sách và Thiết bị Giáo dục Nam Định	Nam Dinh Educational Book And Equipment Jsc	HNX	Consumer Services	2007/10/16	1000000	2007/10/16	78000	2007/10/16	1000000		1000000	2099/12/31
+DTA	CTCP Đệ Tam	De Tam Jsc	HSX	Financials	2010/06/30	10000000	2010/07/16	32500	2010/07/16	10000000		10000000	2099/12/31
+DTC	CTCP Viglacera Đông Triều	Viglacera Dong Trieu Jsc	HNX	Industrials	2006/12/25	500000	2006/12/25	17000	2006/12/25	500000		500000	2013/03/21
+DTC	CTCP Viglacera Đông Triều	Viglacera Dong Trieu Jsc	UPC	Industrials	2013/04/10	4000000	2013/04/10	2700					2099/12/31
+DTL	CTCP Đại Thiên Lộc	Dai Thien Loc Corporation.	HSX	Basic Materials	2010/05/28	38800000	2010/06/04	31100	2010/06/04	38800000		38800000	2099/12/31
+DTT	CTCP Kỹ nghệ Đô Thành	Do Thanh Technology Corporation	HSX	Basic Materials	2006/12/06	2000000	2006/12/22	45000	2006/12/22	2000000		2000000	2099/12/31
+DTV	PT điện Nông thôn Trà Vinh	Tra Vinh Rural Electric Development JSC	UPC	Utilities	2010/09/09	5280000	2010/09/09		2010/09/09	5280000		5280000	2099/12/31
+DVD	CTCP Dược phẩm Viễn Đông	Vien Dong Pharmaceutical Jsc	HSX	Health Care	2009/12/22	8910000	2009/12/22	74000	2009/12/22	8910000		8910000	2011/09/01
+DVH	Chế tạo máy điện VN - Hungari	Vietnam - Hungari Electric Machinery Manufacturing Jsc	UPC	Industrials	2010/11/02	4350000	2010/11/02	20500	2010/11/02	4350000		4350000	2099/12/31
+DVP	CTCP Đầu tư và Phát triển Cảng Đình Vũ	Dinh Vu Port Investment & Development Jsc	HSX	Industrials	2009/11/24	20000000	2009/12/01	49200	2009/12/01	20000000		20000000	2099/12/31
+DXG	CTCP Dịch vụ và Xây dựng Địa ốc Đất Xanh	Dat Xanh Real Estate Service & Constructions Corporation	HSX	Financials	2009/12/14	8000000	2009/12/22	48000	2009/12/22	8000000		8000000	2099/12/31
+DXL	Du lịch & XNK Lạng Sơn	Lang Son Tourism & Import - Export Jsc	UPC	Consumer Services	2010/06/28	2689000	2010/06/28		2010/06/28	2689000		2689000	2099/12/31
+DXP	CTCP Cảng Đoạn Xá	Doan Xa Port Jsc	HNX	Industrials	2005/12/26	3500000	2005/12/26	38000	2005/12/26	3500000		3500000	2099/12/31
+DXV	CTCP Vicem Vật liệu Xây dựng Đà Nẵng	Da Nang Contruction Building Materials And Cement Jsc	HSX	Industrials	2008/01/24	9900000	2008/02/26	33600	2008/02/26	9900000		9900000	2099/12/31
+DZM	CTCP Chế tạo Máy Dzĩ An	Dzi An Manufacturing Public Limited Company	HNX	Industrials	2009/06/11	2500000	2009/06/11	64000	2009/06/11	2500000		2500000	2099/12/31
+EBS	CTCP Sách Giáo dục tại Tp.Hà Nội	Educational Book Jsc In Hanoi City	HNX	Consumer Services	2006/12/21	1000000	2006/12/21	72900	2006/12/21	1000000		1000000	2099/12/31
+ECI	CTCP Bản đồ và Tranh ảnh Giáo dục	Education Cartography And Illustration Jsc	HNX	Consumer Services	2009/06/16	1860000	2009/06/16	20200	2009/06/16	1860000		1860000	2099/12/31
+EFI	CTCP Đầu tư tài chính giáo dục	Education Financial Investment Jsc	HNX	Financials	2009/09/30	3570000	2009/09/30	16200	2009/09/30	3570000		3570000	2099/12/31
+EIB	Ngân hàng Thương mại Cổ phần Xuất nhập khẩu Việt Nam	Vietnam Export Import Commercial Joint Stock Bank	HSX	Banks	2009/10/20	876226900	2009/10/27	29000	2009/10/27	876226900		876226900	2099/12/31
+EID	CTCP Đầu tư và Phát triển Giáo dục Hà Nội	Hanoi Education Development And Investment Jsc	HNX	Consumer Services	2009/08/11	8000000	2009/08/11	26300	2009/08/11	8000000		8000000	2099/12/31
+ELC	CTCP Đầu tư Phát triển Công nghệ Điện tử - Viễn thông	Electronics Communications Technology Investment Development Corporation	HSX	Technology	2010/10/05	22125000	2010/10/13	55000	2010/10/13	22125000		22125000	2099/12/31
+EMC	CTCP Cơ Điện Thủ Đức	ThuDuc Electro Mechanical Joint Stock Company	HSX	Industrials	2012/08/31	8073000	2012/11/29	9600	2012/11/29	8073000		8073000	2099/12/31
+EVE	CTCP Everpia Việt Nam	Everpia Vietnam Jsc	HSX	Consumer Goods	2010/11/30	15327996	2010/12/17	45000	2010/12/17	15327996		15327996	2099/12/31
+FBA	CTCP Tập đoàn Quốc tế FBA	Fba International Group Corporation	UPC	Consumer Goods	2011/02/18	3414900	2011/02/18		2011/02/18	3414900		3414900	2099/12/31
+FBT	CTCP Xuất nhập khẩu Lâm Thủy sản Bến Tre	Bentre Forestry And Aquaproduct Import Export Jsc	HSX	Consumer Goods	2007/12/27	15000000	2008/01/14	42000	2008/01/14	15000000		15000000	2013/06/14
+FCM	Công ty Cổ phần Khoáng sản FECON	FECON Mining Joint Stock Company	HSX	Industrials	2013/05/08	26800000	2013/05/15						2099/12/31
+FCN	CTCP Kỹ Thuật Nền Móng và Công trình Ngầm Fecon	FECON Foundation Engineering and Underground Construction Jsc	HSX	Industrials	2012/07/18	13805162	2012/07/24	19200	2012/07/24	13805162		13805162	2099/12/31
+FDC	CTCP ngoại thương và phát triển đầu tư Thành phố Hồ Chí Minh	Foreign Trade Development And Investment Corporation Of Hochiminh City	HSX	Financials	2009/12/25	14297699	2010/01/18	43100	2010/01/18	14297699		14297699	2099/12/31
+FDG	CTCP DOCIMEXCO	Dong Thap Trading Corporation	HSX	Consumer Goods	2011/02/22	13200000	2011/04/20	28000	2011/04/20	13200000		13200000	2099/12/31
+FDT	CTCP Fiditourist	Tan Dinh Fiditourist Travel Jsc	HNX	Consumer Services	2011/09/12	3054500	2011/09/12	19500	2011/09/12	3054500		3054500	2099/12/31
+FIT	Công ty cổ phần Đầu tư F.I.T	F.I.T Investment Joint Stock Company	HNX	Industrials	2013/07/26	15000000	2013/07/26						2099/12/31
+FLC	CTCP Tập đoàn FLC	Flc Group Jsc 	HNX	Financials	2011/10/05	10000000	2011/10/05	16200	2011/10/05	10000000		10000000	2013/07/29
+FLC	CTCP Tập Đoàn FLC	Flc Group Jsc 	HSX	Financials	2013/07/29	77180000	2013/08/06	5700					2099/12/31
+FMC	CTCP Thực phẩm Sao Ta	Sao Ta Foods Jsc	HSX	Consumer Goods	2006/10/20	6000000	2006/12/07	66000	2006/12/07	6000000		6000000	2099/12/31
+FPC	CTCP Full Power	Full Power Jsc	HSX	Industrials	2006/07/06	1914611	2006/07/25	40000	2006/07/25	1914611		1914611	2099/12/31
+FPT	CTCP FPT	Fpt Corporation	HSX	Technology	2006/11/21	60810230	2006/12/13	400000	2006/12/13	60810230		60810230	2099/12/31
+GAS	Tổng Công ty Khí Việt Nam - CTCP	PetroVietnam Gas JCC	HSX	Utilities	2012/04/27	1895000000	2012/05/21	41000	2012/05/21	1895000000		1895000000	2099/12/31
+GBS	CTCP Chứng khoán Golden Bridge Việt Nam	Click&Phone Securities Jsc	HNX	Financials	2010/10/11	13500000	2010/10/11	13100	2010/10/11	13500000		13500000	2013/10/22
+GDT	CTCP Chế biến Gỗ Đức Thành	Duc Thanh Wood Processing Jsc	HSX	Consumer Goods	2009/11/03	10372365	2009/11/17	36000	2009/11/17	10372365		10372365	2099/12/31
+GDW	Cấp nước Gia Định	Gia Dinh Water Supply Jsc	UPC	Utilities	2010/06/15	9500000	2010/06/15		2010/06/15	9500000		9500000	2099/12/31
+GER	Thể thao Ngôi sao Geru	Geru Star Sport Jsc	UPC	Basic Materials	2010/06/01	2200000	2010/06/01	9500	2010/06/01	2200000		2200000	2099/12/31
+GFC	CTCP Thủy sản Gentraco	Gentraco Feed Jsc	HNX	Consumer Goods	2011/04/21	8080000	2011/04/21	10500	2011/04/21	8080000		8080000	2013/07/18
+GGG	CTCP Ô tô Giải Phóng	Giaiphong Motor Jsc	HNX	Consumer Goods	2009/10/12	6450000	2009/10/12	30000	2009/10/12	6450000		6450000	2099/12/31
+GHA	CTCP HAPACO Hải Âu	Hai Au Paper Jsc	HNX	Basic Materials	2005/07/14	1289480	2005/07/14	19000	2005/07/14	1289480		1289480	2011/08/24
+GHC	Tập đoàn Quốc tế FBA	Gia Lai Hydropower Jsc	UPC	Utilities	2011/04/26	10000000	2011/04/26		2011/04/26	10000000		10000000	2099/12/31
+GIL	CTCP Sản xuất Kinh doanh Xuất nhập khẩu Bình Thạnh	Binh Thanh Import Export Production And Trade Jsc	HSX	Consumer Goods	2001/12/28	2550000	2002/01/02	38000	2002/01/02	2550000		2550000	2099/12/31
+GLT	CTCP Kỹ thuật Điện Toàn Cầu	Global Electrical Technology Corporation	HNX	Consumer Goods	2009/11/26	6375779	2009/11/26	45000	2009/11/26	6375779		6375779	2099/12/31
+GMC	CTCP Sản xuất Thương mại May Sài Gòn	Sai Gon Garment Manufacturing Trade Jsc	HSX	Consumer Goods	2006/12/06	2275000	2006/12/22	45000	2006/12/22	2275000		2275000	2099/12/31
+GMD	CTCP Đại lý Liên hiệp Vận chuyển	Gemadept Corporation	HSX	Industrials	2002/03/08	17178455	2002/04/22	42500	2002/04/22	17178455		17178455	2099/12/31
+GMX	CTCP Gạch Ngói Gốm Xây Dựng Mỹ Xuân	My Xuan Brick Tile Pottery And Construction Jsc	HNX	Industrials	2011/09/15	5320694	2011/09/15	15000	2011/09/15	5320694		5320694	2099/12/31
+GSP	CTCP Vận tải Sản phẩm Khí Quốc tế	International Gas Product Shipping Jsc	HSX	Industrials	2011/12/20	30000000	2012/03/09	13600	2012/03/09	30000000		30000000	2099/12/31
+GTA	CTCP Chế biến gỗ Thuận An	Thuan An Wood Processing Jsc	HSX	Basic Materials	2007/07/04	8407750	2007/07/23	66000	2007/07/23	8407750		8407750	2099/12/31
+GTH	XD-GT Thừa Thiên Huế	Thua Thien Hue Contruction - Transporation Jsc	UPC	Industrials	2009/10/28	1900000	2009/10/28	16000	2009/10/28	1900000		1900000	2099/12/31
+GTT	CTCP Thuận Thảo	Thuan Thao Corporation	HSX	Consumer Services	2010/06/24	29002000	2010/06/30	16000	2010/06/30	29002000		29002000	2099/12/31
+H11	Thủy điện Gia Lai	Hud101 Construction Jsc	UPC	Industrials	2011/04/28	1060000	2011/04/28		2011/04/28	1060000		1060000	2099/12/31
+HAD	CTCP Bia Hà Nội - Hải Dương	Hanoi – Hai Duong Beer Jsc	HNX	Consumer Goods	2009/10/27	4000000	2009/10/27	53800	2009/10/27	4000000		4000000	2099/12/31
+HAG	CTCP Hoàng Anh Gia Lai	Hagl Jsc	HSX	Financials	2008/12/15	179814501	2008/12/22	48000	2008/12/22	179814501		179814501	2099/12/31
+HAI	CTCP Nông Dược Hai	H.A.I Jsc	HSX	Basic Materials	2006/12/27	11400000	2010/04/20	45000	2006/12/27	11400000		11400000	2099/12/31
+HAI	CTCP Nông Dược Hai	H.A.I Jsc	HNX	Basic Materials		11400000	2006/12/27	55000				11400000	2010/04/05
+HAP	CTCP Tập đoàn Hapaco	Hapaco Group Jsc	HSX	Basic Materials	2000/08/02	1008000	2000/08/04	16000	2000/08/04	1008000		1008000	2099/12/31
+HAR	 CTCP Đầu tư Thương Mại Bất động sản An Dương Thảo Điền	An Duong Thao Dien Real estate Trading Investment Joint Stock Company	HSX	Financials	2013/01/10	35000000	2013/01/17	#N/A				35000000	2099/12/31
+HAS	CTCP HACISCO.	Ha Noi P&T Construction & Installation Jsc	HSX	Industrials	2002/12/18	1200000	2002/12/19	21500	2002/12/19	1200000		1200000	2099/12/31
+HAT	CTCP Thương mại Bia Hà Nội	Hanoi Beer Trading Jsc	HNX	Consumer Goods	2010/10/29	3123000	2010/10/29	28000	2010/10/29	3123000		3123000	2099/12/31
+HAX	CTCP Dịch vụ Ô tô Hàng Xanh	Hang Xanh Motors Service Jsc	HSX	Consumer Goods	2006/12/13	1625730	2006/12/26	35000	2006/12/26	1625730		1625730	2099/12/31
+HBB	Ngân hàng TMCP Nhà Hà Nội	Hanoi Building Commercial Joint Stock Bank	HNX	Banks	2010/11/23	300000000	2010/11/23	9700	2010/11/23	300000000		300000000	2099/12/31
+HBC	CTCP Xây dựng và Kinh doanh Địa ốc Hòa Bình	Hoa Binh Construction & Real Estate Corporation	HSX	Industrials	2006/11/22	5639990	2006/12/27	103000	2006/12/27	5639990		5639990	2099/12/31
+HBD	CTCP Bao bì PP Bình Dương	Binh Duong Pp Pack Making Jsc	HNX	Industrials	2006/12/29	1535000	2009/06/15	13900	2006/12/29	1535000		1535000	2013/06/27
+HBD	CTCP Bao bì PP Bình Dương	Binh Duong Pp Pack Making Jsc	HSX	Industrials		1535000	2006/12/29	30000				1535000	2009/06/03
+HBD	CTCP Bao bì PP Bình Dương	Binh Duong Pp Pack Making Jsc	UPC	Industrials	2013/09/16	1535000	2013/09/16			1535000		1535000	2099/12/31
+HBE	CTCP Sách - Thiết bị Trường học Hà Tĩnh	Ha Tinh Book And Educational Equipment Jsc	HNX	Consumer Services	2008/02/22	1000000	2008/02/22	38000	2008/02/22	1000000		1000000	2099/12/31
+HBS	CTCP Chứng khoán Hòa Bình	Hoa Binh Securities Jsc	HNX	Financials	2010/07/16	30000000	2010/07/16	19700	2010/07/16	30000000		30000000	2099/12/31
+HCC	CTCP Bê tông Hoà Cầm - Intimex	Hoa Cam Concrete Jsc	HNX	Industrials	2007/12/24	1622802	2007/12/24	59000	2007/12/24	1622802		1622802	2099/12/31
+HCI	Đầu tư - XD Hà Nội	Ha Noi Construction Investment Jsc	UPC	Industrials	2010/09/17	4360000	2010/09/17		2010/09/17	4360000		4360000	2099/12/31
+HCM	CTCP Chứng khoán Thành phố Hồ Chí Minh	Ho Chi Minh City Securities Corporation	HSX	Financials	2009/04/20	39463400	2009/05/19	32400	2009/05/19	39463400		39463400	2099/12/31
+HCT	CTCP Thương mại - Dịch vụ - Vận tải Xi măng Hải Phòng	Hai Phong Cement Transport & Trading Jsc	HNX	Industrials	2007/11/27	1041558	2007/11/27	46000	2007/11/27	1041558		1041558	2099/12/31
+HDA	CTCP Hãng sơn Đông Á	Dong A Paint Jsc	HNX	Industrials	2010/12/27	2200000	2010/12/27	26900	2010/12/27	2200000		2200000	2099/12/31
+HDC	CTCP Phát triển nhà Bà Rịa – Vũng Tàu	Ba Ria – Vung Tau House Development Jsc	HSX	Financials	2007/09/25	8128000	2007/10/08	84000	2007/10/08	8128000		8128000	2099/12/31
+HDG	CTCP Tập đoàn Hà Đô	Ha Do Group Jsc	HSX	Financials	2010/01/19	13500000	2010/02/02	103000	2010/02/02	13500000		13500000	2099/12/31
+HDM	Dệt - May Huế	Hue Textile Garment Jsc	UPC	Consumer Goods	2010/01/21	3000000	2010/01/21	12000	2010/01/21	3000000		3000000	2099/12/31
+HDO	CTCP HƯNG ĐẠO CONTAINER	Hung Dao Container Jsc	HNX	Industrials	2010/06/17	4304672	2010/06/17	22800	2009/11/11	4304672		4304672	2099/12/31
+HDO	CTCP HƯNG ĐẠO CONTAINER	Hung Dao Container Jsc	UPC	Industrials	2009/11/11	4304672	2009/11/11	14500				4304672	2010/06/11
+HEV	CTCP Sách Đại học - Dạy nghề	Higher Educational And Vocational Book	HNX	Consumer Services	2007/12/11	1000000	2007/12/11	80000	2007/12/11	1000000		1000000	2099/12/31
+HFC	Xăng dầu Chất đốt Hà Nội	Hanoi Petrol Fuel Jsc	UPC	Utilities	2010/03/01	2100000	2010/03/01		2010/03/01	2100000		2100000	2099/12/31
+HFX	Lưới thép Bình Tây	Thanh Ha Export - Import Company	UPC	Consumer Services	2011/11/10	1270000	2011/11/10	2100	2011/11/10	1270000		1270000	2099/12/31
+HGM	CTCP Cơ khí và Khoáng sản Hà Giang	Ha Giang Mineral And Mechanics Jsc	HNX	Basic Materials	2009/12/21	6000000	2009/12/21	69000	2009/12/21	6000000		6000000	2099/12/31
+HHC	CTCP Bánh kẹo Hải Hà	Haiha Confectionery Jsc	HNX	Consumer Goods	2007/11/20	5475000	2007/11/20	73000	2007/11/20	5475000		5475000	2099/12/31
+HHG	CTCP Hoàng Hà	Hoangha Jsc	HNX	Industrials	2010/07/28	13600000	2010/07/28	16500	2010/07/28	13600000		13600000	2099/12/31
+HHL	CTCP Hồng Hà Long An	Hong Ha Long An Jsc	HNX	Industrials	2010/01/08	2748270	2010/01/08	26000	2010/01/08	2748270		2748270	2099/12/31
+HHS	CTCP Đầu tư Dịch vụ Hoàng Huy	Hoang Huy Investment Services Jsc 	HSX	Consumer Goods	2011/12/13	10000000	2012/02/15	35000	2012/02/15	10000000		10000000	2099/12/31
+HIG	Tập Đoàn HIPT	Hipt Group Jsc	UPC	Technology	2009/06/24	9609062	2009/06/24	31400	2009/06/24	9609062		9609062	2099/12/31
+HJS	CTCP Thuỷ điện Nậm Mu	Nam Mu Hydropower Jsc	HNX	Utilities	2006/12/20	6000000	2006/12/20	35000	2006/12/20	6000000		6000000	2099/12/31
+HLA	CTCP Hữu Liên Á Châu	Huu Lien Asia Corporation	HSX	Basic Materials	2008/10/23	19000000	2008/10/30	30000	2008/10/30	19000000		19000000	2099/12/31
+HLC	CTCP Than Hà Lầm - TKV	Halam - Tkv Coal Jsc	HNX	Basic Materials	2009/03/05	9300000	2009/03/05	32000	2009/03/05	9300000		9300000	2099/12/31
+HLD	Công ty Cổ phần Đầu tư và Phát triển Bất động sản HUDLAND	HUDLAND Real Estate Investment and Development JSC	HNX	Financials	2013/03/26	10000000	2013/03/26	24700					2099/12/31
+HLG	CTCP Tập đoàn Hoàng Long	Hoang Long Group	HSX	Consumer Goods	2009/09/01	28768711	2009/09/09	36000	2009/09/09	28768711		28768711	2099/12/31
+HLY	CTCP Viglacera Hạ Long I	Viglacera Ha Long I Jsc	HNX	Industrials	2006/12/25	500000	2006/12/25	18000	2006/12/25	500000		500000	2099/12/31
+HMC	CTCP Kim khí Thành phố Hồ Chí Minh	Ho Chi Minh City Metal Corporation	HSX	Basic Materials	2006/11/28	15800000	2006/12/21	40000	2006/12/21	15800000		15800000	2099/12/31
+HMH	CTCP Hải Minh	Hai Minh Corporation	HNX	Industrials	2010/07/28	5438790	2010/07/28	32300	2010/07/28	5438790		5438790	2099/12/31
+HNM	CTCP Sữa Hà Nội	Hanoimilk Jsc	HNX	Consumer Goods	2006/12/27	7049500	2006/12/27	59500	2006/12/27	7049500		7049500	2099/12/31
+HOM	CTCP Xi măng VICEM Hoàng Mai	Hoang Mai Cement Jsc	HNX	Industrials	2009/07/09	72000000	2009/07/09	17000	2009/07/09	72000000		72000000	2099/12/31
+HOT	CTCP Du lịch Dịch vụ Hội An	Hoi An Torurist Service Joint Stock	HSX	Consumer Services	2011/07/13	8000000	2011/07/21	14100	2011/07/21	8000000		8000000	2099/12/31
+HPB	CTCP Bao bì PP	Pp Pack Marking Jsc	HNX	Industrials	2010/04/29	3880000	2010/04/29	60000	2010/04/29	3880000		3880000	2013/09/16
+HPC	CTCP Chứng khoán Hải Phòng	Haiphong Securities Jsc	HNX	Financials	2006/12/15	5000000	2006/12/15	54300	2006/12/15	5000000		5000000	2099/12/31
+HPG	CTCP Tập đoàn Hòa Phát	Hoa Phat Group Jsc	HSX	Basic Materials	2007/10/31	132000000	2007/11/15	127000	2007/11/15	132000000		132000000	2099/12/31
+HPL	Bến xe Tàu phà Cần Thơ	Can Tho Ferry - Bridge Standage Jsc	UPC	Industrials	2010/01/26	2000000	2010/01/26		2010/01/26	2000000		2000000	2099/12/31
+HPP	Sơn Hải Phòng	Hai Phong Paint Jsc	UPC	Industrials	2010/08/05	5900000	2010/08/05	55000	2010/08/05	5900000		5900000	2099/12/31
+HPR	CTCP Đầu tư Xây dựng Hồng Phát	Hong Phat Construction Investment Jsc	HNX	Industrials	2011/05/12	4800000	2011/05/12	23500	2011/05/12	4800000		4800000	2013/05/03
+HPS	CTCP Đá Xây dựng Hoà Phát	Hoa Phat Construction Stone Jsc	HNX	Industrials	2006/12/25	1565250	2006/12/25	15000	2006/12/25	1565250		1565250	2099/12/31
+HPT	DV Công nghệ Tin học HPT	Hpt Viet Nam Corporation	UPC	Technology	2010/06/17	5989299	2010/06/17	18500	2010/06/17	5989299		5989299	2099/12/31
+HQC	CTCP Tư vấn – Thương mại – Dịch vụ Địa ốc Hoàng Quân	Hoang Quan Consulting – Trading – Service Real Estate Corporation 	HSX	Financials	2010/10/12	40000000	2010/10/20	31000	2010/10/20	40000000		40000000	2099/12/31
+HRC	CTCP Cao su Hòa Bình	Hoa Binh Rubber Jsc	HSX	Basic Materials	2006/11/22	9600000	2006/12/26	142000	2006/12/26	9600000		9600000	2099/12/31
+HSG	CTCP Tập đoàn Hoa Sen	Hoa Sen Group	HSX	Basic Materials	2008/11/05	57038500	2008/12/05	32000	2008/12/05	57038500		57038500	2099/12/31
+HSI	CTCP Vật tư Tổng hợp và Phân bón Hóa sinh	General Materials Biochemistry Fertilizer Jsc 	HSX	Basic Materials	2007/12/12	10000000	2007/12/21	45000	2007/12/21	10000000		10000000	2099/12/31
+HST	CTCP Phát hành sách và Thiết bị trường học Hưng Yên	Hung Yen Book Publishing And Educational Equipment Jsc	HNX	Consumer Services	2009/12/29	1500000	2009/12/29	13000	2009/12/29	1500000		1500000	2099/12/31
+HT1	CTCP Xi măng Hà Tiên 1	Ha Tien 1 Cement Jsc	HSX	Industrials	2007/10/31	87000000	2007/11/13	60500	2007/11/13	87000000		87000000	2099/12/31
+HT2	Công ty Cổ phần Xi măng Hà Tiên 2	Ha Tien 2 Cement Joint Stock Company	HSX	Industrials									
+HTB	CTCP Xây dựng Huy Thắng	Huy Thang Construction Jsc	HNX	Industrials	2010/10/19	1800000	2010/10/19	13700	2010/10/19	1800000		1800000	2099/12/31
+HTC	CTCP Thương mại Hóc Môn	Hocmon Trade Jsc	HNX	Utilities	2010/05/07	3500000	2010/05/07	74000	2010/05/07	3500000		3500000	2099/12/31
+HTI	CTCP Đầu tư Phát triển Hạ tầng IDICO	Idico Infrastructure Development Investment Jsc	HSX	Industrials	2010/12/09	24949200	2010/12/20	20000	2010/12/20	24949200		24949200	2099/12/31
+HTL	CTCP Kỹ thuật và Ô tô Trường Long	Truong Long Engineering And Auto Jsc	HSX	Consumer Goods	2010/10/19	8000000	2011/01/10	23500	2011/01/10	8000000		8000000	2099/12/31
+HTP	CTCP In sách Giáo khoa Hoà Phát	Hoaphat Textbook Printing Jsc	HNX	Consumer Services	2006/12/14	900000	2006/12/14	27600	2006/12/14	900000		900000	2099/12/31
+HTV	CTCP Vận tải Hà Tiên	Ha Tien Transport Jsc 	HSX	Industrials	2005/12/07	4800000	2006/01/05	17000	2006/01/05	4800000		4800000	2099/12/31
+HU1	CTCP đầu tư và xây dựng HUD1	Hud1 Investment & Construction Jsc	HSX	Industrials	2011/10/20	10000000	2011/11/03	10900	2010/05/25	5000000		10000000	2099/12/31
+HU1	CTCP đầu tư và xây dựng HUD1	Hud1 Investment & Construction Jsc	UPC	Industrials	2010/05/25	5000000	2010/05/25	20000				5000000	2011/10/05
+HU3	CTCP đầu tư và xây dựng HUD3	Hud3 Investment And Construction Jsc	HSX	Industrials	2011/03/02	9999944	2011/03/18	23000	2011/03/18	9999944		9999944	2099/12/31
+HUT	CTCP Tasco	Tasco Jsc	HNX	Industrials	2008/04/04	5500000	2008/04/11	31500	2008/04/11	5500000		5500000	2099/12/31
+HVC	Công ty Cổ phần Hưng Vượng	Prosper Jsc	UPC	Basic Materials	2010/10/27	6920750	2010/10/27	10000	2010/10/27	6920750		6920750	2099/12/31
+HVG	CTCP Hùng Vương	Hung Vuong Corporation	HSX	Consumer Goods	2009/11/16	59999993	2009/11/25	57500	2009/11/25	59999993		59999993	2099/12/31
+HVT	CTCP Hóa Chất Việt Trì	Viet Tri Chemicals Jsc	HNX	Basic Materials	2009/05/08	4438713	2009/05/08	26500	2009/05/08	4438713		4438713	2099/12/31
+HVX	CTCP xi măng Vicem Hải Vân	Hai Van Cement Jsc	HSX	Industrials	2010/08/31	15500000	2010/09/28	10400	2010/09/28	15500000		15500000	2099/12/31
+I40	Xây dựng HUD101	40 Investment And Construction Jsc	UPC	Industrials	2011/03/15	1539120	2011/03/15		2011/03/15	1539120		1539120	2099/12/31
+ICF	CTCP Đầu tư Thương mại Thủy sản	Investment Commerce Fisheries Corporation	HSX	Consumer Goods	2006/12/18	11800000	2007/12/18	42000	2006/12/18	11800000		11800000	2099/12/31
+ICF	CTCP Đầu tư Thương mại Thủy sản	Investment Commerce Fisheries Corporation	HNX	Consumer Goods		11800000	2006/12/18	30200				11800000	2007/12/03
+ICG	CTCP Xây dựng Sông Hồng	Song Hong Construction Jsc	HNX	Industrials	2009/04/21	15000000	2009/04/21	13900	2009/04/21	15000000		15000000	2099/12/31
+ICI	Đầu tư và XD Công nghiệp	Industrial Construction & Investment Jsc	UPC	Industrials	2010/07/06	3000000	2010/07/06	0	2010/07/06	3000000		3000000	2099/12/31
+IDI	CTCP Đầu tư và Phát triển Đa Quốc Gia	International Development & Investment Corporation 	HSX	Consumer Goods	2011/05/17	38000000	2011/06/30	14400	2011/06/30	38000000		38000000	2099/12/31
+IDJ	CTCP Đầu tư Tài chính Quốc tế và Phát triển Doanh nghiệp IDJ	Idj International Financial Investment And Enterprise	HNX	Financials	2010/09/13	32600000	2010/09/13	17200	2010/09/13	32600000		32600000	2099/12/31
+IDV	CTCP Phát triển hạ tầng Vĩnh Phúc	Vinh Phuc Infrastructure Development Jsc	HNX	Financials	2010/06/01	3528500	2010/06/01	43000	2010/06/01	3528500		3528500	2099/12/31
+IFS	CTCP Thực phẩm Quốc tế	Interfood Shareholding Company	HSX	Consumer Goods	2006/09/29	5729472	2006/10/17	50000	2006/10/17	5729472		5729472	2013/05/03
+IHK	In Hàng Không	Aviation Printing Jsc	UPC	Consumer Services	2010/03/04	1700000	2010/03/04	19500	2010/03/04	1700000		1700000	2099/12/31
+IJC	CTCP Phát triển Hạ tầng Kỹ thuật	Becamex Infrastructure Development Jsc	HSX	Financials	2010/04/05	54838905	2010/04/19	36000	2010/04/19	54838905		54838905	2099/12/31
+ILC	CTCP Hợp tác Lao động với Nước ngoài	International Labor And Services Jsc	HNX	Industrials	2005/12/26	600000	2005/12/26	18000	2005/12/26	600000		600000	2099/12/31
+IME	Xây lắp Công nghiệp	Mechanical & Industrial Construction Jsc	UPC	Industrials	2009/12/01	3000000	2009/12/01	0	2009/12/01	3000000		3000000	2099/12/31
+IMP	CTCP Dược phẩm Imexpharm	Imexpharm Pharmaceutical Jsc 	HSX	Health Care	2006/11/15	8400000	2006/12/04	100000	2006/12/04	8400000		8400000	2099/12/31
+IMT	Công ty Cổ phần Xuất nhập khẩu Đầu tư Thành phố Hồ Chí Minh	Hcmc General Import Export & Investment.	UPC	Consumer Services	2010/05/04	3000000	2010/05/04	0	2010/05/04	3000000		3000000	2099/12/31
+IN4	In số 4	No.4 Printing Jsc	UPC	Consumer Services	2010/05/19	1200000	2010/05/19	0	2010/05/19	1200000		1200000	2099/12/31
+INC	CTCP Tư vấn đầu tư IDICO	Idico Investment Consultancy Jsc	HNX	Industrials	2011/07/14	1800000	2011/07/14	13200	2011/07/14	1800000		1800000	2099/12/31
+INN	CTCP Bao bì và In Nông nghiệp	Agriculture Printing And Packaging Jsc	HNX	Industrials	2010/01/22	5400000	2010/01/22	22000	2010/01/22	5400000		5400000	2099/12/31
+ITA	CTCP Đầu tư Công nghiệp Tân Tạo	Tan Tao Investment Industry Corporation	HSX	Financials	2006/01/11	45000000	2006/11/15	54000	2006/11/15	45000000		45000000	2099/12/31
+ITC	CTCP Đầu tư - Kinh doanh Nhà	Investment And Trading Of Real Estate Jsc	HSX	Financials	2009/09/24	23028896	2009/10/19	66000	2009/10/19	23028896		23028896	2099/12/31
+ITD	CTCP Công nghệ Tiên Phong	Innovative Technology Development Corporation	HSX	Technology	2011/12/13	11610399	2011/12/20	10000	2009/12/04	11610399		11610399	2099/12/31
+ITD	CTCP Công nghệ Tiên Phong	Innovative Technology Development Corporation	UPC	Technology	2009/04/12	11610399	2009/04/12	26000				11610399	2011/12/02
+ITQ	CTCP Tập đoàn Thiên Quang	Thien Quang Group Joint Stock Company	HNX	Basic Materials	2012/10/01	10000000	2012/10/01	12900	2012/10/01	10000000		10000000	2099/12/31
+IVS	CTCP Chứng Khoán Đầu Tư Việt Nam	Vietnam Investment Securities Company	HNX	Financials	2011/05/31	16100000	2011/08/01	7000	2011/08/01	16100000		16100000	2099/12/31
+JSC	XD Cầu đường Hà Nội	Ha Noi Civil Construction & Investment Jsc	UPC	Industrials	2010/04/22	1550000	2010/04/22	0	2010/04/22	1550000		1550000	2099/12/31
+JVC	CTCP Thiết bị Y tế Việt Nhật	Viet Nhat Medical Instrument Jsc	HSX	Health Care	2011/06/01	24200000	2011/06/21	24800	2011/06/21	24200000		24200000	2099/12/31
+KAC	CTCP Đầu tư Địa ốc Khang An	Khang An Investment Real Estate Jsc	HSX	Financials	2010/10/08	20000000	2010/10/27	31900	2010/10/27	20000000		20000000	2099/12/31
+KBC	Tổng Công ty Phát triển Đô Thị Kinh Bắc – CTCP	Kinh Bac City Development Share Holding Corporation	HSX	Financials	2007/12/18	88000000	2009/12/18	56000	2007/12/18	88000000		88000000	2099/12/31
+KBC	Tổng Công ty Phát triển Đô Thị Kinh Bắc – CTCP	Kinh Bac City Development Share Holding Corporation	HNX	Financials		88000000	2007/12/18	162000				88000000	2009/12/08
+KBE	Sách TBTH Kiên Giang	Kien Giang Book And Equipment Jsc	UPC	Consumer Services	2010/03/01	1231060	2010/03/01		2010/03/01	1231060		1231060	2099/12/31
+KBT	CTCP Gạch ngói Kiên Giang	Kien Giang Brick Tile Jsc	HNX	Industrials	2010/07/29	2335961	2010/07/29	25000	2010/07/29	2335961		2335961	2013/11/28
+KCE	Công ty Cổ phần Bê tông Ly tâm Điện lực Khánh Hòa	Khanh Hoa Power Centrifugal Concrete Jsc	UPC	Industrials	2011/02/08	1500000	2011/02/08	0	2011/02/08	1500000		1500000	2099/12/31
+KDC	CTCP Kinh Đô	Kinh Do Corporation 	HSX	Consumer Goods	2005/11/18	25000000	2005/12/12	59000	2005/12/12	25000000		25000000	2099/12/31
+KDH	CTCP Đầu tư và Kinh doanh Nhà Khang Điền	Khang Dien House Trading And Investment Jsc	HSX	Financials	2010/01/21	33200000	2010/02/01	48000	2010/02/01	33200000		33200000	2099/12/31
+KHA	CTCP Xuất Nhập Khẩu Khánh Hội	Khanh Hoi Import Export Jsc	HSX	Financials	2002/08/14	3135000	2002/08/19	21500	2002/08/19	3135000		3135000	2099/12/31
+KHB	CTCP Khoáng sản Hòa Bình	Hoabinh Mineral Jsc	HNX	Basic Materials	2010/05/19	1270000	2010/05/19	58000	2010/05/19	1270000		1270000	2099/12/31
+KHL	CTCP Khoáng sản và vật liệu xây dựng Hưng Long	Hung Long Mineral And Building Material JSC	HNX	Industrials	2012/02/21	5600000	2012/02/21	5900	2012/02/21	5600000		5600000	2099/12/31
+KHP	CTCP Điện lực Khánh Hòa	Khanh Hoa Power Jsc	HSX	Utilities	2006/12/08	16322100	2006/12/27	24500	2005/07/14	16322100		16322100	2099/12/31
+KHP	CTCP Điện lực Khánh Hòa	Khanh Hoa Power Jsc	HNX	Utilities		16322100	2005/07/14	15000				16322100	2006/12/12
+KKC	CTCP Sản xuất và Kinh doanh Kim khí	Produce And Trading Metal Jsc	HNX	Basic Materials	2008/08/21	5200000	2008/08/21	108000	2008/08/21	5200000		5200000	2099/12/31
+KLF	Công ty Cổ phần Liên doanh Đầu tư Quốc tế FLC	Join Venture Global Investment Joint Stock Company	HNX	Consumer Services	2013/09/23	26000000	2013/09/23						2099/12/31
+KLS	CTCP Chứng khoán Kim Long	Kim Long Securities Corporation	HNX	Financials	2008/01/28	30650000	2008/01/28	53000	2008/01/28	30650000		30650000	2099/12/31
+KMF	Công ty Cổ phần Mirae Fiber	Mirae Fiber Joint Stock Company	HNX	Basic Materials			2007/12/14						
+KMR	CTCP MIRAE	Mirae Jsc	HSX	Consumer Goods	2008/06/23	7236850	2008/06/30	48000	2008/06/30	7236850		7236850	2099/12/31
+KMT	CTCP Kim Khí Miền Trung	Central Vietnam Metal Corporation	HNX	Basic Materials	2010/12/15	9846562	2010/12/15	14500	2009/08/10	8870885		9846562	2099/12/31
+KMT	CTCP Kim Khí Miền Trung	Central Vietnam Metal Corporation	UPC	Basic Materials	2009/08/10	8870885	2009/10/08	15000				8870885	2010/11/30
+KSA	CTCP Công Nghiệp Khoáng sản Bình Thuận	Binh Thuan Hamico Mineral Jsc	HSX	Basic Materials	2010/07/07	12868800	2010/07/27	60000	2010/07/27	12868800		12868800	2099/12/31
+KSB	CTCP Khoáng sản và Xây dựng Bình Dương	Binh Duong Mineral And Construction Jsc	HSX	Basic Materials	2009/12/17	10700000	2010/01/20	42000	2010/01/20	10700000		10700000	2099/12/31
+KSC	Muối Khánh Hòa	Khanh Hoa Salt Jsc	UPC	Consumer Goods	2010/05/28	3739823	2010/05/28	0	2010/05/28	3739823		3739823	2099/12/31
+KSD	Tổng CTCP Xuất nhập khẩu Đông Nam Á HAMICO	South East Asia Hamico Export Jsc	HNX	Consumer Goods	2010/04/28	5688000	2010/04/28	50500	2010/04/28	5688000		5688000	2099/12/31
+KSH	CTCP Tập đoàn Khoáng sản Hamico	Hamico Group Mineral Jsc	HSX	Basic Materials	2008/11/03	11690000	2008/11/12	20000	2008/11/12	11690000		11690000	2099/12/31
+KSS	Tổng CTCP khoáng sản Na Rì Hamico	Nari Hamico Minerals Jsc	HSX	Basic Materials	2009/12/25	11800000	2010/01/04	60000	2010/01/04	11800000		11800000	2099/12/31
+KST	CTCP KASATI	Kasati Jsc	HNX	Technology	2010/09/30	2996010	2010/12/29	25500	2010/12/29	2996010		2996010	2099/12/31
+KTB	CTCP Đầu tư Khoáng sản Tây Bắc	Tay Bac Minerals Investment Jsc	HSX	Basic Materials	2010/09/24	26800000	2010/10/01	40000	2010/10/01	26800000		26800000	2099/12/31
+KTS	CTCP Đường Kon Tum	Kon Tum Sugar Jsc 	HNX	Consumer Goods	2010/12/31	3000000	2010/12/31	41000	2010/12/31	3000000		3000000	2099/12/31
+KTT	CTCP Đầu tư Thiết bị và Xây lắp Điện Thiên Trường	Thien Truong Power Equipment Investment And Construction Jsc	HNX	Industrials	2010/10/28	2500000	2010/10/28	16100	2010/10/28	2500000		2500000	2099/12/31
+L10	CTCP Lilama 10	Lilama 10 Jsc	HSX	Industrials	2007/12/11	9000000	2007/12/25	50000	2007/12/25	9000000		9000000	2099/12/31
+L14	CTCP Licogi 14	Licogi 14 Jsc	HNX	Industrials	2011/09/13	2830000	2011/09/13	12200	2011/09/13	2830000		2830000	2099/12/31
+L18	CTCP Đầu tư và Xây dựng số 18	Investment And Construction Jsc No.18	HNX	Industrials	2008/04/23	3500000	2008/04/23	20300	2008/04/23	3500000		3500000	2099/12/31
+L35	CTCP CƠ KHÍ LẮP MÁY LILAMA	Lilama Erection Mechanical Jsc	HNX	Industrials	2010/03/25	3265155	2010/03/25	14800	2010/03/25	3265155		3265155	2099/12/31
+L43	CTCP Lilama 45.3	Lilama 45.3 Jsc	HNX	Industrials	2008/06/11	3500000	2008/06/11	14900	2008/06/11	3500000		3500000	2099/12/31
+L44	CTCP Lilama 45.4	Lilama 45.4 Jsc	HNX	Industrials	2009/12/21	4000000	2009/12/21	16500	2009/12/21	4000000		4000000	2099/12/31
+L61	CTCP Lilama 69.1	Lilama 69-1 Jsc	HNX	Industrials	2008/11/19	7015000	2008/11/19	13700	2008/11/19	7015000		7015000	2099/12/31
+L62	CTCP Lilama 69.2	Lilama 69-2 Jsc	HNX	Industrials	2008/04/21	3000000	2008/04/21	39000	2008/04/21	3000000		3000000	2099/12/31
+LAF	CTCP Chế biến Hàng xuất khẩu Long An	Long An Food Processing Export Jsc	HSX	Consumer Goods	2000/12/11	1909840	2000/12/15	17000	2000/12/15	1909840		1909840	2099/12/31
+LAS	CTCP Supe Phốt phát và Hóa chất Lâm Thao	Lam Thao Fertilizers And Chemicals JSC	HNX	Basic Materials	2012/03/01	54050000	2012/03/01	22100	2012/03/01	54050000		54050000	2099/12/31
+LBE	CTCP Sách và Thiết bị Trường học Long An	Long An Book And Educational Equipment Jsc	HNX	Consumer Services	2008/02/22	1100000	2008/02/22	39900	2008/02/22	1100000		1100000	2099/12/31
+LBM	CTCP Khoáng sản và Vật liệu Xây dựng Lâm Đồng	Lam Dong Mineral And Building Material Jsc	HSX	Industrials	2006/11/30	1639160	2006/12/20	39900	2006/12/20	1639160		1639160	2099/12/31
+LCC	Xi măng Lạng Sơn	Lang Son Cement Jsc	UPC	Industrials	2010/05/06	4900000	2010/05/06	0	2010/05/06	4900000		4900000	2099/12/31
+LCD	CTCP Lilama Thí nghiệm Cơ điện	Lilama - Electromechanics Testing Jsc	HNX	Industrials	2010/11/15	1324000	2010/11/15	10800	2010/11/15	1324000		1324000	2099/12/31
+LCG	CTCP LICOGI 16	Licogi 16 Jsc	HSX	Industrials	2008/10/17	13600000	2008/11/18	48000	2008/11/18	13600000		13600000	2099/12/31
+LCM	CTCP Khai thác và Chế biến Khoáng sản Lào Cai	Lao Cai Mineral Exploitation & Processing Jsc	HSX	Basic Materials	2011/09/08	8568000	2011/09/16	22900	2011/09/16	8568000		8568000	2099/12/31
+LCS	CTCP LICOGI 16.6	Licogi 16.6 Jsc	HNX	Industrials	2010/07/06	2500000	2010/07/06	43000	2010/07/06	2500000		2500000	2099/12/31
+LDP	CTCP Dược Lâm Đồng – Ladophar	Lamdong Pharmaceutical Jsc	HNX	Health Care	2010/07/20	1700000	2010/07/20	80000	2010/07/20	1700000		1700000	2099/12/31
+LGC	CTCP Cơ khí - Điện Lữ Gia	Lu Gia Mechanical Electric Jsc	HSX	Industrials	2006/11/29	1000000	2006/12/27	40500	2006/12/27	1000000		1000000	2099/12/31
+LGL	CTCP Đầu tư và Phát triển Đô thị Long Giang	Long Giang Investment And Urban Development Jsc	HSX	Financials	2009/09/23	8000000	2009/10/08	36000	2009/10/08	8000000		8000000	2099/12/31
+LHC	CTCP Đầu tư và Xây dựng Thủy lợi Lâm Đồng	Lam Dong Investment Hydraulic Construction Joint Stock	HNX	Industrials	2010/01/13	2000000	2010/01/13	60000	2010/01/13	2000000		2000000	2099/12/31
+LHG	CTCP Long Hậu	Long Hau Corporation	HSX	Financials	2010/03/15	20000000	2010/03/23	48000	2010/03/23	20000000		20000000	2099/12/31
+LIG	CTCP LICOGI 13	Licogi 13 Jsc	HNX	Industrials	2010/04/22	6000000	2010/04/22	49500	2010/04/22	6000000		6000000	2099/12/31
+LIX	CTCP Bột giặt LIX	Lix Detergent Jsc	HSX	Consumer Goods	2009/12/01	9000000	2009/12/10	61500	2009/12/10	9000000		9000000	2099/12/31
+LKW	CTCP Cấp Nước Long Khánh	Long Khanh Water Supply Joint Stock Company	UPC	Utilities	2012/05/30	2500000	2012/07/04	0	2012/07/04	2500000		2500000	2099/12/31
+LM3	Công ty cổ phần Lilama 3	Lilama3 Jsc	HNX	Industrials	2009/12/01	5150000	2009/12/01	18500	2009/12/01	5150000		5150000	2099/12/31
+LM7	CTCP Lilama 7	Lilama 7 Jsc	HNX	Industrials	2010/10/28	4957000	2010/10/28	11000	2010/10/28	4957000		4957000	2099/12/31
+LM8	CTCP Lilama 18	Lilama 18 Jsc 	HSX	Industrials	2010/11/05	8050000	2010/11/15	17000	2010/11/15	8050000		8050000	2099/12/31
+LO5	CTCP Lilama 5	Lilama 5 Jsc	HNX	Industrials	2009/12/21	5000000	2009/12/21	16500	2009/12/21	5000000		5000000	2099/12/31
+LSS	CTCP Mía đường Lam Sơn	Lam Son Sugar JCC	HSX	Consumer Goods	2007/12/21	30000000	2008/01/09	39000	2008/01/09	30000000		30000000	2099/12/31
+LTC	CTCP Điện nhẹ Viễn Thông	Low Current - Telecom Jsc	HNX	Technology	2006/12/14	700000	2006/12/14	45000	2006/12/14	700000		700000	2099/12/31
+LUT	CTCP Đầu tư Xây dựng Lương Tài	Luong Tai Construction Jsc	HNX	Industrials	2008/01/04	5550000	2008/01/04	67000	2008/01/04	5550000		5550000	2099/12/31
+MAC	CTCP Cung ứng và Dịch vụ kỹ thuật Hàng hải	Marine Supply And Engineering Service Jsc	HNX	Industrials	2009/12/24	3200000	2009/12/24	18900	2009/12/24	3200000		3200000	2099/12/31
+MAS	Sân bay Đà Nẵng	Middle Airports Services Jsc	UPC	Consumer Services	2009/09/09	1669115	2009/09/09	20000	2009/09/09	1669115		1669115	2099/12/31
+MAX	CTCP KHAI KHOÁNG VÀ CƠ KHÍ HỮU NGHỊ VĨNH SINH	Huu Nghi Vinh Sinh Mining & Mecanic	HNX	Basic Materials	2011/09/15	7200000	2011/09/15	19000	2010/09/15	7200000		7200000	2099/12/31
+MAX	CTCP KHAI KHOÁNG VÀ CƠ KHÍ HỮU NGHỊ VĨNH SINH	Huu Nghi Vinh Sinh Mining & Mecanic	UPC	Basic Materials		7200000	2010/09/15	24800				7200000	2011/06/16
+MBB	Ngân hàng Thương mại Cổ phần Quân Đội	Military Commercial Joint Stock Bank	HSX	Banks	2011/10/18	730000000	2011/11/01	13800	2011/11/01	730000000		730000000	2099/12/31
+MCC	CTCP gạch ngói cao cấp	High – Grade Brick - Tile Co-Operation	HNX	Industrials	2010/04/26	4668300	2010/04/26	30100	2010/04/26	4668300		4668300	2099/12/31
+MCF	CTCP Xây lắp Cơ khí Lương thực Thực phẩm	Mechanics Contruction & Foodstuff Jsc	HNX	Consumer Goods	2011/02/14	3500000	2011/02/14	17500	2011/02/14	3500000		3500000	2099/12/31
+MCG	CTCP Cơ điện và Xây dựng Việt Nam	Vietnam Mechanization Electrification & Construction Jsc	HSX	Industrials	2009/09/16	13200000	2009/09/24	30000	2009/09/24	13200000		13200000	2099/12/31
+MCL	CTCP Phát triển nhà và Sản xuất vật liệu xây dựng Chí Linh	Chi Linh Building Materials And House Development Jsc	HNX	Industrials	2010/12/13	2220000	2010/12/13	20400	2010/12/13	2220000		2220000	2013/10/22
+MCO	CTCP MCO Việt Nam	Mco Vietnam Jsc	HNX	Industrials	2006/12/21	1100000	2006/12/21	30800	2006/12/21	1100000		1100000	2099/12/31
+MCP	CTCP In và Bao bì Mỹ Châu	My Chau Printing & Packaging Holding Company	HSX	Industrials	2006/12/18	3000000	2006/12/28	40000	2006/12/28	3000000		3000000	2099/12/31
+MCV	CTCP Cavico Việt Nam Khai thác Mỏ và Xây dựng 	Cavico Viet Nam Mining And Construction Jsc	HSX	Industrials	2006/11/15	3100000	2006/12/11	42000	2006/12/11	3100000		3100000	2099/12/31
+MDC	CTCP Than Mông Dương - TKV	Vinacomin - Mong Duong Coal Jsc	HNX	Basic Materials	2009/07/23	12085000	2009/07/23	24000	2009/07/23	12085000		12085000	2099/12/31
+MDF	Công ty cổ phần Gỗ MDF VRG Quảng Trị	Mdf Vrg Quang Tri  Wood Jsc	UPC	Basic Materials	2011/02/25	34445997	2011/02/25		2011/02/25	34445997		34445997	2099/12/31
+MDG	CTCP Miền Đông	Mien Dong Jsc	HSX	Industrials	2011/01/05	9900000	2011/01/12	20000	2011/01/12	9900000		9900000	2099/12/31
+MEC	CTCP Someco Sông Đà	Song Da Someco Jsc	HNX	Industrials	2006/12/14	1000000	2006/12/14	21500	2006/12/14	1000000		1000000	2099/12/31
+MEF	Công ty cổ phần MEINFA	MEINFA Joint Stock Company	UPC	Health Care	2011/09/30	2900000	2011/11/30	34000	2011/11/30	2900000		2900000	2099/12/31
+MHC	CTCP Hàng hải Hà Nội	Hanoi Maritime Holding Company	HSX	Industrials	2004/12/31	6705640	2005/03/21	19000	2005/03/21	6705640		6705640	2099/12/31
+MHL	CTCP Minh Hữu Liên	Minh Huu Lien Jsc	HNX	Basic Materials	2009/11/26	2000000	2009/11/26	18000	2009/11/26	2000000		2000000	2099/12/31
+MIC	CTCP Kỹ nghệ Khoáng sản Quảng Nam	Quang Nam Mineral Industry Corporation	HNX	Basic Materials	2007/12/21	1295000	2007/12/21	286000	2007/12/21	1295000		1295000	2099/12/31
+MIH	CTCP Xuất Nhập khẩu Khoáng sản Hà Nam	Ha Nam Import Export Jsc	HNX	Basic Materials	2010/06/29	4000000	2010/06/29	51000	2010/06/29	4000000		4000000	2099/12/31
+MIM	CTCP Khoáng sản và Cơ khí	Mineral And Mechanical Jsc	HNX	Basic Materials	2010/08/16	2032895	2010/08/16	35000	2010/08/16	2032895		2032895	2099/12/31
+MJC	Thương mại Mộc Hóa	Moc Hoa Trading Jsc	UPC	Consumer Services	2010/07/28	1596620	2010/07/28	20000	2010/07/28	1596620		1596620	2099/12/31
+MKP	CTCP Hóa - Dược phẩm MEKOPHAR	Mekophar Chemical Pharmaceutical Jsc	HSX	Health Care	2010/05/17	9210000	2010/06/02	72000	2010/06/02	9210000		9210000	2012/07/12
+MKV	CTCP Dược Thú y Cai Lậy	Cai Lay Veterinary Pharmaceutical Jsc	HNX	Health Care	2008/11/21	1000000	2008/11/21	16600	2008/11/21	1000000		1000000	2099/12/31
+MMC	CTCP Khoáng sản Mangan	Manganese Mineral Jsc	HNX	Basic Materials	2008/07/28	1200000	2008/07/28	65000	2008/07/28	1200000		1200000	2099/12/31
+MNC	CTCP Tập đoàn Mai Linh Bắc Trung Bộ	Mai Linh Corporation In Northern Central	HNX	Industrials	2010/12/16	7017130	2010/12/16	10100	2010/12/16	7017130		7017130	2099/12/31
+MPC	CTCP Tập đoàn Thủy sản Minh Phú	Minh Phu Seafood Group Corporation	HSX	Consumer Goods	2006/12/27	60000000	2007/12/20	70000	2006/12/27	60000000		60000000	2099/12/31
+MPC	CTCP Tập đoàn Thủy sản Minh Phú	Minh Phu Seafood Group Corporation	HNX	Consumer Goods		60000000	2006/12/27	82000				60000000	2007/12/04
+MSN	CTCP Tập đoàn Ma San	Ma San Group Corporation	HSX	Consumer Goods	2009/10/30	476399820	2009/11/05	43200	2009/11/05	476399820		476399820	2099/12/31
+MTC	CTCP Khách Sạn Mỹ Trà	MyTra Hotel Joint Stock Company	UPC	Consumer Services	2012/08/12	5200000	2012/08/17	0	2012/08/17	5200000		5200000	2099/12/31
+MTG	CTCP MT GAS	Mtgas Jsc	HSX	Utilities	2008/12/31	8000000	2009/01/15	13600	2009/01/15	8000000		8000000	2099/12/31
+MTH	Gỗ MDF VRG - Quảng Trị	Ha Dong Environment Public Service Jsc	UPC	Industrials	2011/02/10	1477750	2011/02/10	0	2011/02/10	1477750		1477750	2099/12/31
+MTP	Dược Medipharco - Tenamyd	Medipharco - Tenamyd Central Phamarceutical Jsc	UPC	Health Care	2010/09/23	2000000	2010/09/23	27500	2010/09/23	2000000		2000000	2099/12/31
+NAG	CTCP Nagakawa Việt Nam	Nagakawa Viet Nam Jsc	HNX	Industrials	2009/09/22	10000000	2009/09/22	29000	2009/09/22	10000000		10000000	2099/12/31
+NAV	CTCP Nam Việt	Nam Viet Jsc	HSX	Industrials	2006/11/30	2500000	2006/12/22	90000	2006/12/22	2500000		2500000	2099/12/31
+NBB	CTCP Đầu tư Năm Bảy Bảy	Nbb Investment Corporation	HSX	Financials	2008/11/20	15400000	2009/02/18	21600	2009/02/18	15400000		15400000	2099/12/31
+NBC	CTCP Than Núi Béo	Vinacomin - Nui Beo Coal Jsc	HNX	Basic Materials	2006/12/27	6000000	2006/12/27	37000	2006/12/27	6000000		6000000	2099/12/31
+NBP	CTCP Nhiệt điện Ninh Bình	Ninh Binh Thermal Power Jsc	HNX	Utilities	2009/08/06	12865500	2009/08/06	27000	2009/08/06	12865500		12865500	2099/12/31
+NBS	Công Ty Cổ Phần Bến xe Nghệ An	Nghe An Bus Station Joint Stock Company	UPC	Industrials	2012/08/21	3153200	2012/11/19	0	2012/11/19	3153200		3153200	2099/12/31
+NBW	Cấp nước Nhà Bè	Nha Be Water Supply Jsc	UPC	Utilities	2010/05/04	10900000	2010/05/04	0	2010/05/04	10900000		10900000	2099/12/31
+ND2	Đầu tư và PT điện Miền Bắc 2	Northern Electricity Development & Investment Jsc No.2	UPC	Utilities	2010/07/22	13200627	2010/07/22	15200	2010/07/22	13200627		13200627	2099/12/31
+NDC	Nam Dược	Nam Duoc Jsc	UPC	Health Care	2010/03/11	5680000	2010/03/11	0	2010/03/11	5680000		5680000	2099/12/31
+NDN	CTCP Đầu tư phát triển Nhà Đà Nẵng	Danang Housing Investment Development Jsc	HNX	Financials	2011/04/21	9000000	2011/04/21	11400	2011/04/21	9000000		9000000	2099/12/31
+NDX	Công ty Cổ phần Xây lắp Phát triển Nhà Đà Nẵng	Danang Housing Development Joint Stock Company	HNX	Industrials	2013/07/17	4120000	2013/07/17		2013/07/17	4120000			2099/12/31
+NET	CTCP Bột giặt NET	Net Detergent Jsc	HNX	Consumer Goods	2010/09/15	4500000	2010/09/15	105000	2010/09/15	4500000		4500000	2099/12/31
+NGC	CTCP Chế biến Xuất khẩu Ngô Quyền	Ngo Quyen Export Seafood Processing Jsc	HNX	Consumer Goods	2008/03/06	1000000	2008/03/06	30000	2008/03/06	1000000		1000000	2099/12/31
+NHA	Tổng Công ty Đầu tư Phát triển Nhà và Đô thị Nam Hà Nội	Ha Noi South Housing And Urban Development Corporation	HNX	Industrials	2010/07/13	5890000	2010/07/13	45500	2010/07/13	5890000		5890000	2099/12/31
+NHC	CTCP Gạch ngói Nhị Hiệp	Nhi Hiep Brick-Tile Co-Operation	HNX	Industrials	2005/12/16	1336061	2009/06/17	15500	2005/12/16	1336061		1336061	2099/12/31
+NHC	CTCP Gạch ngói Nhị Hiệp	Nhi Hiep Brick-Tile Co-Operation	HSX	Industrials		1336061	2005/12/16	23000				1336061	2009/06/08
+NHN	CTCP Phát triển Đô thị Nam Hà Nội	HanoiSouthern City Development JSC	UPC	Financials	2011/11/10	200000000	2011/11/10	30000	2011/11/10	200000000		200000000	2099/12/31
+NHS	CTCP Đường Ninh Hòa	Ninh Hoa Sugar Jsc	HSX	Consumer Goods	2010/06/25	8100000	2010/07/02	38000	2010/07/02	8100000		8100000	2099/12/31
+NHW	CTCP Ngô Han	Ngo Han Jsc	HSX	Industrials	2010/01/12	22950627	2010/01/26	26400	2010/01/26	22950627		22950627	2099/12/31
+NIS	CTCP Dịch vụ hạ tầng mạng	Network Infrastructure Services Jsc	HNX	Technology	2010/09/16	3000000	2010/09/16	12200	2010/09/16	3000000		3000000	2099/12/31
+NKD	Công ty Cổ phần Chế biến Thực phẩm Kinh Đô Miền Bắc	North Kinh Do Food Joint Stock Company	HSX	Consumer Goods			2004/12/15						
+NKG	CTCP Thép Nam Kim	Nam Kim Steel Jsc	HSX	Basic Materials	2011/01/10	23000000	2011/01/14	29900	2011/01/14	23000000		23000000	2099/12/31
+NLC	CTCP Thuỷ điện Nà Lơi	Naloi Hydropower Jsc	HNX	Utilities	2006/12/14	5000000	2006/12/14	25000	2006/12/14	5000000		5000000	2099/12/31
+NLG	CTCP Đầu tư Nam Long	Nam Long Investment Corporation	HSX	Financials	2013/01/25	95513523	2013/04/08	21600					2099/12/31
+NNC	CTCP đá Núi Nhỏ	Nui Nho Co-Operation	HSX	Industrials	2010/06/10	8768175	2010/06/23	59000	2010/06/23	8768175		8768175	2099/12/31
+NNT	CTCP Cấp Nước Ninh Thuận	Ninh Thuan Water Supply JSC	UPC	Utilities	2012/05/30	5924786	2012/06/22	0	2012/06/22	5924786		5924786	2099/12/31
+NOS	Môi trường Đô thị Hà Đông	Northern Shipping Jsc	UPC	Industrials	2011/01/11	11456000	2011/01/11	10000	2011/01/11	11456000		11456000	2099/12/31
+NPS	CTCP May Phú Thịnh Nhà Bè	Phu Thinh - Nha Be Garment Jsc	HNX	Consumer Goods	2006/12/27	1059300	2006/12/27	20000	2006/12/27	1059300		1059300	2099/12/31
+NSC	CTCP Giống cây trồng Trung Ương	National Seed Jsc	HSX	Consumer Goods	2006/12/01	3000000	2006/12/21	55000	2006/12/21	3000000		3000000	2099/12/31
+NSN	CTCP Xây dựng 565	565 Construction – Jsc	HNX	Industrials	2010/05/20	2540644	2010/05/20	21800	2010/05/20	2540644		2540644	2099/12/31
+NSP	Công ty Cổ phần Nhựa Sam Phú	Sacom Plastic Corporation	UPC	Basic Materials	2011/01/19	5000000	2011/01/19	10000	2011/01/19	5000000		5000000	2099/12/31
+NST	CTCP Ngân Sơn	Ngan Son Jsc	HNX	Consumer Goods	2006/12/29	2790000	2006/12/29	30300	2006/12/29	2790000		2790000	2099/12/31
+NT2	Điện lực Nhơn Trạch 2	PetroVietnam Power NhonTrach 2 Jsc	UPC	Utilities	2010/01/22	256000000	2010/01/22	13000	2010/01/22	256000000		256000000	2099/12/31
+NTB	CTCP Đầu tư Xây dựng và Khai thác Công trình Giao thông 584	Transport Engineering Construction & Business Investment Stock Company 584	HSX	Financials	2010/05/11	36000000	2010/05/17	37000	2010/05/17	36000000		36000000	2099/12/31
+NTL	CTCP Phát triển Đô thị Từ Liêm	Tu Liem Urban Development Jsc	HSX	Financials	2007/12/06	8200000	2007/12/21	270000	2007/12/21	8200000		8200000	2099/12/31
+NTP	CTCP Nhựa Thiếu niên Tiền Phong	Tien Phong Plastic Jsc	HNX	Industrials	2006/12/11	14446000	2006/12/11	145300	2006/12/11	14446000		14446000	2099/12/31
+NTW	Công ty cổ phần Cấp nước Nhơn Trạch	Nhon Trach Water Supply JSC	UPC	Utilities	2012/02/23	3000000	2012/04/09	0	2012/04/09	3000000		3000000	2099/12/31
+NVB	Ngân hàng TMCP Nam Việt	Nam Viet Commercial Joint Stock Bank	HNX	Banks	2010/09/13	100000000	2010/09/13	12100	2010/09/13	100000000		100000000	2099/12/31
+NVC	CTCP Nam Vang	Nam Vang Jsc	HNX	Basic Materials	2008/01/24	16000000	2008/01/24	37000	2008/01/24	16000000		16000000	2099/12/31
+NVN	CTCP Nhà Việt Nam	House Viet Nam Jsc 	HSX	Financials	2010/02/25	10656800	2010/03/30	28800	2010/03/30	10656800		10656800	2099/12/31
+NVT	CTCP Bất Động sản Du lịch Ninh Vân Bay	Ninh Van Bay Real Estate Jsc	HSX	Financials	2010/04/28	50500000	2010/05/07	30000	2010/05/07	50500000		50500000	2099/12/31
+OCH	CTCP Khách sạn và Dịch vụ Đại Dương	Ocean Hospitality & Service Jsc	HNX	Consumer Services	2010/10/01	100000000	2010/10/01	26800	2010/10/01	100000000		100000000	2099/12/31
+OGC	CTCP Tập Đoàn Đại Dương	Ocean Group Jsc	HSX	Financials	2010/04/16	250000000	2010/05/04	36000	2010/05/04	250000000		250000000	2099/12/31
+ONE	CTCP Truyền thông số 1	One Corporation	HNX	Technology	2008/06/25	2000000	2008/06/25	25000	2008/06/25	2000000		2000000	2099/12/31
+OPC	CTCP Dược phẩm OPC	Opc Pharmaceutical Jsc	HSX	Health Care	2008/10/20	8190000	2008/10/30	62500	2008/10/30	8190000		8190000	2099/12/31
+ORS	CTCP Chứng khoán Phương Đông	Orient Securities Corporation	HNX	Financials	2010/07/12	24000000	2010/07/12	13200	2010/07/12	24000000		24000000	2099/12/31
+PAC	CTCP Pin Ắc quy Miền Nam	Dry Cell And Storage Battery Jsc 	HSX	Industrials	2006/11/09	10263000	2006/12/12	40000	2006/12/12	10263000		10263000	2099/12/31
+PAN	CTCP Xuyên Thái Bình	Pan Pacific Corporation	HSX	Industrials	2006/12/22	3200000	2010/12/15	19900	2006/12/22	3200000		3200000	2099/12/31
+PAN	CTCP Xuyên Thái Bình	Pan Pacific Corporation	HNX	Industrials		3200000	2006/12/22	59500				3200000	2010/11/24
+PCG	CTCP Đầu tư Phát triển Gas Đô Thị	PetroVietnam Gas City Investment and Development JSC	HNX	Utilities	2010/12/29	18870000	2010/12/29	12100	2010/12/29	18870000		18870000	2099/12/31
+PCT	CTCP Vận tải Dầu khí Cửu Long	Cuu Long Petro Gas Transportation Jsc	HNX	Industrials	2010/08/05	23000000	2011/09/12	7000	2010/08/05	23000000		23000000	2099/12/31
+PCT	CTCP Vận tải Dầu khí Cửu Long	Cuu Long Petro Gas Transportation Jsc	UPC	Industrials		23000000	2010/08/05	11200				23000000	2010/08/31
+PDC	CTCP Du lịch Dầu khí Phương Đông	Phuong Dong Petroleum Tourism Jsc	HNX	Consumer Services	2009/09/29	15000000	2009/09/29	22000	2009/09/29	15000000		15000000	2099/12/31
+PDN	CTCP Cảng Đồng Nai	Dong Nai Port Jsc	HSX	Industrials	2011/08/04	8231998	2011/10/26	30000	2010/06/04	5145000		8231998	2099/12/31
+PDN	CTCP Cảng Đồng Nai	Dong Nai Port Jsc	UPC	Industrials	2010/04/06	5145000	2010/06/04	40000				5145000	2011/07/28
+PDR	CTCP Phát triển Bất Động sản Phát Đạt	Phat Dat Real Estate Development Corp	HSX	Financials	2010/07/22	130200000	2010/07/30	39500	2010/07/30	130200000		130200000	2099/12/31
+PEC	Cơ khí Điện lực	Power Engineering Jsc	UPC	Industrials	2010/10/06	2430000	2010/10/06	26000	2010/10/06	2430000		2430000	2099/12/31
+PET	Tổng CTCP Dịch vụ Tổng hợp Dầu khí	Petrovietnam General Services Jsc	HSX	Consumer Services	2007/08/13	25530000	2007/09/12	58000	2007/09/12	25530000		25530000	2099/12/31
+PFL	CTCP Dầu khí Đông Đô	Petro Vietnam Finance Land Jsc	HNX	Financials	2010/11/17	50000000	2010/11/17	10900	2010/11/17	50000000		50000000	2099/12/31
+PFV	Đầu tư & TM PFV	PFV Investment & Trading Jsc	UPC	Financials	2010/07/23	60000000	2010/07/23	0	2010/06/15	0		60000000	2099/12/31
+PGC	CTCP Gas Petrolimex	Petrolimex Gas Jsc	HSX	Utilities	2006/10/20	20000000	2006/11/24	68000	2006/11/24	20000000		20000000	2099/12/31
+PGD	CTCP Phân phối Khí thấp Áp Dầu khí Việt Nam	PetroVietNam Low Pressure Gas Distribution Jsc	HSX	Utilities	2009/11/19	33000000	2009/11/26	52000	2009/11/26	33000000		33000000	2099/12/31
+PGI	CTCP Bảo hiểm PJICO	Petrolimex Jsc	HSX	Financials	2011/06/08	70974218	2011/07/22	10300	2011/07/29	70974218		70974218	2099/12/31
+PGS	CTCP Kinh doanh Khí hoá Lỏng miền Nam	PetroVietNam Southern Gas Jsc	HNX	Utilities	2007/11/15	15000000	2007/11/15	71900	2007/11/15	15000000		15000000	2099/12/31
+PGT	CTCP Taxi Gas Sài Gòn Petrolimex	Saigon Petrolimex Gas Taxi Jsc	HNX	Consumer Services	2009/12/25	8802187	2009/12/25	11800	2009/12/25	8802187		8802187	2099/12/31
+PHC	CTCP Xây dựng Phục Hưng Holdings	Constrexim - Phuc Hung Investment Construction And Import - Export Jsc	HNX	Industrials	2009/11/05	2940000	2009/11/05	35000	2009/11/05	2940000		2940000	2099/12/31
+PHH	CTCP Hồng Hà Dầu khí	Hong Ha Petroleum Jsc	HNX	Industrials	2010/03/17	5000000	2010/03/17	40000	2010/03/17	5000000		5000000	2099/12/31
+PHR	CTCP Cao su Phước Hòa	Phuoc Hoa Rubber Jsc	HSX	Basic Materials	2009/08/04	81300000	2009/08/18	43200	2009/08/18	81300000		81300000	2099/12/31
+PHS	CTCP Chứng khoán Phú Hưng	Fortunes Securities Corporation	HNX	Financials	2010/06/09	30000000	2010/06/09	21000	2010/06/09	30000000		30000000	2099/12/31
+PHT	CTCP Sản xuất và Thương mại Phúc Tiến	Phuc Tien Trade Manufacture Jsc	HSX	Basic Materials	2009/09/18	11000000	2009/09/28	30000	2009/09/28	11000000		11000000	2013/01/24
+PID	Công ty Cổ phần Trang trí Nội thất Dầu khí	Petroleum Interior Decoration JSC	HNX	Industrials	2012/11/22	4000000	2012/11/22	6500	2012/11/22	4000000		4000000	2099/12/31
+PIT	CTCP Xuất nhập khẩu PETROLIMEX	Petrolimex International Trading Jsc	HSX	Consumer Services	2008/01/09	9770479	2008/01/24	52000	2008/01/24	9770479		9770479	2099/12/31
+PIV	CTCP PIV	Piv Petro Investment And Valuation Jsc	HNX	Financials	2010/08/18	1200000	2010/08/18	20400	2010/08/18	1200000		1200000	2099/12/31
+PJC	CTCP Thương mại và Vận tải Petrolimex Hà Nội	Petrolimex Hanoi Transportation And Trading Jsc	HNX	Industrials	2006/12/25	1563150	2006/12/25	25200	2006/12/25	1563150		1563150	2099/12/31
+PJS	CTCP Cấp nước Phú Hòa Tân	Phu Hoa Tan Water Supply JSC	UPC	Utilities	2011/12/05	9000000	2011/12/05	15000	2011/12/05	9000000		9000000	2099/12/31
+PJT	CTCP Vận tải Xăng dầu Đường thủy Petrolimex	Petrolimex Joint Stock Tanker Company	HSX	Industrials	2006/12/11	3500000	2006/12/28	45000	2006/12/28	3500000		3500000	2099/12/31
+PLC	CTCP Hoá dầu Petrolimex	Petrolimex Petrochemical Jsc	HNX	Basic Materials	2006/12/27	15000000	2006/12/27	65000	2006/12/27	15000000		15000000	2099/12/31
+PMC	CTCP Dược phẩm Dược liệu Pharmedic	Pharmedic Pharmaceutical Medicinal Jsc	HNX	Health Care	2009/10/09	6481634	2009/10/09	85000	2009/10/09	6481634		6481634	2099/12/31
+PMS	CTCP Cơ khí Xăng Dầu	Petroleum Mechanical Stock Company	HNX	Industrials	2003/11/04	3200000	2009/06/08	15900	2003/11/04	3200000		3200000	2099/12/31
+PMS	CTCP Cơ khí Xăng Dầu	Petroleum Mechanical Stock Company	HSX	Industrials		3200000	2003/11/04	14500				3200000	2009/05/29
+PMT	Vật liệu Bưu điện	Postal Material Jsc	UPC	Technology	2010/07/22	5000000	2010/07/22	15100	2010/07/22	5000000		5000000	2099/12/31
+PNC	CTCP Văn Hóa Phương Nam	Phuong Nam Cultural JCC 	HSX	Consumer Services	2005/06/21	3000000	2005/07/11	16000	2005/07/11	3000000		3000000	2099/12/31
+PNJ	CTCP Vàng bạc Đá quý Phú Nhuận	Phu Nhuạn Jewelry Jsc	HSX	Consumer Goods	2008/12/26	30000000	2009/03/23	45600	2009/03/23	30000000		30000000	2099/12/31
+POM	CTCP Thép Pomina	Pomina Steel Corporation	HSX	Basic Materials	2010/04/07	163000000	2010/04/20	48000	2010/04/20	163000000		163000000	2099/12/31
+POT	CTCP Thiết bị Bưu điện	Post And Telecommunication Equipment Jsc	HNX	Technology	2006/12/20	14998600	2006/12/20	61800	2006/12/20	14998600		14998600	2099/12/31
+POV	PV Oil Vũng Áng	Vung Ang Petroleum Jsc	UPC	Utilities	2010/09/23	10000000	2010/09/23	0	2010/09/23	10000000		10000000	2099/12/31
+PPC	CTCP Nhiệt điện Phả Lại	Pha Lai Thermal Power Jsc	HSX	Utilities	2006/05/19	310700000	2007/01/26	105000	2006/05/19	310700000		310700000	2099/12/31
+PPC	CTCP Nhiệt điện Phả Lại	Pha Lai Thermal Power Jsc	HNX	Utilities		307196006	2006/05/19	36900				307196006	2007/01/11
+PPE	CTCP Tư vấn Điện lực Dầu khí Việt Nam	Petrovietnam Power Engineering Consulting Jsc	HNX	Industrials	2011/09/21	2000000	2011/09/21	8100	2011/09/21	2000000		2000000	2099/12/31
+PPG	CTCP Sản xuất Thương mại Dịch vụ Phú Phong	Phu Phong Corporation	HNX	Industrials	2006/12/20	4000000	2006/12/20	48500	2006/12/20	4000000		4000000	2099/12/31
+PPI	CTCP Phát triển hạ tầng & Bất động sản Thái Bình Dương	Pacific Property And Infrastructure Development And Investment Jsc	HSX	Financials	2010/04/02	10014753	2010/04/12	38400	2010/04/12	10014753		10014753	2099/12/31
+PPP	CTCP Dược phẩm Phong Phú	Phong Phu Pharmaceutial Jsc	HNX	Health Care	2009/06/24	2200000	2011/07/18	10500	2009/06/24	2200000		2200000	2099/12/31
+PPP	CTCP Dược phẩm Phong Phú	Phong Phu Pharmaceutial Jsc	UPC	Health Care		2200000	2009/06/24	17300				2200000	2011/07/08
+PPS	CTCP Điện lực Kỹ thuật Dầu khí Việt Nam	Petrovietnam Power Services Jsc	HNX	Industrials	2011/01/07	15000000	2011/01/07	13400	2011/01/07	15000000		15000000	2099/12/31
+PRC	CTCP Portserco	Portserco Jsc	HNX	Industrials	2010/11/29	1200000	2010/11/29	25800	2010/11/29	1200000		1200000	2099/12/31
+PSB	Sao Mai Bến Đình	Sao Mai - Ben Dinh Petroleum Investment Jsc	UPC	Industrials	2010/02/25	50000000	2010/02/25	11000	2010/02/25	50000000		50000000	2099/12/31
+PSC	CTCP Vận tải và Dịch vụ Petrolimex Sài Gòn	Petrolimex Saigon Transportation And Service Jsc	HNX	Industrials	2006/12/29	1290000	2006/12/29	38600	2006/12/29	1290000		1290000	2099/12/31
+PSG	CTCP Đầu tư và Xây lắp Dầu khí Sài Gòn	Sai Gon Petroleum Construction And Investment Jsc	HNX	Industrials	2011/03/15	35000000	2011/03/15	9000	2011/03/15	35000000		35000000	2099/12/31
+PSI	CTCP Chứng khoán Dầu khí	PetroVietnam Securities Incorporated	HNX	Financials	2010/07/20	48500000	2010/07/21	19700	2010/07/21	48500000		48500000	2099/12/31
+PSL	Chăn nuôi Phú Sơn	Phu Son Livestock Jsc	UPC	Consumer Goods	2010/05/17	4500000	2010/05/17	0	2010/05/17	4500000		4500000	2099/12/31
+PSP	Cảng Đình Vũ	Dinh Vu Petroleum Service Port Jsc	UPC	Industrials	2009/11/10	22500000	2009/11/10	25000	2009/11/10	22500000		22500000	2099/12/31
+PTB	CTCP Phú Tài	Phu Tai Jsc	HSX	Industrials	2011/05/20	8599760	2011/07/22	16000	2011/07/22	8599760		8599760	2099/12/31
+PTC	CTCP Đầu tư và Xây dựng Bưu Điện	Post And Telecommunications Investment And Construction Jsc	HSX	Industrials	2006/12/25	10000000	2008/12/15	10000	2006/12/25	5000000		10000000	2099/12/31
+PTC	CTCP Đầu tư và Xây dựng Bưu Điện	Post And Telecommunications Investment And Construction Jsc	HNX	Industrials		5000000	2006/12/25	46800				5000000	2008/11/20
+PTD	Thiết kế - XD - TM Phúc Thịnh	Phuc Thinh Design Construction Trading Corporation	UPC	Industrials	2011/01/14	1000000	2011/01/14	11100	2011/01/14	1000000		1000000	2099/12/31
+PTG	May Phan Thiết	Phan Thiet Gamex Export Jsc	UPC	Consumer Goods	2010/01/04	1516540	2010/01/04	0	2010/01/04	1516540		1516540	2099/12/31
+PTH	Vận tải và DV Petrolimex Hà Tây	Ha Tay Petrolimex Transportation And Services Jsc	UPC	Utilities	2010/03/23	1600000	2010/03/23	0	2010/03/23	1600000		1600000	2099/12/31
+PTI	Tổng CTCP Bảo hiểm Bưu điện	Post - Telecommunication Joint - Stock Insurance Corporation	HNX	Financials	2011/03/02	45000000	2011/03/02	14600	2011/03/02	45000000		45000000	2099/12/31
+PTK	CTCP Luyện Kim Phú Thịnh	Phu Thinh Metallurgy JSC	HSX	Basic Materials	2012/09/14	21600000	2012/09/25	14400	2012/09/25	21600000		21600000	2099/12/31
+PTL	CTCP đầu tư hạ tầng và đô thị dầu khí PVC	Petro Capital and infrastructure Investment Jsc	HSX	Financials	2010/09/15	100000000	2010/09/22	20000	2010/09/22	100000000		100000000	2099/12/31
+PTM	CTCP SẢN XUẤT THƯƠNG MẠI VÀ DỊCH VỤ Ô TÔ PTM	The Precision Tools And Cnc Machine Jsc	HNX	Industrials	2009/01/16	1302300	2009/01/16	11900	2009/01/16	1302300		1302300	2099/12/31
+PTP	Viễn Thông và In Bưu điện	Post Printing & Telecomunication Services Jsc	UPC	Consumer Services	2009/12/10	6800000	2009/12/10	25000	2009/12/10	6800000		6800000	2099/12/31
+PTS	CTCP Vận tải và Dịch vụ Petrolimex Hải Phòng	Haiphong Petrolimex Transportation And Services Jsc	HNX	Industrials	2006/12/01	1740000	2006/12/01	27100	2006/12/01	1740000		1740000	2099/12/31
+PTT	Vận tải Dầu khí Đông Dương	Indochina Petroleum Transportation Jsc	UPC	Industrials	2010/04/29	10000000	2010/04/29	0	2010/04/29	10000000		10000000	2099/12/31
+PV2	CTCP Đầu tư PV2	Pvi Investment And Development Jsc	HNX	Financials	2010/12/16	18250708	2010/12/16	12500	2010/12/16	18250708		18250708	2099/12/31
+PVA	CTCP Tổng Công ty Xây lắp Dầu khí Nghệ An	Petrovietnam Nghe An Construction Jsc	HNX	Industrials	2008/12/03	4500000	2008/12/12	13900	2008/12/12	4500000		4500000	2099/12/31
+PVC	Tổng CT Dung dịch Khoan và Hoá phẩm Dầu khí - CTCP	Drilling Mud Corp	HNX	Oil & Gas	2007/11/15	12000000	2007/11/15	170000	2007/11/15	12000000		12000000	2099/12/31
+PVD	Tổng CTCP Khoan và Dịch vụ Khoan Dầu khí	Petrovietnam Drilling & Well Services Jsc	HSX	Oil & Gas	2006/11/15	68000000	2006/12/05	130000	2006/12/05	68000000		68000000	2099/12/31
+PVE	Tổng công ty Tư vấn Thiết kế Dầu khí- CTCP	Petrovietnam Investment Consultancy and Engineering Jsc	HNX	Oil & Gas	2008/01/02	3451996	2008/01/02	124000	2008/01/02	3451996		3451996	2099/12/31
+PVF	Tổng Công ty Tài chính Cổ phần Dầu khí Việt Nam	Petrovietnam Finance Jsc	HSX	Financials	2008/10/16	500000000	2008/11/03	24000	2008/11/03	500000000		500000000	2013/09/23
+PVG	CTCP Kinh doanh Khí hoá lỏng Miền Bắc	Petrovietnam Northern Gas Jsc	HNX	Utilities	2009/01/07	26617000	2009/01/07	11300	2009/01/07	26617000		26617000	2099/12/31
+PVI	CTCP PVI	PVI Holdings	HNX	Financials	2007/08/10	50000000	2007/08/10	91900	2007/08/10	50000000		50000000	2099/12/31
+PVL	CTCP Địa ốc Dầu khí	Petrovietnam Power Land Jsc	HNX	Financials	2010/04/15	50000000	2010/04/15	31600	2010/04/15	50000000		50000000	2099/12/31
+PVR	Công ty CP Kinh doanh Dịch vụ cao cấp Dầu khí Việt Nam	PetroVietnam Premier Recreation Jsc	HNX	Financials	2010/06/21	30000000	2010/06/21	28900	2010/06/21	30000000		30000000	2099/12/31
+PVS	Tổng CTCP Dịch vụ Kỹ thuật Dầu khí Việt Nam	Petrovietnam Technical Services Corp	HNX	Oil & Gas	2007/09/20	100000000	2007/09/20	126000	2007/09/20	100000000		100000000	2099/12/31
+PVT	Tổng CTCP Vận tải Dầu khí	Petrovietnam Transportation Corp	HSX	Industrials	2007/11/27	72000000	2007/12/10	96000	2007/12/10	72000000		72000000	2099/12/31
+PVV	CTCP Đầu tư Xây dựng Vinaconex - PVC	Vinaconex - Pvc Construction Investment Jsc	HNX	Industrials	2010/09/09	4500000	2010/09/09	39900	2010/09/09	4500000		4500000	2099/12/31
+PVX	Tổng CTCP Xây lắp Dầu khí Việt Nam	Petrovietnam Construction Jsc	HNX	Industrials	2009/08/19	150000000	2009/08/19	27000	2009/08/19	150000000		150000000	2099/12/31
+PX1	Xi măng Dầu khí 12/9	Petrovietnam Cement 12/9 Jsc	UPC	Industrials	2010/12/01	20000000	2010/12/01	0	2010/12/01	20000000		20000000	2099/12/31
+PXA	CTCP Đầu tư & Thương mại Dầu khí Nghệ An	Petrovietnam - Nghe An Investment & Trading Jsc	HNX	Financials	2011/02/22	10800000	2011/02/22	13500	2011/02/22	10800000		10800000	2099/12/31
+PXI	CTCP Xây dựng công nghiệp & dân dụng dầu khí	Petroleum Industrial and Civil Construction Jsc	HSX	Industrials	2010/06/07	30000000	2010/06/21	28900	2010/06/21	30000000		30000000	2099/12/31
+PXL	CTCP đầu tư Xây dựng Thương mại dầu khí – Idico	Petrovietnam – Idico Long Son Industrial Park Investment Jsc 	HSX	Financials	2010/11/12	82722212	2010/12/09	14400	2010/12/09	82722212		82722212	2099/12/31
+PXM	CTCP Xây lắp Dầu khí Miền Trung	Mientrung Petroleum Construction Jsc	HSX	Industrials	2010/06/10	15000000	2010/06/21	22300	2010/06/21	15000000		15000000	2099/12/31
+PXS	CTCP Kết cấu Kim loại và Lắp máy Dầu khí	Petroleum Equipment Assembly and Metal Structure Jsc	HSX	Industrials	2010/05/27	20000000	2010/06/02	25600	2010/06/02	20000000		20000000	2099/12/31
+PXT	CTCP Xây lắp Đường ống Bể chứa Dầu khí	Petroleum Pipeline and Tank Construction Jsc	HSX	Industrials	2010/05/24	20000000	2010/06/01	25600	2010/06/01	20000000		20000000	2099/12/31
+QCC	CTCP Xây lắp và Phát triển Dịch vụ Bưu điện Quảng Nam	Quangnam Post – Telecoms Construction And Services Corporation	HNX	Industrials	2010/10/06	1500000	2010/10/06	16200	2010/10/06	1500000		1500000	2099/12/31
+QCG	CTCP Quốc Cường Gia Lai	Quoc Cuong Gia Lai Jsc	HSX	Financials	2010/07/27	60157495	2010/08/09	45500	2010/08/09	60157495		60157495	2099/12/31
+QHD	CTCP Que hàn Điện Việt Đức	Viet- Duc Welding Electrode Jsc	HNX	Industrials	2010/04/22	2742270	2010/04/22	70000	2010/04/22	2742270		2742270	2099/12/31
+QNC	CTCP Xi măng và Xây dựng Quảng Ninh	Quang Ninh Construction And Cement Jsc	HNX	Industrials	2008/01/17	12500000	2008/01/17	53000	2008/01/17	12500000		12500000	2099/12/31
+QST	CTCP Sách và Thiết bị Trường học Quảng Ninh	Quang Ninh Book And Educational Equipment Jsc	HNX	Consumer Services	2009/02/16	1350000	2009/02/16	20300	2009/02/16	1350000		1350000	2099/12/31
+QTC	CTCP Công trình Giao thông Vận tải Quảng Nam	Quang Nam Transportation Construction Jsc	HNX	Industrials	2009/01/16	1200000	2009/01/16	16000	2009/01/16	1200000		1200000	2099/12/31
+RAL	CTCP Bóng đèn Phích nước Rạng Đông	Rangdong Light Source And Vacuum Flask Jsc	HSX	Consumer Goods	2006/10/23	7915000	2006/12/06	86000	2006/12/06	7915000		7915000	2099/12/31
+RCL	CTCP Địa ốc Chợ Lớn	Cholon Real Estate Jsc	HNX	Financials	2007/06/14	1500000	2007/06/14	181500	2007/06/14	1500000		1500000	2099/12/31
+RDP	CTCP Nhựa Rạng Đông	Rangdong Plastic Jsc	HSX	Basic Materials	2009/08/21	11500000	2009/09/22	18000	2009/09/22	11500000		11500000	2099/12/31
+REE	CTCP Cơ điện lạnh	Refrigeration Electrical Engineering Corporation 	HSX	Industrials	2000/07/18	15000000	2000/07/28	16000	2000/07/28	15000000		15000000	2099/12/31
+REM	Công ty cổ phần Tu bổ di tích Trung ương	Viet Nam Jsc For Restoration Of Monuments & Cultural Equipment	UPC	Industrials	2010/02/22	1148600	2010/02/22	0	2010/02/22	1148600		1148600	2099/12/31
+RHC	CTCP Thuỷ điện Ry Ninh II	Ry Ninh Ii Hydroelectric Jsc	HNX	Utilities	2006/06/15	3200000	2006/06/15	45000	2006/06/15	3200000		3200000	2013/12/10
+RIC	CTCP Quốc tế Hoàng Gia	Royal International Corporation	HSX	Consumer Services	2007/07/23	8589119	2007/07/31	174000	2007/07/31	8589119		8589119	2099/12/31
+S12	CTCP Sông Đà 12	Song Da 12 Jsc	HNX	Industrials	2008/01/16	5000000	2008/01/16	97000	2008/01/16	5000000		5000000	2099/12/31
+S27	CTCP Sông Đà 27	Song Da 27 Jsc	HNX	Industrials	2010/09/16	1562833	2010/09/16	19200	2010/09/16	1562833		1562833	2013/05/17
+S33	Mía đường 333	The 333 Sugar Jsc	UPC	Consumer Goods	2010/12/29	2300000	2010/12/29	0	2010/12/29	2300000		2300000	2099/12/31
+S55	CTCP Sông Đà 505	Song Da 5.05 Jsc	HNX	Industrials	2006/12/22	700000	2006/12/22	26200	2006/12/22	700000		700000	2099/12/31
+S64	Cty CP Sông Đà 6.04	Song Da 6.04 Jsc	HNX	Industrials	2006/12/25	700000	2006/12/25	26000	2006/12/25	700000		700000	2099/12/31
+S74	CTCP Sông Đà 7.04	Song Da 7.04 Jsc	HNX	Industrials	2009/07/02	4000000	2009/07/02	23000	2009/07/02	4000000		4000000	2099/12/31
+S91	CTC Sông Đà 9.01	Song Da 9.01 Jsc	HNX	Industrials	2006/12/20	1500000	2006/12/20	29000	2006/12/20	1500000		1500000	2099/12/31
+S96	CTCP Sông Đà 9.06	Song Da No 9.06 Jsc	HNX	Industrials	2008/01/09	2500000	2008/01/09	70000	2008/01/09	2500000		2500000	2099/12/31
+S99	CTCP Sông Đà 9.09	Song Da No 9.09 Jsc	HNX	Industrials	2006/12/22	500000	2006/12/22	29400	2006/12/22	500000		500000	2099/12/31
+SAF	CTCP Lương thực Thực phẩm SAFOCO	Safoco Foodstuff Jsc	HNX	Consumer Goods	2006/12/28	2706000	2009/06/08	20400	2006/12/28	2706000		2706000	2099/12/31
+SAF	CTCP Lương thực Thực phẩm SAFOCO	Safoco Foodstuff Jsc	HSX	Consumer Goods		2706000	2006/12/28	40000				2706000	2009/05/29
+SAM	CTCP Đầu tư và Phát triển Sacom	Sacom Development And Investment Corporation 	HSX	Technology	2000/07/18	18000000	2000/07/28	17000	2000/07/28	18000000		18000000	2099/12/31
+SAP	CTCP In sách Giáo khoa tại Tp.Hồ Chí Minh	Textbook Printing Jsc In Hochiminh City	HNX	Consumer Services	2006/12/14	900000	2006/12/14	28000	2006/12/14	900000		900000	2099/12/31
+SAV	CTCP Hợp tác Kinh tế và Xuất nhập khẩu Savimex	Savimex Corporation	HSX	Industrials	2002/04/26	4500000	2002/05/09	25000	2002/05/09	4500000		4500000	2099/12/31
+SBA	CTCP Sông Ba	Song Ba Jsc	HSX	Utilities	2010/04/28	45000000	2010/06/01	13000	2010/06/01	45000000		45000000	2099/12/31
+SBC	CTCP Vận tải và Giao nhận Bia Sài Gòn	Saigon Beer Transportation Jsc	HSX	Industrials	2010/04/29	8000000	2010/06/02	32400	2010/06/02	8000000		8000000	2099/12/31
+SBS	CTCP Chứng khoán Ngân hàng Sài Gòn Thương Tín	Sacombank Securities Jsc	HSX	Financials	2010/06/28	110000000	2010/07/05	42000	2010/07/05	110000000		110000000	2013/03/22
+SBT	CTCP Bourbon Tây Ninh	Société De Bourbon Tay Ninh	HSX	Consumer Goods	2008/02/25	44824172	2008/02/25	24000	2008/02/25	44824172		44824172	2099/12/31
+SC5	CTCP Xây dựng số 5	Construction Jsc No 5	HSX	Industrials	2007/04/10	8600000	2007/10/18	192000	2007/10/18	8600000		8600000	2099/12/31
+SCC	CTCP Xi măng Sông Đà	Songda Cement Jsc	HNX	Industrials	2006/12/20	1980000	2006/12/20	27000	2006/12/20	1980000		1980000	2099/12/31
+SCD	CTCP Nước giải khát Chương Dương	Chuong Duong Beverages Jsc	HSX	Consumer Goods	2006/11/12	8500000	2006/12/25	60000	2006/12/25	8500000		8500000	2099/12/31
+SCJ	CTCP Xi măng Sài Sơn	Sai Son Cement Jsc	HNX	Industrials	2007/09/19	2774200	2007/09/19	82400	2007/09/19	2774200		2774200	2099/12/31
+SCL	CTCP Sông Đà Cao Cường	Song Da Cao Cuong Jsc	HNX	Industrials	2010/09/15	9000000	2010/09/15	31500	2010/09/15	9000000		9000000	2099/12/31
+SCO	Công nghiệp Thủy Sản	Seaproducts Mechanical Shareholding Company	UPC	Industrials	2010/09/17	4200000	2010/09/17	2500	2010/09/17	4200000		4200000	2099/12/31
+SCR	CTCP Địa Ốc Sài Gòn Thương Tín	Sai Gon Thuong Tin Real Estate Jsc	HNX	Financials	2010/11/09	100000000	2010/11/09	26100	2010/11/09	100000000		100000000	2099/12/31
+SD1	CTCP Sông Đà 1	Song Da No 1 Jsc	HNX	Industrials	2010/07/23	5000000	2010/07/23	35000	2010/07/23	5000000		5000000	2099/12/31
+SD2	CTCP Sông Đà 2	Song Da No 2 Jsc	HNX	Industrials	2007/11/30	3500000	2007/11/30	157000	2007/11/30	3500000		3500000	2099/12/31
+SD3	CTCP Sông Đà 3	Song Da No 3 Jsc	HNX	Industrials	2006/12/25	2000000	2006/12/25	25000	2006/12/25	2000000		2000000	2099/12/31
+SD4	CTCP Sông Đà 4	Song Da 4 Jsc	HNX	Industrials	2008/06/25	7500000	2008/06/25	14000	2008/06/25	7500000		7500000	2099/12/31
+SD5	CTCP Sông Đà 5	Song Da No 5 Jsc	HNX	Industrials	2006/12/27	2200000	2006/12/27	37000	2006/12/27	2200000		2200000	2099/12/31
+SD6	CTCP Sông Đà 6	Song Da No 6 Jsc	HNX	Industrials	2006/12/25	2300000	2006/12/25	31000	2006/12/25	2300000		2300000	2099/12/31
+SD7	CTCP Sông Đà 7	Song Da No 7 Jsc	HNX	Industrials	2006/12/27	1500000	2006/12/27	27000	2006/12/27	1500000		1500000	2099/12/31
+SD8	CTCP Sông Đà 8	Song Da 8 Jsc	HNX	Industrials	2008/11/28	2800000	2008/11/28	17500	2008/11/28	2800000		2800000	2099/12/31
+SD9	CTCP Sông Đà 9	Song Da No 9 Jsc	HNX	Industrials	2006/12/20	7000000	2006/12/20	48700	2006/12/20	7000000		7000000	2099/12/31
+SDA	CTCP SIMCO Sông Đà	Song Da Simco Jsc	HNX	Industrials	2006/12/21	2000000	2006/12/21	76200	2006/12/21	2000000		2000000	2099/12/31
+SDB	CTCP Sông Đà 207	Song Da 207 Jsc	HNX	Industrials	2010/03/10	5500000	2010/03/10	45800	2010/03/10	5500000		5500000	2099/12/31
+SDC	CTCP Tư vấn Sông Đà	Song Da Consulting Jsc	HNX	Industrials	2006/12/25	1000000	2006/12/25	50700	2006/12/25	1000000		1000000	2099/12/31
+SDD	CTCP Đầu tư và Xây lắp Sông Đà	Song Da Assembly Construction & Investment Jsc	HNX	Industrials	2008/01/23	3650000	2008/01/23	49900	2008/01/23	3650000		3650000	2099/12/31
+SDE	CTCP Kỹ thuật điện Sông Đà	Song Da Electrical Engineering Jsc	HNX	Industrials	2010/03/23	1509565	2010/03/23	30000	2010/03/23	1509565		1509565	2099/12/31
+SDG	CTCP Sadico Cần Thơ	Can Tho Sadico JCC	HNX	Industrials	2009/12/22	5000000	2009/12/22	25000	2009/12/22	5000000		5000000	2099/12/31
+SDH	CTCP Xây dựng Hạ tầng Sông Đà	Song Da Infrastructure Construction Jsc	HNX	Industrials	2009/10/19	5175000	2009/10/19	49900	2009/10/19	5175000		5175000	2099/12/31
+SDI	Nhựa Sam Phú	Sai Dong Urban Development And Investment Jsc	UPC	Financials	2011/06/16	50000000	2011/06/16	33000	2011/06/16	50000000		50000000	2099/12/31
+SDJ	CTCP Sông Đà 25	Song Da 25 Jsc	HNX	Industrials	2007/12/25	1838400	2007/12/25	89000	2007/12/25	1838400		1838400	2013/05/21
+SDK	Cơ khí Luyện Kim	Machanical Engineering & Metallurgy Jsc	UPC	Industrials	2010/10/28	2600000	2010/10/28	0	2010/10/28	2600000		2600000	2099/12/31
+SDN	CTCP Sơn Đồng Nai	Dong Nai Paint Corporation	HNX	Industrials	2006/12/18	1140000	2009/06/22	21700	2006/12/25	1140000		1140000	2099/12/31
+SDN	CTCP Sơn Đồng Nai	Dong Nai Paint Corporation	HSX	Industrials		1140000	2006/12/25	70000				1140000	2009/06/09
+SDP	CTCP Đầu tư và Thương mại Dầu khí Sông Đà	Song Da Trading And Transport Jsc	HNX	Industrials	2009/04/15	5000000	2009/04/15	15000	2009/04/15	5000000		5000000	2099/12/31
+SDS	CTCP Xây lắp và Đầu tư Sông Đà	Song Da Construction And Investment Jsc	HNX	Industrials	2008/07/23	1500000	2008/07/23	20200	2008/07/23	1500000		1500000	2099/12/31
+SDT	Cty CP Sông Đà 10	Song Da No 10 Jsc	HNX	Industrials	2006/12/14	6000000	2006/12/14	67800	2006/12/14	6000000		6000000	2099/12/31
+SDU	CTCP Đầu tư Xây dựng và Phát triển Đô thị Sông Đà	Song Da Urban Investment Construction And Development Jsc	HNX	Industrials	2009/09/28	10000000	2009/09/28	82000	2009/09/28	10000000		10000000	2099/12/31
+SDV	CTCP Dịch vụ Sonadezi	Sonadezi Service Jsc	UPC	Industrials	2011/04/22	5000000	2010/04/22	16900	2011/04/22	5000000		5000000	2099/12/31
+SDY	CTCP Xi măng Sông Đà Yaly	Song Da Yaly Cement Jsc	HNX	Industrials	2006/12/25	1500000	2006/12/25	35000	2006/12/25	1500000		1500000	2099/12/31
+SEB	CTCP Đầu tư và Phát triển Điện miền Trung	Mien Trung Power Investment And Development Jsc	HNX	Utilities	2009/01/14	12500000	2009/01/14	15000	2009/01/14	12500000		12500000	2099/12/31
+SEC	CTCP Mía đường Nhiệt điện Gia Lai	Gia Lai Cane Sugar Thermoelectricity Jsc	HSX	Consumer Goods	2009/12/23	12613472	2010/01/06	21600	2010/01/06	12613472		12613472	2099/12/31
+SED	CTCP Đầu tư và Phát triển Giáo dục Phương Nam	Phuong Nam Education Investment And Development Jsc	HNX	Consumer Services	2009/08/19	8000000	2009/08/19	19400	2009/08/19	8000000		8000000	2099/12/31
+SEL	CTCP Sông Đà 11 – Thăng Long	Song Da 11 – Thang Long Jsc	HNX	Industrials	2010/09/16	4850000	2010/09/16	19800	2010/09/16	4850000		4850000	2013/09/30
+SFC	CTCP Nhiên liệu Sài Gòn	Sai Gon Fuel Company	HSX	Utilities	2004/06/16	1700000	2004/09/21	22800	2004/09/21	1700000		1700000	2099/12/31
+SFI	CTCP Đại lý Vận tải Safi	Sea & Air Freight International	HSX	Industrials	2006/12/08	1138500	2006/12/29	110000	2006/12/29	1138500		1138500	2099/12/31
+SFN	CTCP Dệt lưới Sài Gòn	Saigon Fishing Net Jsc	HNX	Industrials	2006/12/28	3000000	2009/06/12	15700	2006/12/28	3000000		3000000	2099/12/31
+SFN	CTCP Dệt lưới Sài Gòn	Saigon Fishing Net Jsc	HSX	Industrials		3000000	2006/12/28	101000				3000000	2009/06/04
+SGC	CTCP Xuất nhập Khẩu Sa Giang	Sa Giang Import Export Corporation	HNX	Consumer Goods	2006/09/05	4088700	2009/06/18	17900	2006/09/05	4088700		4088700	2099/12/31
+SGC	CTCP Xuất nhập Khẩu Sa Giang	Sa Giang Import Export Corporation	HSX	Consumer Goods		4088700	2006/09/05	55000				4088700	2009/06/09
+SGD	CTCP Sách giáo Dục tại Tp.HCM	Educational Book Jsc In Ho Chi Minh City	HNX	Consumer Services	2006/12/28	1000000	2006/12/28	50000	2006/12/28	1000000		1000000	2099/12/31
+SGH	CTCP Khách sạn Sài Gòn	Saigon Hotel Corporation	HNX	Consumer Services	2001/07/12	1766300	2009/07/30	66500	2001/07/16	1766300		1766300	2099/12/31
+SGH	CTCP Khách sạn Sài Gòn	Saigon Hotel Corporation	HSX	Consumer Services		1766300	2001/07/16	25200				1766300	2009/07/20
+SGS	Vận tải biển Sài Gòn	Saigon Shipping Jsc	UPC	Industrials	2010/12/22	14420000	2010/12/22	0	2010/12/22	14420000		14420000	2099/12/31
+SGT	CTCP Công nghệ Viễn thông Sài Gòn	Sai Gon Telecommunication & Technologies Corporation	HSX	Technology	2008/01/10	45000000	2008/01/18	108000	2008/01/18	45000000		45000000	2099/12/31
+SHA	Công ty Cổ phần Sơn Hà Sài Gòn	Sonha Saigon Joint Stock Company	HNX	Basic Materials	2013/01/21	8000000	2013/01/21	13900				8000000	2099/12/31
+SHB	Ngân hàng TMCP Sài Gòn - Hà Nội	Sai Gon - Hanoi Commercial Joint Stock Bank	HNX	Banks	2009/04/20	50000000	2009/04/20	15200	2009/04/20	50000000		50000000	2099/12/31
+SHC	CTCP Hàng hải Sài Gòn	Sai Gon Maritime JscLtd	HNX	Industrials	2006/08/05	1400000	2009/06/15	19000	2006/08/15	1400000		1400000	2013/05/21
+SHC	CTCP Hàng hải Sài Gòn	Sai Gon Maritime JscLtd	HSX	Industrials		1400000	2006/08/15	30000				1400000	2009/06/03
+SHI	CTCP Quốc tế Sơn Hà	Son Ha International Corporation	HSX	Basic Materials	2009/12/23	15000000	2009/12/30	27600	2009/12/30	15000000		15000000	2099/12/31
+SHN	CTCP Đầu tư Tổng hợp Hà Nội	Hanoi Investment General Corporation	HNX	Industrials	2009/12/16	8702000	2009/12/16	15500	2009/12/16	8702000		8702000	2099/12/31
+SHP	Thủy điện Miền Nam	Southern Hydropower Jsc	UPC	Utilities	2010/09/10	77011344	2010/09/10	0	2010/09/10	77011344		77011344	2099/12/31
+SHS	CTCP Chứng khoán Sài Gòn Hà Nội	Saigon - Hanoi Securitities Jsc	HNX	Financials	2009/06/25	41062996	2009/06/25	40200	2009/06/25	41062996		41062996	2099/12/31
+SHV	Công ty Cổ phần Hải Việt	Hai Viet Corporation	UPC	Consumer Goods	2010/08/27	6263720	2010/08/27	32000	2010/08/27	6263720		6263720	2099/12/31
+SIC	CTCP Đầu tư - Phát triển Sông Đà	Song Da Investment - Development Jsc	HNX	Industrials	2006/12/27	2200000	2006/12/27	34500	2006/12/27	2200000		2200000	2099/12/31
+SII	CTCP Đầu tư Hạ tầng Bất động sản Sài Gòn	Saigon Infastruction Real Estate Investement Jsc	HSX	Financials	2012/08/22	40000000	2012/09/12	10000	2012/09/12	40000000		40000000	2099/12/31
+SJ1	CTCP Thủy sản Số 1	Seafood Jsc No 1	HNX	Consumer Goods	2006/12/29	2000000	2009/06/08	19000	2006/12/29	2000000		2000000	2099/12/31
+SJ1	CTCP Thủy sản Số 1	Seafood Jsc No 1	HSX	Consumer Goods		2000000	2006/12/29	34000				2000000	2009/05/29
+SJC	CTCP Sông Đà 1.01	Song Da 1.01 Jsc	HNX	Industrials	2007/11/21	2110000	2007/11/21	85000	2007/11/21	2110000		2110000	2099/12/31
+SJD	CTCP Thủy điện Cần Đơn	Can Don Hydro Power Jsc	HSX	Utilities	2006/12/11	20000000	2006/12/25	35000	2006/12/25	20000000		20000000	2099/12/31
+SJE	CTCP Sông Đà 11	Song Da No 11 Jsc	HNX	Industrials	2006/12/14	2000000	2006/12/14	38800	2006/12/14	2000000		2000000	2099/12/31
+SJM	CTCP Sông Đà 19	Song Da No19 Jsc	HNX	Industrials	2008/01/10	1500000	2008/01/10	70000	2008/01/10	1500000		1500000	2099/12/31
+SJS	CTCP Đầu tư Phát triển Đô thị và Khu công nghiệp Sông Đà	Song Da Urban & Industrial Zone Investment And Development Jsc	HSX	Financials	2006/05/11	5000000	2006/07/06	100000	2006/07/06	5000000		5000000	2099/12/31
+SKS	CTCP Công trình Giao thông Sông Đà	Song Da Transportation Construction Jsc	HNX	Industrials	2009/04/17	1900000	2009/04/17	16100	2009/04/17	1900000		1900000	2099/12/31
+SLS	CTCP Mía đường Sơn La	Son La Sugar Joint Stock Company	HNX	Consumer Goods	2012/10/16	6800000	2012/10/16	26900	2012/10/16	6800000		6800000	2099/12/31
+SMA	CTCP Thiết bị Phụ tùng Sài Gòn	Sài Gòn Machinery Spare Parts Jsc	HSX	Industrials	2010/09/23	8060000	2010/10/19	15000	2010/10/19	8060000		8060000	2099/12/31
+SMB	Bia Sài Gòn - Miền Trung	Sai Gon - Mien Trung Beer Jsc	UPC	Consumer Goods	2010/09/08	29846648	2010/09/08	15000	2010/09/08	29846648		29846648	2099/12/31
+SMC	CTCP Đầu tư Thương mại SMC	Smc Investment Trading Jsc	HSX	Basic Materials	2006/09/29	6000000	2006/10/30	32000	2006/10/30	6000000		6000000	2099/12/31
+SME	CTCP Chứng khoán SME	Sme Securities Corporation	HNX	Financials	2010/04/07	15000000	2010/04/07	19600	2009/06/24	15000000		15000000	2099/12/31
+SME	CTCP Chứng khoán SME	Sme Securities Corporation	UPC	Financials	2009/06/24	15000000	2009/06/24	19300				15000000	2010/03/29
+SMT	CTCP Vật liệu Điện và Viễn thông Sam Cường	Sam Cuong Material Electric And Telecom Corporation	HNX	Technology	2010/07/30	2500000	2010/07/30	19000	2010/07/30	2500000		2500000	2099/12/31
+SNG	CTCP Sông Đà 10.1	Song Da No 10.1 Jsc	HNX	Industrials	2006/12/25	1900000	2006/12/25	45000	2006/12/25	1900000		1900000	2099/12/31
+SPC	BV Thực vật Sài Gòn	Sai Gon Plant Protection Jsc	UPC	Basic Materials	2010/09/09	8100000	2010/09/09	33000	2010/09/09	8100000		8100000	2099/12/31
+SPD	Thủy sản Miền Trung	Da Nang Seaproduct Import - Export Corporation	UPC	Consumer Goods	2010/04/22	7560000	2010/04/22	15000	2010/04/22	7560000		7560000	2099/12/31
+SPI	Công Ty Cổ Phần Đá Spilít	Spilit Stone Joint Stock Company	HNX	Basic Materials	2012/09/26	2500000	2012/09/26	11600	2012/09/26	2500000		2500000	2099/12/31
+SPM	CTCP SPM	S.P.M Corporation	HSX	Health Care	2010/05/07	14000000	2010/05/21	74000	2010/05/21	14000000		14000000	2099/12/31
+SPP	CTCP Bao bì Nhựa Sài Gòn	Saigon Plastic Packaging Jsc	HNX	Industrials	2008/09/25	3500000	2008/09/25	80000	2008/09/25	3500000		3500000	2099/12/31
+SQC	CTCP Khoáng sản Sài Gòn - Quy Nhơn	Sai Gon – Quy Nhon Mining Corporation	HNX	Basic Materials	2009/12/17	100000000	2009/12/17	81000	2009/12/17	100000000		100000000	2099/12/31
+SRA	CTCP SARA Việt Nam	Sara Vietnam Jsc	HNX	Technology	2008/01/18	1000000	2008/01/18	52000	2008/01/18	1000000		1000000	2099/12/31
+SRB	CTCP Tập đoàn SARA	Sara Jsc	HNX	Technology	2008/03/17	5650000	2008/03/17	15000	2008/03/17	5650000		5650000	2099/12/31
+SRC	CTCP Cao Su Sao Vàng	Sao Vang Rubber Jsc	HSX	Consumer Goods	2009/09/23	10800000	2009/10/07	50000	2009/10/07	10800000		10800000	2099/12/31
+SRF	CTCP Kỹ Nghệ Lạnh	Seaprodex Refrigeration Industry Corporation	HSX	Industrials	2009/10/05	8020066	2009/10/21	42000	2009/10/21	8020066		8020066	2099/12/31
+SSC	CTCP Giống Cây trồng Miền Nam	Southern Seed Corporation	HSX	Consumer Goods	2004/12/29	6000000	2005/03/01	30800	2005/03/01	6000000		6000000	2099/12/31
+SSF	Giày Sài Gòn	Saigon Shoes Jsc	UPC	Consumer Goods	2010/04/20	1600000	2010/04/20	0	2010/04/21	0		1600000	2099/12/31
+SSG	CTCP Vận tải biển Hải Âu	Seagull Shipping Company	HNX	Industrials	2010/12/28	5000000	2011/01/05	15000	2011/01/05	5000000		5000000	2099/12/31
+SSI	CTCP Chứng khoán Sài Gòn	Sai Gon Securities Incorporation	HSX	Financials	2006/12/15	79999917	2007/10/29	285000	2006/12/15	50000000		79999917	2099/12/31
+SSI	CTCP Chứng khoán Sài Gòn	Sai Gon Securities Incorporation	HNX	Financials		50000000	2006/12/15	165900				50000000	2007/10/12
+SSM	CTCP Chế tạo Kết cấu Thép VNECO.SSM	Steel Structure Manufacture Jsc	HNX	Basic Materials	2008/11/17	2751664	2008/11/17	13500	2008/11/17	2751664		2751664	2099/12/31
+SSN	CTCP Xuất nhập khẩu Thủy sản Sài Gòn	Saigon Sea Products Import Export Joint Stock Corporation	UPC	Consumer Goods	2013/10/15	9600000	2013/10/15						2099/12/31
+SSS	CTCP Sông Đà 6.06	Song Da 6.06 Jsc	HNX	Industrials	2007/08/28	2500000	2007/08/28	49500	2007/08/28	2500000		2500000	2099/12/31
+ST8	CTCP Siêu Thanh	Sieu Thanh JCC	HSX	Technology	2007/12/10	8200000	2007/12/18	89000	2007/12/18	8200000		8200000	2099/12/31
+STB	Ngân hàng Thương mại Cổ phần Sài Gòn Thương Tín	Sai Gon Thuong Tin Commercial Joint Stock Bank	HSX	Banks	2006/06/02	189947299	2006/07/12	78000	2006/07/12	189947299		189947299	2099/12/31
+STC	CTCP Sách và Thiết bị Trường học TpHồ Chí Minh	Book And Educational Equipment Jsc In Ho Chi Minh City	HNX	Consumer Services	2006/12/27	2880000	2006/12/27	88900	2006/12/27	2880000		2880000	2099/12/31
+STG	CTCP Kho Vận Miền Nam	South Logistics Jsc	HSX	Industrials	2010/02/04	8351857	2010/03/02	24000	2010/03/02	8351857		8351857	2099/12/31
+STL	CTCP Sông Đà - Thăng Long	Song Da - Thang Long Jsc	HNX	Financials	2008/09/23	10000000	2008/09/23	31000	2008/09/23	10000000		10000000	2013/07/26
+STP	CTCP Công nghiệp Thương mại Sông Đà	Song Da Industry Trade Jsc	HNX	Industrials	2006/10/09	800000	2006/10/09	23800	2006/10/09	800000		800000	2099/12/31
+STS	Dịch vụ vận tải Sài Gòn	Sai Gon Transport Agency Jsc	UPC	Industrials	2010/03/30	2082200	2010/03/30	25000	2010/03/30	2082200		2082200	2099/12/31
+STT	CTCP Vận chuyển Sài Gòn Tourist	Saigontourist Transport Corporation	HSX	Consumer Services	2011/05/12	8000000	2011/07/08	16000	2011/07/08	8000000		8000000	2099/12/31
+STU	Môi trường & CT Đô thị Sơn Tây	Sontay Urban Construction And Environment Jsc	UPC	Industrials	2010/10/19	1125600	2010/10/19	0	2010/10/19	1125600		1125600	2099/12/31
+STV	CTCP Chế tác Đá Việt Nam	VietNam Stone Work - Top Fabrication JSC	UPC	Industrials	2011/12/15	4000000	2011/12/15	25000	2011/12/15	4000000		4000000	2099/12/31
+SVC	CTCP Dịch vụ Tổng hợp Sài Gòn	Saigon General Service Corporation	HSX	Consumer Goods	2009/05/27	20361040	2009/06/01	25900	2006/12/21	12873410		20361040	2099/12/31
+SVC	CTCP Dịch vụ Tổng hợp Sài Gòn	Saigon General Service Corporation	HNX	Consumer Goods	2006/12/21	12873410	2006/12/21	25900	2006/12/21	12873410		12873410	2009/05/16
+SVI	CTCP Bao Bì Biên Hòa	Bien Hoa Packaging Comapny	HSX	Industrials	2008/12/22	3900000	2012/03/12	22400	2008/12/22	3900000		3900000	2099/12/31
+SVI	CTCP Bao Bì Biên Hòa	Bien Hoa Packaging Comapny	HNX	Industrials		3900000	2008/12/22	12200				3900000	2012/02/27
+SVN	CTCP SOLAVINA	Solavina Jsc	HNX	Industrials	2011/07/26	3000000	2011/07/26	12700	2011/07/26	3000000		3000000	2099/12/31
+SVS	CTCP Chứng khoán Sao Việt	Viet Star Securities Corporation	HNX	Financials	2010/07/07	13500000	2010/07/07	17900	2009/09/22	13500000		13500000	2099/12/31
+SVS	CTCP Chứng khoán Sao Việt	Viet Star Securities Corporation	UPC	Financials	2009/09/22	13500000	2009/09/22	12000				13500000	2010/06/28
+SVT	CTCP Công nghệ Sài Gòn Viễn Đông	Sai Gon Vien Dongtechnology  Jsc	HSX	Basic Materials	2011/07/26	8700000	2011/10/05	17000	2011/10/05	8700000		8700000	2099/12/31
+SWC	Dịch vụ Sonadezi	Southern Waterborne Transport Corporation	UPC	Industrials	2011/04/29	67100000	2011/04/29	0	2011/04/29	67100000		67100000	2099/12/31
+SZL	CTCP Sonadezi Long Thành	Sonadezi Long Thanh	HSX	Financials	2008/08/15	10000000	2008/09/09	84000	2008/09/09	10000000		10000000	2099/12/31
+TAC	CTCP Dầu thực vật Tường An	Tuong An Vegetable Oil Jsc	HSX	Consumer Goods	2006/12/06	18980200	2006/12/26	75000	2006/12/26	18980200		18980200	2099/12/31
+TAG	CTCP Thế giới số Trần Anh	Tran Anh Digital World Jsc	HNX	Industrials	2010/01/12	4506821	2010/01/12	77000	2010/01/12	4506821		4506821	2099/12/31
+TAS	CTCP Chứng khoán Tràng An	Trang An Securities Jsc	HNX	Financials	2010/02/22	13900000	2010/02/22	16500	2009/06/24	13900000		13900000	2013/09/20
+TAS	CTCP Chứng khoán Tràng An	Trang An Securities Jsc	UPC	Financials	2009/06/24	13900000	2009/06/24	17200				13900000	2010/02/03
+TBC	CTCP Thủy điện Thác Bà	Thac Ba Hydropower Jsc	HSX	Utilities	2009/09/25	63500000	2009/10/19	30400	2006/08/29	63500000		63500000	2099/12/31
+TBC	CTCP Thủy điện Thác Bà	Thac Ba Hydropower Jsc	HNX	Utilities	2006/08/29	63500000	2006/08/29	30400	2006/08/29	63500000		63500000	2009/09/28
+TBT	XD Công trình GT Bến Tre	Ben Tre Transportation Work Construction Jsc	UPC	Industrials	2010/03/01	1656470	2010/03/01	0	2010/03/01	1656470		1656470	2099/12/31
+TBX	CTCP Xi măng Thái Bình	Thai Binh Cement Jsc	HNX	Industrials	2008/11/18	1011400	2008/11/18	29000	2008/11/18	1011400		1011400	2099/12/31
+TC6	CTCP Than cọc Sáu – TKV	Vinacomin Coc Sau Coal Jsc	HNX	Basic Materials	2008/06/26	10000000	2008/06/26	30000	2008/06/26	10000000		10000000	2099/12/31
+TCL	CTCP Đai lý Giao nhận Vận tải Xếp dỡ Tân Cảng	Tan Cang Logistics And Stevedoring Jsc	HSX	Industrials	2009/12/11	17000000	2009/12/24	41000	2009/12/24	17000000		17000000	2099/12/31
+TCM	CTCP Dệt may - Đầu tư - Thương mại Thành Công	Thanh Cong Textile Garment Investment Trading Jsc	HSX	Consumer Goods	2007/10/05	18982497	2007/10/15	54000	2007/10/15	18982497		18982497	2099/12/31
+TCO	CTCP Vận tải Đa phương thức Duyên Hải	Duyen Hai Multi Modal Transport Jsc	HSX	Industrials	2012/02/08	12870000	2012/02/27	10300	2009/09/24	0		12870000	2099/12/31
+TCO	CTCP Vận tải Đa phương thức Duyên Hải	Duyen Hai Multi Modal Transport Jsc	UPC	Industrials		9090000	2009/10/06	10000				9090000	2011/12/15
+TCR	CTCP Công nghiệp Gốm sứ TAICERA	Taicera Enterprise Company	HSX	Industrials	2006/12/26	4969000	2006/12/29	35000	2006/12/29	4969000		4969000	2099/12/31
+TCS	CTCP Than Cao Sơn - TKV	Vinacomin - Caoson Coal Jsc	HNX	Basic Materials	2008/11/21	10000000	2008/11/21	25100	2008/11/21	10000000		10000000	2099/12/31
+TCT	CTCP Cáp treo Núi Bà Tây Ninh	Tay Ninh Cable Car Tour Jsc	HNX	Consumer Services	2006/12/06	1598500	2009/10/05	77000	2006/12/06	1598500		1598500	2099/12/31
+TCT	CTCP Cáp treo Núi Bà Tây Ninh	Tay Ninh Cable Car Tour Jsc	HSX	Consumer Services		1598500	2006/12/06	49000				1598500	2009/09/23
+TDC	CTCP Kinh doanh và Phát triển Bình Dương	Binh Duong Trade And Development Jsc	HSX	Industrials	2010/04/16	20000000	2010/05/04	36000	2010/05/04	20000000		20000000	2099/12/31
+TDH	CTCP Phát triển Nhà Thủ Đức	Thu Duc Housing Development Corporation	HSX	Financials	2006/11/23	17000000	2006/12/14	300000	2006/12/14	17000000		17000000	2099/12/31
+TDN	CTCP Than Đèo Nai - TKV	Vinacomin - Deonai Coal Jsc	HNX	Basic Materials	2008/11/21	8000000	2008/11/21	28800	2008/11/21	8000000		8000000	2099/12/31
+TDS	Đường Sông Miền Nam	Thu Duc Steel Jsc	UPC	Basic Materials	2011/10/06	12225393	2011/10/06	15000	2011/10/06	12225393		12225393	2099/12/31
+TDW	CTCP Cấp Nước Thủ Đức	Thu Duc Water Supply Jsc 	HSX	Utilities	2010/09/17	8500000	2010/11/11	9900	2010/11/11	8500000		8500000	2099/12/31
+TET	CTCP Vải sợi May mặc Miền Bắc	Northern Textiles And Garments Jsc (Textaco)	HNX	Consumer Goods	2010/04/28	5702940	2010/04/28	35500	2010/04/28	5702940		5702940	2099/12/31
+TGP	Cáp Trường Phú	Truong Phu Corporation	UPC	Industrials	2009/06/24	10000000	2009/06/24	11700	2009/06/24	10000000		10000000	2099/12/31
+TH1	CTCP Xuất nhập khẩu Tổng hợp I Việt Nam	The Vietnam National General Export - Import Jsc No.1	HNX	Consumer Services	2009/11/11	8892733	2009/11/11	69800	2009/11/11	8892733		8892733	2099/12/31
+THB	CTCP Bia Thanh Hóa	Thanh Hoa Beer Jsc	HNX	Consumer Goods	2008/11/19	11424570	2008/11/19	16800	2008/11/19	11424570		11424570	2099/12/31
+THG	CTCP Đầu tư và Xây dựng Tiền Giang	Tien Giang Investment And Construction Jsc	HSX	Industrials	2011/04/28	8000000	2011/07/28	20000	2011/07/28	8000000		8000000	2099/12/31
+THT	CTCP Than Hà Tu - TKV	Vinacomin - Ha Tu Coal Jsc	HNX	Basic Materials	2008/10/24	9100000	2008/10/24	22500	2008/10/24	9100000		9100000	2099/12/31
+THV	CTCP Tập đoàn Thái Hòa Việt Nam	Thai Hoa Viet Nam Group Jsc	HNX	Consumer Goods	2010/12/03	55000000	2010/12/03	16900	2010/12/03	55000000		55000000	2012/07/04
+TIC	CTCP Đầu tư Điện Tây nguyên	Tay Nguyen Electricity Investment Jsc	HSX	Utilities	2009/10/01	16582600	2009/10/12	24000	2009/10/12	16582600		16582600	2099/12/31
+TIE	CTCP TIE	Telecommunications Industry Electronics Jsc	HSX	Industrials	2009/11/16	9569900	2009/12/11	27200	2009/12/11	9569900		9569900	2099/12/31
+TIG	CTCP Tập đoàn Đầu tư Thăng Long	Thanglong Investment Group Jsc	HNX	Financials	2010/10/08	15000000	2010/10/08	30000	2010/10/08	15000000		15000000	2099/12/31
+TIS	CTCP Gang thép Thái Nguyên	Thai Nguyen Iron And Steel Jsc	UPC	Basic Materials	2011/03/24	184000000	2011/03/24	11000	2011/03/24	184000000		184000000	2099/12/31
+TIX	CTCP Sản xuất Kinh doanh XNK Dịch vụ và Đầu tư Tân Bình	Tan Binh Import – Export Jsc	HSX	Financials	2009/11/17	12000000	2009/11/25	69500	2009/11/25	12000000		12000000	2099/12/31
+TJC	CTCP Dịch vụ Vận tải và Thương mại	Transportation And Trading Services Jsc 	HNX	Industrials	2007/12/17	3000000	2007/12/17	50000	2007/12/17	3000000		3000000	2099/12/31
+TKC	CTCP Xây dựng và Kinh doanh Địa ốc Tân Kỷ (Takco)	Tan Ky Construction And Real Estate Trading Corporation	HNX	Industrials	2009/12/01	6050000	2009/12/01	33600	2009/12/01	6050000		6050000	2099/12/31
+TKU	CTCP Công nghiệp Tung Kuang	Tung Kuang Industrial Jsc	HNX	Industrials	2006/06/26	3281854	2006/06/26	35100	2006/06/26	3281854		3281854	2099/12/31
+TLC	CTCP Viễn thông Thăng Long	Thang Long Telecommunications Jsc	HNX	Technology	2006/12/28	9980000	2006/12/28	85000	2006/12/28	9980000		9980000	2013/05/17
+TLG	CTCP Tập Đoàn Thiên Long	Thien Long Group Corporation	HSX	Consumer Goods	2010/02/02	15500000	2010/03/26	35000	2010/03/26	15500000		15500000	2099/12/31
+TLH	CTCP Tập Đoàn Thép Tiến Lên	Tien Len Steel Corporation Joint - Stock Company	HSX	Basic Materials	2010/03/04	54000000	2010/03/16	34700	2010/03/16	54000000		54000000	2099/12/31
+TLT	CTCP Viglacera Thăng Long	Viglacera Thanglong Ceramic Tiles Jsc	HNX	Industrials	2006/12/08	1800000	2006/12/08	35000	2006/12/08	1800000		1800000	2013/02/27
+TLT	CTCP Viglacera Thăng Long	Viglacera Thanglong Ceramic Tiles Jsc	UPC	Industrials	2013/06/19	6989800	2013/06/19	800	2013/06/19	6989800		6989800	2099/12/31
+TMC	CTCP Thương mại Xuất nhập Khẩu Thủ Đức	Thu Duc Trading And Import – Export Jsc	HNX	Utilities	2006/12/26	2700000	2009/06/08	30900	2006/12/26	2700000		2700000	2099/12/31
+TMC	CTCP Thương mại Xuất nhập Khẩu Thủ Đức	Thu Duc Trading And Import – Export Jsc	HSX	Utilities		2564140	2006/12/26	60000				2564140	2009/05/29
+TMP	CTCP Thủy điện Thác Mơ	Thac Mo Hydro Power Jsc	HSX	Utilities	2009/06/08	70000000	2009/06/18	24000	2009/06/18	70000000		70000000	2099/12/31
+TMS	CTCP Kho vận Giao nhận Ngoại thương TP.HCM	Transimex-Saigon Corporation	HSX	Industrials	2000/08/02	2200000	2000/08/04	14000	2000/08/04	2200000		2200000	2099/12/31
+TMT	CTCP ô tô TMT	Tmt Automobile Jsc	HSX	Consumer Goods	2010/01/15	12577500	2010/01/22	55000	2010/01/22	12577500		12577500	2099/12/31
+TMW	Gỗ Tân Mai	Tan Mai General Wood Jsc	UPC	Consumer Goods	2009/12/23	4662350	2009/12/23	0	2009/12/23	4662350		4662350	2099/12/31
+TMX	CTCP Thương mại xi măng	Cement Trading Jsc	HNX	Industrials	2009/11/02	6000000	2009/11/02	23600	2009/11/02	6000000		6000000	2099/12/31
+TNA	CTCP Thương mại Xuất nhập khẩu Thiên Nam	Thien Nam Trading Import Export Corporation	HSX	Consumer Goods	2005/05/04	1300000	2005/07/20	30000	2005/07/20	1300000		1300000	2099/12/31
+TNB	Thép Nhà Bè	Nha Be Steel Jsc	UPC	Basic Materials	2010/04/16	10000000	2010/04/16	19900	2010/04/16	10000000		10000000	2099/12/31
+TNC	CTCP Cao su Thống nhất	Thong Nhat Rubber Jsc	HSX	Basic Materials	2007/08/07	19250000	2007/08/22	40000	2007/08/22	19250000		19250000	2099/12/31
+TNG	CTCP Đầu tư và Thương mại TNG	Tng Investment And Trading Jsc	HNX	Consumer Goods	2007/11/22	5430000	2007/11/22	67000	2007/11/22	5430000		5430000	2099/12/31
+TNM	XNK và XD Công trình	Tranimex Transportation Import - Export & Contruction Jsc	UPC	Industrials	2009/10/27	3800000	2009/10/27	10000	2009/10/27	3800000		3800000	2099/12/31
+TNT	CTCP Tài Nguyên	Tai Nguyen Corporation	HSX	Basic Materials	2010/05/14	8500000	2010/05/21	28800	2010/05/21	8500000		8500000	2099/12/31
+TNY	Công ty Cổ phần Đầu tư Xây dựng Thanh niên	Youth Investment Construction Corporation	UPC	Industrials	2011/06/15	1800000	2011/06/15	0	2011/06/15	1800000		1800000	2099/12/31
+TPC	CTCP Nhựa Tân Đại Hưng	Tan Dai Hung Plastic Jsc	HSX	Basic Materials	2007/11/20	10400000	2007/11/28	69000	2007/11/28	10400000		10400000	2099/12/31
+TPH	Cty CP In Sách giáo Khoa tại Tp.Hà Nội	Hanoi Textbooks Printing Jsc	HNX	Consumer Services	2006/12/15	1200000	2006/12/15	30700	2006/12/15	1200000		1200000	2099/12/31
+TPP	CTCP Nhựa Tân Phú	Tan Phu Plastic Jsc	HNX	Basic Materials	2008/07/21	2000000	2008/09/26	20000	2008/09/26	2000000		2000000	2099/12/31
+TRA	CTCP TRAPHACO	Traphaco Jsc	HSX	Health Care	2008/11/12	8000000	2008/11/26	63500	2008/11/26	8000000		8000000	2099/12/31
+TRC	CTCP Cao su Tây Ninh	Tay Ninh Rubber Jsc	HSX	Basic Materials	2007/07/17	30000000	2007/07/24	145000	2007/07/24	30000000		30000000	2099/12/31
+TRI	CTCP Nước giải khát Sài Gòn	Sai Gon Beverages Jsc	HSX	Consumer Goods	2001/11/26	3790300	2001/12/28	29000	2002/08/08	0		3790300	2099/12/31
+TS4	CTCP Thủy sản số 4	Seafood Jsc No4	HSX	Consumer Goods	2002/07/01	1500000	2002/08/08	22000	2003/02/12	0		1500000	2099/12/31
+TSB	CTCP Ắc quy Tia Sáng	Tia Sang Battery  Jsc	HNX	Industrials	2011/01/19	3372740	2011/01/19	29500	2011/01/19	3372740		3372740	2099/12/31
+TSC	CTCP Vật tư Kỹ thuật Nông nghiệp Cần Thơ	Techno - Agricultural Supplying Jsc	HSX	Basic Materials	2007/09/24	8312915	2007/10/04	48000	2007/10/04	8312915		8312915	2099/12/31
+TSM	CTCP Xi măng Tiên Sơn Hà Tây	Tien Son Cement Jsc	HNX	Industrials	2010/07/02	2936140	2010/07/02	26000	2010/07/02	2936140		2936140	2099/12/31
+TST	CTCP Dịch vụ Kỹ thuật Viễn thông	Telecommunication Technical Service Jsc	HNX	Technology	2007/12/13	4800000	2007/12/13	69000	2007/12/13	4800000		4800000	2099/12/31
+TTC	CTCP Gạch men Thanh Thanh	Thanh Thanh Jsc	HNX	Industrials	2006/07/18	4000000	2010/01/07	10200	2006/08/08	4000000		4000000	2099/12/31
+TTC	CTCP Gạch men Thanh Thanh	Thanh Thanh Jsc	HSX	Industrials		3992000	2006/08/08	19000				3992000	2009/12/28
+TTF	CTCP Tập Đoàn Kỹ nghệ Gỗ Trường Thành	Truong Thanh Furniture Corporation	HSX	Basic Materials	2008/02/01	15000000	2008/02/18	70000	2008/02/18	15000000		15000000	2099/12/31
+TTG	May Thanh Trì	Thanh Tri Garment Jsc	UPC	Consumer Goods	2010/02/02	2000000	2010/02/02	0	2010/02/02	2000000		2000000	2099/12/31
+TTP	CTCP Bao bì Nhựa Tân Tiến	Tan Tien Plastic Packaging Jsc	HSX	Industrials	2006/11/09	10655000	2006/12/05	81000	2006/12/05	10655000		10655000	2099/12/31
+TTR	Tracotour	Tourism Trade & Investment Jsc	UPC	Consumer Services	2009/12/04	1993393	2009/12/04	10800	2009/12/04	1993393		1993393	2099/12/31
+TTZ	CTCP Đầu tư Xây dưng và Công nghệ Tiến Trung	Tien Trung Joint Stock Company	HNX	Industrials	2013/01/29	3500000	2013/01/29	10000				3500000	2099/12/31
+TV1	CTCP Tư vấn Xây dựng Điện 1	Power Engineering Consulting Jsc 1 	HSX	Industrials	2010/09/14	10000000	2010/09/23	20500	2010/09/23	10000000		10000000	2099/12/31
+TV2	CTCP Tư vấn Xây dựng Điện 2	Power Engineering Consulting Jsc No.2	HNX	Industrials	2009/10/13	4439000	2009/10/13	33000	2009/10/13	4439000		4439000	2099/12/31
+TV3	CTCP Tư vấn Xây dựng Điện 3	Power Engineering Consulting Jsc	HNX	Industrials	2009/12/01	2940000	2009/12/01	23000	2009/12/01	2940000		2940000	2099/12/31
+TV4	CTCP Tư vấn Xây dựng Điện 4	Power Engineering Consulting Jsc No.4	HNX	Industrials	2008/07/22	2750000	2008/07/22	14000	2008/07/22	2750000		2750000	2099/12/31
+TVD	CTCP Than Vàng Danh - TKV	Vinacomin - Vangdanh Coal Jsc	HNX	Basic Materials	2011/01/11	15280790	2011/01/11	19400	2011/01/11	15280790		15280790	2099/12/31
+TVG	XD Giao thông Vận tải	Transport Investment & Construction Consultant Jsc	UPC	Industrials	2010/01/25	1720000	2010/01/25	0	2010/01/25	1720000		1720000	2099/12/31
+TVM	Công ty cổ phần Tư vấn Đầu tư Mỏ và Công nghiệp-Vinacomin	Consultant JSC Mining and Industrial Investment-Vinacomin	UPC	Industrials									
+TXM	Cty CP Thạch cao Xi Măng	Gypsum And Cement Jsc	HNX	Industrials	2006/12/11	3500000	2006/12/11	17900	2006/12/11	3500000		3500000	2099/12/31
+TYA	CTCP Dây và Cáp điện Taya Việt Nam	Taya (Vietnam) Electric Wire And Cable Jsc	HSX	Industrials	2005/12/02	3653480	2006/02/15	34000	2006/02/15	3653480		3653480	2099/12/31
+UDC	CTCP Xây dựng và Phát triển Đô thị Tỉnh Bà Rịa - Vũng Tàu	Urban Development And Construction Corporation	HSX	Industrials	2010/06/28	35000000	2010/07/05	24000	2010/07/05	35000000		35000000	2099/12/31
+UDJ	Phát triển đô thị Becamex	Becamex Urban Development Jsc	UPC	Industrials	2009/12/22	16500000	2009/12/22	0	2009/12/22	16500000		16500000	2099/12/31
+UIC	CTCP Đầu tư Phát triển Nhà và Đô thị Idico	Idico Urban And House Development Jsc	HSX	Industrials	2007/10/31	8000000	2007/11/12	80000	2007/11/12	8000000		8000000	2099/12/31
+UNI	CTCP Viễn Liên	Vien Lien Jsc	HNX	Technology	2006/07/03	1000000	2009/06/08	16700	2006/07/03	1000000		1000000	2099/12/31
+UNI	CTCP Viễn Liên	Vien Lien Jsc	HSX	Technology		1000000	2006/07/03	28200				1000000	2009/05/29
+V11	CTCP Xây dựng số 11	Construction Jsc No 11	HNX	Financials	2008/12/01	5000000	2008/12/15	12200	2008/12/15	5000000		5000000	2099/12/31
+V12	CTCP Xây dựng số 12	Construction Jsc No 12	HNX	Industrials	2010/01/05	3000000	2010/01/05	37000	2010/01/05	3000000		3000000	2099/12/31
+V15	CTCP Xây dựng số 15	Vinaconex 15 Jsc	HNX	Industrials	2009/12/17	6000000	2009/12/17	16000	2009/12/17	6000000		6000000	2099/12/31
+V21	CTCP Vinaconex 21	Vietnam Construction Jsc No.21	HNX	Industrials	2010/04/21	1700000	2010/04/21	60000	2010/04/21	1700000		1700000	2099/12/31
+VAT	CTCP Viễn thông Vạn Xuân	Van Xuan Telecom Jsc	HNX	Technology	2010/12/15	1200000	2010/12/15	16500	2010/12/15	1200000		1200000	2099/12/31
+VBC	CTCP Nhựa - Bao bì Vinh	Vinh Plastic And Bags Jsc	HNX	Industrials	2010/03/17	1898364	2010/03/17	40000	2010/03/17	1898364		1898364	2099/12/31
+VBH	Cty CP Điện tử Bình Hoà	Viettronics Binh Hoa Jsc	HNX	Industrials	2006/12/29	2900000	2006/12/29	30000	2006/12/29	2900000		2900000	2099/12/31
+VC1	CTCP Xây dựng số 1	Construction Jsc No 1	HNX	Industrials	2009/05/14	3500000	2009/05/14	27000	2009/05/14	3500000		3500000	2099/12/31
+VC2	Cty CP Xây dựng số 2	Vietnam Construction Jsc No2	HNX	Industrials	2006/12/11	2000000	2006/12/11	38300	2006/12/11	2000000		2000000	2099/12/31
+VC3	CTCP Xây dựng số 3	Construction Jsc No3	HNX	Financials	2007/12/13	8000000	2007/12/13	116000	2007/12/13	8000000		8000000	2099/12/31
+VC5	CTCP Xây dựng số 5	Construction Jsc No.5	HNX	Industrials	2008/01/16	5000000	2008/01/16	57000	2008/01/16	5000000		5000000	2099/12/31
+VC6	CTCP Vinaconex 6	Vinaconex 6 Jsc	HNX	Industrials	2008/01/28	4000000	2008/01/28	44800	2008/01/28	4000000		4000000	2099/12/31
+VC7	CTCP Xây dựng Số 7	No7 Vietnam Construction Jsc	HNX	Industrials	2007/12/28	5000000	2007/12/28	55000	2007/12/28	5000000		5000000	2099/12/31
+VC9	CTCP Xây dựng số 9	Construction Jsc No.9	HNX	Industrials	2009/11/05	8000000	2009/11/05	50200	2009/11/05	8000000		8000000	2099/12/31
+VCA	CTCP Thép Biên Hòa	Bien Hoa Steel Jsc	UPC	Basic Materials	2011/02/21	15187322	2011/02/21	0	2011/02/21	15187322		15187322	2099/12/31
+VCB	Ngân hàng TMCP Ngoại Thương Việt Nam	Jsc mmercial Bank For Foreign Trade Of Viet Nam	HSX	Banks	2009/06/12	112285426	2009/06/30	60000	2009/06/30	112285426		112285426	2099/12/31
+VCC	CTCP Vinaconex 25	Vinaconex 25 Jsc	HNX	Industrials	2009/02/05	4000000	2009/02/05	10000	2009/02/05	4000000		4000000	2099/12/31
+VCF	CTCP VINACAFÉ Biên Hòa	Vinacafe Bienhoa Jsc	HSX	Consumer Goods	2011/01/21	26579135	2011/01/28	53500	2011/01/28	26579135		26579135	2099/12/31
+VCG	Tổng CTCP Xuất nhập Khẩu và Xây dựng Việt Nam	Vietnam Construction And Import-Export JCC	HNX	Industrials	2008/09/05	149985150	2008/09/05	39600	2008/09/05	149985150		149985150	2099/12/31
+VCH	CTCP Đầu tư xây dựng và Phát triển Hạ tầng Vinaconex	Vinaconex Infrastructure Development And Construction Investment Jsc	HNX	Industrials	2010/07/21	3970000	2010/07/21	29400	2010/07/21	3970000		3970000	2013/05/21
+VCM	CTCP Nhân lực và Thương mại Vinaconex	Vinaconex Trading And Manpower Joint	HNX	Industrials	2010/05/11	3000000	2010/05/11	56100	2010/05/11	3000000		3000000	2099/12/31
+VCR	CTCP Đầu tư và Phát triển Du lịch Vinaconex	Vinaconex Investment And Tourism Development Jsc	HNX	Financials	2010/05/10	30000000	2010/05/10	38000	2010/05/10	30000000		30000000	2099/12/31
+VCS	CTCP Đá ốp Lát cao Cấp Vinaconex	Vinaconex Advanced Compound Stone Jsc 	HNX	Industrials	2007/12/17	10000000	2007/12/17	84500	2007/12/17	10000000		10000000	2099/12/31
+VCT	Tư vấn XD Vinaconex	Vinaconex’S Construction Consultant Jsc	UPC	Industrials	2010/07/15	1100000	2010/07/15	40000	2010/07/15	1100000		1100000	2099/12/31
+VCV	CTCP Vận tải Vinaconex	Vinaconex Transportation Jsc	HNX	Industrials	2010/08/05	11007183	2010/08/05	15800	2010/08/05	11007183		11007183	2099/12/31
+VDL	CTCP Thực phẩm Lâm Đồng	Lamdong Foodstuffs Jsc	HNX	Consumer Goods	2007/11/27	1200000	2007/11/27	86000	2007/11/27	1200000		1200000	2099/12/31
+VDN	Vinatex Đà Nẵng	Vinatex Da Nang Jsc	UPC	Consumer Goods	2010/07/15	2000000	2010/07/15	13500	2010/07/15	2000000		2000000	2099/12/31
+VDS	CTCP Chứng khoán Rồng Việt	Viet Dragon Securities Corporation	HNX	Financials	2010/05/25	33000000	2010/05/25	19600	2009/06/24	33000000		33000000	2099/12/31
+VDS	CTCP Chứng khoán Rồng Việt	Viet Dragon Securities Corporation	UPC	Financials		33000000	2009/06/24	19500				33000000	2010/05/14
+VDT	Thép Bình Tây	Binh Tay Steel Wire Netting Jsc	UPC	Basic Materials	2011/03/01	1965440	2011/03/01	12000	2011/03/01	1965440		1965440	2099/12/31
+VE1	CTCP Xây dựng Điện Vneco 1	Vneco 1 Electricity Construction Jsc	HNX	Industrials	2008/09/04	3000000	2008/09/04	19000	2008/09/04	3000000		3000000	2099/12/31
+VE2	CTCP Xây dựng Điện Vneco2	Vietnam Electricity Construction 2 Jsc	HNX	Industrials	2010/07/26	1861141	2010/07/26	54000	2010/07/26	1861141		1861141	2099/12/31
+VE3	Cổ phiếu CTCP Xây dựng điện VNECO 3	Vneco 3 Electricity Construction Jsc	HNX	Industrials	2010/06/30	1319710	2010/06/30	32000	2010/06/30	1319710		1319710	2099/12/31
+VE4	CTCP Xây dựng Điện Vneco 4	VNECO4 Electricity Construction Joint Stock Company	HNX	Industrials	2012/10/16	1028000	2012/10/16	12000	2012/10/16	1028000		1028000	2099/12/31
+VE8	CTCP Xây dựng Điện VNECO 8	Vneco 8 Electricity Construction JSC	HNX	Industrials	2012/07/24	1800000	2012/08/27	0	2012/08/27	1800000		1800000	2099/12/31
+VE9	CTCP Đầu tư và xây dựng VNECO 9	Vneco 9 Electricity Construction Jsc	HNX	Industrials	2008/01/23	3100000	2008/01/23	31000	2008/01/23	3100000		3100000	2099/12/31
+VES	CTCP Đầu tư và Xây dựng Điện MêCa VNECO	Meca Vneco Investment And Electricity Construction Jsc	HSX	Industrials	2010/04/02	9007500	2010/04/14	16900	2010/04/14	9007500		9007500	2013/05/03
+VFC	CTCP Vinafco	Vinafco JCC 	HSX	Industrials	2006/06/26	5575627	2006/07/24	30000	2006/07/24	5575627		5575627	2013/01/30
+VFC	CTCP Vinafco	Vinafco JCC 	UPC	Industrials	2013/07/01	34000000	2013/07/01	5900	2006/07/24	5575627	5575627	2013/01/30	2099/12/31
+VFG	CTCP Khử trùng Việt Nam	Viet Nam Fumigation Jsc	HSX	Basic Materials	2009/12/11	8133855	2009/12/17	68000	2009/12/17	8133855		8133855	2099/12/31
+VFR	CTCP Vận tải Thuê tàu	Transport And Chartering Corporation	HNX	Industrials	2006/12/28	15000000	2006/12/28	36100	2006/12/28	15000000		15000000	2099/12/31
+VGP	CTCP Cảng rau Quả	The Vegetexco Port Jsc	HNX	Industrials	2006/11/29	3885020	2009/06/12	25600	2006/12/21	3885020		3885020	2099/12/31
+VGP	CTCP Cảng rau Quả	The Vegetexco Port Jsc	HSX	Industrials		3885020	2006/12/21	58000				3885020	2009/05/30
+VGS	CTCP Ống thép Việt Đức VG PIPE	Vietnam Germany Steel Pipe Jsc	HNX	Basic Materials	2008/12/04	7000000	2008/12/04	17700	2008/12/04	7000000		7000000	2099/12/31
+VHC	CTCP Vĩnh Hoàn	Vinh Hoan Corporation	HSX	Consumer Goods	2007/12/07	30000000	2007/12/24	62000	2007/12/24	30000000		30000000	2099/12/31
+VHF	Chế biến lương thực Vĩnh Hà	Vinh Ha Food Processing & Construction Jsc	UPC	Consumer Goods	2010/05/07	4300000	2010/05/07	0	2010/05/07	4300000		4300000	2099/12/31
+VHG	CTCP Đầu tư và Sản xuất Việt Hàn	Viet - Han Corporation	HSX	Industrials	2008/01/09	25000000	2008/01/28	96000	2008/01/28	25000000		25000000	2099/12/31
+VHH	CTCP Đầu tư Xây dựng Viwaseen – Huế	Viwaseen - Hue Investment And Construction Jsc	HNX	Industrials	2010/07/28	6000000	2010/07/28	21300	2010/07/28	6000000		6000000	2099/12/31
+VHL	CTCP Viglacera Hạ Long	Viglacera Ha Long Jsc	HNX	Industrials	2009/02/12	7000000	2009/02/12	27000	2009/02/12	7000000		7000000	2099/12/31
+VIA	CTCP VIAN	Vian Jsc	UPC	Consumer Goods	2010/04/20	1200000	2010/04/20	0	2010/04/21	0		1200000	2099/12/31
+VIC	Tập Đoàn VINGROUP - CTCP	Vincom Jsc	HSX	Financials	2007/09/07	80000000	2007/09/19	125000	2007/09/19	80000000		80000000	2099/12/31
+VID	CTCP Đầu tư Phát triển Thương mại Viễn Đông	Vien Dong Investment Development Trading Corporation	HSX	Basic Materials	2006/07/12	8455700	2006/12/25	79000	2006/12/25	8455700		8455700	2099/12/31
+VIE	CTCP Công nghệ Viễn thông VITECO	Viteco Vietnam Telecommunications Technology Jsc	HNX	Technology	2011/05/06	1561244	2011/05/06	9000	2011/05/06	1561244		1561244	2099/12/31
+VIG	CTCP Chứng khoán Thương mại và Công nghiệp Việt Nam	Viet Nam Industrial & Commercial Securities Corporation	HNX	Financials	2009/12/01	15000000	2009/12/01	22800	2009/12/01	15000000		15000000	2099/12/31
+VIP	CTCP Vận tải Xăng dầu Vipco	Viet Nam Petroleum Transport Jsc	HSX	Industrials	2006/11/09	35100000	2006/12/21	55000	2006/12/21	35100000		35100000	2099/12/31
+VIR	Du lịch Vũng Tàu	Vung Tau Intourco Resort Jsc	UPC	Consumer Services	2010/07/01	5240000	2010/07/01	7100	2010/07/01	5240000		5240000	2099/12/31
+VIS	CTCP Thép Việt Ý	Viet Nam – Italy Steel Jsc	HSX	Basic Materials	2006/12/07	10000000	2006/12/25	45000	2006/12/25	10000000		10000000	2099/12/31
+VIT	CTCP Viglacera Tiên Sơn	Viglacera Tien Son Jsc	HNX	Industrials	2009/11/03	4500000	2009/11/03	37900	2009/11/03	4500000		4500000	2099/12/31
+VIX	CTCP Chứng khoán Xuân Thành	Vincom Securities Jsc	HNX	Financials	2009/12/29	30000000	2009/12/29	28300	2009/12/29	30000000		30000000	2099/12/31
+VKC	CTCP Cáp-Nhựa Vĩnh Khánh	Vinhkhanh Cable Plastic Corporation	HNX	Consumer Goods	2010/12/08	13000000	2010/12/08	13000	2010/12/08	13000000		13000000	2099/12/31
+VKD	Nước khoáng Khánh Hòa	Khanh Hoa Mineral Water Jsc	UPC	Consumer Goods	2010/04/12	2160000	2010/04/12	0	2010/04/12	2160000		2160000	2099/12/31
+VKP	CTCP Nhựa Tân Hóa	Viky Plastic Jsc	HSX	Basic Materials	2008/03/31	8000000	2008/06/19	44000	2008/06/19	8000000		8000000	2012/06/25
+VLA	CTCP Đầu tư và Phát triển Công nghệ Văn Lang	Van Lang Technology Development And Investment Jsc	HNX	Technology	2010/08/04	1080000	2010/08/04	20000	2010/08/04	1080000		1080000	2099/12/31
+VLF	CTCP Lương thực Thực phẩm Vĩnh Long	Vinh Long Cereal And Food Import Export Company 	HSX	Consumer Goods	2010/12/10	10400000	2010/12/21	30000	2010/12/21	10400000		10400000	2099/12/31
+VMC	CTCP Vimeco	Vimeco Jsc	HNX	Industrials	2006/12/11	3500000	2006/12/11	51900	2006/12/11	3500000		3500000	2099/12/31
+VMD	CTCP Y dược phẩm Vimedimex	Vimedimex Medi – Pharma Jsc	HSX	Health Care	2010/08/17	8141196	2010/09/30	30400	2010/09/30	8141196		8141196	2099/12/31
+VMG	CTCP Thương mại và Dịch vụ Dầu khí Vũng Tàu	Vung Tau Petroleum Trading And Service Jsc	HNX	Utilities	2009/09/30	9600000	2009/09/30	21000	2009/09/30	9600000		9600000	2099/12/31
+VNA	CTCP Vận tải Biển Vinaship	Vinaship Jsc	HSX	Industrials	2008/08/20	20000000	2008/09/09	44000	2008/09/09	20000000		20000000	2099/12/31
+VNC	CTCP Tập đoàn Vinacontrol	The Vietnam Superintendence And Inspection Jsc	HNX	Industrials	2006/12/21	5250000	2006/12/21	37200	2006/12/21	5250000		5250000	2099/12/31
+VND	CTCP Chứng khoán VNDIRECT	Vndirect Securities Corporation	HNX	Financials	2010/03/30	45000000	2010/03/30	42000	2010/03/30	45000000		45000000	2099/12/31
+VNE	Tổng CTCP Xây dựng Điện Việt Nam	Vietnam Electricity Construction JCC	HSX	Industrials	2007/08/01	32000000	2007/08/09	52000	2007/08/09	32000000		32000000	2099/12/31
+VNF	Công ty Cô phần Vận Tải Ngoại Thương	Vinafreight International Freight Forwarders Jsc	HNX	Industrials	2010/12/01	5600000	2010/12/01	27100	2010/12/01	5600000		5600000	2099/12/31
+VNG	CTCP Du lịch Golf Việt Nam	Viet Nam Golf Tourism Jsc	HSX	Consumer Services	2009/11/30	13000000	2009/12/17	16000	2009/12/17	13000000		13000000	2099/12/31
+VNH	CTCP Thủy hải sản Việt Nhật	Viet Nhat Seafood Corporation	HSX	Consumer Goods	2010/04/02	8023071	2010/04/08	19200	2010/04/08	8023071		8023071	2099/12/31
+VNI	CTCP Đầu tư Bất động Sản Việt Nam	Viet Nam Land Investment Corporation	HSX	Financials	2009/09/03	10559996	2009/09/09	30000	2009/09/09	10559996		10559996	2099/12/31
+VNL	CTCP Giao nhận Vận tải và Thương mại	Vinalink International Freight Forwarders	HSX	Industrials	2009/08/10	8190000	2009/08/17	31200	2009/08/17	8190000		8190000	2099/12/31
+VNM	CTCP Sữa Việt Nam	Viet Nam Dairy Products Jsc	HSX	Consumer Goods	2005/12/28	159000000	2006/01/19	53000	2006/01/19	159000000		159000000	2099/12/31
+VNN	CTCP Đầu tư Vietnamnet	Vietnamnet Investement Joint Stock Company	HNX	Financials	2012/09/14	5726698	2012/12/03	14000	2012/12/03	5726698		5726698	2099/12/31
+VNR	Tổng CTCP Tái bảo Hiểm Quốc Gia Việt Nam	Vietnam National Reinsurance Corporation	HNX	Financials	2006/03/13	34300000	2006/03/13	37300	2006/03/13	34300000		34300000	2099/12/31
+VNS	CTCP Ánh Dương Việt Nam	Vietnam Sun Corporation	HSX	Industrials	2008/07/23	17000000	2008/07/29	48000	2008/07/29	17000000		17000000	2099/12/31
+VNT	CTCP Giao nhận Vận tải Ngoại thương	The Foreign Trade Forwarding And Transportation Jsc	HNX	Industrials	2009/08/14	5472000	2009/08/14	40500	2009/08/14	5472000		5472000	2099/12/31
+VNX	QC và Hội chợ Thương mại	Viet Nam National Trade Fair & Advertising Jsc	UPC	Consumer Services	2010/06/10	1050000	2010/06/10	0	2010/06/10	1050000		1050000	2099/12/31
+VOS	CTCP Vận tải Biển Việt Nam	Viet Nam Ocean Shipping Jsc 	HSX	Industrials	2010/08/30	140000000	2010/09/08	14400	2010/09/08	140000000		140000000	2099/12/31
+VPC	CTCP Đầu tư và Phát triển Năng lượng Việt Nam	V- Power Investment and Development	HNX	Industrials	2012/05/31	5625000	2012/06/18	3500	2009/10/07	5625000		5625000	2099/12/31
+VPC	CTCP Đầu tư và Phát triển Năng lượng Việt Nam	V- Power Investment and Development	UPC	Industrials		5625000	2009/10/07	9400				5625000	2012/06/12
+VPH	CTCP Vạn Phát Hưng	Van Phat Hung Corporation	HSX	Financials	2009/08/31	20083285	2009/09/09	36000	2009/09/09	20083285		20083285	2099/12/31
+VPK	CTCP Bao Bì Dầu Thực vật	Vegetable Oil Packing Jsc 	HSX	Industrials	2006/11/16	7600000	2006/12/21	27500	2006/12/21	7600000		7600000	2099/12/31
+VPL	CTCP Vinpearl	Vinpearl Jsc	HSX	Consumer Services	2008/01/31	100000000	2008/01/31	136000	2008/01/31	100000000		100000000	2099/12/31
+VQC	Giám định TKV	Vinacomin Quacontrol Jsc	UPC	Industrials	2010/02/26	1400000	2010/02/26	0	2010/02/26	1400000		1400000	2099/12/31
+VRC	CTCP Xây lắp và Địa ốc Vũng Tàu	Vung Tau Real Estate And Construction Jsc	HSX	Financials	2010/07/19	10116910	2010/07/26	43200	2010/07/26	10116910		10116910	2099/12/31
+VSC	CTCP Container Việt Nam	Vietnam Container Shipping Jsc	HSX	Industrials	2007/12/12	8037334	2008/01/09	124000	2008/01/09	8037334		8037334	2099/12/31
+VSG	CTCP Container Phía Nam	South Vietnam Container ShippingJsc	HSX	Industrials	2008/09/05	11044000	2008/09/18	20000	2008/09/18	11044000		11044000	2013/05/03
+VSG	CTCP Container Phía Nam	South Vietnam Container ShippingJsc	UPC	Industrials	2013/06/19	11044000	2013/06/19	800	2013/06/19	11044000		11044000	2099/12/31
+VSH	CTCP Thủy Điện Vĩnh Sơn Sông Hinh	Vinh Son - Song Hinh Hydropower Jsc	HSX	Utilities	2006/07/07	125000000	2006/07/18	35500	2005/07/14	125000000		125000000	2099/12/31
+VSH	CTCP Thủy Điện Vĩnh Sơn Sông Hinh	Vinh Son - Song Hinh Hydropower Jsc	HNX	Utilities		124230000	2005/07/14	13000				124230000	2006/07/04
+VSI	CTCP Đầu tư và Xây dựng Cấp thoát Nước	Water Supply Sewwerage Contruction & Invesment	HSX	Industrials	2010/12/01	12000000	2010/12/24	24000	2010/12/24	12000000		12000000	2099/12/31
+VSP	CTCP Vận tải biển và Bất động sản Việt Hải	Viet Hai Shipping and Real Properties Corporation	HNX	Industrials	2006/12/25	4000000	2006/12/25	164900	2006/12/25	4000000		4000000	2012/05/31
+VSP	CTCP Vận tải Biển và Bất động sản Việt Hải	Viet Hai Shipping and Real Properties Corporation	UPC	Industrials	2012/06/06	38084489	2012/07/06	1900	2006/12/25	4000000		38084489	2099/12/31
+VST	CTCP Vận tải và Thuê tàu biển Việt Nam	Vietnam Sea Transport And Chartering Jsc.	HSX	Industrials	2009/02/20	40000000	2009/02/26	19200	2009/02/26	40000000		40000000	2099/12/31
+VT1	Vật tư Bến Thành	Ben Thanh Material Jsc	UPC	Consumer Services	2010/04/15	2000000	2010/04/15	23000	2010/04/15	2000000		2000000	2099/12/31
+VTA	CTCP Vitaly	Vitaly Jsc	HNX	Industrials	2009/08/06	4000000	2009/08/06	9300	2006/12/29	4000000		6000000	2011/05/31
+VTA	CTCP Vitaly	Vitaly Jsc	HSX	Industrials	2006/12/29	4000000	2006/12/29	22000	2006/12/29	4000000		4000000	2009/07/23
+VTA	CTCP Vitaly	Vitaly Joint Stock Company	UPC	Industrials	2011/10/31	6000000	2011/10/31	2500	2006/12/29	4000000		6000000	2099/12/31
+VTB	CTCP Viettronics Tân Bình	Viettronics Tan Binh Jsc	HSX	Industrials	2006/12/08	7000000	2006/12/27	47000	2006/12/27	7000000		7000000	2099/12/31
+VTC	CTCP Viễn thông VTC	Vtc Telecommunications Jsc	HNX	Technology	2003/01/24	4050085	2009/06/08	12100	2007/10/09	2608187		4050085	2099/12/31
+VTC	CTCP Viễn thông VTC	Vtc Telecommunications Jsc	HSX	Technology		1794434	2003/02/12	21000				1794434	2009/05/29
+VTE	Công ty cổ phần Viễn thông Điện tử Vinacap	Telecommunications Electronics Vinacap JSC	HNX	Consumer Goods									
+VTF	CTCP Thức ăn Chăn nuôi Việt Thắng	Viet Thang Feed Jsc	HSX	Consumer Goods	2010/07/09	18025509	2010/09/24	18100	2010/09/24	18025509		18025509	2099/12/31
+VTI	Sản xuất - XNK Dệt may	Textitle - Garment Import Export & Production Jsc	UPC	Consumer Goods	2010/12/17	3500000	2010/12/17	18000	2010/12/17	3500000		3500000	2099/12/31
+VTL	CTCP Vang Thăng Long	Thang Long Wine Jsc	HNX	Consumer Goods	2005/07/14	1800000	2005/07/14	18100	2005/07/14	1800000		1800000	2099/12/31
+VTO	CTCP Vận tải Xăng dầu Vitaco	Viet Nam Tanker Jsc	HSX	Industrials	2007/10/01	40000000	2007/10/09	90000	2008/09/17	60000000		40000000	2099/12/31
+VTS	CTCP Viglacera Từ Sơn	Viglacera Tuson Jsc	HNX	Industrials	2006/09/20	1000000	2006/09/20	25200	2006/09/20	1000000		1000000	2099/12/31
+VTV	CTCP VICEM Vật tư Vận tải Xi măng	Cement Materials And Transportation Jsc	HNX	Industrials	2006/12/18	2500000	2006/12/18	15200	2006/12/18	2500000		2500000	2099/12/31
+VXB	Công ty CP Vật liệu Xây dựng Bến Tre	Ben Tre Building Material Jsc	HNX	Industrials	2010/06/22	4049006	2010/06/22	29500	2010/06/22	4049006		4049006	2099/12/31
+WCS	CTCP bến xe Miền Tây	West Coach Station Jsc	HNX	Industrials	2010/09/17	2500000	2010/09/17	34000	2010/09/17	2500000		2500000	2099/12/31
+WSB	Bia Sài Gòn - Miền Tây	Saigon Beer Western Jsc	UPC	Consumer Goods	2010/08/10	14500000	2010/08/10	17000	2010/08/10	14500000		14500000	2099/12/31
+WSS	CTCP Chứng khoán Phố Wall	Wall Street Securities Company	HNX	Financials	2009/12/15	10800000	2009/12/15	19900	2009/12/15	10800000		10800000	2099/12/31
+WTC	Vận tải thủy TKV	Vinacomin - Waterway Transport Jsc	UPC	Industrials	2010/07/15	10000000	2010/07/15	50000	2010/07/15	10000000		10000000	2099/12/31
+XMC	CTCP Bê tông và Xây dựng Vinaconex Xuân Mai	Vinaconex Xuan Mai Concrete & Construction Jsc	HNX	Industrials	2007/12/20	10000000	2007/12/20	55000	2007/12/20	10000000		10000000	2013/11/12
+YBC	CTCP Xi măng và Khoáng sản Yên Bái	Yen Bai Cement And Mineral Jsc	HNX	Industrials	2008/05/20	2210880	2008/05/20	18000	2008/05/20	2210880		2210880	2099/12/31
+YSC	CTCP Hapaco Yên Sơn	Yenson Jsc	HNX	Basic Materials	2006/12/29	730000	2006/12/29	52800	2006/12/29	730000		730000	2099/12/31
+PSD	Công ty cổ phần Dịch vụ Phân phối Tổng hợp Dầu khí	Petroleum General Distribution Services Joint Stock Company	HNX	Consumer Goods	2013/06/28	14222700	2013/06/28	68000	2013/06/28	14222700		14222700	2099/12/31
+KSQ	Công ty cổ phần Khoáng sản Quang Anh	Quang Anh Mineral Joint Stock Company	HNX	Basic Materials	2013/07/26	3000000	2013/07/26	7,700	2013/07/26	3000000		3000000	2099/12/31
+STL	CTCP Sông Đà - Thăng Long	Song Da - Thang Long Jsc	UPC	Financials	2013/11/12	15000000	2013/11/12						2099/12/31
+THS	CTCP Thanh Hoa - Sông Đà	Thanh Hoa - Song Da Jsc	HNX	Consumer Services	2013/11/12	3000000	2013/11/12						2099/12/31
+VKP	CTCP Nhựa Tân Hóa	Viky Plastic Jsc	UPC	Basic Materials	2013/11/15	8000000							2099/12/31
+HPB	CTCP Bao bì PP	Pp Pack Marking Jsc	UPC	Industrials	2013/12/12	3880000	2013/12/12		2013/12/12	3880000		3880000	2099/12/31
+DVC	CTCP Thương mại Dịch vụ Tổng hợp Cảng Hải Phòng	Haiphong Port Trading and Services JSC	UPC	Industrials	2013/12/13	4651423	2013/12/13		12/13/2013	4651423		4651423	12/31/2099

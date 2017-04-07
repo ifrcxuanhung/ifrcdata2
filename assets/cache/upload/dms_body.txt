@@ -1,0 +1,276 @@
+CODE_DWN	COLUMN	DATAFIELD	LEFT	RIGHT	TYPE	FORMAT	DELIMITOR	MULT	OCCURRENCE	METAORDER	COMMENT
+CPHPRHSXHW	2	ticker	>	<	C				3		
+CPHPRHSXHW	3	pcei	>	<	N			1000	2		
+CPHPRHSXHW	4	pflr	>	<	N			1000	2		
+CPHPRHSXHW	5	pref	>	<	N			1000	1		
+CPHPRHSXHW	6	pcls	>	<	N			1000	2		
+CPHPRHSXHW	10	vlm	>	<	N			1	1		
+CPHPRHSXHW	14	popn	>	<	N			1000	2		
+CPHPRHSXHW	15	phgh	>	<	N			1000	2		
+CPHPRHSXHW	16	plow	>	<	N			1000	2		
+CPHPRHNXHW	2	ticker	>	<	C				3		
+CPHPRHNXHW	3	pcei	>	<	N			1000	2		
+CPHPRHNXHW	4	pflr	>	<	N			1000	2		
+CPHPRHNXHW	5	pref	>	<	N			1000	1		
+CPHPRHNXHW	6	pcls	>	<	N			1000	2		
+CPHPRHNXHW	10	vlm	>	<	N			1	1		
+CPHPRHNXHW	14	popn	>	<	N			1000	2		
+CPHPRHNXHW	15	phgh	>	<	N			1000	2		
+CPHPRHNXHW	16	plow	>	<	N			1000	2		
+EXCPRHSXHH	1	ticker	>	<	C				2		
+EXCPRHSXHH	2	pref	>	<	N			1000	2		
+EXCPRHSXHH	3	popn	>	<	N			1000	2		
+EXCPRHSXHH	4	pcls	>	<	N			1000	2		
+EXCPRHSXHH	7	plow	>	<	N			1000	2		
+EXCPRHSXHH	8	phgh	>	<	N			1000	2		
+EXCPRHSXHH	9	pavg	>	<	N			1000	2		
+EXCPRHSXHH	10	vlm	>	<	N			1	2		
+EXCPRHSXHH	11	trn	>	<	N			1000	2		
+EXCPRHNXHH	2	ticker	>	<	C				2		
+EXCPRHNXHH	3	pref	>	<	N			1000	1		
+EXCPRHNXHH	4	pcei	>	<	N			1000	1		
+EXCPRHNXHH	5	pflr	>	<	N			1000	1		
+EXCPRHNXHH	6	popn	>	<	N			1000	1		
+EXCPRHNXHH	7	pcls	>	<	N			1000	1		
+EXCPRHNXHH	11	phgh	>	<	N			1000	1		
+EXCPRHNXHH	12	plow	>	<	N			1000	1		
+EXCPRHNXHH	14	vlm	>	<	N			1	1		
+EXCPRHNXHH	15	trn	>	<	N			1	1		
+EXC11	1	ticker	>	<	C				2		
+EXC11	2	pref	>	<	N			1000	2		
+EXC11	3	popn	>	<	N			1000	2		
+EXC11	4	pcls	>	<	N			1000	2		
+EXC11	7	plow	>	<	N			1000	2		
+EXC11	8	phgh	>	<	N			1000	2		
+EXC11	9	pavg	>	<	N			1000	2		
+EXC11	10	vlm	>	<	N			1	2		
+EXC11	11	trn	>	<	N			1000	2		
+FPTPRHNXHW	2	ticker	>	<	C				1		
+FPTPRHNXHW	3	pref	>	<	N			1000	1		
+FPTPRHNXHW	4	pcei	>	<	N			1000	1		
+FPTPRHNXHW	5	pflr	>	<	N			1000	1		
+FPTPRHNXHW	6	popn	>	<	N			1000	1		
+FPTPRHNXHW	7	pcls	>	<	N			1000	1		
+FPTPRHNXHW	8	phgh	>	<	N			1000	1		
+FPTPRHNXHW	9	plow	>	<	N			1000	1		
+FPTPRHNXHW	10	pavg	>	<	N			1000	1		
+FPTPRHNXHW	13	vlm	>	<	N			1	1		
+FPTPRHNXHW	16	trn	>	<	N			1000000	1		
+FPTPRUPCHW	2	ticker	>	<	C				1		
+FPTPRUPCHW	3	pref	>	<	N			1000	1		
+FPTPRUPCHW	4	pcei	>	<	N			1000	1		
+FPTPRUPCHW	5	pflr	>	<	N			1000	1		
+FPTPRUPCHW	6	popn	>	<	N			1000	1		
+FPTPRUPCHW	7	pcls	>	<	N			1000	1		
+FPTPRUPCHW	8	phgh	>	<	N			1000	1		
+FPTPRUPCHW	9	plow	>	<	N			1000	1		
+FPTPRUPCHW	10	pavg	>	<	N			1000	1		
+FPTPRUPCHW	13	vlm	>	<	N			1	1		
+FPTPRUPCHW	16	trn	>	<	N			1000000	1		
+FPTPRHSXHW	2	ticker	>	<	C				1		
+FPTPRHSXHW	3	pref	>	<	N			1000	1		
+FPTPRHSXHW	4	pcei	>	<	N			1000	1		
+FPTPRHSXHW	5	pflr	>	<	N			1000	1		
+FPTPRHSXHW	6	popn	>	<	N			1000	1		
+FPTPRHSXHW	7	pcls	>	<	N			1000	1		
+FPTPRHSXHW	8	phgh	>	<	N			1000	1		
+FPTPRHSXHW	9	plow	>	<	N			1000	1		
+FPTPRHSXHW	10	pavg	>	<	N			1000	1		
+FPTPRHSXHW	13	vlm	>	<	N			1	1		
+FPTPRHSXHW	16	trn	>	<	N			1000000	1		
+FPTS02	2	ticker	>	<	C				1		
+FPTS02	3	pref	>	<	N			1000	1		
+FPTS02	4	pcei	>	<	N			1000	1		
+FPTS02	5	pflr	>	<	N			1000	1		
+FPTS02	6	popn	>	<	N			1000	1		
+FPTS02	7	pcls	>	<	N			1000	1		
+FPTS02	8	phgh	>	<	N			1000	1		
+FPTS02	9	plow	>	<	N			1000	1		
+FPTS02	10	pavg	>	<	N			1000	1		
+FPTS02	13	vlm	>	<	N			1	1		
+FPTS02	16	trn	>	<	N			1000000	1		
+FPTS03	2	ticker	>	<	C				1		
+FPTS03	3	pref	>	<	N			1000	1		
+FPTS03	4	pcei	>	<	N			1000	1		
+FPTS03	5	pflr	>	<	N			1000	1		
+FPTS03	6	popn	>	<	N			1000	1		
+FPTS03	7	pcls	>	<	N			1000	1		
+FPTS03	8	phgh	>	<	N			1000	1		
+FPTS03	9	plow	>	<	N			1000	1		
+FPTS03	10	pavg	>	<	N			1000	1		
+FPTS03	13	vlm	>	<	N			1	1		
+FPTS03	16	trn	>	<	N			1000000	1		
+FPTS04	2	ticker	>	<	C				1		
+FPTS04	3	pref	>	<	N			1000	1		
+FPTS04	4	pcei	>	<	N			1000	1		
+FPTS04	5	pflr	>	<	N			1000	1		
+FPTS04	6	popn	>	<	N			1000	1		
+FPTS04	7	pcls	>	<	N			1000	1		
+FPTS04	8	phgh	>	<	N			1000	1		
+FPTS04	9	plow	>	<	N			1000	1		
+FPTS04	10	pavg	>	<	N			1000	1		
+FPTS04	13	vlm	>	<	N			1	1		
+FPTS04	16	trn	>	<	N			1000000	1		
+VCBPRHSXHW	1	ticker	>	<	C				1		
+VCBPRHSXHW	3	pcei	>	<	N			1000	1		
+VCBPRHSXHW	4	pflr	>	<	N			1000	1		
+VCBPRHSXHW	5	pref	>	<	N			1000	1		
+VCBPRHSXHW	6	popn	>	<	N			1000	1		
+VCBPRHSXHW	7	phgh	>	<	N			1000	1		
+VCBPRHSXHW	8	plow	>	<	N			1000	1		
+VCBPRHSXHW	9	pcls	>	<	N			1000	1		
+VCBPRHSXHW	10	pavg	>	<	N			1000	1		
+VCBPRHNXHW	1	ticker	>	<	C				1		
+VCBPRHNXHW	3	pcei	>	<	N			1000	1		
+VCBPRHNXHW	4	pflr	>	<	N			1000	1		
+VCBPRHNXHW	5	pref	>	<	N			1000	1		
+VCBPRHNXHW	6	popn	>	<	N			1000	1		
+VCBPRHNXHW	7	phgh	>	<	N			1000	1		
+VCBPRHNXHW	8	plow	>	<	N			1000	1		
+VCBPRHNXHW	9	pavg	>	<	N			1000	1		
+VCBPRHNXHW	10	pcls	>	<	N			1000	1		
+VCBPRUPCHW	1	ticker	>	<	C				1		
+VCBPRUPCHW	3	pcei	>	<	N			1000	1		
+VCBPRUPCHW	4	pflr	>	<	N			1000	1		
+VCBPRUPCHW	5	pref	>	<	N			1000	1		
+VCBPRUPCHW	6	popn	>	<	N			1000	1		
+VCBPRUPCHW	7	phgh	>	<	N			1000	1		
+VCBPRUPCHW	8	plow	>	<	N			1000	1		
+VCBPRUPCHW	9	pcls	>	<	N			1000	1		
+VCBPRUPCHW	10	pavg	>	<	N			1000	1		
+VCB04	1	ticker	>	<	C				1		
+VCB04	3	pcei	>	<	N			1000	1		
+VCB04	4	pflr	>	<	N			1000	1		
+VCB04	5	pref	>	<	N			1000	1		
+VCB04	6	popn	>	<	N			1000	1		
+VCB04	7	phgh	>	<	N			1000	1		
+VCB04	8	plow	>	<	N			1000	1		
+VCB04	9	pcls	>	<	N			1000	1		
+VCB04	10	pavg	>	<	N			1000	1		
+VCB05	1	ticker	>	<	C				1		
+VCB05	3	pcei	>	<	N			1000	1		
+VCB05	4	pflr	>	<	N			1000	1		
+VCB05	5	pref	>	<	N			1000	1		
+VCB05	6	popn	>	<	N			1000	1		
+VCB05	7	phgh	>	<	N			1000	1		
+VCB05	8	plow	>	<	N			1000	1		
+VCB05	9	pcls	>	<	N			1000	1		
+VCB05	10	pavg	>	<	N			1000	1		
+VCB06	1	ticker	>	<	C				1		
+VCB06	3	pcei	>	<	N			1000	1		
+VCB06	4	pflr	>	<	N			1000	1		
+VCB06	5	pref	>	<	N			1000	1		
+VCB06	6	popn	>	<	N			1000	1		
+VCB06	7	phgh	>	<	N			1000	1		
+VCB06	8	plow	>	<	N			1000	1		
+VCB06	9	pcls	>	<	N			1000	1		
+VCB06	10	pavg	>	<	N			1000	1		
+VST06	2	ticker	>	<	C				2		
+VST06	3	shli	>	<	N			1	1		
+VST06	4	pref	>	<	N			1	1		
+VST06	5	popn	>	<	N			1	1		
+VST06	6	pcls	>	<	N			1	1		
+VST06	10	phgh	>	<	N			1	1		
+VST06	11	plow	>	<	N			1	1		
+VST06	12	pavg	>	<	N			1	1		
+VST06	13	vlm	>	<	N			1	1		
+VST06	14	trn	>	<	N			1000000	1		
+VST07	2	ticker	>	<	C				2		
+VST07	3	shli	>	<	N			1	1		
+VST07	4	pref	>	<	N			1	1		
+VST07	9	pcls	>	<	N			1	1		
+VST07	16	vlm	>	<	N			1	1		
+VST07	17	trn	>	<	N			1000000	1		
+CAFPRHSXHW	1	ticker	>	<	C				2		
+CAFPRHSXHW	2	pcls	>	<	N			1000	1		
+CAFPRHSXHW	6	pref	>	<	N			1000	1		
+CAFPRHSXHW	7	popn	>	<	N			1000	1		
+CAFPRHSXHW	8	phgh	>	<	N			1000	1		
+CAFPRHSXHW	9	plow	>	<	N			1000	1		
+CAFPRHSXHW	10	vlm	>	<	N			1	1		
+CAFPRHSXHW	11	trn	>	<	N			1000	1		
+CAFPRHNXHW	1	ticker	>	<	C				2		
+CAFPRHNXHW	2	pcls	>	<	N			1000	1		
+CAFPRHNXHW	3	pavg	>	<	N			1000	1		
+CAFPRHNXHW	6	pref	>	<	N			1000	1		
+CAFPRHNXHW	7	popn	>	<	N			1000	1		
+CAFPRHNXHW	8	phgh	>	<	N			1000	1		
+CAFPRHNXHW	9	plow	>	<	N			1000	1		
+CAFPRHNXHW	10	vlm	>	<	N			1	1		
+CAFPRHNXHW	11	trn	>	<	N			1	1		
+CAFPRUPCHW	1	ticker	>	<	C				2		
+CAFPRUPCHW	2	pcls	>	<	N			1000	1		
+CAFPRUPCHW	3	pavg	>	<	N			1000	1		
+CAFPRUPCHW	6	pref	>	<	N			1000	1		
+CAFPRUPCHW	7	popn	>	<	N			1000	1		
+CAFPRUPCHW	8	phgh	>	<	N			1000	1		
+CAFPRUPCHW	9	plow	>	<	N			1000	1		
+CAFPRUPCHW	10	vlm	>	<	N			1	1		
+CAFPRUPCHW	11	trn	>	<	N			1	1		
+CPHREALLTW	2	ticker	<strong>	</strong>	C				1		
+CPHREALLTW	5	ftrd	>	<	C				1		
+CPHREALLTW	6	ipo_shli	>	<	N			1	1		
+CPHREALLTW	8	shou	>	<	N			1	1		
+CPHREALLTW	10	shli	>	<	N			1	1		
+EXCPRHSXHHO	1	ticker	>	<	C				2		
+EXCPRHSXHHO	2	pref	>	<	N			1000	2		
+EXCPRHSXHHO	3	popn	>	<	N			1000	2		
+EXCPRHSXHHO	4	pcls	>	<	N			1000	2		
+EXCPRHSXHHO	7	plow	>	<	N			1000	2		
+EXCPRHSXHHO	8	phgh	>	<	N			1000	2		
+EXCPRHSXHHO	9	pavg	>	<	N			1000	2		
+EXCPRHSXHHO	10	vlm	>	<	N			1	2		
+EXCPRHSXHHO	11	trn	>	<	N			1000	2		
+VSTREALLTW	2	ipo	>	<	C				4		
+VSTREALLTW	3	ftrd_cls	>	<	N			1	4		
+VSTREALLTW	4	ipo_shli	>	<	N			1	4		
+VSTREALLTW	5	shli	>	<	N			1	4		
+VSTREALLTW	6	shou	>	<	N			1	4		
+VSTSTATHM	1	date	>	<	C				1		
+VSTSTATHM	2	shli	>	<	N			1	1		
+VSTSTATHM	3	shou	>	<	N			1	1		
+VSTSTATHM	5	trn	>	<	N			1000000	1		Rounded
+VSTSTATHM	7	phgh	>	<	N			1	1		
+VSTSTATHM	8	plow	>	<	N			1	1		
+VSTSTATHM	9	pavg	>	<	N			1	1		
+VSTSTATHM	10	adj_pcls	>	<	N			1	1		
+VSTSTATHM	14	vlm	>	<	N			1	1		
+EXCPRUPCHH	2	ticker	>	<	C				2		
+EXCPRUPCHH	3	pref	>	<	N			1000	1		
+EXCPRUPCHH	4	pcei	>	<	N			1000	1		
+EXCPRUPCHH	5	pflr	>	<	N			1000	1		
+EXCPRUPCHH	6	popn	>	<	N			1000	1		
+EXCPRUPCHH	7	pcls	>	<	N			1000	1		
+EXCPRUPCHH	8	phgh	>	<	N			1	1		
+EXCPRUPCHH	9	plow	>	<	N			1	1		
+EXCPRUPCHH	10	pavg	>	<	N			1	1		
+EXCPRUPCHH	14	vlm	>	<	N			1	1		
+EXCPRUPCHH	15	trn	>	<	N			1	1		
+CPHDIVCASTW	2	ticker	>	<	C				3		
+CPHDIVCASTW	3	evtname	>	<	C				1		
+CPHDIVCASTW	4	date	>	<	C				1		
+CPHDIVCASTW	5	effdate	>	<	C				1		
+CPHDIVCASTW	6	amount	>	%	N			100	1		
+CPHDIVCASTW	7	pref	ngày GDKHQ:</strong>	<	N			1	1		
+CPHDIVCASTW	7	plast	Giá hiện tại:</strong>	<	N			1	1		
+VSTPRHNXHH	2	ticker	>	<	C				2		
+VSTPRHNXHH	3	shli	>	<	N			1	1		
+VSTPRHNXHH	4	pref	>	<	N			1	1		
+VSTPRHNXHH	5	popn	>	<	N			1	1		
+VSTPRHNXHH	6	pcls	>	<	N			1	1		
+VSTPRHNXHH	10	phgh	>	<	N			1	1		
+VSTPRHNXHH	11	plow	>	<	N			1	1		
+VSTPRHNXHH	12	pavg	>	<	N			1	1		
+VSTPRHNXHH	13	vlm	>	<	N			1	1		
+VSTPRHNXHH	14	trn	>	<	N			1	1		
+VSTPRHSXHH	2	ticker	>	<	C				2		
+VSTPRHSXHH	3	shli	>	<	N			1	1		
+VSTPRHSXHH	4	pref	>	<	N			1	1		
+VSTPRHSXHH	9	pcls	>	<	N			1	1		
+VSTPRHSXHH	16	vlm	>	<	N			1	1		
+VSTPRHSXHH	17	trn	>	<	N			1000000	1		
+STBALLTW	1	name	>	<	C				1		
+STBALLTW	2	positions	>	<	C				1		
+STBALLTW	3	shares	>	<	N			1	1		
+STBALLTW	4	percent	>	<	C				1		
+STBALLTW	5	last_date	>	<	C				1		

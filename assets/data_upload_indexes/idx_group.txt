@@ -1,0 +1,7 @@
+IDX_GR	IDX_GR_NAME	IDX_SG	IDX_SG_NAME
+TRAD	Tradable	BLCH	Blue Chips
+BEMA	Benchmark	ALSH	Allshares
+BEMA	Benchmark	SECT	Sectors
+BEMA	Benchmark	SIZE	Size
+TRAD	Tradable	LVOL	Low volatility
+EQWG	Equa-weighted	HDIV	High dividend

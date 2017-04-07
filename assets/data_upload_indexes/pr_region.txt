@@ -1,0 +1,25 @@
+CODE	NAME	LNG
+CAF	Central Africa	EN
+CAM	Central America	EN
+CAS	Central Asia	EN
+CEU	Central Europe	EN
+EAS	East Asia	EN
+EAF	Eastern Africa	EN
+EEU	Eastern Europe	EN
+IOC	Indian Ocean	EN
+NAF	Northern Africa	EN
+NAM	North America	EN
+NAS	Northern Asia	EN
+NEU	Northern Europe	EN
+PAC	Pacific	EN
+SAM	South America	EN
+SAS	South Asia	EN
+SEA	South East Asia	EN
+SEE	South East Europe	EN
+SWA	South West Asia	EN
+SWE	South West Europe	EN
+SAF	Southern Africa	EN
+SEU	Southern Europe	EN
+WIN	West Indies	EN
+WAF	Western Africa	EN
+WEU	Western Europe	EN

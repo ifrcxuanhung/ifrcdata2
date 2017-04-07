@@ -1,0 +1,94 @@
+tables	DBF	fields	field_dbf	headers	widths	aligns	formats	decimals	orders	edittype	editoption	field_len	example	page
+vndb_download	VNDB_DOWNLOAD	id	ID	ID	100	R	N	0	0	text		11	1	sysformat
+vndb_download	VNDB_DOWNLOAD	source	SOURCE	SOURCE	70	L	C	0	1	text		255	EXCHANGE	sysformat
+vndb_download	VNDB_DOWNLOAD	code_src	CODE_SRC	CODE_SRC	60	L	C	0	2	text		255	EXC	sysformat
+vndb_download	VNDB_DOWNLOAD	market	MARKET	MARKET	50	L	C	0	3	text		255	HSX	sysformat
+vndb_download	VNDB_DOWNLOAD	language	LANGUAGE	LANGUAGE	50	L	C	0	4	text		255	EN	sysformat
+vndb_download	VNDB_DOWNLOAD	information	INFORMATION	INFORMATION	150	L	C	0	5	text		255	CAPITAL	sysformat
+vndb_download	VNDB_DOWNLOAD	code_info	CODE_INFO	CODE_INFO	80	L	C	0	6	text		255	CAPITAL	sysformat
+vndb_download	VNDB_DOWNLOAD	local	LOCAL	LOCAL	200	L	C	0	7	text		255	Capital	sysformat
+vndb_download	VNDB_DOWNLOAD	format	FORMAT	FORMAT	100	L	C	0	8	text		255	"###,###,###,###"	sysformat
+vndb_download	VNDB_DOWNLOAD	example	EXAMPLE	EXAMPLE	90	L	C	0	9	text		255	"113,398,640,000"	sysformat
+vndb_download	VNDB_DOWNLOAD	url	URL	URL	300	L	C	0	10	text		255	http://www.hsx.vn/hsx_en/Modules/Danhsach/SymbolDetail.aspx?type=S&MCty=<<TICKER>>	sysformat
+vndb_download	VNDB_DOWNLOAD	level	LEVEL	LEVEL	40	C	N	0	11	text		11	1	sysformat
+vndb_download	VNDB_DOWNLOAD	left	LEFT	LEFT	200	L	C	0	12	text		255	Capital</td><td>	sysformat
+vndb_download	VNDB_DOWNLOAD	right	RIGHT	RIGHT	100	L	C	0	13	text		255	</td>	sysformat
+vndb_download	VNDB_DOWNLOAD	left2	LEFT2	LEFT2	50	L	C	0	14	text		255		sysformat
+vndb_download	VNDB_DOWNLOAD	right2	RIGHT2	RIGHT2	50	L	C	0	15	text		255		sysformat
+vndb_download	VNDB_DOWNLOAD	protect	PROTECT	PROTECT	50	R	N	0	16	text				sysformat
+vndb_download	VNDB_DOWNLOAD	time	TIME	TIME	50	L	C	0	17	text		12		sysformat
+vndb_download	VNDB_DOWNLOAD	startrow	STARTROW	STARTROW	50	R	N	0	18	text				sysformat
+vndb_download	VNDB_DOWNLOAD	del_bllef	DEL_BLLEF	DEL_BLLEF	100	L	C	0	19	text				sysformat
+vndb_download	VNDB_DOWNLOAD	del_blrgt	DEL_BLRGT	DEL_BLRGT	100	L	C	0	20	text				sysformat
+vndb_download	VNDB_DOWNLOAD	del_fdleft	DEL_FDLEFT	DEL_FDLEFT	100	L	C	0	21	text				sysformat
+vndb_download	VNDB_DOWNLOAD	del_fdrgt	DEL_FDRGT	DEL_FDRGT	100	L	C	0	22	text				sysformat
+vndb_download	VNDB_DOWNLOAD	output	OUTPUT	OUTPUT	100	L	C	0	23	text				sysformat
+vndb_download	VNDB_DOWNLOAD	startdates	STARTDATES	STARTDATES	100	L	C	0	24	text				sysformat
+vndb_company	VNDB_COMPANY	id	ID	ID	100	R	N	0	0	text		11	1	sysformat
+vndb_company	VNDB_COMPANY	code	CODE	CODE	100	L	C	0	1	text		10	AAA	sysformat
+vndb_company	VNDB_COMPANY	vn_name	VN_NAME	VN_NAME	100	L	C	0	2	text		255	CTCP Nh?a và môi tr??ng xanh An Phát	sysformat
+vndb_company	VNDB_COMPANY	en_name	EN_NAME	EN_NAME	100	L	C	0	3	text		255	An Phat Plastic And Green Environment Jsc	sysformat
+vndb_company	VNDB_COMPANY	market	MARKET	MARKET	100	L	C	0	4	text		10	HNX	sysformat
+vndb_company	VNDB_COMPANY	industry	INDUSTRY	INDUSTRY	100	L	C	0	5	text		255	Basic Materials	sysformat
+vndb_company	VNDB_COMPANY	ipo	IPO	IPO	100	L	C	0	6	text			7/15/2010	sysformat
+vndb_company	VNDB_COMPANY	ipo_shares	IPO_SHARES	IPO_SHARES	100	R	N	0	7	text			9900000	sysformat
+vndb_company	VNDB_COMPANY	ftrd_date	FTRD_DATE	FTRD_DATE	100	L	C	0	8	text			7/15/2010	sysformat
+vndb_company	VNDB_COMPANY	ftrd_cls	FTRD_CLS	FTRD_CLS	100	R	N	0	9	text				sysformat
+dms_body	DMS_BODY	id	ID	ID	100	R	N	0	0	text		11		sysformat
+dms_body	DMS_BODY	code_dwn	CODE_DWN	CODE_DWN	100	L	C	0	1	text		255		sysformat
+dms_body	DMS_BODY	column	COLUMN	COLUMN	100	L	C	0	2	text				sysformat
+dms_body	DMS_BODY	datafield	DATAFIELD	DATAFIELD	100	L	C	0	3	text				sysformat
+dms_body	DMS_BODY	left	LEFT	LEFT	100	L	C	0	4	text				sysformat
+dms_body	DMS_BODY	right	RIGHT	RIGHT	100	L	C	0	5	text				sysformat
+dms_body	DMS_BODY	type	TYPE	TYPE	100	L	C	0	6	text				sysformat
+dms_body	DMS_BODY	format	FORMAT	FORMAT	100	L	C	0	7	text				sysformat
+dms_body	DMS_BODY	delimitor	DELIMITOR	DELIMITOR	100	L	C	0	8	text				sysformat
+dms_body	DMS_BODY	mult	MULT	MULT	100	R	N	0	9	text				sysformat
+dms_body	DMS_BODY	occurrence	OCCURRENCE	OCCURRENCE	100	R	N	0	10	text				sysformat
+dms_body	DMS_BODY	metaorder	METAORDER	METAORDER	100	R	N	0	11	text				sysformat
+vndb_calendar	VNDB_CALENDAR	id	ID	ID	100	R	N	0	1	text				sysformat
+vndb_calendar	VNDB_CALENDAR	date	DATE	DATE	100	L	C	0	2	text				sysformat
+vndb_calendar	VNDB_CALENDAR	dtyyyymmdd	DTYYYYMMDD	DTYYYYMMDD	100	L	C	0	2	text				sysformat
+vndb_calendar	VNDB_CALENDAR	vni	VNI	VNI	100	R	N	2	3	text				sysformat
+vndb_calendar	VNDB_CALENDAR	hnx	HNX	HNX	100	R	N	2	4	text				sysformat
+vndb_calendar	VNDB_CALENDAR	upc	UPC	UPC	100	R	N	2	5	text				sysformat
+vndb_calendar	VNDB_CALENDAR	prhnx	PRHNX	PRHNX	100	R	N	2	6	text				sysformat
+vndb_calendar	VNDB_CALENDAR	prhsx	PRHSX	PRHSX	100	R	N	2	7	text				sysformat
+vndb_calendar	VNDB_CALENDAR	prupc	PRUPC	PRUPC	100	R	N	2	8	text				sysformat
+vndb_indexes	 VNDB_INDEXES	id	ID	ID	100	R	N	0	0	text				sysformat
+vndb_indexes	 VNDB_INDEXES	date	DATE	DATE	100	L	C	0	1	text				sysformat
+vndb_indexes	 VNDB_INDEXES	dtyyyymmdd	DTYYYYMMDD	DTYYYYMMDD	100	R	N	2	2	text				sysformat
+vndb_indexes	 VNDB_INDEXES	vni	VNI	VNI	100	R	N	2	3	text				sysformat
+vndb_indexes	 VNDB_INDEXES	hnx	HNX	HNX	100	R	N	2	4	text				sysformat
+vndb_indexes	 VNDB_INDEXES	upc	UPC	UPC	100	R	N	2	5	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	source	SOURCE	SOURCE	100	L	C	0	1	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	ticker	TICKER	TICKER	100	L	C	0	2	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	market	MARKET	MARKET	100	L	C	0	3	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	date	DATE	DATE	100	L	C	0	4	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	yyyymmdd	YYYYMMDD	YYYYMMDD	100	L	C	0	5	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	shli	SHLI	SHLI	100	R	N	0	6	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	shou	SHOU	SHOU	100	R	N	0	7	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	shfn	SHFN	SHFN	100	R	N	0	8	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	pref	PREF	PREF	100	R	N	0	9	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	pcei	PCEI	PCEI	100	R	N	3	10	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	pflr	PFLR	PFLR	100	R	N	3	11	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	popn	POPN	POPN	100	R	N	3	12	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	phgh	PHGH	PHGH	100	R	N	3	13	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	plow	PLOW	PLOW	100	R	N	3	14	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	pbase	PBASE	PBASE	100	R	N	3	15	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	pavg	PAVG	PAVG	100	R	N	3	16	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	pcls	PCLS	PCLS	100	R	N	3	17	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	vlm	VLM	VLM	100	R	N	3	18	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	trn	TRN	TRN	100	R	N	3	19	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	adj_pcls	ADJ_PCLS	ADJ_PCLS	100	R	N	3	20	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	adj_coeff	ADJ_COEFF	ADJ_COEFF	100	R	N	3	21	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	last	LAST	LAST	100	R	N	3	22	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	shares	SHARES	SHARES	100	R	N	3	23	text				sysformat
+vndb_meta_prices	VNDB_META_PRICES	id	ID	ID	100	R	N	0	0	text				sysformat
+vndb_calendar_missing	VNDB_CALENDAR_MISSING	date	DATE	DATE	100	L	C	0	1	text				sysformat
+vndb_calendar_missing	VNDB_CALENDAR_MISSING	vni	VNI	VNI	100	R	N	2	2	text				sysformat
+vndb_calendar_missing	VNDB_CALENDAR_MISSING	hnx	HNX	HNX	100	R	N	2	3	text				sysformat
+vndb_calendar_missing	VNDB_CALENDAR_MISSING	upc	UPC	UPC	100	R	N	2	4	text				sysformat
+vndb_calendar_missing	VNDB_CALENDAR_MISSING	prhsx	PRHSX	PRHSX	100	R	N	2	5	text				sysformat
+vndb_calendar_missing	VNDB_CALENDAR_MISSING	prhnx	PRHNX	PRHNX	100	R	N	2	6	text				sysformat
+vndb_calendar_missing	VNDB_CALENDAR_MISSING	prupc	PRUPC	PRUPC	100	R	N	2	7	text				sysformat

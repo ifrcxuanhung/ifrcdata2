@@ -1,0 +1,91 @@
+<div style="max-height: 400px; overflow: scroll">
+    <div class="col200pxL-left">
+        <ul class="side-tabs js-tabs same-height">
+            <%
+            _.each(report, function(value,folder){
+            %>
+            <li><a href="#tab-folder-<%=folder%>" title="<%=folder%>"><%=folder%></a></li>
+            <%
+            });
+            %>
+        </ul>
+    </div>
+    <div class="col200pxL-right">
+        <%
+        console.log(report);
+        _.each(report, function(value,folder){
+        %>
+        <div id="tab-folder-<%=folder%>" class="tabs-content">
+            <h2>Checkin folder <%=folder%></h2>
+            <table class="table sortable" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th  scope="col" sType="numeric" bSortable="false" width="20%">PARAMETER</th>
+                        <th  scope="col" sType="numeric" bSortable="false" width="50%">STATISTIC</th>
+                        <th  scope="col" sType="numeric" bSortable="false" width="20%">VALUE</th>
+                        <th  scope="col" sType="string" bSortable="true" width="10%">STATEMENT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Errors</td>
+                        <td><%=value['checkin-1'].error%></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>DATES</td>
+                        <td style="text-align: right">
+                            <%
+                            for(var i=0;i < value['checkin-1'].lengthnum;i++){
+                            %>
+                            <strong>calculation-date : </strong><br/>
+                            <strong>idx_compo : </strong><br/>
+                            <strong>idx_specs : </strong><br/>
+                            <strong>cur_rates : </strong><br/>
+                            <strong>stk_feed : </strong><br/>
+                            <strong>stk_prices : </strong><br/>
+                            <br/><br/>
+                            <%
+                            }
+                            %>
+                        </td>
+                        <td>
+                            <%
+                            for(var i=0;i < value['checkin-1'].lengthnum;i++){
+                            %>
+                            <%=value['checkin-1']['calculation-date']%><br/>
+                            <%=typeof value['checkin-1']['idx_compo'][i] != 'undefined'?value['checkin-1']['idx_compo'][i].dates:''%><br/>
+                            <%=typeof value['checkin-1']['idx_specs'][i] != 'undefined'?value['checkin-1']['idx_specs'][i].dates:''%><br/>
+                            <%=typeof value['checkin-1']['cur_rates'][i] != 'undefined'?value['checkin-1']['cur_rates'][i].dates:''%><br/>
+                            <%=typeof value['checkin-1']['stk_feed'][i] != 'undefined'?value['checkin-1']['stk_feed'][i].dates:''%><br/>
+                            <%=typeof value['checkin-1']['stk_prices'][i] != 'undefined'?value['checkin-1']['stk_prices'][i].dates:''%><br/>
+                            <br/><br/>
+                            <%
+                            }
+                            %>
+                        </td>
+                        <td>
+                            <%=value['checkin-1'].statement%>
+                        </td>
+                    </tr>
+                    <%
+                    _.each(value['checkin-2'], function(value2,key2){
+                    %>
+                    <tr>
+                        <td><%=value2.table%></td>
+                        <td style="text-align: right;"><strong><%=value2.statistic%></strong></td>
+                        <td><%=value2.values%></td>
+                        <td><%=value2.statement?value2.statement:'OK'%></td>
+                    </tr>
+                    <%
+                    });
+                    %>
+                </tbody>
+            </table>
+        </div>
+        <%
+        });
+        %>
+    </div>
+</div>

@@ -1,0 +1,84 @@
+/* ========================================================== 
+	(07) PAGINATION
+============================================================ */
+
+.pagination {
+	width:960px;
+	float:left;
+	height:40px;
+	padding-top:10px;
+	/*background:url(../images/strips-pattern.png) repeat;*/
+}
+.pagination ul li.page-previous a, .pagination ul li.page-next a {
+	width:52px;
+	height:25px;
+	line-height:25px;
+	display:block;
+	text-indent:0px;
+	font-size:10px;
+	color:#fff;
+	border:none;
+	text-shadow: 1px 1px 0 #000;
+	margin-top:0;
+	text-decoration:none;
+	float:left;
+	position:relative;
+}
+.pagination ul li.page-previous a:hover, .pagination ul li.page-next a:hover {
+	color:#d1d1d1;
+}
+.pagination ul li.page-previous a {
+	background:url(../images/bt_pre.png) no-repeat;
+	float:left;
+	height:25px;
+}
+.pagination ul li.page-next a {
+	background:url(../images/bt_next.png) no-repeat;
+	float:left;
+	height:25px;
+}
+.pagination ul {
+	text-align:center;
+	clear:both;
+	float:left;
+	padding-left:350px;
+	position:relative;
+	height:30px;
+}
+.pagination ul li {
+	background:none;
+	padding:0;
+}
+.pagination ul li, .pagination li {
+	background:none;
+	margin:0;
+	height:30px;
+	padding:0;
+}
+.pagination li {
+	float:left;
+}
+.pagination li a, .pagination li.active a {
+	width:22px;
+	height:22px;
+	margin:0px 3px 0 3px;
+	border:1px solid #d5d5d5;
+	text-shadow: 1px 1px 0 #fff;
+	text-decoration:none;
+	display:block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.pagination li a {
+	background:url(../images/pagination-on.jpg) repeat-x;
+	line-height:22px;
+	color:#292929;
+}
+.pagination li a:hover, .pagination li.active a {
+	background:url(../images/pagination-active.jpg) repeat-x;
+	color:#fff;
+	text-shadow: 1px 1px 0 #000;
+	border:1px solid #2b2d2d;
+}

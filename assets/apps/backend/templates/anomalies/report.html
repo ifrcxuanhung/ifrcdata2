@@ -1,0 +1,14 @@
+<ul class="blocks-list">
+    <%
+    _.each(report, function(e){
+    %>
+    <li>
+        <a class="float-left" href="#"><img width="16" height="16" src="<%=$template_url %>images/icons/fugue/status.png"> <%=e.task%></a>
+        <ul class="tags float-right">
+            <li class="tag-time"><%=e.time%> seconds</li>
+        </ul>
+    </li>
+    <%
+     });
+    %>
+</ul>
